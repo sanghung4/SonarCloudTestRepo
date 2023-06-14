@@ -7,9 +7,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies and build project
-          command: |
-            yarn install && cd ios && pod install
+          name: Install dependencies
+          command: yarn install
       - sonarcloud/scan
 
 orbs:
