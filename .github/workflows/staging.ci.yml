@@ -1,0 +1,230 @@
+name: Staging CI
+
+on:
+  push:
+    branches: [staging]
+  pull_request:
+    branches: [staging]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: yarn install
+      - run: yarn test:ci
+
+  inspect-graphql:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: yarn install
+      - run: yarn run graphql-codegen --config codegen.yml
+        env:
+          API_URL: ${{ secrets.TEST_API_URL }}
+
+  build-android-beta:
+    needs: [test, inspect-graphql]
+    if: github.ref == 'refs/heads/staging'
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [12.x]
+        ruby-version: [3.1.3]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.146.0
+        with:
+          ruby-version: ${{ matrix.ruby-version }}
+      - run: sudo npm install -g react-native-cli
+      - run: bundle install
+      - run: yarn install
+
+      - name: Build Beta APK
+        env:
+          ENVFILE: .env.test
+        run: bundle exec fastlane android beta
+
+      - name: Sign Beta APK
+        id: sign_app
+        uses: r0adkll/sign-android-release@v1
+        with:
+          releaseDirectory: android/app/build/outputs/apk/beta
+          signingKeyBase64: ${{ secrets.ANDROID_KEYSTORE }}
+          alias: ${{ secrets.ANDROID_KEY_ALIAS }}
+          keyStorePassword: ${{ secrets.ANDROID_KEY_STORE_PASSWORD }}
+          keyPassword: ${{ secrets.ANDROID_KEY_KEY_PASSWORD }}
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: apk
+          path: ${{ steps.sign_app.outputs.signedReleaseFile }}
+
+  build-ios-beta:
+    needs: [test, inspect-graphql]
+    if: github.ref == 'refs/heads/staging'
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [macos-11]
+        node-version: [12.x]
+        ruby-version: [3.1.3]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.146.0
+        with:
+          ruby-version: ${{ matrix.ruby-version }}
+      - run: bundle install
+      - run: yarn install
+      - run: brew install librsvg imagemagick
+
+      - name: Build Beta IPA and Upload to TestFlight
+        env:
+          GIT_REPO_URL: ${{ secrets.GIT_REPO_URL }}
+          CI_KEYCHAIN_NAME: ${{ secrets.CI_KEYCHAIN_NAME }}
+          CI_KEYCHAIN_PASSWORD: ${{ secrets.CI_KEYCHAIN_PASSWORD }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
+          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD_REECE }}
+        run: bundle exec fastlane ios beta
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ipa-beta
+          path: ios/BranchInventory-Beta.ipa
+
+  # build-ios-enterprise-beta:
+  #   needs: [test, inspect-graphql]
+  #   if: github.ref == 'refs/heads/staging'
+  #   runs-on: ${{ matrix.os }}
+
+  #   strategy:
+  #     matrix:
+  #       os: [macos-11]
+  #       node-version: [12.x]
+  #       ruby-version: [2.x]
+
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: actions/setup-node@v2
+  #       with:
+  #         node-version: ${{ matrix.node-version }}
+  #     - uses: actions/setup-ruby@v1
+  #       with:
+  #         ruby-version: ${{ matrix.ruby-version }}
+  #     - run: bundle install
+  #     - run: yarn install
+  #     - run: brew install librsvg imagemagick
+
+  #     - name: Set Up Certificates
+  #       run: |
+  #         echo ${{ secrets.IOS_ENTERPRISE_CERT }} | base64 -D > ios_distriution.cer
+  #         echo ${{ secrets.IOS_ENTERPRISE_TEST_DISTRIBUTION_PROFILE }} | base64 -D > Reece_USA_Physical_Inventory_Test_Distribution.mobileprovision
+  #         echo ${{ secrets.IOS_ENTERPRISE_PRIVATE_KEY }} | base64 -D > enterprise_private_key.p12
+
+  #     - name: Build Enterprise Beta IPA
+  #       env:
+  #         GIT_REPO_URL: ${{ secrets.GIT_REPO_URL }}
+  #         CI_KEYCHAIN_NAME: ${{ secrets.CI_KEYCHAIN_NAME }}
+  #         CI_KEYCHAIN_PASSWORD: ${{ secrets.CI_KEYCHAIN_PASSWORD }}
+  #         MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+  #         FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
+  #         FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+  #         IOS_ENTERPRISE_PRIVATE_KEY_PASSWORD: ${{ secrets.IOS_ENTERPRISE_PRIVATE_KEY_PASSWORD }}
+  #       run: bundle exec fastlane ios ent_beta
+
+  #     - uses: actions/upload-artifact@v2
+  #       with:
+  #         name: ipa-enterprise-beta
+  #         path: ios/BranchInventoryEnterprise-Beta.ipa
+
+  release-beta:
+    needs: [build-android-beta, build-ios-beta]
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set Up Release
+        run: |
+          chmod +x ./ci-scripts/ci-package-version
+          echo "RELEASE_VERSION=$(./ci-scripts/ci-package-version)" >> $GITHUB_ENV
+
+      - name: Download Artifacts
+        uses: actions/download-artifact@v2
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.RELEASE_VERSION }}-beta
+          release_name: v${{ env.RELEASE_VERSION }}-beta
+          body: |
+            Auto-Created Beta Release
+
+      - name: Upload Beta APK
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: apk/app-beta-unsigned-signed.apk
+          asset_name: BranchInventory-Beta.apk
+          asset_content_type: application/zip
+
+      - name: Upload Beta IPA
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ipa-beta/BranchInventory-Beta.ipa
+          asset_name: BranchInventory-Beta.ipa
+          asset_content_type: application/zip
+
+      # - name: Upload Enterprise Beta IPA
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
+      #     asset_path: ipa-enterprise-beta/BranchInventoryEnterprise-Beta.ipa
+      #     asset_name: BranchInventoryEnterprise-Beta.ipa
+      #     asset_content_type: application/zip

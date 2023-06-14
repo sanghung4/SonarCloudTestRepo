@@ -1,0 +1,21 @@
+query GetLocation($id: String!) {
+  location(id: $id) {
+    id
+    totalProducts
+    totalCounted
+    committed
+    items {
+      id
+      prodDesc
+      prodNum
+      catalogNum
+      tagNum
+      uom
+      quantity
+      status
+      sequence
+      productImageUrl
+      controlNum
+    }
+  }
+}

@@ -1,0 +1,6 @@
+mutation loadVarianceDetails {
+  loadVarianceDetails {
+    success
+    message
+  }
+}

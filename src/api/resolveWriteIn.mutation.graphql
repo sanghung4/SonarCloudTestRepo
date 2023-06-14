@@ -1,0 +1,6 @@
+mutation ResolveWriteIn($id: ID!) {
+  resolveWriteIn(id: $id) {
+    success
+    message
+  }
+}

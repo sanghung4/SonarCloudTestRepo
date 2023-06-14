@@ -1,0 +1,14 @@
+# Directories
+**/android/**
+**/ci-scripts/**
+**/fastlane/**
+**/ios/**
+**/node_modules/**
+
+# File types
+*.yml
+*.md
+
+# Specific files
+.watchmanconfig
+app.json

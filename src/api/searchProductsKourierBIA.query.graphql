@@ -1,0 +1,16 @@
+query searchProductsKourier($input: ProductSearchKourierInput!) {
+	searchProductsKourier(input: $input) {
+		prodSearch {
+		errorCode
+		errorMessage
+		productIdCount
+		products {
+			productId
+			displayField
+            productNumber
+            upc
+            productImageUrl
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+query GetWriteIns($options: WriteInsInput!) {
+  writeIns(options: $options) {
+    content {
+      id
+      locationId
+      catalogNum
+      upcNum
+      description
+      uom
+      quantity
+      comment
+      createdBy
+      createdAt
+      updatedBy
+      updatedAt
+      resolved
+    }
+    pageable {
+      sort {
+        sorted
+        unsorted
+        empty
+      }
+      pageNumber
+      pageSize
+      offset
+      paged
+      unpaged
+    }
+  }
+}
