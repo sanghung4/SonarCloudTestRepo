@@ -11,12 +11,11 @@ jobs:
           command: yarn install
       - sonarcloud/scan
 
-orbs:
-  sonarcloud: sonarsource/sonarcloud@1.0.3
-
 workflows:
   main:
     jobs:
       - build:
           context: SonarCloud
 
+orbs:
+  sonarcloud: sonarsource/sonarcloud@1.0.3
