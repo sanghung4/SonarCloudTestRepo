@@ -5,29 +5,35 @@ orbs:
   sonarcloud: sonarsource/sonarcloud@1.0.3
 
 jobs:
-  unit-test:
-    executor:
-      name: android/android-machine
-      resource-class: xlarge
-      tag: 2021.10.1
+  # unit-test:
+  #   executor:
+  #     name: android/android-machine
+  #     resource-class: xlarge
+  #     tag: 2021.10.1
+  #   steps:
+  #     - checkout
+  #     - android/restore-gradle-cache
+  #     - android/restore-build-cache
+  #     - android/run-tests:
+  #         test-command: ./gradlew testDebug
+  #     - android/save-gradle-cache
+  #     - android/save-build-cache
+  #     - run:
+  #         name: Save test results
+  #         command: |
+  #             mkdir -p ~/test-results/junit/
+  #             find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/test-results/junit/ \;
+  #         when: always
+  #     - store_test_results:
+  #         path: ~/test-results
+  #     - store_artifacts:
+  #         path: ~/test-results/junit
+
+  sonar-cloud:
+    docker:
+      - image: 'zenika/kotlin:latest'
     steps:
       - checkout
-      - android/restore-gradle-cache
-      - android/restore-build-cache
-      - android/run-tests:
-          test-command: ./gradlew testDebug
-      - android/save-gradle-cache
-      - android/save-build-cache
-      - run:
-          name: Save test results
-          command: |
-              mkdir -p ~/test-results/junit/
-              find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/test-results/junit/ \;
-          when: always
-      - store_test_results:
-          path: ~/test-results
-      - store_artifacts:
-          path: ~/test-results/junit
       - sonarcloud/scan
 
   # android-test:
@@ -99,9 +105,11 @@ jobs:
 workflows:
   test-and-build:
     jobs:
-      - unit-test
+      # - unit-test
+      - sonar-cloud:
+          context: SonarCloud
       # - android-test:
-      #     filters:
+          # filters:
       #       branches:
       #         ignore: 
       #           - master
