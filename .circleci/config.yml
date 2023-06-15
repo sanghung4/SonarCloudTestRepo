@@ -8,232 +8,223 @@ parameters:
 workflows:
   single-job-lifecycle:
     jobs:
-#      - node/test:
-#          version: 16.13.2
-#          pkg-manager: npm
-#          test-results-for: jest
-      - java-services/validate_helm_chart:
-          helm-chart-path: ./charts/wms-admin-portal
-#          requires:
-#            - node/test
-          filters:
-            branches:
-              ignore:
-                - master
-                - /^release-v.*/
-      - publish_release:
-#          requires:
-#            - node/test
-          filters:
-            branches:
-              only: master
-      - publish_hotfix:
-#          requires:
-#            - node/test
-          filters:
-            branches:
-              only: /^release-v.*/
-      - deploy_to_dev:
-          environments-repo-chart-name: wms-admin-portal
-          requires:
-            - publish_release
-          filters:
-            branches:
-              only: master
+      # - java-services/validate_helm_chart:
+      #     helm-chart-path: ./charts/wms-admin-portal
+      #     filters:
+      #       branches:
+      #         ignore:
+      #           - master
+      #           - /^release-v.*/
+      # - publish_release:
+      #     filters:
+      #       branches:
+      #         only: master
+      # - publish_hotfix:
+      #     filters:
+      #       branches:
+      #         only: /^release-v.*/
+      # - deploy_to_dev:
+      #     environments-repo-chart-name: wms-admin-portal
+      #     requires:
+      #       - publish_release
+      #     filters:
+      #       branches:
+      #         only: master
+      - sonar-cloud:
+          context: SonarCloud
 
 jobs:
-  publish_release:
+  # publish_release:
+  #   docker:
+  #     - image: cimg/node:16.13.2
+  #   environment:
+  #     IMAGE_TAG: << pipeline.git.branch >>-<< pipeline.git.revision >>
+  #   steps:
+  #     - setup_remote_docker:
+  #         version: 19.03.13
+  #     - checkout
+
+  #     # Publish new release version to github
+  #     - run:
+  #         command: |
+  #           current_version() {
+  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+  #           }
+
+  #           release_version() {
+  #             PREVIOUS_VERSION="$(current_version)"
+
+  #             [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+
+  #             MINOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f2 | rev)"
+  #             MAJOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f3 | rev)"
+
+  #             NEW_MINOR_VERSION="$((MINOR_VERSION + 1))"
+
+  #             echo "$MAJOR_VERSION.$NEW_MINOR_VERSION.0"
+  #           }
+
+  #           echo "export RELEASE_VERSION=$(release_version)" >> "$BASH_ENV"
+  #         name: Increment version
+  #     - github-cli/setup:
+  #         token: GITHUB_TOKEN
+  #         version: 2.4.0
+  #     - run:
+  #         command: >-
+  #           gh release create v${RELEASE_VERSION} --generate-notes --target
+  #           $CIRCLE_SHA1
+  #         name: Create Github Release
+
+  #     # Publish build image to ecr
+  #     - aws-cli/setup:
+  #         profile-name: shared
+  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+  #     - run:
+  #         command: |
+  #           cat $HOME/.npmrc > .npmrc
+  #           echo "always-auth=true" >> .npmrc
+  #         name: Copy CodeArtifact Token to Workdir
+  #     - build_image:
+  #         account-url: AWS_ECR_ACCOUNT_URL
+  #         repo: reece/wms-admin-portal
+  #         tag: RELEASE_VERSION
+  #     - aws-ecr/ecr-login:
+  #         account-url: AWS_ECR_ACCOUNT_URL
+  #         aws-access-key-id: AWS_ACCESS_KEY_ID
+  #         aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+  #         region: AWS_REGION
+  #     - aws-ecr/push-image:
+  #         account-url: AWS_ECR_ACCOUNT_URL
+  #         repo: reece/wms-admin-portal
+  #         tag: $RELEASE_VERSION
+
+  #     # Publish Helm charts to s3
+  #     - helm/install-helm-client:
+  #         version: v3.3.4
+  #     - java-services/helm_add_s3_repo:
+  #         chart-repo-name: reece-ecomm
+  #         chart-repo-url: s3://reece-ecomm-chart-repo/charts
+  #     - java-services/helm_publish:
+  #         helm-chart-name: wms-admin-portal
+  #         helm-chart-org: reece
+  #         helm-chart-path: ./charts/wms-admin-portal
+  #         helm-chart-repo-name: reece-ecomm
+  #         version: RELEASE_VERSION
+  
+  # deploy_to_dev:
+  #   description: >
+  #     Deploys the current version into the Dev environment.
+  #   docker:
+  #     - image: cimg/base:stable
+  #   parameters:
+  #     environments-repo-chart-name:
+  #       type: string
+  #   environment:
+  #     EMAIL: morsco-support-alerts@dialexa.com
+  #     GIT_AUTHOR_NAME: reece-bot
+  #     GIT_COMMITTER_NAME: reece-bot
+  #   steps:
+  #     - checkout
+  #     - github-cli/setup:
+  #         token: GITHUB_TOKEN
+  #         version: 2.3.0
+  #     - run:
+  #         name: Define release version
+  #         command: |
+  #           current_version() {
+  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+  #           }
+
+  #           echo "export RELEASE_VERSION=$(current_version)" >> "$BASH_ENV"
+  #     - run:
+  #         name: Update Environments Repo
+  #         command: |
+  #           cd ../
+  #           git clone https://github.com/morsco-reece/internal-environments.git
+  #           cd internal-environments/internal-dev
+  #           set +H
+  #           sed -i "/<< parameters.environments-repo-chart-name >>/!b;n;c\ \ \ \ version: \"$RELEASE_VERSION\"" Chart.yaml
+  #           git add .
+  #           git commit -m "<< parameters.environments-repo-chart-name >> - $RELEASE_VERSION"
+  #           git push
+
+  # publish_hotfix:
+  #   docker:
+  #     - image: cimg/node:16.13.2
+  #   environment:
+  #     IMAGE_TAG: << pipeline.git.branch >>-<< pipeline.git.revision >>
+  #   steps:
+  #     - setup_remote_docker:
+  #         version: 19.03.13
+  #     - checkout
+
+  #     # Publish new release version to github
+  #     - run:
+  #         command: |
+  #           current_version() {
+  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+  #           }
+
+  #           hotfix_version() {
+  #             PREVIOUS_VERSION="$(current_version)"
+
+  #             [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+
+  #             PATCH_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f1 | rev)"
+
+  #             NEW_PATCH_VERSION="$((PATCH_VERSION + 1))"
+
+  #             echo "$(echo $PREVIOUS_VERSION | rev | cut -f 2- -d . | rev).$NEW_PATCH_VERSION"
+  #           }
+
+  #           echo "export RELEASE_VERSION=$(hotfix_version)" >> "$BASH_ENV"
+  #         name: Increment version
+  #     - github-cli/setup:
+  #         token: GITHUB_TOKEN
+  #         version: 2.4.0
+  #     - run:
+  #         command: >-
+  #           gh release create v${RELEASE_VERSION} --generate-notes --target
+  #           $CIRCLE_SHA1
+  #         name: Create Github Release
+
+  #     # Publish build image to ecr
+  #     - build_image:
+  #         account-url: AWS_ECR_ACCOUNT_URL
+  #         repo: reece/wms-admin-portal
+  #         tag: RELEASE_VERSION
+  #     - aws-ecr/ecr-login:
+  #         account-url: AWS_ECR_ACCOUNT_URL
+  #         aws-access-key-id: AWS_ACCESS_KEY_ID
+  #         aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+  #         region: AWS_REGION
+  #     - aws-ecr/push-image:
+  #         account-url: AWS_ECR_ACCOUNT_URL
+  #         repo: reece/wms-admin-portal
+  #         tag: $RELEASE_VERSION
+
+  #     # Publish Helm charts to s3
+  #     - helm/install-helm-client:
+  #         version: v3.3.4
+  #     - java-services/helm_add_s3_repo:
+  #         chart-repo-name: reece-ecomm
+  #         chart-repo-url: s3://reece-ecomm-chart-repo/charts
+  #     - java-services/helm_publish:
+  #         helm-chart-name: wms-admin-portal
+  #         helm-chart-org: reece
+  #         helm-chart-path: ./charts/wms-admin-portal
+  #         helm-chart-repo-name: reece-ecomm
+  #         version: RELEASE_VERSION
+
+  sonar-cloud:
     docker:
       - image: cimg/node:16.13.2
-    environment:
-      IMAGE_TAG: << pipeline.git.branch >>-<< pipeline.git.revision >>
-    steps:
-      - setup_remote_docker:
-          version: 19.03.13
-      - checkout
-
-      # Publish new release version to github
-      - run:
-          command: |
-            current_version() {
-              git describe --tags | awk -F '-' '{print $1}' | cut -c2-
-            }
-
-            release_version() {
-              PREVIOUS_VERSION="$(current_version)"
-
-              [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
-
-              MINOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f2 | rev)"
-              MAJOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f3 | rev)"
-
-              NEW_MINOR_VERSION="$((MINOR_VERSION + 1))"
-
-              echo "$MAJOR_VERSION.$NEW_MINOR_VERSION.0"
-            }
-
-            echo "export RELEASE_VERSION=$(release_version)" >> "$BASH_ENV"
-          name: Increment version
-      - github-cli/setup:
-          token: GITHUB_TOKEN
-          version: 2.4.0
-      - run:
-          command: >-
-            gh release create v${RELEASE_VERSION} --generate-notes --target
-            $CIRCLE_SHA1
-          name: Create Github Release
-
-      # Publish build image to ecr
-      - aws-cli/setup:
-          profile-name: shared
-      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
-      - run:
-          command: |
-            cat $HOME/.npmrc > .npmrc
-            echo "always-auth=true" >> .npmrc
-          name: Copy CodeArtifact Token to Workdir
-      - build_image:
-          account-url: AWS_ECR_ACCOUNT_URL
-          repo: reece/wms-admin-portal
-          tag: RELEASE_VERSION
-      - aws-ecr/ecr-login:
-          account-url: AWS_ECR_ACCOUNT_URL
-          aws-access-key-id: AWS_ACCESS_KEY_ID
-          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-          region: AWS_REGION
-      - aws-ecr/push-image:
-          account-url: AWS_ECR_ACCOUNT_URL
-          repo: reece/wms-admin-portal
-          tag: $RELEASE_VERSION
-
-      # Publish Helm charts to s3
-      - helm/install-helm-client:
-          version: v3.3.4
-      - java-services/helm_add_s3_repo:
-          chart-repo-name: reece-ecomm
-          chart-repo-url: s3://reece-ecomm-chart-repo/charts
-      - java-services/helm_publish:
-          helm-chart-name: wms-admin-portal
-          helm-chart-org: reece
-          helm-chart-path: ./charts/wms-admin-portal
-          helm-chart-repo-name: reece-ecomm
-          version: RELEASE_VERSION
-  deploy_to_dev:
-    description: >
-      Deploys the current version into the Dev environment.
-    docker:
-      - image: cimg/base:stable
-    parameters:
-      environments-repo-chart-name:
-        type: string
-    environment:
-      EMAIL: morsco-support-alerts@dialexa.com
-      GIT_AUTHOR_NAME: reece-bot
-      GIT_COMMITTER_NAME: reece-bot
-    steps:
-      - checkout
-      - github-cli/setup:
-          token: GITHUB_TOKEN
-          version: 2.3.0
-      - run:
-          name: Define release version
-          command: |
-            current_version() {
-              git describe --tags | awk -F '-' '{print $1}' | cut -c2-
-            }
-
-            echo "export RELEASE_VERSION=$(current_version)" >> "$BASH_ENV"
-      - run:
-          name: Update Environments Repo
-          command: |
-            cd ../
-            git clone https://github.com/morsco-reece/internal-environments.git
-            cd internal-environments/internal-dev
-            set +H
-            sed -i "/<< parameters.environments-repo-chart-name >>/!b;n;c\ \ \ \ version: \"$RELEASE_VERSION\"" Chart.yaml
-            git add .
-            git commit -m "<< parameters.environments-repo-chart-name >> - $RELEASE_VERSION"
-            git push
-
-  publish_hotfix:
-    docker:
-      - image: cimg/node:16.13.2
-    environment:
-      IMAGE_TAG: << pipeline.git.branch >>-<< pipeline.git.revision >>
-    steps:
-      - setup_remote_docker:
-          version: 19.03.13
-      - checkout
-
-      # Publish new release version to github
-      - run:
-          command: |
-            current_version() {
-              git describe --tags | awk -F '-' '{print $1}' | cut -c2-
-            }
-
-            hotfix_version() {
-              PREVIOUS_VERSION="$(current_version)"
-
-              [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
-
-              PATCH_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f1 | rev)"
-
-              NEW_PATCH_VERSION="$((PATCH_VERSION + 1))"
-
-              echo "$(echo $PREVIOUS_VERSION | rev | cut -f 2- -d . | rev).$NEW_PATCH_VERSION"
-            }
-
-            echo "export RELEASE_VERSION=$(hotfix_version)" >> "$BASH_ENV"
-          name: Increment version
-      - github-cli/setup:
-          token: GITHUB_TOKEN
-          version: 2.4.0
-      - run:
-          command: >-
-            gh release create v${RELEASE_VERSION} --generate-notes --target
-            $CIRCLE_SHA1
-          name: Create Github Release
-
-      # Publish build image to ecr
-      - build_image:
-          account-url: AWS_ECR_ACCOUNT_URL
-          repo: reece/wms-admin-portal
-          tag: RELEASE_VERSION
-      - aws-ecr/ecr-login:
-          account-url: AWS_ECR_ACCOUNT_URL
-          aws-access-key-id: AWS_ACCESS_KEY_ID
-          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-          region: AWS_REGION
-      - aws-ecr/push-image:
-          account-url: AWS_ECR_ACCOUNT_URL
-          repo: reece/wms-admin-portal
-          tag: $RELEASE_VERSION
-
-      # Publish Helm charts to s3
-      - helm/install-helm-client:
-          version: v3.3.4
-      - java-services/helm_add_s3_repo:
-          chart-repo-name: reece-ecomm
-          chart-repo-url: s3://reece-ecomm-chart-repo/charts
-      - java-services/helm_publish:
-          helm-chart-name: wms-admin-portal
-          helm-chart-org: reece
-          helm-chart-path: ./charts/wms-admin-portal
-          helm-chart-repo-name: reece-ecomm
-          version: RELEASE_VERSION
-
-  test_coverage:
-    docker:
-      - image: cimg/node:16.13.2
     steps:
       - checkout
       - run:
-          name: Install yarn & run test coverage
-          command: |
-            npm install && yarn run test-coverage
-      - upload:
-          token: tGQZJMsnx7G7NvLmCdvEIwT1iiNOWKkuU
+          name: Install dependencies
+          command: npm install
+      - sonarcloud/scan
 
 commands:
   build_image:
@@ -251,54 +242,6 @@ commands:
             docker build -t ${<< parameters.account-url >>}/<< parameters.repo >>:${<< parameters.tag >>} .
           name: Build Image
 
-  upload:
-    parameters:
-      path_to_lcov:
-        type: string
-        default: ./coverage/lcov.info
-      token:
-        type: env_var_name
-        default: COVERALLS_REPO_TOKEN
-      flag_name:
-        type: string
-        default: ''
-      parallel:
-        type: boolean
-        default: false
-      parallel_finished:
-        type: boolean
-        default: false
-      coveralls_endpoint:
-        type: string
-        default: 'https://coveralls.io'
-      verbose:
-        type: boolean
-        default: false
-    steps:
-      - run:
-          name: Upload Coverage Result To Coveralls
-          command: |
-            if << parameters.parallel_finished >>; then
-              curl "<< parameters.coveralls_endpoint >>/webhook?repo_token=<< parameters.token >>" \
-                -d "payload[build_num]=$CIRCLE_BUILD_NUM&payload[status]=done"
-              exit 0
-            fi
-            sudo npm install -g coveralls
-            if [ ! $COVERALLS_REPO_TOKEN ]; then
-              export COVERALLS_REPO_TOKEN=<< parameters.token >>
-            fi
-            export COVERALLS_ENDPOINT=<< parameters.coveralls_endpoint >>
-            export COVERALLS_FLAG_NAME="<< parameters.flag_name >>"
-            if << parameters.parallel >>; then
-              export COVERALLS_PARALLEL=true
-            fi
-            # check for lcov file presence:
-            if [ ! -r << parameters.path_to_lcov >> ]; then
-              echo "Please specify a valid 'path_to_lcov' parameter."
-              exit 1
-            fi
-            cat << parameters.path_to_lcov >> | coveralls --verbose 
-
 orbs:
   aws-cli: circleci/aws-cli@2.1.0
   aws-ecr: circleci/aws-ecr@6.13.0
@@ -306,3 +249,4 @@ orbs:
   helm: circleci/helm@1.1.2
   java-services: morsco-reece/java-services@1.2.0
   node: circleci/node@5.0.0
+  sonarcloud: sonarsource/sonarcloud@1.0.3
