@@ -1,5 +1,0 @@
-query GetNextLocation($id: String!) {
-  nextLocation(id: $id) {
-    locationId
-  }
-}

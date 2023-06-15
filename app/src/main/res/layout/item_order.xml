@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.reece.pickingapp.viewmodel.OrderViewHolderViewModel" />
+
+        <variable
+            name="order"
+            type="com.reece.pickingapp.viewmodel.OrderViewModel" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/ItemOrderCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        app:cardCornerRadius="4dp"
+        android:onClickListener="@{ () -> viewModel.cardTapped() }"
+        app:cardElevation="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_padding"
+            android:background="@color/white">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/header_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/ship_via_label"
+                    style="@style/ItemOrderCardLabelStyle.Title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@{ viewModel.getShipViaText() }"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="OT OUR TRUCK" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/MorscoLabelStyle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@{ viewModel.getPickCount() }"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="1/11" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/header_holder">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/customer_label"
+                    style="@style/ItemOrderCardLabelStyle.Description"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:text="@{ viewModel.getCustomerText() }"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Customer: MORRISON CORPORATE BRANCH" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/order_id"
+                    style="@style/ItemOrderCardLabelStyle.Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xxsmall"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@{ viewModel.getOrderText() }"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/customer_label"
+                    tools:text="Order Number: 583835583" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/divider"
+                    style="@style/MorscoLabelStyle19"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_1"
+                    android:layout_marginTop="@dimen/margin_xsmall"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    viewVisibility="@{viewModel.shippingDetailsVisibility}"
+                    app:layout_constraintTop_toBottomOf="@+id/order_id" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/shipping_instruction_label"
+                    style="@style/MorscoLabelStyle19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xsmall"
+                    android:text="@string/shipping_instruction"
+                    viewVisibility="@{viewModel.shippingDetailsVisibility}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider"
+                    tools:text="Shipping Instructions:" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/shipping_instruction_Description"
+                    style="@style/ItemOrderCardLabelStyle.Description"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@{ viewModel.shippingDetails }"
+                    viewVisibility="@{viewModel.shippingDetailsVisibility}"
+                    android:ellipsize="end"
+                    android:maxLines="@{viewModel.shippingDetailsMaxLines}"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/shipping_instruction_label"
+                    tools:text="DELIVER TODAY BY NOON ACT: ZACH JAYNES CELL: 972-978-9752"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/show_more_less_label"
+                    style="@style/MorscoLabelStyle20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/show_more"
+                    app:underlineText="@{viewModel.showMoreOrLessLabel}"
+                    android:onClick="@{() -> viewModel.showMoreOrLessButtonTapped() }"
+                    viewVisibility="@{viewModel.showMoreOrLessVisibility}"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_xxsmall"
+                    android:layout_marginTop="@dimen/margin_small"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/shipping_instruction_Description"
+                    tools:text="Show More"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

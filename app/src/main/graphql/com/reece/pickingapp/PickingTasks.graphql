@@ -1,0 +1,156 @@
+query PickingOrders($input: PickingOrderInput!) {
+    pickingOrders(input: $input) {
+        orderId
+        generationId
+        invoiceId
+        branchId
+        pickGroup
+        assignedUserId
+        billTo
+        shipTo
+        shipToName
+        pickCount
+        shipVia
+        isFromMultipleZones
+        taskState
+        taskWeight
+    }
+}
+
+query PickTasks($input: PickingOrderInput!) {
+    userPicks(input: $input) {
+        productId
+        description
+        quantity
+        uom
+        locationType
+        location
+        lot
+        splitId
+        orderId
+        generationId
+        lineId
+        shipVia
+        tote
+        userId
+        branchId
+        cutDetail
+        cutGroup
+        isParallelCut
+        warehouseID
+        isLot
+        isSerial
+        pickGroup
+    }
+}
+
+query pickImage($input: String!) {
+    productImageUrl(input: $input)
+}
+
+mutation AssignPickTask($input: PickingTaskInput!) {
+    assignPickTask(input: $input) {
+        orderId
+        generationId
+        invoiceId
+        branchId
+        pickGroup
+        assignedUserId
+        billTo
+        shipTo
+        shipToName
+        pickCount
+        shipVia
+        isFromMultipleZones
+        taskState
+        taskWeight
+    }
+}
+
+mutation UpdateProductSerialNumbers($input: UpdateProductSerialNumbersInput!) {
+    updateProductSerialNumbers(input: $input) {
+        results {
+            productId
+            orderId
+            generationId
+            invoiceId
+            quantity
+            description
+            location
+            warehouseId
+            serialList {
+                line
+                serial
+            }
+            nonStockSerialNumbers {
+                line
+                serial
+            }
+        }
+    }
+}
+
+mutation StagePickTotePackages ($input : StagePickTotePackagesInput!) {
+    stagePickTotePackages(input: $input) {
+        message
+        success
+    }
+}
+
+mutation CloseTask ($input : CloseTaskInput!) {
+    closeTask(input: $input) {
+        message
+        success
+    }
+}
+
+mutation SplitQuantity($input : SplitQuantityInput!){
+    splitQuantity(input: $input){
+        errorMessage
+        invalidSerialNums{
+            line
+            serial
+        }
+        isSplit
+        orderId
+        productId
+        successStatus
+    }
+}
+
+mutation CloseOrder($input: closeOrderInput!){
+    closeOrder(input: $input){
+        errorCode
+        errorMessage
+        moreToPick
+        orderId
+        orderLocked
+        pickerId
+        status
+        stillPicking
+    }
+}
+
+query ShippingDetails($input: ShippingDetailsKourierInput!){
+    shippingDetails(input: $input){
+        shippingtext{
+            errorCode
+            errorMessage
+            invoiceNumber
+            noBackorder
+            noSort
+            shippingInstructions
+            status
+        }
+    }
+}
+
+query ValidateBranch($input: ValidateBranchInput!){
+    validateBranch(input: $input){
+        branch {
+            branchId
+            branchName
+        }
+        isValid
+    }
+}

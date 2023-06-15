@@ -1,271 +1,163 @@
-# This file contains the fastlane.tools configuration
-# You can find the documentation at https://docs.fastlane.tools
-#
-# For a list of all available actions, check out
-#
-#     https://docs.fastlane.tools/actions
-#
-# For a list of all available plugins, check out
-#
-#     https://docs.fastlane.tools/plugins/available-plugins
-#
 
-# Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
-
-default_platform(:ios)
-
-package = load_json(json_path: './package.json')
-
-private_lane :inc_version_android do
-  increment_version_code(
-    gradle_file_path: './android/app/build.gradle'
-  )
-
-  increment_version_name(
-    gradle_file_path: './android/app/build.gradle',
-    version_name: package['version']
-  )
-end
-
-private_lane :inc_version_ios do
-  increment_build_number(
-    xcodeproj: './ios/branchinventory.xcodeproj'
-  )
-
-  increment_version_number(
-    xcodeproj: './ios/branchinventory.xcodeproj',
-    version_number: package['version']
-  )
-end
-
-lane :bump do
-  inc_version_android
-  inc_version_ios
-end
+default_platform(:android)
 
 platform :android do
-  lane :release do
-    gradle(
-      project_dir: './android/',
-      print_command: false,
-      tasks: %w[clean assembleRelease]
+  private_lane :increment_version do |options|
+    latest_release = firebase_app_distribution_get_latest_release(
+      app: options[:firebase_app_id]
+    )
+    increment_version_code({ version_code: latest_release[:buildVersion].to_i + 1 })
+  end
+
+  private_lane :get_changelog do |options|
+    release_notes = conventional_changelog(
+      format: options[:notes_format], 
+      title: "Android #{options[:release_type]}", 
+      commit_url: 'https://github.com/morsco-reece/picking-app/commit/',
+    )
+    release_notes
+  end
+
+  lane :alpha do |options|
+    # Increment Build Version
+    increment_version(
+      firebase_app_id: options[:firebase_app_id],
+    )
+    
+    # Analyze the commits to determine next version from tag
+    # Pattern Matches against last alpha release
+    analyze_commits(match: 'v[0-9]*.[0-9]*.[0-9]-alpha')
+
+    # Create Release Notes
+    release_notes = get_changelog(notes_format: 'markdown', release_type: 'Alpha')
+    testing_notes = get_changelog(notes_format: 'plaintext', release_type: 'Alpha')
+
+    next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+
+    # Increment the version name in build
+    increment_version_name(
+      gradle_file_path: "./app/build.gradle",
+      version_name: "#{next_version}-alpha"
+    )
+    
+    # add_badge(dark: true, glob: '/android/app/src/main/res/**/*.png', alpha: true)
+
+    # Build alpha version of Android App
+    gradle(task: 'clean assembleAlpha')
+
+    # Distribute app via Firebase
+    firebase_app_distribution(
+      app: "#{options[:firebase_app_id]}",
+      firebase_cli_token: "#{options[:firebase_token]}",
+      groups: "alpha-testers",
+      release_notes: testing_notes
+    )
+
+    # Create a Pre Release / Tag with release notes
+    set_github_release(
+      repository_name: "morsco-reece/picking-app",
+      api_token: options[:github_token],
+      tag_name: "v#{next_version}-alpha",
+      name: "v#{next_version}-alpha",
+      commitish: "development",
+      description: release_notes,
+      is_prerelease: true
+    )
+  end
+  
+
+  lane :beta do |options|
+    # Increment Build Version
+    increment_version(
+      firebase_app_id: options[:firebase_app_id],
+    )
+    
+    # Analyze the commits to determine next version from tag
+    # Pattern Matches against last alpha release
+    analyze_commits(match: 'v[0-9]*.[0-9]*.[0-9]-beta')
+
+    # Create Release Notes
+    release_notes = get_changelog(notes_format: 'markdown', release_type: 'Beta')
+    testing_notes = get_changelog(notes_format: 'plaintext', release_type: 'Beta')
+
+    next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+
+    # Increment the version name in build
+    increment_version_name(
+      gradle_file_path: "./app/build.gradle",
+      version_name: "#{next_version}-beta"
+    )
+    
+    # add_badge(dark: true, glob: '/android/app/src/main/res/**/*.png')
+
+    # Build beta version of Android App
+    gradle(task: 'clean assembleBeta')
+
+    # Distribute app via Firebase
+    firebase_app_distribution(
+      app: "#{options[:firebase_app_id]}",
+      firebase_cli_token: "#{options[:firebase_token]}",
+      groups: "beta-testers",
+      release_notes: testing_notes
+    )
+
+    # Create a Pre Release / Tag with release notes
+    set_github_release(
+      repository_name: "morsco-reece/picking-app",
+      api_token: options[:github_token],
+      tag_name: "v#{next_version}-beta",
+      name: "v#{next_version}-beta",
+      commitish: "staging",
+      description: release_notes,
+      is_prerelease: true
+    )
+    
+    # tag_name = `git describe --tags --abbrev=0`
+    # if (tag_name.include? "-beta") then
+    #   beta_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+    # end
+  end
+
+  lane :prod do |options|
+
+    # Increment Build Version
+    increment_version(
+      firebase_app_id: options[:firebase_app_id]
+    )
+
+    # Analyze the commits to determine next version from tag
+    # Pattern Matches against last release
+    analyze_commits(match: 'v[0-9]*.[0-9]*.[0-9]')
+
+    # Create Release Notes
+    release_notes = get_changelog(notes_format: 'markdown', release_type: 'Release')
+    testing_notes = get_changelog(notes_format: 'plaintext', release_type: 'Release')
+
+    next_version = lane_context[SharedValues::RELEASE_NEXT_VERSION]
+
+    # Increment the version name in build
+    increment_version_name(
+      gradle_file_path: "./app/build.gradle",
+      version_name: "#{next_version}"
+    )
+
+    # Build release version of Android App
+    gradle(task: 'clean assembleRelease')
+
+    # Create a Release with release notes
+    set_github_release(
+      repository_name: "morsco-reece/picking-app",
+      api_token: options[:github_token],
+      tag_name: "v#{next_version}",
+      name: "v#{next_version}",
+      commitish: "master",
+      description: release_notes,
+      upload_assets: [lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]]
     )
   end
 
-  lane :beta do
-    add_badge(dark: true, glob: '/android/app/src/main/res/**/*.png')
-
-    gradle(
-      project_dir: './android/',
-      print_command: false,
-      task: 'clean'
-    )
-
-    yarn(command: 'android:bundle:beta')
-
-    gradle(
-      project_dir: './android/',
-      print_command: false,
-      task: 'assemble',
-      build_type: 'beta'
-    )
-  end
-end
-
-platform :ios do
-  lane :beta do
-    cocoapods(
-      podfile: './ios/Podfile'
-    )
-
-    disable_automatic_code_signing(
-      path: './ios/branchinventory.xcodeproj'
-    )
-
-    if is_ci?
-      create_keychain(
-        name: ENV['CI_KEYCHAIN_NAME'],
-        password: ENV['CI_KEYCHAIN_PASSWORD'],
-        default_keychain: true,
-        unlock: true,
-        timeout: 3600,
-        lock_when_sleeps: false
-      )
-    end
-
-    match(
-      git_url: ENV['GIT_REPO_URL'],
-      git_branch: 'reece-au',
-      type: 'appstore',
-      readonly: true,
-      keychain_name: is_ci? ? ENV['CI_KEYCHAIN_NAME'] : nil,
-      keychain_password: is_ci? ? ENV['CI_KEYCHAIN_PASSWORD'] : nil
-    )
-
-    add_badge(dark: true)
-
-    gym(
-      scheme: 'BranchInventory (TF Test)',
-      workspace: './ios/branchinventory.xcworkspace',
-      silent: true,
-      clean: true,
-      export_method: 'app-store',
-      configuration: 'TF Test',
-      output_directory: './ios/',
-      output_name: 'BranchInventory-Beta.ipa'
-    )
-
-    upload_to_testflight(
-      skip_waiting_for_build_processing: true,
-      apple_id: '6443590915',
-      itc_provider: 'ReeceAustraliaLtd'
-    )
+  error do |lane, exception|
+    # TODO: Add in alert to Reece on failure
   end
 
-  lane :release do
-    cocoapods(
-      podfile: './ios/Podfile'
-    )
-
-    disable_automatic_code_signing(
-      path: './ios/branchinventory.xcodeproj'
-    )
-
-    if is_ci?
-      create_keychain(
-        name: ENV['CI_KEYCHAIN_NAME'],
-        password: ENV['CI_KEYCHAIN_PASSWORD'],
-        default_keychain: true,
-        unlock: true,
-        timeout: 3600,
-        lock_when_sleeps: false
-      )
-    end
-
-    match(
-      git_url: ENV['GIT_REPO_URL'],
-      git_branch: 'reece-au',
-      type: 'appstore',
-      readonly: true,
-      keychain_name: is_ci? ? ENV['CI_KEYCHAIN_NAME'] : nil,
-      keychain_password: is_ci? ? ENV['CI_KEYCHAIN_PASSWORD'] : nil
-    )
-
-    gym(
-      scheme: 'BranchInventory (release)',
-      workspace: './ios/branchinventory.xcworkspace',
-      silent: true,
-      clean: true,
-      export_method: 'app-store',
-      configuration: 'Release',
-      output_directory: './ios/',
-      output_name: 'BranchInventory.ipa'
-    )
-
-    upload_to_testflight(
-      skip_waiting_for_build_processing: true,
-      apple_id: '1551855140'
-    )
-  end
-
-  lane :ent_beta do
-    cocoapods(
-      podfile: './ios/Podfile'
-    )
-
-    disable_automatic_code_signing(
-      path: './ios/branchinventory.xcodeproj'
-    )
-
-    if is_ci?
-      create_keychain(
-        name: ENV['CI_KEYCHAIN_NAME'],
-        password: ENV['CI_KEYCHAIN_PASSWORD'],
-        default_keychain: true,
-        unlock: true,
-        timeout: 3600,
-        lock_when_sleeps: false
-      )
-
-      import_certificate(
-        certificate_path: './ios_distriution.cer',
-        keychain_name: ENV['CI_KEYCHAIN_NAME'],
-        keychain_password: ENV['CI_KEYCHAIN_PASSWORD']
-      )
-
-      import_certificate(
-        certificate_path: './enterprise_private_key.p12',
-        certificate_password: ENV['IOS_ENTERPRISE_PRIVATE_KEY_PASSWORD'],
-        keychain_name: ENV['CI_KEYCHAIN_NAME'],
-        keychain_password: ENV['CI_KEYCHAIN_PASSWORD']
-      )
-
-      install_provisioning_profile(
-        path: './Reece_USA_Physical_Inventory_Test_Distribution.mobileprovision'
-      )
-    end
-
-    add_badge(dark: true)
-
-    gym(
-      scheme: 'BranchInventory (enterprise-beta)',
-      workspace: './ios/branchinventory.xcworkspace',
-      silent: true,
-      clean: true,
-      export_method: 'enterprise',
-      configuration: 'Enterprise-Beta',
-      output_directory: './ios/',
-      output_name: 'BranchInventoryEnterprise-Beta.ipa'
-    )
-  end
-
-  lane :ent_release do
-    cocoapods(
-      podfile: './ios/Podfile'
-    )
-
-    disable_automatic_code_signing(
-      path: './ios/branchinventory.xcodeproj'
-    )
-
-    if is_ci?
-      create_keychain(
-        name: ENV['CI_KEYCHAIN_NAME'],
-        password: ENV['CI_KEYCHAIN_PASSWORD'],
-        default_keychain: true,
-        unlock: true,
-        timeout: 3600,
-        lock_when_sleeps: false
-      )
-
-      import_certificate(
-        certificate_path: './ios_distriution.cer',
-        keychain_name: ENV['CI_KEYCHAIN_NAME'],
-        keychain_password: ENV['CI_KEYCHAIN_PASSWORD']
-      )
-
-      import_certificate(
-        certificate_path: './enterprise_private_key.p12',
-        certificate_password: ENV['IOS_ENTERPRISE_PRIVATE_KEY_PASSWORD'],
-        keychain_name: ENV['CI_KEYCHAIN_NAME'],
-        keychain_password: ENV['CI_KEYCHAIN_PASSWORD']
-      )
-
-      install_provisioning_profile(
-        path: './US_Physical_Inventory_Distribution.mobileprovision'
-      )
-    end
-
-    gym(
-      scheme: 'BranchInventory (enterprise)',
-      workspace: './ios/branchinventory.xcworkspace',
-      silent: true,
-      clean: true,
-      export_method: 'enterprise',
-      configuration: 'Enterprise',
-      output_directory: './ios/',
-      output_name: 'BranchInventoryEnterprise.ipa'
-    )
-  end
 end

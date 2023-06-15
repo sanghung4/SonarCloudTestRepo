@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="backOrderVM"
+            type="com.reece.pickingapp.viewmodel.BackOrderViewModel" />
+
+        </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/back_order_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="@dimen/margin_small"
+        tools:context=".view.ui.BackOrderFragment">
+
+
+
+                <ImageView
+                    android:id="@+id/im_product_backorder"
+                    android:layout_width="@dimen/pick_card_img_size"
+                    android:layout_height="@dimen/pick_card_img_size"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border_image"
+                    android:contentDescription="@string/product_image_description"
+                    app:imageToLoad="@{ backOrderVM.product.productImageUrl }"
+                    app:layout_constraintBottom_toTopOf="@+id/qty_picket_label"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:placeholderDrawable="@{ @drawable/image_placeholder }"
+                    tools:src="@drawable/image_placeholder" />
+
+
+                <TextView
+                    android:id="@+id/product_desc_txt"
+                    style="@style/MorscoLabelStyle9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_xsmall"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/im_product_backorder"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="ANVIL 1-1/4 COP RISER CLMP #CT121 500421045" />
+
+                <TextView
+                    android:id="@+id/product_number_label"
+                    style="@style/MorscoLabelStyle10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xxsmall"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/product_desc_txt"
+                    app:layout_constraintTop_toBottomOf="@id/product_desc_txt"
+                    tools:text="PN #: 1234567890" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/qty_picket_label"
+                    style="@style/MorscoLabelStyle10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/label_qty_picked"
+                    android:translationY="-1.12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/product_number_label"
+                    tools:text="@string/label_qty_picked" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/qty_picked_value_label"
+                    style="@style/MorscoLabelStyle10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:translationY="-1.12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/qty_picket_label"
+                    app:layout_constraintStart_toEndOf="@+id/qty_picket_label"
+                    app:layout_constraintTop_toTopOf="@+id/qty_picket_label"
+                    tools:text="3/5" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/divider"
+                    style="@style/MorscoLabelStyle19"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/gray_1"
+                    app:layout_constraintTop_toBottomOf="@id/qty_picket_label" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/label_what_was_th"
+                    style="@style/ItemOrderCardLabelStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="1sp"
+                    android:text="@string/what_was_th"
+                    android:translationY="-0.31sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/divider"
+                    tools:text="@string/what_was_th" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/enter_the_l"
+                    style="@style/MorscoDescriptionStyle1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/enter_the_l"
+                    android:translationY="-0.96sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/label_what_was_th"
+                    tools:text="@string/enter_the_l" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_yes_backorder"
+                    style="@style/MorscoButtonStyle1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/label_yes"
+                    android:onClick="@{ () -> backOrderVM.yesButtonTapped() }"
+                    app:layout_constraintBottom_toTopOf="@+id/button_no_backorder"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_no_backorder"
+                    style="@style/ReeceButtonStyleWhiteBackground"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/label_no"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:strokeColor="@color/morsco_blue_5"
+                    app:strokeWidth="1dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</layout>

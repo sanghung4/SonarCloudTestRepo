@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="branchId"
+            type="String" />
+
+        <variable
+            name="userName"
+            type="String" />
+
+        <variable
+            name="emailId"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/morsco_grey_4">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/con_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="@color/white"
+            android:paddingTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/nav_username"
+                style="@style/MorscoLabelStyle15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/horizontal_padding"
+                android:layout_marginStart="@dimen/horizontal_padding"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:text="@{userName}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/nav_email"
+                style="@style/MorscoLabelStyle16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/horizontal_padding"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="@dimen/horizontal_padding"
+                android:text="@{emailId}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nav_username" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/nav_countid"
+                style="@style/MorscoLabelStyle12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/horizontal_padding"
+                android:layout_marginVertical="@dimen/margin_large"
+                android:layout_marginTop="@dimen/horizontal_padding"
+                android:text="@string/branch_id_semi"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nav_email" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/nav_countid_value"
+                style="@style/MorscoLabelStyle13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/horizontal_padding"
+                android:layout_marginBottom="@dimen/horizontal_padding"
+                android:text="@{branchId}"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/nav_countid" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="19dp"
+                android:background="@color/gray_1"
+                app:layout_constraintTop_toBottomOf="@+id/nav_countid_value" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:shadowColor="@color/card_shadow_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/con_first">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/con_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pick_item_img_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/nav_eic_rror_log"
+                    android:layout_width="@dimen/margin_small"
+                    android:layout_height="@dimen/horizontal_padding"
+                    android:layout_marginStart="@dimen/horizontal_padding"
+                    android:layout_marginBottom="@dimen/horizontal_padding"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_error_log" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/nav_error_lalel"
+                    style="@style/MorscoLabelStyle17"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/horizontal_padding"
+                    android:layout_marginStart="@dimen/vertical_padding"
+                    android:text="Error Log"
+                    app:layout_constraintBottom_toBottomOf="@+id/nav_eic_rror_log"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/nav_eic_rror_log"
+                    app:layout_constraintTop_toTopOf="@+id/nav_eic_rror_log" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/con_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_padding"
+                android:layout_marginBottom="@dimen/horizontal_padding"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/con_second">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/nav_logout_log"
+                    android:layout_width="@dimen/margin_small"
+                    android:layout_height="@dimen/horizontal_padding"
+                    android:layout_marginStart="@dimen/horizontal_padding"
+                    android:layout_marginBottom="@dimen/horizontal_padding"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_logout" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/nav_logout_lalel"
+                    style="@style/MorscoLabelStyle17"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/horizontal_padding"
+                    android:layout_marginStart="@dimen/vertical_padding"
+                    android:text="@string/sign_out_okta"
+                    app:layout_constraintBottom_toBottomOf="@+id/nav_logout_log"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/nav_logout_log"
+                    app:layout_constraintTop_toTopOf="@+id/nav_logout_log" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/nav_version"
+                style="@style/MorscoLabelStyle14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_small"
+                android:layout_marginVertical="@dimen/vertical_padding"
+                android:text="@string/app_version"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/con_logout" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

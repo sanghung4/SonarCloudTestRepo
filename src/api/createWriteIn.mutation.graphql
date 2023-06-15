@@ -1,6 +1,0 @@
-mutation CreateWriteIn($writeIn: WriteInInput!) {
-  createWriteIn(writeIn: $writeIn) {
-    success
-    message
-  }
-}

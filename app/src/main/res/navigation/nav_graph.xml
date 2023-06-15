@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/orders_list_fragment">
+
+    <fragment
+        android:id="@+id/orders_list_fragment"
+        android:name="com.reece.pickingapp.view.ui.OrdersListFragment"
+        android:label="@string/select_order"
+        tools:layout="@layout/fragment_orders_list">
+
+        <action
+            android:id="@+id/navigate_to_products_list"
+            app:destination="@id/product_list_fragment" />
+
+    </fragment>
+
+  <fragment
+        android:id="@+id/product_list_fragment"
+        android:name="com.reece.pickingapp.view.ui.ProductsFragment"
+        android:label="@string/pick_products"
+        tools:layout="@layout/fragment_products_list">
+
+        <argument
+            android:name="selectedOrder"
+            app:argType="com.reece.pickingapp.models.OrderDTO" />
+
+      <action
+          android:id="@+id/action_product_list_fragment_to_backOrderFragment"
+          app:destination="@id/backOrderFragment" />
+      <action
+          android:id="@+id/action_pick_from_other_locations_fragment"
+          app:destination="@id/pick_from_other_locations_fragment" />
+      <action
+          android:id="@+id/action_product_list_fragment_to_reportFragment"
+          app:destination="@id/reportFragment" />
+
+
+  </fragment>
+  <fragment
+        android:id="@+id/error_fragment"
+        android:name="com.reece.pickingapp.view.ui.ErrorLogFragment"
+        android:label="@string/error_log"
+        tools:layout="@layout/fragment_error_log_list">
+
+        <argument
+            android:name="selectedOrder"
+            app:argType="com.reece.pickingapp.models.OrderDTO" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pick_from_other_locations_fragment"
+        android:name="com.reece.pickingapp.view.ui.PickFromOtherLocationsFragment"
+        android:label="@string/pick_from_other_locations"
+        tools:layout="@layout/fragment_pick_from_other_locations">
+
+        <argument
+            android:name="product"
+            app:argType="com.reece.pickingapp.viewmodel.ProductModel"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFlowFragment"
+        android:name="com.reece.pickingapp.view.ui.LoginFlowFragment"
+        android:label="@string/reece_picking_app"
+        tools:layout="@layout/fragment_login_flow">
+
+        <action
+            android:id="@+id/action_Login_dest_to_nav_graph_login"
+            app:destination="@id/auth_navigation" />
+
+    </fragment>
+
+    <!-- Login-->
+    <include app:graph="@navigation/nav_graph_login" />
+
+    <action
+        android:id="@+id/action_global_auth_navigation"
+        app:destination="@id/loginFlowFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+
+    <!-- Global Action Start -->
+    <action
+        android:id="@+id/action_global_start"
+        app:destination="@id/orders_list_fragment"
+        app:popUpTo="@id/orders_list_fragment"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/backOrderFragment"
+        android:name="com.reece.pickingapp.view.ui.BackOrderFragment"
+        tools:layout="@layout/fragment_back_order"
+        android:label="@string/tittle_fragment_backorder" >
+        <argument
+            android:name="selectedProduct"
+            app:argType="com.reece.pickingapp.viewmodel.ProductModel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.reece.pickingapp.view.ui.ReportFragment"
+        android:label="@string/report"
+        tools:layout="@layout/fragment_report">
+        <action
+            android:id="@+id/action_product_list_fragment_to_orders_list_fragment"
+            app:destination="@id/orders_list_fragment" />
+    </fragment>
+
+
+</navigation>

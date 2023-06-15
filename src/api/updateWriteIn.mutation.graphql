@@ -1,6 +1,0 @@
-mutation UpdateWriteIn($id: ID!, $writeIn: WriteInInput!) {
-  updateWriteIn(id: $id, writeIn: $writeIn) {
-    success
-    message
-  }
-}

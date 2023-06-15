@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PickingApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/morsco_blue_1</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/morsco_blue_1</item>
+        <item name="colorOnBackground">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/morsco_blue_1</item>
+        <item name="colorSecondaryVariant">@color/morsco_red_1</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="actionOverflowButtonStyle">@style/MorscoActionButtonOverflow</item>
+        <item name="actionOverflowMenuStyle">@style/MorscoMenuOverflowStyle</item>
+    </style>
+</resources>

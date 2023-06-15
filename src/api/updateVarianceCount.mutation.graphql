@@ -1,6 +1,0 @@
-mutation UpdateVarianceCount($item: ItemInput!) {
-  updateVarianceCount(item:$item) {
-    success
-    message
-  }
-}

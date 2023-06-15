@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "841348621911",
+    "project_id": "pickingapp-b8e58",
+    "storage_bucket": "pickingapp-b8e58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841348621911:android:b4406eb72d6dfc62a12512",
+        "android_client_info": {
+          "package_name": "com.reece.pickingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841348621911-uoohkmtutt0huvugda2b0n64m89hs8n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVRqnkwXBCuomTm8VVUYSfDnfwmtqRPjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841348621911-uoohkmtutt0huvugda2b0n64m89hs8n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841348621911:android:ea6ec8974c151952a12512",
+        "android_client_info": {
+          "package_name": "com.reece.pickingapp.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841348621911-uoohkmtutt0huvugda2b0n64m89hs8n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVRqnkwXBCuomTm8VVUYSfDnfwmtqRPjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841348621911-uoohkmtutt0huvugda2b0n64m89hs8n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

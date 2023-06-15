@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="product_card_error_stroke_width">10</integer>
+    <integer name="mincron_branch_id_length_minimum">3</integer>
+    <integer name="mincron_minimun_length_minimum">1</integer>
+    <integer name="mincron_password_length_minimum">2</integer>
+</resources>

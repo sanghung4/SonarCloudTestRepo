@@ -1,12 +1,16 @@
 ## JIRA Ticket
 <!-- Which JIRA story / requirements is associated with the code? -->
-[INVII-XXX](https://reeceusa.atlassian.net/browse/INVII-XXX)
+[WMSPA-XXX](https://reeceusa.atlassian.net/browse/WMSPA-XXX)
 
-## Summary :a:
-<!-- Describe what this task accomplishes. -->
+## Changelog Message :page_with_curl: 
+<!-- Describe updates to the repo to accomplish the tasks listed above. Should be in conventional commit format -->
+<!-- Ex: feat: Added Login Page -->
+```
+Provide commit message here
+```
+:bangbang: Important Note: Remember to copy commit message above in the title field for the **Squash Commit** message for change log management. 
 
-## Changelog :b:
-<!-- Describe updates to the repo to accomplish the tasks listed above. -->
+Please see README.md for more on how to create a meaningful commit message
 
 ## New Dependencies :no_entry_sign:
 <!-- List any new dependencies and what it provides the app. -->
@@ -15,7 +19,7 @@
 - [ ] Environment variables are up to date
 - [ ] New tests are written
 - [ ] Tests pass
-- [ ] Code is documented in line
+- [ ] Code is properly documented where needed
 
 ## Demo Screenshot or GIF :cinema:
 <!-- Upload a screenshot or gif of the changes. -->

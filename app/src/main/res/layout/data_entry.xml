@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="dataEntryInterface"
+            type="com.reece.pickingapp.interfaces.DataEntryInterface" />
+
+        <variable
+            name="barcodeScanInterface"
+            type="com.reece.pickingapp.interfaces.BarCodeScanInterface" />
+
+        <variable
+            name="dataEntryViewModel"
+            type="com.reece.pickingapp.viewmodel.DataEntryViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layoutVisibility="@{ dataEntryViewModel.inputState }">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/data_entry_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                app:boxStrokeColor="@color/morsco_grey_1"
+                android:focusableInTouchMode="false"
+                android:hint="@{ dataEntryViewModel.hintString }"
+                android:textColorHint="@color/morsco_hint_text_color"
+                app:dataEntryInterface="@{ dataEntryInterface }"
+                app:endIconMode="@{ dataEntryViewModel.dataEntryEndIconMode }"
+                app:hintTextColor="@color/morsco_hint_text_color"
+                app:inputBoxForFocusState="@{ dataEntryViewModel.inputFocusState }"
+                app:inputCanBeCleared="@{ dataEntryViewModel.inputCanBeCleared }"
+                app:inputFieldType="@{ dataEntryViewModel.dataEntryFieldType }"
+                app:inputId="@{dataEntryViewModel.getTextInputId()}"
+                app:inputValidationState="@{ dataEntryViewModel.inputState }"
+                app:onClickEndIcon="@{barcodeScanInterface}"
+                tools:endIconDrawable="@drawable/ic_delete"
+                tools:endIconMode="custom"
+                tools:hint="Entry Hint">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/data_entry_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:afterTextChanged="@{ (s) -> dataEntryInterface.afterTextChanged(dataEntryViewModel.getTextInputId(), s) }"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:imeOptions="actionNext"
+                    android:onEditorAction="@{ (view, actionId, event) -> dataEntryInterface.onEditorAction(view,actionId,event) }"
+                    android:onTextChanged="@{ (s, start, before, count) -> dataEntryInterface.onTextChanged(dataEntryViewModel.getTextInputId(), s, start, before, count) }"
+                    android:text="@={ dataEntryViewModel.entryString }"
+                    app:editState="@{ dataEntryViewModel.inputState }"
+                    app:focusState="@{ dataEntryViewModel.inputFocusState }"
+                    app:inputSettingsForViewModel="@{ dataEntryViewModel }"
+                    tools:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:contentDescription="@string/delete_button_description"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:onClick="@{ () -> dataEntryInterface.deleteButtonTapped(dataEntryViewModel) }"
+            android:paddingStart="0dp"
+            android:paddingEnd="@dimen/margin_xsmall"
+            android:paddingBottom="@dimen/margin_xsmall"
+            android:src="@drawable/ic_delete"
+            app:imageVisibility="@{ dataEntryViewModel.inputState }"
+            app:inputCanBeCleared="@{ dataEntryViewModel.inputCanBeCleared }"
+            app:tint="@color/morsco_blue_1" />
+
+        </RelativeLayout>
+
+</layout>
