@@ -1,6 +1,0 @@
-mutation VerifyEclipseCredentials($username: String!, $password: String!) {
-    verifyEclipseCredentials(username: $username, password: $password) {
-        success,
-        message
-    }
-}

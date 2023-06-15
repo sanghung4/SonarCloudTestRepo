@@ -1,6 +1,0 @@
-mutation StagePickTasks($input: StagePickTaskInput!) {
-    stagePickTask(input: $input) {
-        success
-        message
-    }
-}

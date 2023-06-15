@@ -1,6 +1,0 @@
-mutation completeUserPick($input: CompletePickInput!) {
-    completeUserPick(input: $input) {
-        productId
-        tote
-    }
-}

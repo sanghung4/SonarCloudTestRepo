@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="desc">desc</string>
-    <string name="pick_from_other_locations">Pick from other locations</string>
-    <string name="back_order">Back order</string>
-    <string name="postpone_pick">Postpone Pick</string>
-</resources>
