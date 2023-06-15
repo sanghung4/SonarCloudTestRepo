@@ -1,0 +1,200 @@
+query GetCounts($input: CountsInput!) {
+  counts(input: $input) {
+    branchId
+    branchName
+    countId
+    status
+    createdAt
+    totalProducts
+    errorMessage
+  }
+}
+
+query GetCountStatus($id: ID!) {
+  countStatus(id: $id) {
+    id
+    branchId
+    branchName
+    countId
+    status
+    createdAt
+    totalProducts
+    errorMessage
+  }
+}
+
+query GetPercentageTotal($input: MetricsSingleRangeInput!) {
+  percentageTotal(input: $input) {
+    response {
+      division
+      userCount
+      userPercentage
+      loginCount
+      loginPercentage
+      branchCount
+      branchPercentage
+    }
+  }
+}
+
+query GetPercentageChange($input: MetricsDoubleRangeInput!) {
+  percentageChange(input: $input) {
+    response {
+      division
+      userChange
+      loginChange
+      branchChange
+    }
+  }
+}
+
+query GetTotalUsage($input: MetricsSingleRangeInput!) {
+  totalUsage(input: $input) {
+    response {
+      division
+      userCount
+      loginCount
+      branchCount
+      branches {
+        id
+        city
+        state
+        userCount
+        loginCount
+      }
+    }
+  }
+}
+
+query GetTotalOverview($input: MetricsDoubleRangeInput!) {
+  totalOverview(input: $input) {
+    response {
+      metric
+      quantity
+      percentageChange
+    }
+  }
+}
+
+query GetPaginatedSpecialPrices($input: SpecialPriceInput!, $pagingContext: PagingContext!) {
+  paginatedSpecialPrices(input: $input, pagingContext: $pagingContext) {
+    meta {
+      page
+      nextPage
+      pageCount
+      resultCount
+      pageSize
+      orderBy
+      orderDirection
+      productId
+      customerId
+    }
+    results {
+      productId
+      customerId
+      branch
+      displayName
+      customerDisplayName
+      imageUrl
+      manufacturer
+      displayName
+      manufacturerReferenceNumber
+      salesperson
+      priceLine
+      customerSalesQuantity
+      territory
+      prices {
+        type
+        value
+        currency
+        displayName
+      }
+    }
+  }
+}
+
+query GetPriceLines($input: SpecialPriceInput!) {
+  priceLines(input: $input)
+}
+
+query SearchProductsEclipse($input: ProductSearchEclipseInput!) {
+  searchProductsEclipse(input: $input) {
+    pagination {
+      currentPage
+      totalItemCount
+    }
+    products {
+      manufacturerName
+      id
+      name
+      upc
+      productNumber
+      imageUrls {
+        thumb
+      }
+    }
+  }
+}
+
+query GetProductPrices($input: ProductPriceInput!) {
+  productPrices(input: $input) {
+    productId
+    erpBranchNum
+    cmp
+    stdCost
+    uom
+    rateCardPrice
+    rateCardName
+    matchedBranch
+    matchedClass
+    matchedGroup
+    matrixId
+    customerId
+    correlationId
+  }
+}
+
+query GetCustomerById($input: String!) {
+  customer(customerId: $input) {
+    id
+    homeBranch
+    name
+    isBillTo
+    isShipTo
+    addressLine1
+    addressLine2
+    city
+    state
+    postalCode
+    countryCode
+  }
+}
+
+query searchProductsKourier($input: 
+  ProductSearchKourierInput!) {
+  searchProductsKourier(input: $input) {
+    prodSearch {
+      errorCode
+      errorMessage
+      productIdCount
+      products {
+        productId
+        displayField
+      }
+    }
+  }
+}
+
+query branchUsersList {  
+  branchUsersList {   
+    branchId
+    assignedUsers
+  }
+}
+
+query getUserBranch($input: String!){
+  userBranch(username: $input ){
+    username
+    branch
+  }
+}
