@@ -105,7 +105,7 @@ jobs:
       - checkout
       - run:
           name: Analyze on SonarCloud
-          command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
+          command: mvn sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
 
 commands:
   helm_init:
