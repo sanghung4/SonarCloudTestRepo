@@ -247,6 +247,6 @@ orbs:
   aws-ecr: circleci/aws-ecr@6.13.0
   github-cli: circleci/github-cli@2.0.0
   helm: circleci/helm@1.1.2
-  java-services: morsco-reece/java-services@1.2.0
+  # java-services: morsco-reece/java-services@1.2.0
   node: circleci/node@5.0.0
   sonarcloud: sonarsource/sonarcloud@1.0.3
