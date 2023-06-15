@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet  author="NaniGowra"  id="1149965182473-1">
+        <dropNotNullConstraint  columnDataType="UUID"
+                                columnName="location_count_id"
+                                schemaName="public"
+                                tableName="pi_write_ins"/>
+    </changeSet>
+    <changeSet author="NaniGowra" id="1149965182473-2">
+            <dropForeignKeyConstraint constraintName="FKip5qaqu2k24rqhlob8k0ox7c5" baseTableName="pi_write_ins" />
+    </changeSet>
+    <changeSet author="NaniGowra" id="1149965182473-3">
+        <addColumn tableName="pi_write_ins">
+            <column name="count_id" type="UUID"></column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="NaniGowra" id="1149965182478-31">
+    <update tableName="pi_write_ins">
+        <column name="count_id"
+                valueComputed="(select lc.count_id from public.pi_location_count lc
+												  inner join public.pi_locations pl on lc.location_id = pl.id
+											   where pi_write_ins.location_count_id=lc.id)"/>
+    </update>
+    </changeSet>
+     <changeSet author="NaniGowra" id="1149965182473-4">
+        <addColumn tableName="pi_write_ins">
+            <column name="location_name" type="VARCHAR(50)">
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="NaniGowra" id="1149965182478-41">
+    <update tableName="pi_write_ins">
+        <column name="location_name"
+                valueComputed="(select pl.erp_location_id from public.pi_location_count lc
+	 inner join public.pi_locations pl on lc.location_id = pl.id
+	 where pi_write_ins.location_count_id=lc.id)"/>
+    </update>
+    </changeSet>
+    <changeSet author="NaniGowra" id="1149965182478-5">
+        <addNotNullConstraint columnDataType="UUID"
+                              columnName="count_id"
+                              schemaName="public"
+                              tableName="pi_write_ins"
+                              validate="true"/>
+    </changeSet>
+    <changeSet author="NaniGowra" id="1149965182478-6">
+        <addNotNullConstraint columnDataType="VARCHAR"
+                              columnName="location_name"
+                              schemaName="public"
+                              tableName="pi_write_ins"
+                              validate="true"/>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1149965182473-14">
+        <addForeignKeyConstraint baseColumnNames="count_id" baseTableName="pi_write_ins"
+                                 constraintName="FK_countid" deferrable="false"
+                                 initiallyDeferred="false" referencedColumnNames="id"
+                                 referencedTableName="pi_counts" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

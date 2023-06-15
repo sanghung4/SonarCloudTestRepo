@@ -1,0 +1,146 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="ted (generated)" id="1614300013239-1">
+        <createTable tableName="pi_branches">
+            <column name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pi_branchesPK"/>
+            </column>
+            <column name="created_at" type="TIMESTAMP WITHOUT TIME ZONE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="erp_branch_num" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="erp_system" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-2">
+        <createTable tableName="pi_count_location_item">
+            <column name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pi_count_location_itemPK"/>
+            </column>
+            <column name="created_at" type="TIMESTAMP WITHOUT TIME ZONE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="catalog_num" type="VARCHAR(255)"/>
+            <column name="item_num" type="VARCHAR(255)"/>
+            <column name="most_recent_quantity" type="INTEGER"/>
+            <column name="product_desc" type="VARCHAR(255)"/>
+            <column name="product_num" type="VARCHAR(255)"/>
+            <column name="status" type="VARCHAR(255)"/>
+            <column name="tag_num" type="VARCHAR(255)"/>
+            <column name="uom" type="VARCHAR(255)"/>
+            <column name="location_count_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-3">
+        <createTable tableName="pi_count_location_item_quantity">
+            <column name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pi_count_location_item_quantityPK"/>
+            </column>
+            <column name="created_at" type="TIMESTAMP WITHOUT TIME ZONE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="quantity" type="INTEGER"/>
+            <column name="count_location_item_id" type="UUID"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-4">
+        <createTable tableName="pi_counts">
+            <column name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pi_countsPK"/>
+            </column>
+            <column name="created_at" type="TIMESTAMP WITHOUT TIME ZONE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="erp_count_id" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="branch_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-5">
+        <createTable tableName="pi_location_count">
+            <column name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pi_location_countPK"/>
+            </column>
+            <column name="created_at" type="TIMESTAMP WITHOUT TIME ZONE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="count_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="location_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-6">
+        <createTable tableName="pi_locations">
+            <column name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pi_locationsPK"/>
+            </column>
+            <column name="created_at" type="TIMESTAMP WITHOUT TIME ZONE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="erp_location_id" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="branch_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-7">
+        <addForeignKeyConstraint baseColumnNames="count_location_item_id"
+                                 baseTableName="pi_count_location_item_quantity"
+                                 constraintName="FK177c47mbyq5cw5jot2dyvbr2e" deferrable="false"
+                                 initiallyDeferred="false" referencedColumnNames="id"
+                                 referencedTableName="pi_count_location_item" validate="true"/>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-8">
+        <addForeignKeyConstraint baseColumnNames="count_id" baseTableName="pi_location_count"
+                                 constraintName="FK96dbrwydxbrp4xc4tuhm3j0jf" deferrable="false"
+                                 initiallyDeferred="false" referencedColumnNames="id" referencedTableName="pi_counts"
+                                 validate="true"/>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-9">
+        <addForeignKeyConstraint baseColumnNames="location_count_id" baseTableName="pi_count_location_item"
+                                 constraintName="FKmmleuh4btplmg05w09ev5rh16" deferrable="false"
+                                 initiallyDeferred="false" referencedColumnNames="id"
+                                 referencedTableName="pi_location_count" validate="true"/>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-10">
+        <addForeignKeyConstraint baseColumnNames="branch_id" baseTableName="pi_counts"
+                                 constraintName="FKmqrrbfxc2l9q37uqyjn20pd7t" deferrable="false"
+                                 initiallyDeferred="false" referencedColumnNames="id" referencedTableName="pi_branches"
+                                 validate="true"/>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-11">
+        <addForeignKeyConstraint baseColumnNames="branch_id" baseTableName="pi_locations"
+                                 constraintName="FKp9xxbctx6w2dlcgjbmmfkus7c" deferrable="false"
+                                 initiallyDeferred="false" referencedColumnNames="id" referencedTableName="pi_branches"
+                                 validate="true"/>
+    </changeSet>
+    <changeSet author="ted (generated)" id="1614300013239-12">
+        <addForeignKeyConstraint baseColumnNames="location_id" baseTableName="pi_location_count"
+                                 constraintName="FKslyl5q0nyox16yk9id10t1at8" deferrable="false"
+                                 initiallyDeferred="false" referencedColumnNames="id" referencedTableName="pi_locations"
+                                 validate="true"/>
+    </changeSet>
+</databaseChangeLog>

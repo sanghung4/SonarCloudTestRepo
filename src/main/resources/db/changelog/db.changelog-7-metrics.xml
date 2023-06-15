@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.6.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="vivekputtaparthi (generated)" id="1646932676325-44">
+        <createTable tableName="pi_location_count_metric">
+            <column name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pi_location_count_metric_pkey"/>
+            </column>
+            <column name="created_at" type="TIMESTAMP WITHOUT TIME ZONE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_by" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_at" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="updated_by" type="VARCHAR(255)"/>
+            <column name="completion_status" type="VARCHAR(255)"/>
+            <column name="counted" type="INTEGER"/>
+            <column name="error" type="VARCHAR(255)"/>
+            <column name="needed_to_be_counted" type="INTEGER"/>
+            <column name="time_ended" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="time_started" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="total" type="INTEGER"/>
+            <column name="location_count_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="vivekputtaparthi (generated)" id="1646932676325-96">
+        <addForeignKeyConstraint baseColumnNames="location_count_id" baseTableName="pi_location_count_metric" constraintName="fksmtsrejwwtuj040ts3oj1ap89" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="pi_location_count" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

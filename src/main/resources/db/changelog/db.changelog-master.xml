@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd"
+>
+    <include file="db.changelog-1-pi.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-2-write-ins.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-3-count-metadata.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-4-bulk-load.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-5-product-sequence.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-6-is-deleted.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-7-metrics.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-8-metrics-capture.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-9-variance.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-10-variance-status.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-11-write-ins-update.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-12-indexes.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-13-add-image-url-column.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-14-add-control-num-column.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-15-count-audit.xml" relativeToChangelogFile="true" />
+</databaseChangeLog>
