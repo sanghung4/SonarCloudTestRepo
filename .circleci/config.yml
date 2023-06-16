@@ -112,7 +112,7 @@ jobs:
   
   sonar-cloud:
     docker:
-      - image: 'circleci/openjdk:17-oracle'
+      - image: 'cimg/openjdk:20.0.1'
     steps:
       - checkout
       - run:
