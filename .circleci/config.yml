@@ -112,7 +112,7 @@ jobs:
   
   sonar-cloud:
     docker:
-      - image: 'circleci/openjdk:11-jdk'
+      - image: 'circleci/openjdk:latest'
     steps:
       - checkout
       - run:
