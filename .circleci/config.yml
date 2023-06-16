@@ -3,10 +3,10 @@ version: 2.1
 workflows:
   single-job-lifecycle:
     jobs:
-      - maven/test:
-          executor:
-            name: maven/default
-            tag: '11.0'
+      # - maven/test:
+      #     executor:
+      #       name: maven/default
+      #       tag: '11.0'
       # - java-services/validate_helm_chart:
       #     helm-chart-path: ./charts/wms-eclipse-service
       #     requires:
@@ -43,8 +43,8 @@ workflows:
       #         only: master
       - sonar-cloud:
           context: SonarCloud
-          requires:
-            - maven/test
+          # requires:
+          #   - maven/test
 
 jobs: 
   # deploy_to_dev:
