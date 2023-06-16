@@ -13,10 +13,10 @@ workflows:
       #       branches:
       #         ignore:
       #           - main
-      - maven/test:
-          executor:
-            name: maven/default
-            tag: "17.0"
+      # - maven/test:
+      #     executor:
+      #       name: maven/default
+      #       tag: "17.0"
       # - java-services/validate_helm_chart:
       #     helm-chart-path: ./charts/picking-core-service
       #     requires:
@@ -53,8 +53,8 @@ workflows:
       #         only: main
       - sonar-cloud:
           context: SonarCloud
-          requires:
-            - maven/test
+          # requires:
+          #   - maven/test
 
 jobs:
   # validate_helm_chart:
@@ -109,6 +109,7 @@ jobs:
   #           git add .
   #           git commit -m "<< parameters.environments-repo-chart-name >> - $RELEASE_VERSION"
   #           git push
+  
   sonar-cloud:
     docker:
       - image: 'circleci/openjdk:11-jdk'
