@@ -1,4 +1,3 @@
-# wms-eclipse-core-service
+# wms-mincron-core-service
 
-This is the eclipse service for ERP Companion apps. 
-
+This is the mincron service for ERP Companion apps. 

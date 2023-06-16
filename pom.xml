@@ -1,33 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
->
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.4.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.reece</groupId>
-	<artifactId>wms-eclipse-service</artifactId>
+	<artifactId>wms-mincron-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>wms-eclipse-service</name>
-	<description>WMS Eclipse Service</description>
+	<name>wms-mincron-service</name>
+	<description>WMS Mincron Service</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 		<problem-spring-web.version>0.27.0</problem-spring-web.version>
 		<sonar.organization>sanghung4</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-spring-jaeger-cloud-starter</artifactId>
-			<version>3.1.2</version>
+			<artifactId>opentracing-spring-jaeger-cloud-starter</artifactId><version>3.1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>io.micrometer</groupId>
@@ -59,6 +55,12 @@
 			<version>2.3.4.RELEASE</version>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-commons</artifactId>
+			<version>2.3.4.RELEASE</version>
+		</dependency>
+
+		<dependency>
 			<groupId>net.sf.jt400</groupId>
 			<artifactId>jt400</artifactId>
 			<version>10.4</version>
@@ -88,6 +90,10 @@
 			<groupId>org.zalando</groupId>
 			<artifactId>problem-spring-web-starter</artifactId>
 			<version>${problem-spring-web.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 	</dependencies>
 
@@ -141,7 +147,7 @@
 				<configuration>
 					<excludes>
 						<exclude>**/*main/resources/**</exclude>
-						<exclude>**/*com/reece/platform/eclipse/model/**/*</exclude>
+						<exclude>**/*com/reece/platform/mincron/model/**/*</exclude>
 					</excludes>
 				</configuration>
 				<executions>

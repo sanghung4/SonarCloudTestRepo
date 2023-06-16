@@ -8,7 +8,7 @@ workflows:
             name: maven/default
             tag: '11.0'
       # - java-services/validate_helm_chart:
-      #     helm-chart-path: ./charts/wms-eclipse-service
+      #     helm-chart-path: ./charts/wms-mincron-service
       #     requires:
       #       - maven/test
       #     filters:
@@ -17,25 +17,25 @@ workflows:
       #           - master
       #           - /^release-v.*/
       # - java-services/publish_release:
-      #     ecr-repo: reece/wms-eclipse-service
-      #     helm-chart-name: wms-eclipse-service
-      #     helm-chart-path: ./charts/wms-eclipse-service
+      #     ecr-repo: reece/wms-mincron-service
+      #     helm-chart-name: wms-mincron-service
+      #     helm-chart-path: ./charts/wms-mincron-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: master
       # - java-services/publish_hotfix:
-      #     ecr-repo: reece/wms-eclipse-service
-      #     helm-chart-name: wms-eclipse-service
-      #     helm-chart-path: ./charts/wms-eclipse-service
+      #     ecr-repo: reece/wms-mincron-service
+      #     helm-chart-name: wms-mincron-service
+      #     helm-chart-path: ./charts/wms-mincron-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: /^release-v.*/
       # - deploy_to_dev:
-      #     environments-repo-chart-name: wms-eclipse-service
+      #     environments-repo-chart-name: wms-mincron-service
       #     requires:
       #       - java-services/publish_release
       #     filters:
