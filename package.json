@@ -1,13 +1,23 @@
 {
+  "name": "pi-batch-load",
+  "version": "1.0.0",
+  "main": "src/index.js",
   "license": "UNLICENSED",
-  "devDependencies": {
-    "@prettier/plugin-xml": "^1.1.0",
-    "husky": "^7.0.0",
-    "prettier": "^2.4.1",
-    "prettier-plugin-java": "^1.5.0",
-    "pretty-quick": "^3.1.1"
-  },
   "scripts": {
-    "prepare": "husky install"
+    "start": "docker-compose run app",
+    "debug": "node src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-aws-cloudwatch": "^3.0.0"
   }
 }
