@@ -13,10 +13,10 @@ workflows:
       #       branches:
       #         ignore:
       #           - main
-      # - maven/test:
-      #     executor:
-      #       name: maven/default
-      #       tag: "17.0"
+      - maven/test:
+          executor:
+            name: maven/default
+            tag: "17.0"
       # - java-services/validate_helm_chart:
       #     helm-chart-path: ./charts/picking-core-service
       #     requires:
@@ -53,8 +53,8 @@ workflows:
       #         only: main
       - sonar-cloud:
           context: SonarCloud
-          # requires:
-          #   - maven/test
+          requires:
+            - maven/test
 
 jobs:
   # validate_helm_chart:
@@ -112,7 +112,7 @@ jobs:
   
   sonar-cloud:
     docker:
-      - image: 'circleci/openjdk:17-alpine'
+      - image: 'circleci/openjdk:latest'
     steps:
       - checkout
       - run:
