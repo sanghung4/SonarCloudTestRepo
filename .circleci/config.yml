@@ -3,7 +3,7 @@ version: 2.1
 parameters:
   environments-repo-chart-name:
     type: string
-    default: "pi-batch-load"
+    default: "picking-core-service"
 
 workflows:
   single-job-lifecycle:
@@ -12,19 +12,49 @@ workflows:
       #     filters:
       #       branches:
       #         ignore:
-      #           - master
-      # - publish_release:
-      #     filters:
-      #       branches:
-      #         only: master
-      # - deploy_release_dev:
+      #           - main
+      - maven/test:
+          executor:
+            name: maven/default
+            tag: "17.0"
+      # - java-services/validate_helm_chart:
+      #     helm-chart-path: ./charts/picking-core-service
       #     requires:
-      #       - publish_release
+      #       - maven/test
       #     filters:
       #       branches:
-      #         only: master
+      #         ignore:
+      #           - main
+      #           - /^release-v.*/
+      # - java-services/publish_release:
+      #     ecr-repo: reece/picking-core-service
+      #     helm-chart-name: picking-core-service
+      #     helm-chart-path: ./charts/picking-core-service
+      #     requires:
+      #       - maven/test
+      #     filters:
+      #       branches:
+      #         only: main
+      # - java-services/publish_hotfix:
+      #     ecr-repo: reece/picking-core-service
+      #     helm-chart-name: picking-core-service
+      #     helm-chart-path: ./charts/picking-core-service
+      #     requires:
+      #       - maven/test
+      #     filters:
+      #       branches:
+      #         only: /^release-v.*/
+      # - deploy_to_dev:
+      #     environments-repo-chart-name: picking-core-service
+      #     requires:
+      #       - java-services/publish_release
+      #     filters:
+      #       branches:
+      #         only: main
       - sonar-cloud:
           context: SonarCloud
+          requires:
+            - maven/test
 
 jobs:
   # validate_helm_chart:
@@ -41,112 +71,54 @@ jobs:
   #         chart-repo-name: reece-ecomm
   #         chart-repo-url: s3://reece-ecomm-chart-repo/charts
   #     - helm_validate:
-  #         chart-path: ./charts/pi-batch-load
-
-  # publish_release:
+  #         chart-path: ./charts/picking-core-service
+  
+  # deploy_to_dev:
+  #   description: >
+  #     Deploys the current version into the Dev environment.
   #   docker:
-  #     - image: cimg/node:12.19
-  #   environment:
-  #     IMAGE_TAG: << pipeline.git.branch >>-<< pipeline.git.revision >>
-  #   steps:
-  #     - setup_remote_docker:
-  #         version: 19.03.13
-  #     - checkout
-  #     - gh_cli_install
-  #     - run:
-  #         name: Increment version
-  #         command: echo "export RELEASE_VERSION=$(./ci-scripts/ci-release-version)" >> $BASH_ENV
-  #     - gh_release_create:
-  #         version: RELEASE_VERSION
-  #     - build_image:
-  #         account-url: AWS_ECR_ACCOUNT_URL
-  #         repo: reece/pi-batch-load
-  #         tag: RELEASE_VERSION
-  #     - aws-ecr/ecr-login:
-  #         account-url: AWS_ECR_ACCOUNT_URL
-  #         aws-access-key-id: AWS_ACCESS_KEY_ID
-  #         aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-  #         region: AWS_REGION
-  #     - aws-ecr/push-image:
-  #         account-url: AWS_ECR_ACCOUNT_URL
-  #         repo: reece/pi-batch-load
-  #         tag: $RELEASE_VERSION
-  #     - helm/install-helm-client:
-  #         version: v3.3.4
-  #     - helm_init:
-  #         chart-repo-name: reece-ecomm
-  #         chart-repo-url: s3://reece-ecomm-chart-repo/charts
-  #     - helm_publish:
-  #         chart-repo: reece-ecomm
-  #         chart-path: ./charts/pi-batch-load
-  #         org: reece
-  #         app-name: pi-batch-load
-  #         version: RELEASE_VERSION
-
-  # deploy_release_dev:
-  #   docker:
-  #     - image: cimg/openjdk:11.0
+  #     - image: cimg/base:stable
+  #   parameters:
+  #     environments-repo-chart-name:
+  #       type: string
   #   environment:
   #     EMAIL: morsco-support-alerts@dialexa.com
   #     GIT_AUTHOR_NAME: reece-bot
   #     GIT_COMMITTER_NAME: reece-bot
   #   steps:
   #     - checkout
-  #     - gh_cli_install
+  #     - github-cli/setup:
+  #         token: GITHUB_TOKEN
+  #         version: 2.3.0
   #     - run:
   #         name: Define release version
-  #         command: echo "export RELEASE_VERSION=$(./ci-scripts/ci-current-version)" >> $BASH_ENV
+  #         command: |
+  #           current_version() {
+  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+  #           }
+
+  #           echo "export RELEASE_VERSION=$(current_version)" >> "$BASH_ENV"
   #     - run:
   #         name: Update Environments Repo
   #         command: |
   #           cd ../
-  #           git clone https://github.com/morsco-reece/environments.git
-  #           cd environments/ecomm-dev
+  #           git clone https://github.com/morsco-reece/internal-environments.git
+  #           cd internal-environments/internal-dev
   #           set +H
-  #           sed -i "/<< pipeline.parameters.environments-repo-chart-name >>/!b;n;c\ \ \ \ version: \"$RELEASE_VERSION\"" Chart.yaml
+  #           sed -i "/<< parameters.environments-repo-chart-name >>/!b;n;c\ \ \ \ version: \"$RELEASE_VERSION\"" Chart.yaml
   #           git add .
-  #           git commit -m "<< pipeline.parameters.environments-repo-chart-name >> - $RELEASE_VERSION"
+  #           git commit -m "<< parameters.environments-repo-chart-name >> - $RELEASE_VERSION"
   #           git push
-
   sonar-cloud:
     docker:
-      - image: 'circleci/node:latest'
+      - image: 'circleci/openjdk:11-jdk'
     steps:
       - checkout
       - run:
-          name: Install dependencies
-          command: npm install
-      - sonarcloud/scan
+          name: Analyze on SonarCloud
+          command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
 
 commands:
-  build_image:
-    description: Build Image
-    parameters:
-      account-url:
-        type: env_var_name
-      repo:
-        type: string
-      tag:
-        type: env_var_name
-    steps:
-      - run:
-          command: |
-            docker build -t ${<< parameters.account-url >>}/<< parameters.repo >>:${<< parameters.tag >>} .
-          name: Build Image
-
-  helm_validate:
-    description: Validate Helm Chart
-    parameters:
-      chart-path:
-        type: string
-    steps:
-      - run:
-          command: cd << parameters.chart-path >> && helm dependency build
-          name: Fetch Helm Dependencies
-      - run:
-          command: cd << parameters.chart-path >> && helm lint
-          name: Lint Helm Chart
-
   helm_init:
     description: Configure Helm
     parameters:
@@ -161,62 +133,24 @@ commands:
       - run:
           name: Add Reece Helm Repo
           command: helm repo add << parameters.chart-repo-name >> << parameters.chart-repo-url >>
-
-  helm_publish:
-    description: Publish Helm Chart
+  
+  helm_validate:
+    description: Validate Helm Chart
     parameters:
-      chart-repo:
-        type: string
       chart-path:
         type: string
-      app-name:
-        type: string
-      org:
-        type: string
-      version:
-        type: env_var_name
     steps:
-      - run:
-          command: cd << parameters.chart-path >> && ${CIRCLE_WORKING_DIRECTORY/#~/$HOME}/ci-scripts/ci-prepare-chart
-          name: Prepare Helm Chart
-          environment:
-            APP_NAME: << parameters.app-name >>
-            RELEASE_VERSION: << parameters.version >>
-            ORG: << parameters.org >>
       - run:
           command: cd << parameters.chart-path >> && helm dependency build
           name: Fetch Helm Dependencies
       - run:
           command: cd << parameters.chart-path >> && helm lint
           name: Lint Helm Chart
-      - run:
-          command: cd << parameters.chart-path >> && helm package .
-          name: Package Helm Chart
-      - run:
-          command: cd << parameters.chart-path >> && helm s3 push ./<< parameters.app-name >>-${<< parameters.version >>}.tgz << parameters.chart-repo >>
-          name: Publish Helm Chart
-
-  gh_release_create:
-    description: Create Github Release
-    parameters:
-      version:
-        type: env_var_name
-    steps:
-      - run:
-          name: Create Github Release
-          command: gh release create v${<< parameters.version >>} --notes "Auto-created release"
-
-  gh_cli_install:
-    description: Install Github CLI
-    steps:
-      - github-cli/setup:
-          token: GITHUB_TOKEN
-          version: 2.4.0
 
 orbs:
+  github-cli: circleci/github-cli@2.2.0
+  java-services: morsco-reece/java-services@1.2.0
+  maven: circleci/maven@1.2.0
   aws-cli: circleci/aws-cli@1.3.0
-  aws-ecr: circleci/aws-ecr@6.13.0
   node: circleci/node@2.0.2
   helm: circleci/helm@1.1.2
-  github-cli: circleci/github-cli@2.0.0
-  sonarcloud: sonarsource/sonarcloud@1.0.3

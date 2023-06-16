@@ -1,3 +1,18 @@
 {
-  "singleQuote": true
+  "overrides": [
+    {
+      "files": ["*.java"],
+      "options": {
+        "printWidth": 120,
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": ["*.xml"],
+      "options": {
+        "printWidth": 120,
+        "tabWidth": 4
+      }
+    }
+  ]
 }
