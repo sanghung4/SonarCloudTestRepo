@@ -46,6 +46,16 @@ workflows:
           requires:
             - maven/test
 
+jobs:
+  sonar-cloud:
+    docker:
+      - image: 'circleci/openjdk:11-jdk'
+    steps:
+      - checkout
+      - run:
+          name: Analyze on SonarCloud
+          command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
+
 orbs:
   # java-services: morsco-reece/java-services@1.2.0
   maven: circleci/maven@1.2.0
