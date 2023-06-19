@@ -1,0 +1,11 @@
+query GetVarianceLocations {
+  varianceLocations {
+    totalLocations
+    content {
+      id
+      totalProducts
+      netVarianceCost
+      grossVarianceCost
+    }
+  }
+}

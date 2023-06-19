@@ -1,0 +1,5 @@
+query GetVarianceNextLocation($id: String!) {
+  varianceNextLocation(id: $id) {
+    locationId
+  }
+}

@@ -1,0 +1,18 @@
+query searchProductsEclipse($input: ProductSearchEclipseInput!) {
+  searchProductsEclipse(input: $input) {
+    pagination {
+      currentPage
+      totalItemCount
+    }
+    products {
+      manufacturerName
+      id
+      name
+      upc
+      productNumber
+      imageUrls {
+        thumb
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+query GetVarianceSummary {
+  varianceSummary {
+    netTotalCost
+    grossTotalCost
+    productQuantity
+    locationQuantity
+    differenceQuantity
+  }
+}

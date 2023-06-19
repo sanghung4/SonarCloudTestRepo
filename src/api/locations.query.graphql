@@ -1,0 +1,12 @@
+query GetLocations {
+  locations {
+    totalLocations
+    totalCounted
+    content {
+      id
+      committed
+      totalProducts
+      totalCounted
+    }
+  }
+}
