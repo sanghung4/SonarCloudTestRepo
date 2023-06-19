@@ -220,7 +220,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: npm install
+          command: yarn install
       - sonarcloud/scan
 
 commands:
