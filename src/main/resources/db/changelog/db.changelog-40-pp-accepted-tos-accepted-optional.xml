@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-40.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="brant.carthel@dialexa.com" id="dropNotNullTosPpAccepted">
+        <preConditions>
+            <columnExists tableName="users" columnName="pp_accepted_at" />
+            <columnExists tableName="users" columnName="tos_accepted_at" />
+        </preConditions>
+        <dropNotNullConstraint columnName="pp_accepted_at" tableName="users"/>
+        <dropNotNullConstraint columnName="tos_accepted_at" tableName="users"/>
+        <rollback>
+            <addNotNullConstraint tableName="users" columnName="pp_accepted_at" />
+            <addNotNullConstraint tableName="users" columnName="tos_accepted_at" />
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="40-drop-not-null-constraint-pp-tos-accepted">
+        <tagDatabase tag="v40"/>
+    </changeSet>
+</databaseChangeLog>

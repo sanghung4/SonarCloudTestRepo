@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-5.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="bryan.clark@dialexa.com" id="seedPermissions">
+        <preConditions onFail="MARK_RAN" onFailMessage="failed to seed permissions data">
+            <sqlCheck expectedResult="2">SELECT COUNT(*) FROM permissions</sqlCheck>
+        </preConditions>
+        <loadData tableName="permissions"
+            file="../seed/permissions.csv"
+            relativeToChangelogFile="true">
+        </loadData>
+        <rollback>
+            <delete tableName="permissions">
+                <where>name NOT IN ('WRITE_PERMISSIONS', 'WRITE_ROLES')</where>
+            </delete>
+        </rollback>
+    </changeSet>
+    <changeSet author="bryan.clark@dialexa.com" id="seedRoles">
+        <preConditions onFail="MARK_RAN" onFailMessage="failed to seed roles data">
+            <sqlCheck expectedResult="1">SELECT COUNT(*) FROM roles</sqlCheck>
+        </preConditions>
+        <loadData tableName="roles"
+                  file="../seed/roles.csv"
+                  relativeToChangelogFile="true">
+        </loadData>
+        <rollback>
+            <delete tableName="roles">
+                <where>name!='SUPER_USER'</where>
+            </delete>
+        </rollback>
+    </changeSet>
+    <changeSet author="bryan.clark@dialexa.com" id="seedRolePermissions">
+        <preConditions onFail="MARK_RAN" onFailMessage="failed to seed role_permissions data">
+            <sqlCheck expectedResult="2">SELECT COUNT(*) FROM role_permissions</sqlCheck>
+        </preConditions>
+        <loadData tableName="role_permissions"
+                  file="../seed/role_permissions.csv"
+                  relativeToChangelogFile="true">
+        </loadData>
+        <rollback>
+            <delete tableName="role_permissions">
+                <where>role_id!=(SELECT id FROM roles WHERE name = 'SUPER_USER' LIMIT 1)</where>
+            </delete>
+        </rollback>
+    </changeSet>
+    <changeSet author="bryan.clark@dialexa.com" id="tag-5-tag-roles-permissions">
+        <tagDatabase tag="v5"/>
+    </changeSet>
+</databaseChangeLog>

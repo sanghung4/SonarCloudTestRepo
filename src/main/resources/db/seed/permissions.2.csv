@@ -1,0 +1,12 @@
+id,name
+67d3abda-a8f3-4534-8858-735cf3272c06,edit_list
+fcbd6d52-a607-4029-ac1f-051ffc7b3d2b,manage_payment_methods
+09df3dbd-db77-4a17-9432-61fddf9ed955,view_invoice
+45b9b6b5-e6cf-4ab4-9237-a38d71fa3fa2,submit_cart_without_approval
+3bc6775f-113b-4671-a3ee-76cb64b9a82f,submit_quote_order
+362dbb37-2fbc-4d25-becf-84d183170272,approve_cart
+6477e056-8cf5-4f2d-85bd-16375e14cbe4,edit_profile
+86c6a474-e633-477e-9cac-e398fa6f2466,invite_user
+e88635a5-38d0-4c40-8be5-64f26616a35a,approve_all_users
+4c17a89f-b456-4153-90e0-ea322a5b087d,approve_account_user
+06233bd5-27e2-4663-b0c2-d144123c6a2f,manage_roles

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-35.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="tim@dialexa.com" id="addPaymentFeatures">
+        <preConditions onFail="MARK_RAN" onFailMessage="payment features already added">
+            <sqlCheck expectedResult="0">
+                SELECT COUNT(*) FROM features WHERE name in ('MANAGE_PAYMENTS', 'CHECKOUT_WITH_CARD')
+            </sqlCheck>
+        </preConditions>
+        <sql>
+            INSERT INTO features
+            VALUES
+                ('8e37519e-3b2e-4586-b99c-d5f56a41f03c', 'MANAGE_PAYMENTS'),
+                ('41199893-8e4e-4225-8f8f-8040b715e68b', 'CHECKOUT_WITH_CARD')
+        </sql>
+        <rollback>
+            <sql>
+                delete from permissions WHERE name in ('MANAGE_PAYMENTS', 'CHECKOUT_WITH_CARD')
+            </sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="tim@dialexa.com" id="36-add-payment-features">
+        <tagDatabase tag="v36"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-50.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet id="erpsUsersUniqueConstraintFix" author="brant.carthel@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="erps_users unique constraint already exists">
+            <sqlCheck expectedResult="0">
+                SELECT COUNT(*)
+                FROM pg_catalog.pg_constraint
+                WHERE conname = 'uc_erps_users';
+            </sqlCheck>
+        </preConditions>
+        <addUniqueConstraint
+                constraintName="uc_erps_users"
+                tableName="erps_users"
+                columnNames="erp_id, user_id" />
+        <rollback>
+            <dropUniqueConstraint tableName="erps_users" constraintName="uc_erps_users"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="v50-erps-users-unique-fix">
+        <tagDatabase tag="v50"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-65.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <changeSet id="addPostSearchApiFeature" author="sujini.ramasamy@morsco.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="Post Search API feature toggle already added">
+            <sqlCheck expectedResult="0">select count(*) from features where name = 'POST_SEARCH_API'</sqlCheck>
+        </preConditions>
+        <insert tableName="features">
+            <column name="name" value="POST_SEARCH_API" />
+            <column name="is_enabled" value="f" />
+        </insert>
+    </changeSet>
+    <changeSet author="sujini.ramasamy@morsco.com" id="v65-add-post-search-api-feature">
+        <tagDatabase tag="v65" />
+    </changeSet>
+</databaseChangeLog>

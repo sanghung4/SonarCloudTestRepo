@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-37.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="morahim@morsco.com" id="addEmployeeRegistrationToAccountRequests">
+        <preConditions>
+            <not>
+                <columnExists tableName="account_requests" columnName="is_employee" />
+                <columnExists tableName="account_requests" columnName="is_verified" />
+                <columnExists tableName="account_requests" columnName="verification_token" />
+                <columnExists tableName="account_requests_aud" columnName="is_employee" />
+                <columnExists tableName="account_requests_aud" columnName="is_verified" />
+                <columnExists tableName="account_requests_aud" columnName="verification_token" />
+            </not>
+        </preConditions>
+        <addColumn tableName="account_requests">
+            <column name="is_employee" type="boolean" defaultValue="false">
+                <constraints nullable="false" />
+            </column>
+            <column name="is_verified" type="boolean" defaultValue="false">
+                <constraints nullable="false" />
+            </column>
+            <column name="verification_token" type="UUID"></column>
+        </addColumn>
+        <addColumn tableName="account_requests_aud">
+            <column name="is_employee" type="boolean" defaultValue="false">
+                <constraints nullable="false" />
+            </column>
+            <column name="is_verified" type="boolean" defaultValue="false">
+                <constraints nullable="false" />
+            </column>
+            <column name="verification_token" type="UUID"></column>
+        </addColumn>
+        <rollback>
+            <dropColumn tableName="account_requests" columnName="is_employee" />
+            <dropColumn tableName="account_requests" columnName="is_verified" />
+            <dropColumn tableName="account_requests" columnName="verification_token" />
+            <dropColumn tableName="account_requests_aud" columnName="is_employee" />
+            <dropColumn tableName="account_requests_aud" columnName="is_verified" />
+            <dropColumn tableName="account_requests_aud" columnName="verification_token" />
+        </rollback>
+    </changeSet>
+    <changeSet author="morahim@morsco.com" id="37-employee-registration-update-to-account-requests.xml">
+        <tagDatabase tag="v37"/>
+    </changeSet>
+</databaseChangeLog>

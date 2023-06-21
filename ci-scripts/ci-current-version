@@ -1,7 +1,10 @@
 #!/bin/sh
 
-get_current_version () {
-    gh release list -L 1 | awk '{print $1}' | cut -c2-
-}
+# ci-scripts/ci-hotfix-version: prints the current version number as defined in
+#                               pom.xml
 
-get_current_version
+set -e
+
+cd "$(dirname "$0")/.."
+
+git describe --tags | awk -F '-' '{print $1}' | cut -c2-

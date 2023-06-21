@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-45.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet id="removeDuplicatesUsersOnInvitedUsersTable" author="elliot.rotwein@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="invited_users table does not exist">
+            <tableExists tableName="invited_users"/>
+        </preConditions>
+        <sql>
+            delete from
+            invited_users
+            where email in
+            (select
+            u.email
+            from users u
+            where lower(u.email) in (
+            select
+            lower(email)
+            from users
+            group by lower(email)
+            having count(lower(email)) > 1
+            )
+            and u.tos_accepted_at is null);
+        </sql>
+    </changeSet>
+    <changeSet id="removeDuplicateUsersOnUsersBilltoAccountsTable" author="elliot.rotwein@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="users_billto_accounts table does not exist">
+            <tableExists tableName="users_billto_accounts"/>
+        </preConditions>
+        <sql>
+            delete from
+            users_billto_accounts
+            where user_id in
+            (select
+            u.id
+            from users u
+            where lower(u.email) in (
+            select
+            lower(email)
+            from users
+            group by lower(email)
+            having count(lower(email)) > 1
+            )
+            and u.tos_accepted_at is null);
+        </sql>
+    </changeSet>
+    <changeSet id="removeDuplicateUsersOnUsersTable" author="elliot.rotwein@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="users table does not exist">
+            <tableExists tableName="users"/>
+        </preConditions>
+        <sql>
+            delete from
+            users u
+            where lower(u.email) in (
+            select
+            lower(email)
+            from users
+            group by lower(email)
+            having count(lower(email)) > 1
+            )
+            and u.tos_accepted_at is null;
+        </sql>
+    </changeSet>
+    <changeSet author="elliot.rotwein@dialexa.com" id="v45-remove-duplicate-users-in-prod">
+        <tagDatabase tag="v45"/>
+    </changeSet>
+</databaseChangeLog>

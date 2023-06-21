@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-10.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="bryan.clark@dialexa.com" id="addRoleIdToUser">
+        <preConditions onFail="MARK_RAN" onFailMessage="user table already contains role_id">
+            <not>
+                <columnExists tableName="users" columnName="role_id" />
+            </not>
+        </preConditions>
+        <addColumn tableName="users">
+            <column name="role_id" type="UUID">
+                <constraints nullable="true" foreignKeyName="fk_role_id" referencedTableName="roles" referencedColumnNames="id" />
+            </column>
+        </addColumn>
+        <rollback>
+            <dropColumn tableName="users" columnName="role_id" />
+        </rollback>
+    </changeSet>
+    <changeSet author="bryan.clark@dialexa.com" id="removeUserRoles">
+        <preConditions onFail="MARK_RAN" onFailMessage="users_roles table has already been dropped">
+            <tableExists tableName="user_roles"/>
+        </preConditions>
+        <dropTable tableName="user_roles" />
+        <rollback>
+            <createTable tableName="user_roles">
+                <column name="user_id" type="UUID">
+                    <constraints nullable="false" foreignKeyName="fk_user_id" referencedTableName="users" referencedColumnNames="id" />
+                </column>
+                <column name="account_id" type="UUID">
+                    <constraints nullable="false" foreignKeyName="fk_account_id" referencedTableName="accounts" referencedColumnNames="id" />
+                </column>
+                <column name="role_id" type="UUID">
+                    <constraints nullable="false" foreignKeyName="fk_role_id" referencedTableName="role" referencedColumnNames="id" />
+                </column>
+            </createTable>
+        </rollback>
+    </changeSet>
+    <changeSet author="bryan.clark@dialexa.com" id="tag-10-move-role-to-user">
+        <tagDatabase tag="v10"/>
+    </changeSet>
+</databaseChangeLog>

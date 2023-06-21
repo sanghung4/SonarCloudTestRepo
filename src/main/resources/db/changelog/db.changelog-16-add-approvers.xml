@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-16.xml"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="tim (generated)" id="1612454643432-1">
+        <preConditions>
+            <not>
+                <columnExists tableName="users" columnName="approver_id" />
+            </not>
+        </preConditions>
+        <addColumn tableName="users">
+            <column name="approver_id" type="uuid"/>
+        </addColumn>
+        <addColumn tableName="users_aud">
+            <column name="approver_id" type="uuid"/>
+        </addColumn>
+        <addForeignKeyConstraint
+                baseColumnNames="approver_id"
+                baseTableName="users"
+                constraintName="FKkbomoa1pycskn1m2uf4squ2xt"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="users"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="users" constraintName="FKkbomoa1pycskn1m2uf4squ2xt" />
+            <dropColumn tableName="users_aud" columnName="approver_id" />
+            <dropColumn tableName="users" columnName="approver_id" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim@dialexa.com" id="tag-16-add-approvers">
+        <tagDatabase tag="v16"/>
+    </changeSet>
+</databaseChangeLog>

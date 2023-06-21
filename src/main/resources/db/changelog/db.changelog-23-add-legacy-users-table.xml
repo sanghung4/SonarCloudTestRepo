@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-17.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="seth@dialexa.com" id="addLegacyUsersTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="Legacy users table already exists">
+            <not>
+                <tableExists tableName="legacy_users" />
+            </not>
+        </preConditions>
+        <createTable tableName="legacy_users">
+            <column defaultValueComputed="uuid_generate_v4()" name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_legacy_users_id" />
+            </column>
+            <column name="first_name" type="VARCHAR(200)" />
+            <column name="last_name" type="VARCHAR(200)" />
+            <column name="email" type="VARCHAR(200)" />
+            <column name="erp_account_id" type="VARCHAR(200)" />
+            <column name="is_account_owner" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false" />
+            </column>
+            <column name="is_whitelisted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false" />
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="legacy_users" />
+        </rollback>
+    </changeSet>
+    <changeSet author="seth@dialexa.com" id="v23-add-phone-types">
+        <tagDatabase tag="v23"/>
+    </changeSet>
+</databaseChangeLog>

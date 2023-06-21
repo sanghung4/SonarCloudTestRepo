@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-55.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <changeSet id="removeErpIds" author="erik.gabrielsen@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="erp_ids already migrated for audit tables">
+            <not>
+                <columnExists tableName="account_requests_aud" columnName="erp" />
+            </not>
+        </preConditions>
+
+        <addColumn tableName="account_requests_aud">
+            <column name="erp" type="VARCHAR(200)" />
+        </addColumn>
+        <sql>
+            update account_requests_aud
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update account_requests_aud
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update account_requests_aud
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update account_requests_aud
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+        <dropColumn tableName="account_requests_aud" columnName="erp_id" />
+
+        <addColumn tableName="erps_users_aud">
+            <column name="erp" type="VARCHAR(200)" />
+        </addColumn>
+        <addNotNullConstraint tableName="erps_users_aud" columnName="erp" defaultNullValue="ECLIPSE" />
+        <sql>
+            update erps_users_aud
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update erps_users_aud
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update erps_users_aud
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update erps_users_aud
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+        <dropColumn tableName="erps_users_aud" columnName="erp_id" />
+
+        <addColumn tableName="invited_users_aud">
+            <column name="erp" type="VARCHAR(200)" />
+        </addColumn>
+        <addNotNullConstraint tableName="invited_users_aud" columnName="erp" defaultNullValue="ECLIPSE" />
+        <sql>
+            update invited_users_aud
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update invited_users_aud
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update invited_users_aud
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update invited_users_aud
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+    </changeSet>
+    <changeSet author="erik.gabrielsen@dialexa.com" id="removeErpIdColumnRejectedAccountRequests">
+        <preConditions onFail="MARK_RAN" onFailMessage="erp_ids already migrated">
+            <not>
+                <columnExists tableName="rejected_account_requests" columnName="erp" />
+            </not>
+        </preConditions>
+        <addColumn tableName="rejected_account_requests">
+            <column name="erp" type="VARCHAR(200)" />
+        </addColumn>
+        <addNotNullConstraint tableName="rejected_account_requests" columnName="erp" defaultNullValue="ECLIPSE" />
+        <sql>
+            update rejected_account_requests
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update rejected_account_requests
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update rejected_account_requests
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update rejected_account_requests
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+        <dropColumn tableName="rejected_account_requests" columnName="erp_id" />
+    </changeSet>
+    <changeSet author="erik.gabrielsen@dialexa.com" id="v55-change-erp-ids-aud">
+        <tagDatabase tag="v55" />
+    </changeSet>
+</databaseChangeLog>

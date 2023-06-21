@@ -1,0 +1,5 @@
+spring.liquibase.change-log=classpath:db/changelog/master-changelog.xml
+# spring.datasource.url=jdbc:postgresql://localhost:5432/reece
+# spring.datasource.username=postgres
+# spring.datasource.password=123
+# server.port=8000

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-60.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet id="addExpressionsHomeGalleryFeature" author="jacob.riendeau@reece.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="ExpressionsHomeGallery feature toggle already added">
+            <sqlCheck expectedResult="0">select count(*) from features where name = 'EXPRESSIONSHOMEGALLERY'</sqlCheck>
+        </preConditions>
+        <insert tableName="features">
+            <column name="name" value="EXPRESSIONSHOMEGALLERY" />
+            <column name="is_enabled" value="f" />
+        </insert>
+    </changeSet>
+    <changeSet author="jacob.riendeau@reece.com" id="v60-add-ehg-feature">
+        <tagDatabase tag="v60"/>
+    </changeSet>
+</databaseChangeLog>

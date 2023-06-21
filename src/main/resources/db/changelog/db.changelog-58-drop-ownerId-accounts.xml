@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-58.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="sujini.ramasamy@reece.com" id="dropOwnerIdFromAccounts">
+        <preConditions onFail="MARK_RAN" onFailMessage="accounts table does not contain OwnerId">
+                <columnExists tableName="accounts" columnName="owner_id" />
+        </preConditions>
+        <dropColumn tableName="accounts" columnName="owner_id" />
+        <rollback>
+            <addColumn tableName="accounts">
+                <column name="owner_id" type="UUID">
+                    <constraints nullable="true" foreignKeyName="fk_root_user" referencedTableName="users" referencedColumnNames="id"/>
+                </column>
+            </addColumn>
+        </rollback>
+    </changeSet>
+    <changeSet author="sujini.ramasamy@reece.com" id="v58-drop-ownerId-Accounts">
+        <tagDatabase tag="v58"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,16 +1,19 @@
 #!/bin/sh
 
-previous_version () {
-    gh release list -L 1 | awk '{print $1}' | cut -c2-
-}
+# ci-scripts/ci-rekease-version: generates a new version number by incrementing
+#                                the minor number.
 
-new_version () {
-    PREVIOUS_VERSION="$(previous_version)"
-    [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
-    MINOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f2 | rev)"
-    MAJOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f3 | rev)"
-    NEW_MINOR_VERSION="$((MINOR_VERSION + 1))"
-    echo "$MAJOR_VERSION.$NEW_MINOR_VERSION.0"
-}
+set -e
 
-new_version
+cd "$(dirname "$0")/.."
+
+PREVIOUS_VERSION="$(ci-scripts/ci-current-version)"
+
+[ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+
+MINOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f2 | rev)"
+MAJOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f3 | rev)"
+
+NEW_MINOR_VERSION="$((MINOR_VERSION + 1))"
+
+echo "$MAJOR_VERSION.$NEW_MINOR_VERSION.0"

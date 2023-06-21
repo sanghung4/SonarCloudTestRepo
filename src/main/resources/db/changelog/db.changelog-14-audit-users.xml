@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-14.xml"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="tim@dialexa.com" id="fixErpEnum">
+        <preConditions onFail="MARK_RAN" onFailMessage="column name on table erps has already been renamed.">
+            <columnExists tableName="erps" columnName="name" />
+        </preConditions>
+        <renameColumn tableName="erps" oldColumnName="name" newColumnName="erp" />
+        <rollback>
+            <renameColumn tableName="erps" oldColumnName="erp" newColumnName="name" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1611893759626-1">
+        <preConditions onFailMessage="sequence hibernate_sequence already exists">
+            <not>
+                <sequenceExists sequenceName="hibernate_sequence" />
+            </not>
+        </preConditions>
+        <createSequence sequenceName="hibernate_sequence" />
+        <rollback>
+            <dropSequence sequenceName="hibernate_sequence" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1611999644389-1">
+        <preConditions>
+            <not>
+                <tableExists tableName="custom_revinfo" />
+            </not>
+        </preConditions>
+        <createTable tableName="custom_revinfo">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true" primaryKeyName="custom_revinfoPK"/>
+            </column>
+            <column name="timestamp" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="VARCHAR(255)"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="custom_revinfo" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1611893759626-4">
+        <preConditions onFailMessage="table users_aud already exists">
+            <not>
+                <tableExists tableName="users_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="users_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="email" type="VARCHAR(255)"/>
+            <column name="first_name" type="varchar(255)"/>
+            <column name="last_name" type="varchar(255)"/>
+            <column name="phone_number" type="varchar(255)"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="users_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1611999644389-5">
+        <preConditions>
+            <not>
+                <primaryKeyExists tableName="users_aud" primaryKeyName="users_audPK" />
+                <foreignKeyConstraintExists foreignKeyName="fk_users_aud_rev" />
+            </not>
+        </preConditions>
+        <addPrimaryKey columnNames="id, rev" constraintName="users_audPK" tableName="users_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="users_aud"
+                constraintName="fk_users_aud_rev"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropPrimaryKey tableName="users_aud" constraintName="users_audPK" />
+            <dropForeignKeyConstraint baseTableName="users_aud" constraintName="fk_users_aud_rev" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612005115132-1">
+        <preConditions>
+            <not>
+                <tableExists tableName="account_requests_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="account_requests_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="account_id" type="UUID"/>
+            <column name="account_number" type="VARCHAR(255)"/>
+            <column name="company_address_2" type="VARCHAR(255)"/>
+            <column name="company_address_city" type="VARCHAR(255)"/>
+            <column name="company_address_state" type="VARCHAR(255)"/>
+            <column name="company_address_street" type="VARCHAR(255)"/>
+            <column name="company_address_zip" type="VARCHAR(255)"/>
+            <column name="company_name" type="VARCHAR(255)"/>
+            <column name="email" type="VARCHAR(255)"/>
+            <column name="erp_id" type="UUID"/>
+            <column name="first_name" type="VARCHAR(255)"/>
+            <column name="is_completed" type="BOOLEAN"/>
+            <column name="last_name" type="VARCHAR(255)"/>
+            <column name="phone_number" type="VARCHAR(255)"/>
+        </createTable>
+        <addPrimaryKey columnNames="id, rev" constraintName="account_requests_audPK" tableName="account_requests_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="account_requests_aud"
+                constraintName="fk_account_requests_aud_rev"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="account_requests_aud" constraintName="fk_account_requests_aud_rev" />
+            <dropPrimaryKey tableName="account_requests_aud" constraintName="account_requests_audPK" />
+            <dropTable tableName="account_requests_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-1">
+        <preConditions>
+            <not>
+                <tableExists tableName="accounts_accounts_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="accounts_accounts_aud">
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="parent_account_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="rev, parent_account_id, id"
+                constraintName="accounts_accounts_audPK"
+                tableName="accounts_accounts_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="accounts_accounts_aud"
+                constraintName="FKdiuj4ta346lhnkjakc60xcrdi"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="accounts_accounts_aud" constraintName="FKdiuj4ta346lhnkjakc60xcrdi" />
+            <dropPrimaryKey tableName="accounts_accounts_aud" constraintName="accounts_accounts_audPK" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-2">
+        <preConditions>
+            <not>
+                <tableExists tableName="accounts_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="accounts_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="owner_id" type="UUID"/>
+            <column name="parent_account_id" type="UUID"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id, rev"
+                constraintName="accounts_audPK"
+                tableName="accounts_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="accounts_aud"
+                constraintName="FKlcp7umwrr7ayllyqt4ouq7sok"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="accounts_aud" constraintName="FKlcp7umwrr7ayllyqt4ouq7sok" />
+            <dropPrimaryKey tableName="accounts_aud" constraintName="accounts_audPK" />
+            <dropTable tableName="accounts_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-3">
+        <preConditions>
+            <not>
+                <tableExists tableName="erps_accounts_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="erps_accounts_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="erp_account_id" type="INT"/>
+            <column name="erp_id" type="UUID"/>
+            <column name="account_id" type="UUID"/>
+            <column name="is_billto" type="boolean"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id, rev"
+                constraintName="erps_accounts_audPK"
+                tableName="erps_accounts_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="erps_accounts_aud"
+                constraintName="FK1dnk2n5qw6fwpjlahy7tlfr5n"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="erps_accounts_aud" constraintName="FK1dnk2n5qw6fwpjlahy7tlfr5n" />
+            <dropPrimaryKey tableName="erps_accounts_Aud" constraintName="erps_accounts_audPK" />
+            <dropTable tableName="erps_accounts_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-4">
+        <preConditions>
+            <not>
+                <tableExists tableName="erps_users_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="erps_users_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="erp_id" type="UUID"/>
+            <column name="erp_user_id" type="INT"/>
+            <column name="erp_user_login" type="VARCHAR(255)"/>
+            <column name="erp_user_password" type="VARCHAR(255)"/>
+            <column name="user_id" type="UUID"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id, rev"
+                constraintName="erps_users_audPK"
+                tableName="erps_users_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="erps_users_aud"
+                constraintName="FKdkcgmuh2xnij5lic6q6fwrlou"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="erps_users_aud" constraintName="FKdkcgmuh2xnij5lic6q6fwrlou" />
+            <dropPrimaryKey tableName="erps_users_aud" constraintName="erps_users_audPK" />
+            <dropTable tableName="erps_users_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-5">
+        <preConditions>
+            <not>
+                <tableExists tableName="permissions_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="permissions_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id, rev"
+                constraintName="permissions_audPK"
+                tableName="permissions_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="permissions_aud"
+                constraintName="FKlpar9ugdsdrykmoi89b5c0ed5"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="permissions_aud" constraintName="FKlpar9ugdsdrykmoi89b5c0ed5" />
+            <dropPrimaryKey tableName="permissions_aud" constraintName="permission_audPK" />
+            <dropTable tableName="permissions_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-6">
+        <preConditions>
+            <not>
+                <tableExists tableName="phone_types_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="phone_types_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="display_name" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id, rev"
+                constraintName="phone_types_audPK"
+                tableName="phone_types_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="phone_types_aud"
+                constraintName="FKawf5svpucddpmt2tvlo2ok81i"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="phone_types_aud" constraintName="FKawf5svpucddpmt2tvlo2ok81i" />
+            <dropPrimaryKey tableName="phone_types_aud" constraintName="phone_types_audPK" />
+            <dropTable tableName="phone_types_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-7">
+        <preConditions>
+            <not>
+                <tableExists tableName="role_permissions_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="role_permissions_aud">
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="role_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="permission_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="rev, role_id, permission_id"
+                constraintName="role_permissions_audPK"
+                tableName="role_permissions_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="role_permissions_aud"
+                constraintName="FKkcc7f9aecfbb6shbtpsgoevri"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="role_permissions_aud" constraintName="FKkcc7f9aecfbb6shbtpsgoevri" />
+            <dropPrimaryKey tableName="role_permissions_aud" constraintName="role_permissions_audPK" />
+            <dropTable tableName="role_permissions_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-8">
+        <preConditions>
+            <not>
+                <tableExists tableName="roles_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="roles_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="description" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="is_internal" type="boolean"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id, rev"
+                constraintName="roles_audPK"
+                tableName="roles_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="roles_aud"
+                constraintName="FKgnrs9w0rs282s9qck8u58hvip"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="roles_aud" constraintName="FKgnrs9w0rs282s9qck8u58hvip" />
+            <dropPrimaryKey tableName="roles_aud" constraintName="roles_audPK" />
+            <dropTable tableName="roles_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-9">
+        <preConditions>
+            <not>
+                <tableExists tableName="users_billto_accounts_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="users_billto_accounts_aud">
+            <column name="account_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="is_restricted" type="BOOLEAN"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="rev, account_id, user_id"
+                constraintName="users_billto_accounts_audPK"
+                tableName="users_billto_accounts_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="users_billto_accounts_aud"
+                constraintName="FKovnfu9ygday4wvk1ndokxgj52"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="users_billto_accounts_aud" constraintName="FKovnfu9ygday4wvk1ndokxgj52" />
+            <dropPrimaryKey tableName="users_billto_accounts_aud" constraintName="users_billto_accounts_audPK" />
+            <dropTable tableName="users_billto_accounts_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612167749307-10">
+        <preConditions>
+            <not>
+                <tableExists tableName="users_shipto_accounts_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="users_shipto_accounts_aud">
+            <column name="account_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="account_id, user_id, rev"
+                constraintName="users_shipto_accounts_audPK"
+                tableName="users_shipto_accounts_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="users_shipto_accounts_aud"
+                constraintName="FK3pccexdy0ptt5wmwe28a0vrdy"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="users_shipto_accounts_aud" constraintName="FK3pccexdy0ptt5wmwe28a0vrdy" />
+            <dropPrimaryKey tableName="users_shipto_accounts_aud" constraintName="users_shipto_accounts_audPK" />
+            <dropTable tableName="users_shipto_accounts_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="12-audit-users-addMissingIdsAndKeys">
+        <preConditions>
+            <not>
+                <columnExists tableName="erps_users" columnName="id" />
+            </not>
+        </preConditions>
+        <addColumn tableName="erps_users">
+            <column name="id" type="uuid" defaultValueComputed="uuid_generate_v4()">
+                <constraints nullable="false" />
+            </column>
+        </addColumn>
+        <addColumn tableName="users_aud">
+            <column name="phone_type_id" type="uuid"/>
+        </addColumn>
+        <addColumn tableName="users_aud">
+            <column name="role_id" type="uuid"/>
+        </addColumn>
+        <addPrimaryKey columnNames="account_id, user_id" tableName="users_billto_accounts"/>
+        <addPrimaryKey columnNames="id" constraintName="erps_accountsPK" tableName="erps_accounts"/>
+        <addPrimaryKey columnNames="id" constraintName="erps_usersPK" tableName="erps_users"/>
+        <addPrimaryKey columnNames="account_id, user_id" constraintName="users_shipto_accountsPK" tableName="users_shipto_accounts"/>
+        <rollback>
+            <dropPrimaryKey tableName="users_shipto_accounts" constraintName="users_shipto_accountsPK" />
+            <dropPrimaryKey tableName="erps_users" constraintName="erps_usersPK" />
+            <dropPrimaryKey tableName="erps_accounts"  constraintName="erps_accountsPK" />
+            <dropPrimaryKey tableName="users_billto_accounts" />
+            <dropColumn tableName="users_aud" columnName="role_id" />
+            <dropColumn tableName="users_aud" columnName="phone_type_id" />
+            <dropColumn tableName="erps_users" columnName="id" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim (generated)" id="1612175597246-1">
+        <preConditions>
+            <not>
+                <tableExists tableName="rejection_reasons" />
+            </not>
+        </preConditions>
+        <createTable tableName="rejection_reasons">
+            <column name="id" type="UUID" defaultValueComputed="uuid_generate_v4()">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="VARCHAR(255)"/>
+            <column name="type" type="VARCHAR(255)"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id"
+                constraintName="rejection_reasonsPK"
+                tableName="rejection_reasons"/>
+        <createTable tableName="rejection_reasons_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="description" type="VARCHAR(255)"/>
+            <column name="type" type="VARCHAR(255)"/>
+        </createTable>
+        <addPrimaryKey
+                columnNames="id, rev"
+                constraintName="rejection_reasons_audPK"
+                tableName="rejection_reasons_aud"/>
+        <addColumn tableName="account_requests">
+            <column name="rejection_reason_id" type="uuid"/>
+            <column name="custom_rejection_reason" type="VARCHAR(255)" />
+        </addColumn>
+        <addColumn tableName="account_requests_aud">
+            <column name="rejection_reason_id" type="uuid"/>
+            <column name="custom_rejection_reason" type="VARCHAR(255)" />
+        </addColumn>
+        <addForeignKeyConstraint
+                baseColumnNames="rejection_reason_id"
+                baseTableName="account_requests"
+                constraintName="FKn4btmg6u5hnwx3of8qj17xgqc"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="rejection_reasons"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="rejection_reasons_aud"
+                constraintName="FKse036519ea93n63nv0ledbcv4"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <insert tableName="rejection_reasons">
+            <column name="type" value="NOT_A_COMPANY_MEMBER" />
+            <column name="description" value="Not a member of the company" />
+        </insert>
+        <insert tableName="rejection_reasons">
+            <column name="type" value="NOT_AUTHORIZED" />
+            <column name="description" value="Not authorized to be on E-Commerce" />
+        </insert>
+        <insert tableName="rejection_reasons">
+            <column name="type" value="OTHER" />
+            <column name="description" value="Other" />
+        </insert>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="rejection_reasons_aud" constraintName="FKse036519ea93n63nv0ledbcv4" />
+            <dropForeignKeyConstraint baseTableName="account_requests" constraintName="FKn4btmg6u5hnwx3of8qj17xgqc"  />
+            <dropColumn tableName="account_requests_aud" columnName="custom_rejection_reason" />
+            <dropColumn tableName="account_requests_aud" columnName="rejection_reason_id" />
+            <dropColumn tableName="account_requests" columnName="custom_rejection_reason" />
+            <dropColumn tableName="account_requests" columnName="rejection_reason_id" />
+            <dropPrimaryKey tableName="rejection_reasons" constraintName="rejection_reasonsPK" />
+            <dropTable tableName="rejection_reasons_aud" />
+            <dropTable tableName="rejection_reasons" />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim@dialexa.com" id="tag-14-audit-users">
+        <tagDatabase tag="v14"/>
+    </changeSet>
+</databaseChangeLog>

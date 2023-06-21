@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-35.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="tim@dialexa.com" id="addFeatureTogglePermissions">
+        <preConditions onFail="MARK_RAN" onFailMessage="toggle_features permission already exists">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(*) FROM permissions WHERE name = 'toggle_features'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <sql>
+            insert into permissions values ('947655e8-e17e-4fa6-b522-713a512b3e3c', 'toggle_features')
+        </sql>
+        <rollback>
+            <sql>
+                delete from permissions where name = 'toggle_features'
+            </sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="tim@dialexa.com" id="addMorscoDevRole">
+        <preConditions onFail="MARK_RAN" onFailMessage="toggle_features permission already exists">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(*) FROM permissions WHERE name = 'Morsco Engineer'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <sql>
+            INSERT INTO roles VALUES ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', 'Morsco Engineer', 'Morsco Admin + can toggle features', true);
+            INSERT INTO role_permissions
+            VALUES
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '67d3abda-a8f3-4534-8858-735cf3272c06'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', 'fcbd6d52-a607-4029-ac1f-051ffc7b3d2b'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '09df3dbd-db77-4a17-9432-61fddf9ed955'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '45b9b6b5-e6cf-4ab4-9237-a38d71fa3fa2'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '3bc6775f-113b-4671-a3ee-76cb64b9a82f'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '362dbb37-2fbc-4d25-becf-84d183170272'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '6477e056-8cf5-4f2d-85bd-16375e14cbe4'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '86c6a474-e633-477e-9cac-e398fa6f2466'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', 'e88635a5-38d0-4c40-8be5-64f26616a35a'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '4c17a89f-b456-4153-90e0-ea322a5b087d'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '06233bd5-27e2-4663-b0c2-d144123c6a2f'),
+                ('69ba59cd-b8b6-4505-9a00-bc5c1832b38f', '947655e8-e17e-4fa6-b522-713a512b3e3c');
+        </sql>
+        <rollback>
+            <sql>
+                delete from role_permissions where role_id = '69ba59cd-b8b6-4505-9a00-bc5c1832b38f';
+                delete from roles where name = 'Morsco Engineer';
+            </sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="tim@dialexa.com" id="35-add-feature-toggle-permissions">
+        <tagDatabase tag="v35"/>
+    </changeSet>
+</databaseChangeLog>

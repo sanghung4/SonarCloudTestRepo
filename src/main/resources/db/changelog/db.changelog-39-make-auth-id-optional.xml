@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-39.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="brant.carthel@dialexa.com" id="makeAuthIdColumnOptional">
+        <preConditions>
+            <columnExists tableName="users" columnName="auth_id" />
+        </preConditions>
+        <dropNotNullConstraint columnName="auth_id" tableName="users"/>
+        <rollback>
+            <addNotNullConstraint tableName="users" columnName="auth_id" />
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="39-drop-not-null-constraint-users-auth-id">
+        <tagDatabase tag="v39"/>
+    </changeSet>
+</databaseChangeLog>

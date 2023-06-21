@@ -1,0 +1,17 @@
+package com.reece.platform.accounts.model.enums;
+
+public enum FeaturesEnum {
+    LISTS,
+    CREATE_JOB_FORM,
+    MANAGE_PAYMENTS,
+    CHECKOUT_WITH_CARD,
+    WATERWORKS,
+    IN_MAINTENANCE,
+    EXPRESSIONSHOMEGALLERY,
+    POST_SEARCH_API,
+    FEATURED_SEARCH,
+    NEWS_BLOG,
+    COMPETITIVE_MARKET_PRICE,
+    CART_PRICING_AVAIL,
+    INVOICE_MAINTENANCE
+}

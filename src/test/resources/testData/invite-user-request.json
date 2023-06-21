@@ -1,0 +1,9 @@
+{
+  "email": "tEST@TEst.cOm",
+  "firstName": "Test",
+  "lastName": "User",
+  "userRoleId": "287d50a2-df1a-4686-a30e-3640c56d4e7b",
+  "billToAccountId": "087bfeda-c113-4c28-82fd-0dc7e9822a64",
+  "approverId": "9b0b26ae-594b-4db7-9795-80fd949dbfde",
+  "erpAccountId": "123123"
+}

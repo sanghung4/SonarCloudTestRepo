@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-70.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <changeSet id="addInvoiceMaintenanceFeatureFlag" author="brian.wong@morsco.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="Invoice maintenance feature toggle already added">
+            <sqlCheck expectedResult="0">select count(*) from features where name = 'INVOICE_MAINTENANCE'</sqlCheck>
+        </preConditions>
+        <insert tableName="features">
+            <column name="name" value="INVOICE_MAINTENANCE" />
+            <column name="is_enabled" value="f" />
+        </insert>
+    </changeSet>
+    <changeSet author="brian.wong@morsco.com" id="v70-invoice-maintenance-feature-flag">
+        <tagDatabase tag="v70" />
+    </changeSet>
+</databaseChangeLog>

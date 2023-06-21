@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-1.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="brant.carthel@dialexa.com" id="tag-0.0">
+        <tagDatabase tag="v0.0"/>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createAccountRequestTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table account_requests already exists">
+            <not>
+                <tableExists tableName="account_requests"/>
+            </not>
+        </preConditions>
+        <createTable tableName="account_requests">
+            <column name="email" type="VARCHAR(200)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_account_requests"/>
+            </column>
+            <column name="first_name" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="last_name" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="phone_number" type="VARCHAR(30)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="account_number" type="VARCHAR(200)"/>
+            <column name="company_name" type="VARCHAR(200)"/>
+            <column name="company_address_street" type="VARCHAR(200)"/>
+            <column name="company_address_2" type="VARCHAR(200)"/>
+            <column name="company_address_city" type="VARCHAR(200)"/>
+            <column name="company_address_state" type="VARCHAR(20)"/>
+            <column name="company_address_zip" type="VARCHAR(30)"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="account_requests"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createExtensionUuid">
+        <sql>CREATE EXTENSION IF NOT EXISTS "uuid-ossp"</sql>
+        <rollback>
+            <sql>DROP EXTENSION IF EXISTS "uuid-ossp"</sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createErpEnumType">
+        <preConditions onFail="MARK_RAN" onFailMessage="erp_enum already created">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM pg_type WHERE typname = 'erp_enum'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <sql>
+            CREATE TYPE erp_enum AS ENUM ('ECLIPSE','MINCRON')
+        </sql>
+        <rollback>
+            <sql>DROP TYPE erp_enum</sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createTableAccounts">
+        <preConditions onFail="MARK_RAN" onFailMessage="table accounts already exists">
+            <not>
+                <tableExists tableName="accounts"/>
+            </not>
+        </preConditions>
+        <createTable tableName="accounts">
+            <column defaultValueComputed="uuid_generate_v4()" name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="erp_entity_id" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="erp_system" type="erp_enum">
+                <constraints nullable="false"/>
+            </column>
+            <column name="root_user_id" type="UUID"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="accounts"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createTableUsers">
+        <preConditions onFail="MARK_RAN" onFailMessage="table users already exists">
+            <not>
+                <tableExists tableName="users"/>
+            </not>
+        </preConditions>
+        <createTable tableName="users">
+            <column defaultValueComputed="uuid_generate_v4()" name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="username" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="auth_id" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="erp_contact_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="account_id" type="UUID"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="users"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addPrimaryKeyAccounts">
+        <preConditions onFail="MARK_RAN" onFailMessage="primary key for table accounts already exists">
+            <not>
+                <primaryKeyExists tableName="accounts"/>
+            </not>
+        </preConditions>
+        <addPrimaryKey columnNames="id" constraintName="accounts_pkey" tableName="accounts"/>
+        <rollback>
+            <dropPrimaryKey tableName="accounts"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addPrimaryKeyUsers">
+        <preConditions onFail="MARK_RAN" onFailMessage="primary key for table users already exists">
+            <not>
+                <primaryKeyExists tableName="users"/>
+            </not>
+        </preConditions>
+        <addPrimaryKey columnNames="id" constraintName="users_pkey" tableName="users"/>
+        <rollback>
+            <dropPrimaryKey tableName="users"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addFkRootUser">
+        <preConditions onFail="MARK_RAN" onFailMessage="foreign key for root_user_id already added">
+            <not>
+                <foreignKeyConstraintExists foreignKeyName="fk_root_user"/>
+            </not>
+        </preConditions>
+        <addForeignKeyConstraint baseColumnNames="root_user_id" baseTableName="accounts" constraintName="fk_root_user" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="users"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="accounts" constraintName="fk_root_user"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addFkUserAccount">
+        <preConditions onFail="MARK_RAN" onFailMessage="foreign key for users table already added">
+            <not>
+                <foreignKeyConstraintExists foreignKeyName="fk_user_account"/>
+            </not>
+        </preConditions>
+        <addForeignKeyConstraint baseColumnNames="account_id" baseTableName="users" constraintName="fk_user_account" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="accounts"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="users" constraintName="fk_user_account"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="tag-1-users-accounts">
+        <tagDatabase tag="v1"/>
+    </changeSet>
+</databaseChangeLog>

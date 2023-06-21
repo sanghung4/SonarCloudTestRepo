@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# ci-scripts/ci-hotfix-version: generates a new version number by incrementing
+#                               the patch number.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+PREVIOUS_VERSION="$(ci-scripts/ci-current-version)"
+
+[ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+
+PATCH_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f1 | rev)"
+
+NEW_PATCH_VERSION="$((PATCH_VERSION + 1))"
+
+echo "$(echo $PREVIOUS_VERSION | rev | cut -f 2- -d . | rev).$NEW_PATCH_VERSION"

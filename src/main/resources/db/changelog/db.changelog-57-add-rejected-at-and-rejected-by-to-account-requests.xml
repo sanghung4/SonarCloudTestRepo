@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-57.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <changeSet id="addRejectedAtAndRejectedByToAccountRequestsTable" author="erik.gabrielsen@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="rejected_account_requests columns already migrated">
+            <not>
+                <columnExists tableName="account_requests" columnName="rejected_at" />
+            </not>
+        </preConditions>
+        <addColumn tableName="account_requests">
+            <column name="rejected_at" type="datetime" />
+            <column name="rejected_by" type="VARCHAR(200)" />
+        </addColumn>
+        <addColumn tableName="account_requests_aud">
+            <column name="rejected_at" type="datetime" />
+            <column name="rejected_by" type="VARCHAR(200)" />
+        </addColumn>
+        <sql>
+            Update account_requests_aud a set rejected_at = (Select b.rejected_at from rejected_account_requests b where b.id = a.id);
+        </sql>
+        <sql>
+            Update account_requests_aud a set rejected_by = (Select b.rejected_by from rejected_account_requests b where b.id = a.id);
+        </sql>
+        <rollback>
+            <dropColumn tableName="account_requests" columnName="rejected_at" />
+            <dropColumn tableName="account_requests" columnName="rejected_by" />
+            <dropColumn tableName="account_requests_aud" columnName="rejected_at" />
+            <dropColumn tableName="account_requests_aud" columnName="rejected_by" />
+        </rollback>
+    </changeSet>
+    <changeSet id="removeRejectedReasonTable" author="erik.gabrielsen@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="rejected_reason already migrated">
+            <not>
+                <columnExists tableName="account_requests" columnName="rejected_reason" />
+            </not>
+        </preConditions>
+        <addColumn tableName="account_requests">
+            <column name="rejection_reason" type="VARCHAR(200)" />
+        </addColumn>
+        <addColumn tableName="account_requests_aud">
+            <column name="rejection_reason" type="VARCHAR(200)" />
+        </addColumn>
+        <addColumn tableName="rejected_account_requests">
+            <column name="rejection_reason" type="VARCHAR(200)" />
+        </addColumn>
+        <sql>
+            Update account_requests_aud a
+            set rejection_reason = 'NOT_A_COMPANY_MEMBER'
+            where a.rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_A_COMPANY_MEMBER');
+        </sql>
+        <sql>
+            Update account_requests_aud a
+            set rejection_reason = 'NOT_AUTHORIZED'
+            where a.rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_AUTHORIZED');
+        </sql>
+        <sql>
+            Update account_requests_aud a
+            set rejection_reason = 'OTHER'
+            where a.rejection_reason_id = (Select id from rejection_reasons where type = 'OTHER');
+        </sql>
+        <sql>
+            Update rejected_account_requests a
+            set rejection_reason = 'NOT_A_COMPANY_MEMBER'
+            where a.rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_A_COMPANY_MEMBER');
+        </sql>
+        <sql>
+            Update rejected_account_requests a
+            set rejection_reason = 'NOT_AUTHORIZED'
+            where a.rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_AUTHORIZED');
+        </sql>
+        <sql>
+            Update rejected_account_requests a
+            set rejection_reason = 'OTHER'
+            where a.rejection_reason_id = (Select id from rejection_reasons where type = 'OTHER');
+        </sql>
+        <dropColumn tableName="account_requests" columnName="rejection_reason_id" />
+        <dropColumn tableName="account_requests_aud" columnName="rejection_reason_id" />
+        <dropColumn tableName="rejected_account_requests" columnName="rejection_reason_id" />
+        <dropTable tableName="rejection_reasons" />
+
+        <rollback>
+            <addColumn tableName="account_requests">
+                <column name="rejection_reason_id" type="uuid" />
+            </addColumn>
+            <addColumn tableName="account_requests_aud">
+                <column name="rejection_reason_id" type="uuid" />
+            </addColumn>
+            <addColumn tableName="rejected_account_requests">
+                <column name="rejection_reason_id" type="uuid" />
+            </addColumn>
+
+            <createTable tableName="rejection_reasons">
+                <column name="id" type="UUID" defaultValueComputed="uuid_generate_v4()">
+                    <constraints nullable="false" />
+                </column>
+                <column name="description" type="VARCHAR(255)" />
+                <column name="type" type="VARCHAR(255)" />
+            </createTable>
+            <addPrimaryKey columnNames="id" constraintName="rejection_reasonsPK" tableName="rejection_reasons" />
+            <insert tableName="rejection_reasons">
+                <column name="type" value="NOT_A_COMPANY_MEMBER" />
+                <column name="description" value="Not a member of the company" />
+            </insert>
+            <insert tableName="rejection_reasons">
+                <column name="type" value="NOT_AUTHORIZED" />
+                <column name="description" value="Not authorized to be on E-Commerce" />
+            </insert>
+            <insert tableName="rejection_reasons">
+                <column name="type" value="OTHER" />
+                <column name="description" value="Other" />
+            </insert>
+            <sql>
+                Update account_requests_aud a
+                set rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_A_COMPANY_MEMBER')
+                where a.rejection_reason = 'NOT_A_COMPANY_MEMBER';
+            </sql>
+            <sql>
+                Update account_requests_aud a
+                set rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_AUTHORIZED')
+                where a.rejection_reason = 'NOT_AUTHORIZED';
+            </sql>
+            <sql>
+                Update account_requests_aud a
+                set rejection_reason_id = (Select id from rejection_reasons where type = 'OTHER')
+                where a.rejection_reason = 'OTHER';
+            </sql>
+            <sql>
+                Update rejected_account_requests a
+                set rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_A_COMPANY_MEMBER')
+                where a.rejection_reason = 'NOT_A_COMPANY_MEMBER';
+            </sql>
+            <sql>
+                Update rejected_account_requests a
+                set rejection_reason_id = (Select id from rejection_reasons where type = 'NOT_AUTHORIZED')
+                where a.rejection_reason = 'NOT_AUTHORIZED';
+            </sql>
+            <sql>
+                Update rejected_account_requests a
+                set rejection_reason_id = (Select id from rejection_reasons where type = 'OTHER')
+                where a.rejection_reason = 'OTHER';
+            </sql>
+            <dropColumn tableName="account_requests" columnName="rejection_reason" />
+            <dropColumn tableName="account_requests_aud" columnName="rejection_reason" />
+            <dropColumn tableName="rejected_account_requests" columnName="rejection_reason" />
+        </rollback>
+    </changeSet>
+    <changeSet author="erik.gabrielsen@dialexa.com" id="v57-update-account-requests-to-include-rejected-columns">
+        <tagDatabase tag="v57" />
+    </changeSet>
+</databaseChangeLog>

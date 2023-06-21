@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-50.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet id="removeInvitedUsersAudConstraint" author="tim@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="invited_users_aud is_email_sent is already nullable">
+            <sqlCheck expectedResult="NO">
+                SELECT is_nullable
+                FROM INFORMATION_SCHEMA.COLUMNS
+                WHERE table_name='invited_users'
+                AND column_name='is_email_sent'
+            </sqlCheck>
+        </preConditions>
+        <dropNotNullConstraint tableName="invited_users_aud" columnName="is_email_sent" />
+    </changeSet>
+    <changeSet author="tim@dialexa.com" id="v52-remove-invited-users-aud-constraint">
+        <tagDatabase tag="v52"/>
+    </changeSet>
+</databaseChangeLog>

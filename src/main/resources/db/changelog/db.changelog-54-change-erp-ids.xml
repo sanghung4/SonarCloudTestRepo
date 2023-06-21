@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-54.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet id="addInMaintenanceFeature" author="djackson@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="erp_ids already migrated">
+            <not>
+                <columnExists tableName="accounts" columnName="erp"/>
+            </not>
+        </preConditions>
+        <addColumn tableName="accounts">
+            <column name="erp" type="VARCHAR(200)"/>
+        </addColumn>
+        <addNotNullConstraint tableName="accounts" columnName="erp" defaultNullValue="ECLIPSE"/>
+        <sql>
+            update accounts
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update accounts
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update accounts
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update accounts
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+        <dropColumn tableName="accounts" columnName="erp_id"/>
+
+        <addColumn tableName="account_requests">
+            <column name="erp" type="VARCHAR(200)"/>
+        </addColumn>
+        <addNotNullConstraint tableName="account_requests" columnName="erp" defaultNullValue="ECLIPSE"/>
+        <sql>
+            update account_requests
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update account_requests
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update account_requests
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update account_requests
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+        <dropColumn tableName="account_requests" columnName="erp_id"/>
+
+        <addColumn tableName="erps_users">
+            <column name="erp" type="VARCHAR(200)"/>
+        </addColumn>
+        <addNotNullConstraint tableName="erps_users" columnName="erp" defaultNullValue="ECLIPSE"/>
+        <sql>
+            update erps_users
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update erps_users
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update erps_users
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update erps_users
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+        <dropColumn tableName="erps_users" columnName="erp_id"/>
+
+        <addColumn tableName="invited_users">
+            <column name="erp" type="VARCHAR(200)"/>
+        </addColumn>
+        <addNotNullConstraint tableName="invited_users" columnName="erp" defaultNullValue="ECLIPSE"/>
+        <sql>
+            update invited_users
+            set erp = 'MINCRON'
+            where erp_id = '0f148c1f-813f-4608-8012-c3e0e3a846b2'
+        </sql>
+        <sql>
+            update invited_users
+            set erp = 'MINCRON'
+            where erp_id = 'bcf8988a-21b7-479f-944e-2fac4f88d16c'
+        </sql>
+        <sql>
+            update invited_users
+            set erp = 'MINCRON'
+            where erp_id = 'f46547c2-3b7c-43de-949d-9f674958990d'
+        </sql>
+        <sql>
+            update invited_users
+            set erp = 'MINCRON'
+            where erp_id = '72259d32-384d-4458-9fa8-9795ca64b621'
+        </sql>
+        <dropColumn tableName="invited_users" columnName="erp_id"/>
+
+        <dropTable tableName="erps" cascadeConstraints="true"/>
+    </changeSet>
+    <changeSet author="djackson@dialexa.com" id="v54-change-erp-ids">
+        <tagDatabase tag="v54"/>
+    </changeSet>
+</databaseChangeLog>

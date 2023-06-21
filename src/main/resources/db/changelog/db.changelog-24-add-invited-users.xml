@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        logicalFilePath="classpath:changelog-24.xml"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet id="createInvitedUsersTable" author="brian.wong@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="table invited_users already exists">
+            <not>
+                <tableExists tableName="invited_users"/>
+            </not>
+        </preConditions>
+        <createTable tableName="invited_users">
+            <column defaultValueComputed="uuid_generate_v4()" name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_invited_users"/>
+            </column>
+            <column name="email" type="VARCHAR(200)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="first_name" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="last_name" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="user_role_id" type="UUID">
+                <constraints
+                        nullable="false"
+                        foreignKeyName="fk_user_role"
+                        referencedTableName="roles"
+                        referencedColumnNames="id"
+                        deferrable="false"
+                        initiallyDeferred="false"
+                />
+            </column>
+            <column name="bill_to_account_id" type="UUID">
+                <constraints
+                        nullable="false"
+                        foreignKeyName="fk_bill_to_account"
+                        referencedTableName="accounts"
+                        referencedColumnNames="id"
+                        deferrable="false"
+                        initiallyDeferred="false"
+                />
+            </column>
+            <column name="approver_id" type="UUID">
+                <constraints
+                        nullable="false"
+                        foreignKeyName="fk_user"
+                        referencedTableName="users"
+                        referencedColumnNames="id"
+                        deferrable="false"
+                        initiallyDeferred="false"
+                />
+            </column>
+            <column name="erp_account_id" type="VARCHAR(200)"/>
+            <column name="is_completed" type="BOOLEAN" defaultValue="FALSE">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="invited_users"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brian.wong@dialexa.com" id="createInvitedUsersAuditTable">
+        <preConditions onFailMessage="table invited_users_aud already exists">
+            <not>
+                <tableExists tableName="invited_users_aud" />
+            </not>
+        </preConditions>
+        <createTable tableName="invited_users_aud">
+            <column name="id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="rev" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="revtype" type="SMALLINT"/>
+            <column name="email" type="VARCHAR(200)" />
+            <column name="first_name" type="VARCHAR(200)" />
+            <column name="last_name" type="VARCHAR(200)" />
+            <column name="user_role_id" type="UUID" />
+            <column name="bill_to_account_id" type="UUID" />
+            <column name="approver_id" type="UUID" />
+            <column name="erp_account_id" type="VARCHAR(200)"/>
+            <column name="is_completed" type="BOOLEAN" />
+        </createTable>
+        <rollback>
+            <dropTable tableName="invited_users_aud" />
+        </rollback>
+    </changeSet>
+    <changeSet author="brian.wong@dialexa.com" id="addInvitedUsersAuditTableKeys">
+        <preConditions>
+            <not>
+                <primaryKeyExists tableName="invited_users_aud" primaryKeyName="invited_users_audPK" />
+                <foreignKeyConstraintExists foreignKeyName="fk_invited_users_aud_rev" />
+            </not>
+        </preConditions>
+        <addPrimaryKey columnNames="id, rev" constraintName="invited_users_audPK" tableName="invited_users_aud"/>
+        <addForeignKeyConstraint
+                baseColumnNames="rev"
+                baseTableName="invited_users_aud"
+                constraintName="fk_invited_users_aud_rev"
+                deferrable="false"
+                initiallyDeferred="false"
+                referencedColumnNames="id"
+                referencedTableName="custom_revinfo"/>
+        <rollback>
+            <dropPrimaryKey tableName="invited_users_aud" constraintName="invited_users_audPK" />
+            <dropForeignKeyConstraint baseTableName="invited_users_aud" constraintName="fk_invited_users_aud_rev" />
+        </rollback>
+    </changeSet>
+    <changeSet author="brian.wong@dialexa.com" id="v24-invited-users">
+        <tagDatabase tag="v24"/>
+    </changeSet>
+</databaseChangeLog>
