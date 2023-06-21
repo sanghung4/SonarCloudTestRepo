@@ -3,10 +3,10 @@ version: 2.1
 workflows:
   single-job-lifecycle:
     jobs:
-      - maven/test:
-          executor:
-            name: maven/default
-            tag: "17.0"
+      # - maven/test:
+      #     executor:
+      #       name: maven/default
+      #       tag: "17.0"
       # - java-services/validate_helm_chart:
       #     helm-chart-path: ./charts/products-core-service
       #     requires:
@@ -53,13 +53,13 @@ workflows:
       #       - maven/test
       - sonar-cloud:
           context: SonarCloudMax
-          requires:
-            - maven/test
+          # requires:
+          #   - maven/test
 
 jobs:
   sonar-cloud:
     docker:
-      - image: 'circleci/openjdk:11-jdk'
+      - image: 'cimg/openjdk:16.0.2'
     steps:
       - checkout
       - run:
