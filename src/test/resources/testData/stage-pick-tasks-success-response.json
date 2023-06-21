@@ -1,0 +1,13 @@
+{
+  "invoiceNumber": "S12345678.001",
+  "branchId": "1003",
+  "totes": [
+    {
+      "tote": "TOTES12345678"
+    }
+  ],
+  "skipStagedWarningFlag": true,
+  "skipInvalidLocationWarningFlag": true,
+  "updateLocationOnly": false,
+  "finalLocation": "By Aisle 3"
+}

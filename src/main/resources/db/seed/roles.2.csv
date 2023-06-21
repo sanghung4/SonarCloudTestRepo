@@ -1,7 +1,0 @@
-id,name,description,is_internal
-2419358e-5c74-4d07-a8d2-37c324afbe6c,Standard Access,,false
-d59d29fd-5ae1-46d4-8739-bb06440bc685,Morsco Admin,,true
-c1ab78f0-d877-4fe8-bfef-99586d8e4131,Account Admin,,false
-fc10ca28-33e1-4748-ba3f-45655bbf1fdd,Purchase with Approval,Purchases require Admin approval,false
-dd080d8d-b537-4531-bdab-f23268b39e12,Purchase - No Invoices,Invoices hidden for user,false
-6eb23da7-dc73-49e8-803a-791fa06c24d9,Invoice Only,,false

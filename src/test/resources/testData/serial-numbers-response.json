@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "productId": "529",
+      "orderId": "S112228790",
+      "generationId": "1",
+      "invoiceId": "001",
+      "quantity": "1",
+      "description": "AOSMTH NG 98 GAL 75K COMM HTR BT-100",
+      "location": "T00B05",
+      "warehouseId": "S~T00B05~S112228790.1.1.0~I",
+      "serialList": [
+        {
+          "line": 1,
+          "serial": "TEST12345"
+        }
+      ],
+      "nonStockSerialNumbers": []
+    }
+  ]
+}

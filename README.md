@@ -1,19 +1,23 @@
-# Account Management Service
+# Eclipse Service
 
-This API manages account via Okta.
+This API extracts data from Eclipse.
+
+### Setup
+
+Check out https://www.baeldung.com/lombok-ide to set up Lombok in your IDE. It mainly provides boilerplate for getters/setters.
 
 ### Building
 
-Use maven to build an image: `./mvnw spring-boot:build-image`.
+Use maven to build an image: `./mvnw spring-boot:build-image`
 
-Run image with: `docker-compose up`.
+### Running
+
+Use maven to run the app: `./mvnw spring-boot:run`
+
+### Testing
+
+Use maven to test the app: `./mvnw test`
 
 For further details on running this application locally, see the [Development On-boarding](https://reeceusa.atlassian.net/wiki/spaces/ECOMM/pages/195919873/Development+On-boarding+Checklist) document.
 
-# Populate Local DB
-## Legacy Accounts
-You will need a CSV file containing columns `first_name`, `last_name`, `email`, and `erp_account_id` as columns.
 
-To import this data, connect to your local database using psql on the command line and run the following command
-
-`\copy legacy_users(first_name, last_name, email, erp_account_id) from '/Users/seth/Projects/reece/documentation/InsiteProdAccounts.csv' with DELIMITER ',' CSV HEADER;`
