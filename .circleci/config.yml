@@ -69,6 +69,6 @@ jobs:
           command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
 
 orbs:
-  java-services: morsco-reece/java-services@1.2.0
+  # java-services: morsco-reece/java-services@1.2.0
   maven: circleci/maven@1.2.0
 
