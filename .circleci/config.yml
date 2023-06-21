@@ -1,14 +1,19 @@
 version: 2.1
 
+parameters:
+  environments-repo-chart-name:
+    type: string
+    default: "notifications-service"
+
 workflows:
-  single-job-lifecycle:
+  maven_test_then_build:
     jobs:
       # - maven/test:
       #     executor:
       #       name: maven/default
-      #       tag: "17.0"
+      #       tag: '11.0'
       # - java-services/validate_helm_chart:
-      #     helm-chart-path: ./charts/products-core-service
+      #     helm-chart-path: ./charts/notifications-service
       #     requires:
       #       - maven/test
       #     filters:
@@ -17,27 +22,25 @@ workflows:
       #           - master
       #           - /^release-v.*/
       # - java-services/publish_release:
-      #     java-version: "17.0"
-      #     ecr-repo: reece/products-core-service
-      #     helm-chart-name: products-core-service
-      #     helm-chart-path: ./charts/products-core-service
+      #     ecr-repo: reece/notifications-service
+      #     helm-chart-name: notifications-service
+      #     helm-chart-path: ./charts/notifications-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: master
       # - java-services/publish_hotfix:
-      #     java-version: "17.0"
-      #     ecr-repo: reece/products-core-service
-      #     helm-chart-name: products-core-service
-      #     helm-chart-path: ./charts/products-core-service
+      #     ecr-repo: reece/notifications-service
+      #     helm-chart-name: notifications-service
+      #     helm-chart-path: ./charts/notifications-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: /^release-v.*/
       # - java-services/deploy_release_dev:
-      #     environments-repo-chart-name: products-core-service
+      #     environments-repo-chart-name: notifications-service
       #     requires:
       #       - java-services/publish_release
       #     filters:
@@ -47,14 +50,14 @@ workflows:
       #     name: test_coverage
       #     executor:
       #       name: maven/default
-      #       tag: "17.0"
+      #       tag: '11.0'
       #     command: clean test jacoco:report coveralls:report
       #     requires:
       #       - maven/test
       - sonar-cloud:
           context: SonarCloud
           # requires:
-          #   - maven/test
+          #   - maven/test        
 
 jobs:
   sonar-cloud:
@@ -67,6 +70,6 @@ jobs:
           command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
 
 orbs:
-  # java-services: morsco-reece/java-services@1.2.0
+  java-services: morsco-reece/java-services@1.2.0
   maven: circleci/maven@1.2.0
 
