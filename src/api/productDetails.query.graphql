@@ -1,7 +1,0 @@
-query ProductDetails($productId: String!) {
-  productDetails(productId: $productId) {
-    description
-    catalogNumber
-    upc
-  }
-}

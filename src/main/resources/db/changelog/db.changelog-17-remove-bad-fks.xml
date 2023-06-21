@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-16.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <changeSet author="tim@dialexa.com" id="removeBadFKs">
+        <preConditions onFail="MARK_RAN" onFailMessage="Foreign keys already removed">
+        <not>
+            <foreignKeyConstraintExists foreignKeyName="shipto_id" foreignKeyTableName="carts" />
+            <foreignKeyConstraintExists foreignKeyName="shipto_id" foreignKeyTableName="deliveries" />
+            <foreignKeyConstraintExists foreignKeyName="approver_id" foreignKeyTableName="carts" />
+            </not>
+        </preConditions>
+        <dropForeignKeyConstraint baseTableName="carts" constraintName="fk_cart_shipto_id" />
+        <dropForeignKeyConstraint baseTableName="carts" constraintName="fk_cart_approver_id" />
+        <dropForeignKeyConstraint baseTableName="deliveries" constraintName="fk_delivery_shipto_id" />
+        <rollback>
+            <addForeignKeyConstraint
+                baseTableName="carts"
+                baseColumnNames="shipto_id"
+                constraintName="fk_cart_shipto_id"
+                referencedTableName="accounts"
+                referencedColumnNames="id"
+            />
+            <addForeignKeyConstraint
+                baseTableName="carts"
+                baseColumnNames="approver_id"
+                constraintName="fk_cart_approver_id"
+                referencedTableName="users"
+                referencedColumnNames="id"
+            />
+            <addForeignKeyConstraint
+                baseTableName="deliveries"
+                baseColumnNames="shipto_id"
+                constraintName="fk_delivery_shipto_id"
+                referencedTableName="accounts"
+                referencedColumnNames="id"
+            />
+        </rollback>
+    </changeSet>
+    <changeSet author="tim@dialexa.com" id="tag-17-remove-bad-fks">
+        <tagDatabase tag="products-v17" />
+    </changeSet>
+</databaseChangeLog>

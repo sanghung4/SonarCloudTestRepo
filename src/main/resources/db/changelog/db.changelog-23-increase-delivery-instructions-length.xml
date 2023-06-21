@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-23.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <changeSet author="anirban.manna@morsco.com" id="increaseDeliveryInstructionsLengthTo500">
+        <modifyDataType tableName="deliveries" columnName="delivery_instructions" newDataType="VARCHAR(500)" />
+    </changeSet>
+    <changeSet author="anirban.manna@morsco.com" id="tag-23-increase-delivery-instructions-length">
+        <tagDatabase tag="v23" />
+    </changeSet>
+</databaseChangeLog>

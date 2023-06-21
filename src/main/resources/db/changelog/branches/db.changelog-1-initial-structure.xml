@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-branches-1.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <changeSet author="seth@dialexa.com" id="tag-0.0">
+        <tagDatabase tag="branches_v0" />
+    </changeSet>
+    <changeSet author="seth@dialexa.com" id="createExtensionUuid">
+        <sql>CREATE EXTENSION IF NOT EXISTS "uuid-ossp"</sql>
+    </changeSet>
+    <changeSet author="seth@dialexa.com" id="createExtensionPostGis">
+        <sql>CREATE EXTENSION IF NOT EXISTS "postgis"</sql>
+    </changeSet>
+    <changeSet author="seth@dialexa.com" id="createBranchesTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table branches already exists">
+            <not>
+                <tableExists tableName="branches" />
+            </not>
+            <!--This is not ideal. It requires the erps table to exist, which is built by the account
+            management service. However, this is the most straightforward way to make sure we have
+            referential integrity for ERP systems across services. If this fails, the account management
+            service has not yet booted in this environment. Let it boot then run this one again.-->
+            <tableExists tableName="erps" />
+        </preConditions>
+        <createTable tableName="branches">
+            <column defaultValueComputed="uuid_generate_v4()" name="id" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_branches_id" />
+            </column>
+            <column name="branch_id" type="VARCHAR(256)">
+                <constraints nullable="false" />
+            </column>
+            <column name="entity_id" type="VARCHAR(256)" />
+            <column name="name" type="VARCHAR(200)">
+                <constraints nullable="false" />
+            </column>
+            <column name="address1" type="VARCHAR(256)" />
+            <column name="address2" type="VARCHAR(256)" />
+            <column name="city" type="VARCHAR(256)">
+                <constraints nullable="false" />
+            </column>
+            <column name="state" type="VARCHAR(256)">
+                <constraints nullable="false" />
+            </column>
+            <column name="zip" type="VARCHAR(256)">
+                <constraints nullable="false" />
+            </column>
+            <column name="phone" type="VARCHAR(256)" />
+            <column name="erp_id" type="UUID">
+                <constraints nullable="false" foreignKeyName="fk_branches_erps" references="erps(id)" />
+            </column>
+            <column name="location" type="GEOGRAPHY(POINT,4326)">
+                <constraints nullable="false" />
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="branches" />
+        </rollback>
+    </changeSet>
+    <changeSet author="seth@dialexa.com" id="addGistIndex">
+        <preConditions onFail="MARK_RAN" onFailMessage="table branches does not yet exist">
+            <tableExists tableName="branches" />
+        </preConditions>
+        <sql>CREATE INDEX idx_branches_gist ON branches USING GIST ( location )</sql>
+        <rollback>
+            <dropIndex tableName="branches" indexName="idx_branches_gist" />
+        </rollback>
+    </changeSet>
+    <changeSet author="seth@dialexa.com" id="tag-1-initial-structure">
+        <tagDatabase tag="branches_v1" />
+    </changeSet>
+</databaseChangeLog>

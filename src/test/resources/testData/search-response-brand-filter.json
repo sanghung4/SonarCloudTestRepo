@@ -1,0 +1,5252 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "page": {
+      "current": 1,
+      "total_pages": 104,
+      "total_results": 1241,
+      "size": 12
+    },
+    "engine": {
+      "name": "ecomm-products",
+      "type": "meta"
+    },
+    "request_id": "431e76d9-24f9-4319-b64f-cd19c8c1834f"
+  },
+  "results": [
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "308478",
+          "150632",
+          "306398",
+          "29327",
+          "1454",
+          "300922",
+          "265719",
+          "303200",
+          "29273",
+          "659",
+          "29278",
+          "79944",
+          "29301",
+          "29295",
+          "301738",
+          "477463",
+          "29277",
+          "109344",
+          "29259",
+          "29263",
+          "216715",
+          "29298",
+          "29286",
+          "302357",
+          "29290",
+          "302212",
+          "270860",
+          "29368",
+          "269602",
+          "1373",
+          "302222",
+          "301132",
+          "29328",
+          "29284",
+          "269796",
+          "14452",
+          "164641",
+          "305320",
+          "301277",
+          "29292",
+          "29274",
+          "735145",
+          "303026",
+          "29275",
+          "156519",
+          "270284",
+          "300892",
+          "301095",
+          "316393",
+          "269895",
+          "270862",
+          "29265",
+          "302996",
+          "29270",
+          "29325",
+          "29267",
+          "35648",
+          "302940",
+          "29291",
+          "302682",
+          "659",
+          "335352",
+          "16703",
+          "29300",
+          "29262",
+          "2454",
+          "269426",
+          "315364",
+          "302914",
+          "270693",
+          "29302",
+          "287172",
+          "302381",
+          "150132",
+          "35648",
+          "270571",
+          "230373",
+          "36736",
+          "325538",
+          "270531",
+          "302636",
+          "302936",
+          "29257",
+          "29269",
+          "29304",
+          "270136",
+          "29276",
+          "36639",
+          "29195",
+          "3103",
+          "302216",
+          "54485",
+          "29294",
+          "29283",
+          "301952",
+          "29305",
+          "271211",
+          "307891",
+          "161261",
+          "29288",
+          "29280",
+          "29326",
+          "29303"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-39707",
+        "engine": "products-1637032997788",
+        "score": 476.86603
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-39707"
+      },
+      "internal_item_nbr": {
+        "raw": "3562060"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 3/4\"; Length 20'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-15 16:40:04.637"
+      },
+      "product_search_boost_2_nbr": {
+        "raw": "1"
+      },
+      "erp_product_id": {
+        "raw": "MSC-39707"
+      },
+      "product_sold_count": {
+        "raw": 15260.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDF20"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDF20 34X20 L HARD COP LH06020 01062 PIPE 34L20 34LH 3420L LH34 LHARDF"
+      },
+      "upc_id": {
+        "raw": "66238601062"
+      },
+      "web_description": {
+        "raw": "3/4\" X 20' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "20'"
+      },
+      "minimum_increment_qty": {
+        "raw": "20"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "2002",
+          "1030",
+          "1302",
+          "1401",
+          "1304",
+          "2010",
+          "3014",
+          "2018",
+          "2005",
+          "3010",
+          "1010",
+          "1036",
+          "1002",
+          "3008",
+          "1029",
+          "1032",
+          "1067",
+          "2014",
+          "1031",
+          "2017",
+          "2006",
+          "1153",
+          "1405",
+          "1046",
+          "3007",
+          "1006",
+          "1068",
+          "1035",
+          "1113",
+          "2015",
+          "1001",
+          "1064",
+          "1034",
+          "1009",
+          "1403",
+          "4001",
+          "1047",
+          "1040",
+          "3009",
+          "1045",
+          "1109",
+          "2009",
+          "1004",
+          "1003",
+          "1060",
+          "1056",
+          "1321",
+          "1111",
+          "1406",
+          "1147",
+          "1022",
+          "1303",
+          "2004",
+          "1043",
+          "1100",
+          "1014",
+          "1101",
+          "1041",
+          "2008",
+          "3002",
+          "1016",
+          "1105",
+          "1039",
+          "3004",
+          "1404",
+          "1114",
+          "1007",
+          "1028",
+          "1086",
+          "1310",
+          "1044",
+          "1023",
+          "1017",
+          "1071",
+          "1055",
+          "1084",
+          "1320",
+          "1076",
+          "1149",
+          "2003",
+          "1073",
+          "1027"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"copper_pipe\":\"1\",\"inside_diameter\":\"3/4\\\"\",\"length\":\"20'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\",\"pipe\":\"1\",\"type_l\":\"1\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "P21LT006",
+          "COTUB34L",
+          "@39707",
+          "CT1770",
+          "CZPIPEZF",
+          "@39707",
+          "3782",
+          "@39707",
+          "CT1770",
+          "B-6733",
+          "CT1770",
+          "2043",
+          "CT1770",
+          "CT1770",
+          "1301600",
+          "10532",
+          "CT1770",
+          "LHARDF20",
+          "CT1770",
+          "CT1770",
+          "702-0005",
+          "CT1770",
+          "CT1770",
+          "1301600",
+          "CT1770",
+          "3379012 TUBE CU 7/8 OD TYPE L",
+          "COP34L20",
+          "CT1770",
+          "000114307",
+          "010MU8903A",
+          "73-00115",
+          "@39707",
+          "CT1770",
+          "CT1770",
+          "LHARD-075",
+          "204234LH",
+          "108142004",
+          "1301600",
+          "1301600",
+          "CT1770",
+          "CT1770",
+          "39707",
+          "00001401",
+          "CT1770",
+          "COTUB34L",
+          "R5402",
+          "PL00143",
+          "107314",
+          "1034L020H",
+          "CPF",
+          "COP34L20",
+          "CT1770",
+          "1301600",
+          "CT1770",
+          "CT1770",
+          "CT1770",
+          "39707",
+          "@39707",
+          "CT1770",
+          "1301600",
+          "B-5056",
+          "@39707",
+          "CT1770",
+          "CT1770",
+          "CT1770",
+          "10020",
+          "100.202.L07",
+          "01062",
+          "1301600",
+          "COP34L20",
+          "CT1770",
+          "CPF",
+          "1301600",
+          "34L",
+          "003782",
+          "@6910",
+          "CZPIPEZF",
+          "003782",
+          "204234LH",
+          "15925",
+          "@39707",
+          "1301600",
+          "CT1770",
+          "CT1770",
+          "CT1770",
+          "1COPTUB",
+          "CT1770",
+          "34L20",
+          "LH06020",
+          "hc34l",
+          "1301600",
+          "CT1770",
+          "CT1770",
+          "CT1770",
+          "1301600",
+          "CT1770",
+          "COP34L20",
+          "107314",
+          "3707150",
+          "CT1770",
+          "CT1770",
+          "CT1770",
+          "CT1770"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "36736",
+          "216715",
+          "29368",
+          "303026",
+          "29280",
+          "29278",
+          "150632",
+          "29277",
+          "316393",
+          "270693",
+          "29294",
+          "325538",
+          "29304",
+          "29265",
+          "11481",
+          "149876",
+          "735145",
+          "659",
+          "29295",
+          "307891",
+          "29305",
+          "29328",
+          "306398",
+          "29267",
+          "29325",
+          "29283",
+          "287172",
+          "269602",
+          "269426",
+          "302216",
+          "35648",
+          "335352",
+          "2454",
+          "29269",
+          "270571",
+          "161261",
+          "164641",
+          "29288",
+          "79944",
+          "16703",
+          "302940",
+          "302914",
+          "29292",
+          "29273",
+          "29290",
+          "14452",
+          "269895",
+          "301277",
+          "270284",
+          "303200",
+          "301132",
+          "29286",
+          "36639",
+          "29298",
+          "302936",
+          "29263",
+          "29259",
+          "271211",
+          "29257",
+          "29300",
+          "109344",
+          "302381",
+          "308478",
+          "302636",
+          "265719",
+          "230373",
+          "35648",
+          "302212",
+          "29301",
+          "301738",
+          "29303",
+          "29270",
+          "29262",
+          "301095",
+          "269213",
+          "315364",
+          "270860",
+          "29275",
+          "477463",
+          "270862",
+          "269796",
+          "300922",
+          "29195",
+          "302357",
+          "300892",
+          "29276",
+          "302608",
+          "302222",
+          "156519",
+          "161168",
+          "302996",
+          "17977",
+          "305320",
+          "29284",
+          "270531",
+          "1373",
+          "302682",
+          "29327",
+          "29291",
+          "301952",
+          "54485",
+          "29274",
+          "29326",
+          "29302",
+          "1454"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-39694",
+        "engine": "products-1637032997788",
+        "score": 471.9478
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-39694"
+      },
+      "internal_item_nbr": {
+        "raw": "3562057"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 1/2\"; Length 20'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-15 16:40:04.637"
+      },
+      "product_search_boost_2_nbr": {
+        "raw": "1"
+      },
+      "erp_product_id": {
+        "raw": "MSC-39694"
+      },
+      "product_sold_count": {
+        "raw": 13092.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDD20"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDD20 12X20 L HARD COP LH04020 01036 PIPE 12L20 12LH 1220L LH12 LHARDD"
+      },
+      "upc_id": {
+        "raw": "66238601036"
+      },
+      "web_description": {
+        "raw": "1/2\" X 20' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "20'"
+      },
+      "minimum_increment_qty": {
+        "raw": "20"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1304",
+          "1039",
+          "1030",
+          "1045",
+          "1055",
+          "1100",
+          "1064",
+          "1022",
+          "1012",
+          "2018",
+          "1303",
+          "4001",
+          "1056",
+          "1109",
+          "2009",
+          "1075",
+          "3008",
+          "1113",
+          "1029",
+          "1043",
+          "1147",
+          "2008",
+          "1035",
+          "1016",
+          "1149",
+          "3009",
+          "1310",
+          "1008",
+          "3002",
+          "1034",
+          "1076",
+          "1405",
+          "1105",
+          "1046",
+          "1073",
+          "1068",
+          "1010",
+          "3014",
+          "1114",
+          "2010",
+          "1401",
+          "1084",
+          "2004",
+          "1406",
+          "1111",
+          "1101",
+          "1071",
+          "1060",
+          "1041",
+          "1321",
+          "1007",
+          "1040",
+          "1403",
+          "1086",
+          "1001",
+          "2005",
+          "1302",
+          "1017",
+          "1036",
+          "1404",
+          "3004",
+          "1004",
+          "1032",
+          "1320",
+          "1002",
+          "1006",
+          "2003",
+          "3007",
+          "1153",
+          "1067",
+          "1027",
+          "2015",
+          "3010",
+          "1028",
+          "1047",
+          "1014",
+          "2017",
+          "2006",
+          "1044",
+          "1059",
+          "1003",
+          "1009",
+          "2014",
+          "2002",
+          "1033",
+          "1023"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"copper_pipe\":\"1\",\"inside_diameter\":\"1/2\\\"\",\"length\":\"20'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\",\"pipe\":\"1\",\"type_l\":\"1\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "003739",
+          "702-0003",
+          "CT1750",
+          "00001390",
+          "CT1750",
+          "CT1750",
+          "COTUB12L",
+          "CT1750",
+          "1012L020H",
+          "COP12L20",
+          "CT1750",
+          "204212LH",
+          "CT1750",
+          "CT1750",
+          "3100001261",
+          "32661",
+          "39694",
+          "B-6731",
+          "CT1750",
+          "107380",
+          "CT1750",
+          "CT1750",
+          "@39694",
+          "CT1750",
+          "CT1750",
+          "CT1750",
+          "CPD",
+          "000114338",
+          "100.202.L05",
+          "1301500",
+          "003739",
+          "@39694",
+          "10018",
+          "CT1750",
+          "@6885",
+          "3707140",
+          "108142003",
+          "CT1750",
+          "204212LH",
+          "CT1750",
+          "@39694",
+          "1301500",
+          "CT1750",
+          "CT1750",
+          "CT1750",
+          "204212LH",
+          "CPD",
+          "1301500",
+          "R5401",
+          "@39694",
+          "@39694",
+          "CT1750",
+          "12L20",
+          "CT1750",
+          "1301500",
+          "CT1750",
+          "CT1750",
+          "COP12L20",
+          "CT1750",
+          "CT1750",
+          "LHARDD20",
+          "1301500",
+          "P21LT004",
+          "@39694",
+          "3739",
+          "CZPIPEZD",
+          "39694",
+          "3379008 TUBE CU 5/8 OD TYPE L",
+          "CT1750",
+          "1301500",
+          "CT1750",
+          "CT1750",
+          "CT1750",
+          "107380",
+          "10-906530",
+          "01036",
+          "COP12L20",
+          "CT1750",
+          "10106",
+          "COP12L20",
+          "LHARD-05",
+          "@39694",
+          "LH04020",
+          "1301500",
+          "PL00104",
+          "CT1750",
+          "2910",
+          "73-00110",
+          "COTUB12L",
+          "12L",
+          "1301500",
+          "12LH",
+          "1301500",
+          "CT1750",
+          "15924",
+          "010MU8895A",
+          "1301500",
+          "CT1750",
+          "CT1750",
+          "1301500",
+          "CT1750",
+          "CT1750",
+          "CT1750",
+          "CT1750",
+          "CZPIPEZD"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "29325",
+          "271211",
+          "316393",
+          "300922",
+          "29301",
+          "29292",
+          "156519",
+          "269469",
+          "298993",
+          "29302",
+          "301095",
+          "270862",
+          "29257",
+          "302914",
+          "230373",
+          "29288",
+          "164641",
+          "302222",
+          "29295",
+          "603037",
+          "29303",
+          "302996",
+          "29294",
+          "29298",
+          "302682",
+          "29291",
+          "301277",
+          "270860",
+          "325538",
+          "735145",
+          "303026",
+          "29195",
+          "659",
+          "29267",
+          "29276",
+          "302381",
+          "29286",
+          "149876",
+          "54485",
+          "29326",
+          "29263",
+          "29284",
+          "1454",
+          "216715",
+          "308478",
+          "269426",
+          "301952",
+          "306398",
+          "150632",
+          "265719",
+          "79944",
+          "36639",
+          "29278",
+          "161168",
+          "29368",
+          "29265",
+          "29270",
+          "36736",
+          "29274",
+          "11481",
+          "29259",
+          "29262",
+          "302216",
+          "302936",
+          "29305",
+          "14452",
+          "302212",
+          "305320",
+          "270571",
+          "29277",
+          "302608",
+          "16703",
+          "302636",
+          "2454",
+          "302940",
+          "35648",
+          "269895",
+          "29327",
+          "301132",
+          "29283",
+          "659",
+          "303200",
+          "29269",
+          "109344",
+          "29328",
+          "270531",
+          "301738",
+          "302357",
+          "29275",
+          "29273",
+          "315364",
+          "1373",
+          "29280",
+          "230373",
+          "307891",
+          "269796",
+          "335352",
+          "29304",
+          "1454",
+          "29290",
+          "287172",
+          "35648",
+          "270693",
+          "29300"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-39714",
+        "engine": "products-1637032997788",
+        "score": 469.83365
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-39714"
+      },
+      "internal_item_nbr": {
+        "raw": "3562062"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 1\"; Length 20'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water S"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-10 16:43:28.297"
+      },
+      "product_search_boost_2_nbr": {
+        "raw": "1"
+      },
+      "erp_product_id": {
+        "raw": "MSC-39714"
+      },
+      "product_sold_count": {
+        "raw": 8816.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDG20"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDG20 1X20 L HARD COP LH10020 01076 PIPE 1L20 1LH LH1 LHARDH"
+      },
+      "upc_id": {
+        "raw": "66238601076"
+      },
+      "web_description": {
+        "raw": "1\" X 20' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "20'"
+      },
+      "minimum_increment_qty": {
+        "raw": "20"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1040",
+          "1405",
+          "1023",
+          "2014",
+          "1059",
+          "1003",
+          "1101",
+          "1067",
+          "1084",
+          "3009",
+          "1008",
+          "2015",
+          "4001",
+          "2008",
+          "1100",
+          "1047",
+          "1004",
+          "2002",
+          "1109",
+          "1320",
+          "1035",
+          "1017",
+          "1149",
+          "1016",
+          "1046",
+          "3004",
+          "2018",
+          "1027",
+          "1014",
+          "1076",
+          "1010",
+          "1302",
+          "1073",
+          "2004",
+          "1015",
+          "1056",
+          "1031",
+          "1006",
+          "2003",
+          "1041",
+          "1044",
+          "3007",
+          "1114",
+          "1403",
+          "1039",
+          "1043",
+          "1153",
+          "1009",
+          "1013",
+          "3008",
+          "1105",
+          "1028",
+          "2009",
+          "1032",
+          "1406",
+          "1036",
+          "2006",
+          "1303",
+          "1055",
+          "1064",
+          "1113",
+          "1111",
+          "1304",
+          "1068",
+          "2010",
+          "1404",
+          "1002",
+          "3010",
+          "2017",
+          "1045",
+          "1060",
+          "1321",
+          "1034",
+          "1071",
+          "1401",
+          "1086",
+          "1030",
+          "3002",
+          "3014",
+          "1022",
+          "1075",
+          "1033",
+          "1147",
+          "1007"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"copper\":\"1\",\"inside_diameter\":\"1\\\"\",\"length\":\"20'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\",\"pipe\":\"1\",\"type_l\":\"1\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "CT1790",
+          "COP1L20",
+          "1100L020H",
+          "@39714",
+          "CT1790",
+          "CT1790",
+          "COTUB1L",
+          "1L20",
+          "1182",
+          "CT1790",
+          "108065",
+          "COP1L20",
+          "CT1790",
+          "1301650",
+          "CZPIPEZG",
+          "CT1790",
+          "108142006",
+          "73-00120",
+          "CT1790",
+          "@39714",
+          "CT1790",
+          "1301650",
+          "CT1790",
+          "CT1790",
+          "1301650",
+          "CT1790",
+          "1301650",
+          "COP1L20",
+          "20421LH",
+          "39714",
+          "00001402",
+          "LH10020",
+          "B-6734",
+          "CT1790",
+          "CT1790",
+          "1301650",
+          "CT1790",
+          "6300",
+          "CT1790",
+          "CT1790",
+          "CT1790",
+          "CT1790",
+          "CZMPIPEZG",
+          "702-0006",
+          "P21LT010",
+          "100.202.L10",
+          "1301650",
+          "@39714",
+          "COTUB1L",
+          "2310",
+          "20421LH",
+          "1L20",
+          "CT1790",
+          "1L",
+          "CT1790",
+          "CT1790",
+          "CT1790",
+          "002310",
+          "CT1790",
+          "3100001263",
+          "CT1790",
+          "CT1790",
+          "1301650",
+          "1301650",
+          "CT1790",
+          "20421LH",
+          "3379014 TUBE CU 1-1/8OD TYPE L",
+          "1301650",
+          "@6896",
+          "CT1790",
+          "P2997",
+          "CT1790",
+          "@39714",
+          "10021",
+          "@39714",
+          "002310",
+          "CPG",
+          "CT1790",
+          "@39714",
+          "CT1790",
+          "B-5057",
+          "@39714",
+          "CT1790",
+          "LHARDG20",
+          "CT1790",
+          "15926",
+          "1301650",
+          "1301650",
+          "CT1790",
+          "CT1790",
+          "01076",
+          "010MU8907A",
+          "CT1790",
+          "CZMPIPEZG",
+          "108065",
+          "LHARD-1",
+          "@39714",
+          "CT1790",
+          "CZPIPEZG",
+          "CT1790",
+          "CPG",
+          "39714",
+          "COP1L20",
+          "CT1790"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "149876",
+          "29298",
+          "269469",
+          "29288",
+          "659",
+          "302222",
+          "269426",
+          "29280",
+          "308478",
+          "287172",
+          "216715",
+          "29304",
+          "36736",
+          "29305",
+          "335352",
+          "29294",
+          "29286",
+          "35648",
+          "302381",
+          "29284",
+          "29259",
+          "164641",
+          "29273",
+          "29275",
+          "29269",
+          "301132",
+          "270531",
+          "29274",
+          "301277",
+          "305320",
+          "29257",
+          "29302",
+          "302940",
+          "29325",
+          "29292",
+          "302636",
+          "109344",
+          "29327",
+          "156519",
+          "2454",
+          "307891",
+          "302914",
+          "301952",
+          "29283",
+          "270571",
+          "29295",
+          "29300",
+          "150632",
+          "477463",
+          "303200",
+          "230373",
+          "269796",
+          "303026",
+          "306398",
+          "302216",
+          "29262",
+          "1454",
+          "29328",
+          "29278",
+          "29270",
+          "315364",
+          "269895",
+          "302357",
+          "35648",
+          "29326",
+          "302212",
+          "659",
+          "302996",
+          "29267",
+          "29290",
+          "265719",
+          "29303",
+          "29195",
+          "300922",
+          "1373",
+          "29291",
+          "316393",
+          "29277",
+          "29263",
+          "301738",
+          "29301",
+          "29276",
+          "302936",
+          "54485",
+          "269146",
+          "29265",
+          "302682",
+          "29368"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-39753",
+        "engine": "products-1637032997788",
+        "score": 448.68774
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-39753"
+      },
+      "internal_item_nbr": {
+        "raw": "3562071"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 2\"; Length 20'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water S"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-15 22:40:04.280"
+      },
+      "product_search_boost_2_nbr": {
+        "raw": "1"
+      },
+      "erp_product_id": {
+        "raw": "MSC-39753"
+      },
+      "product_sold_count": {
+        "raw": 5646.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDK20"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDK20 2X20 L HARD COP LH20020 01114 PIPE 2L20 2LH LH2 LHARDL"
+      },
+      "upc_id": {
+        "raw": "66238601114"
+      },
+      "web_description": {
+        "raw": "2\" X 20' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "20'"
+      },
+      "minimum_increment_qty": {
+        "raw": "20"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "3008",
+          "1040",
+          "1029",
+          "1001",
+          "1073",
+          "1304",
+          "1310",
+          "1111",
+          "2005",
+          "1113",
+          "1403",
+          "2001",
+          "1086",
+          "1022",
+          "1109",
+          "1030",
+          "2002",
+          "3014",
+          "1044",
+          "1008",
+          "1013",
+          "2018",
+          "1035",
+          "3007",
+          "1064",
+          "1041",
+          "1303",
+          "1009",
+          "1017",
+          "2017",
+          "2004",
+          "2009",
+          "1076",
+          "1023",
+          "1016",
+          "1320",
+          "3009",
+          "1055",
+          "1401",
+          "1002",
+          "1100",
+          "1015",
+          "2006",
+          "1036",
+          "1028",
+          "1007",
+          "2015",
+          "1153",
+          "1045",
+          "1060",
+          "1014",
+          "1068",
+          "1032",
+          "1006",
+          "1012",
+          "1405",
+          "1404",
+          "1010",
+          "1034",
+          "4001",
+          "1101",
+          "1114",
+          "1071",
+          "1003",
+          "1084",
+          "1406",
+          "2010",
+          "1321",
+          "1056",
+          "1059",
+          "3002",
+          "1004",
+          "1033",
+          "1039",
+          "3010",
+          "2014",
+          "1302",
+          "3004",
+          "2003",
+          "2008",
+          "1047",
+          "1075"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"copper\":\"1\",\"inside_diameter\":\"2\\\"\",\"length\":\"20'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\",\"pipe\":\"1\",\"type_l\":\"1\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "6570",
+          "CT1850",
+          "2L20",
+          "CT1850",
+          "B-5060",
+          "73-00135",
+          "100.202.L20",
+          "CT1850",
+          "P21LT020",
+          "CPK",
+          "702-0009",
+          "CT1850",
+          "001809",
+          "CT1850",
+          "@39753",
+          "CT1850",
+          "CT1850",
+          "001809",
+          "1301800",
+          "CT1850",
+          "CT1850",
+          "108142009",
+          "CT1850",
+          "CT1850",
+          "CT1850",
+          "@39753",
+          "15929",
+          "CT1850",
+          "1301800",
+          "1301800",
+          "CT1850",
+          "CT1850",
+          "@39753",
+          "CT1850",
+          "CT1850",
+          "@39753",
+          "LHARDK20",
+          "CT1850",
+          "COTUB2L",
+          "10024",
+          "109725",
+          "1301800",
+          "1301800",
+          "CT1850",
+          "@6904",
+          "CT1850",
+          "CT1850",
+          "COTUB2L",
+          "10371",
+          "@39753",
+          "CZPIPEZK",
+          "LHARD-2",
+          "00001455",
+          "@39753",
+          "1301800",
+          "CT1850",
+          "CZPIPEZK",
+          "CT1850",
+          "CT1850",
+          "CT1850",
+          "01114",
+          "CPK",
+          "1301800",
+          "39753",
+          "CT1850",
+          "3379020 TUBE CU 2-1/8OD TYPE L",
+          "B-6725",
+          "1301800",
+          "CT1850",
+          "CT1850",
+          "1809",
+          "CT1850",
+          "LH20020",
+          "@39753",
+          "010MU8919A",
+          "CT1850",
+          "1200L020H",
+          "CT1850",
+          "CT1850",
+          "1301800",
+          "CT1850",
+          "CT1850",
+          "1301800",
+          "CT1850",
+          "718191",
+          "CT1850",
+          "1301800",
+          "CT1850"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free; Refrigeration Service Tubing-A Seamless Copper Tube Produced to a Standard Range of Sizes and to Special Internal Cleanliness and Dehydration Requirements; Normally Furnished in Soft Temper Coils and with Ends Capped or Sealed; It is a Preferre"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "3"
+      },
+      "customer_number": {
+        "raw": [
+          "301095",
+          "302996",
+          "316393",
+          "270693",
+          "29305",
+          "270375",
+          "29291",
+          "29302",
+          "302216",
+          "164641",
+          "302682",
+          "29270",
+          "29297",
+          "300922",
+          "301277",
+          "301743",
+          "302914",
+          "269796",
+          "1454",
+          "29273",
+          "308478",
+          "302940",
+          "29265",
+          "230373",
+          "29304",
+          "301132",
+          "29278",
+          "29290",
+          "35648",
+          "373708",
+          "29276",
+          "29283",
+          "301738",
+          "269426",
+          "29275",
+          "265719",
+          "29288",
+          "269602",
+          "29298",
+          "150632",
+          "29274",
+          "161261",
+          "299236",
+          "3103",
+          "29280",
+          "29368",
+          "29300",
+          "302636",
+          "302357",
+          "29326",
+          "29284",
+          "305320",
+          "306398",
+          "29301",
+          "269146",
+          "270531",
+          "302936",
+          "29325",
+          "29195",
+          "29269",
+          "302212",
+          "29286",
+          "306172",
+          "29263",
+          "29295",
+          "29257",
+          "302222",
+          "29262",
+          "300892",
+          "14452",
+          "303200",
+          "29294",
+          "36736",
+          "29292",
+          "270860",
+          "150132",
+          "79944",
+          "307891",
+          "29281",
+          "315364",
+          "29328",
+          "270862",
+          "29327",
+          "301952",
+          "156519",
+          "35648",
+          "335352",
+          "29267",
+          "29259",
+          "269296",
+          "302381",
+          "271211",
+          "301824",
+          "325538"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-52125",
+        "engine": "products-1637032997788",
+        "score": 448.45367
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-52125"
+      },
+      "internal_item_nbr": {
+        "raw": "3565136"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Outside Diameter 3/8\"; Length 50'; Material C12200 Copper; Material Specification ASTM B280; Process Seamless; Application Refrigeration Equipment; Type Coil; Temper Soft"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_REFRIGERATION_TUBE_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-10 16:40:04.740"
+      },
+      "erp_product_id": {
+        "raw": "MSC-52125"
+      },
+      "product_sold_count": {
+        "raw": 3706.0
+      },
+      "vendor_part_nbr": {
+        "raw": "RTC"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_REFRIGERATION_TUBE_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE RTC 38X50 OD REF ROLL 38OD X 50 D 06050 02005 38R 1138 38REF REFC"
+      },
+      "upc_id": {
+        "raw": "66238602005"
+      },
+      "web_description": {
+        "raw": "3/8\" X 50' Soft Copper Tubing"
+      },
+      "length": {
+        "raw": "50'"
+      },
+      "in_stock_location": {
+        "raw": [
+          "2005",
+          "1304",
+          "2006",
+          "3014",
+          "1013",
+          "1015",
+          "2017",
+          "1012",
+          "4001",
+          "1148",
+          "1004",
+          "1030",
+          "1010",
+          "1034",
+          "1138",
+          "1027",
+          "1029",
+          "2004",
+          "1048",
+          "2009",
+          "1014",
+          "2014",
+          "1153",
+          "3007",
+          "1007",
+          "1067",
+          "3013",
+          "1092",
+          "2003",
+          "1031",
+          "2015",
+          "2002",
+          "3002",
+          "1147",
+          "1047",
+          "1303",
+          "1149",
+          "1068",
+          "3010",
+          "1036",
+          "1310",
+          "1032",
+          "1003",
+          "1113",
+          "1045",
+          "1043",
+          "3009",
+          "1060",
+          "1302",
+          "3004",
+          "3008",
+          "1101",
+          "2018",
+          "1035",
+          "1040",
+          "1006",
+          "1073",
+          "1406",
+          "1105",
+          "3012",
+          "1008",
+          "1039",
+          "1109",
+          "1075",
+          "1071",
+          "1001",
+          "1009",
+          "1044",
+          "1100",
+          "1023",
+          "1403",
+          "2008",
+          "1086",
+          "1059",
+          "1076",
+          "2010",
+          "1028"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_REFRIGERATION_TUBE_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Refrigeration Equipment\",\"length\":\"50'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B280\",\"outside_diameter\":\"3/8\\\"\",\"process\":\"Seamless\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "102091",
+          "1304050",
+          "3038R050C",
+          "COP38R50",
+          "CT3590",
+          "38COPPER",
+          "CT3590",
+          "CT3590",
+          "1304050",
+          "108140001",
+          "1304050",
+          "CT3590",
+          "CT3590",
+          "@52125",
+          "1304050",
+          "53239",
+          "1304050",
+          "L-11-05",
+          "RCZPIPEZC50",
+          "CT3590",
+          "P21R0005",
+          "@52125",
+          "CT3590",
+          "RCZPIPEZC50",
+          "CT3590",
+          "@52125",
+          "CT3590",
+          "CT3590",
+          "003340",
+          "52125",
+          "CT3590",
+          "CT3590",
+          "1304050",
+          "100.208.38",
+          "CT3590",
+          "3340",
+          "CT3590",
+          "000117314",
+          "CT3590",
+          "COTUB38LS",
+          "CT3590",
+          "3707231",
+          "01138",
+          "p802-0006",
+          "CT3590",
+          "CT3590",
+          "CT3590",
+          "@52125",
+          "1304050",
+          "CT3590",
+          "CT3590",
+          "1304050",
+          "@52125",
+          "CT3590",
+          "80703",
+          "15948",
+          "1304050",
+          "CT3590",
+          "D 06050",
+          "CT3590",
+          "3379106 TUBE CU SOFT 3/8\"(50')",
+          "CT3590",
+          "600870000",
+          "CT3590",
+          "CT3590",
+          "CT3590",
+          "71-00020",
+          "CT3590",
+          "PL00044",
+          "2010",
+          "@52125",
+          "CT3590",
+          "003340",
+          "CT3590",
+          "COP38R50",
+          "38REF",
+          "2010",
+          "102091",
+          "CT3590",
+          "02005",
+          "CT3590",
+          "COP38R50",
+          "CT3590",
+          "1304050",
+          "COTUB38LS",
+          "52125",
+          "@52125",
+          "CT3590",
+          "CT3590",
+          "38REF",
+          "1304050",
+          "COP38R50",
+          "40CTUBE-3",
+          "2010"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "595984",
+          "161261",
+          "153062",
+          "269146",
+          "176208",
+          "269796",
+          "29265",
+          "301118",
+          "305353",
+          "15065",
+          "303566",
+          "301515",
+          "477463",
+          "177659"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-42587",
+        "engine": "products-1637032997788",
+        "score": 444.05127
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-42587"
+      },
+      "internal_item_nbr": {
+        "raw": "3562757"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 3/4\"; Length 10'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-12 16:40:04.710"
+      },
+      "product_search_boost_2_nbr": {
+        "raw": "3"
+      },
+      "erp_product_id": {
+        "raw": "MSC-42587"
+      },
+      "product_sold_count": {
+        "raw": 9927.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDF10"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDF10 34X10 L HARD COP LH06010 01061 PIPE 34L10 34LH10 34X10LH"
+      },
+      "upc_id": {
+        "raw": "66238601061"
+      },
+      "web_description": {
+        "raw": "3/4\" X 10' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "10'"
+      },
+      "minimum_increment_qty": {
+        "raw": "10"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "2"
+      },
+      "in_stock_location": {
+        "raw": [
+          "4001",
+          "2015",
+          "2010",
+          "1303",
+          "2005",
+          "1406",
+          "2008",
+          "2006",
+          "1033",
+          "2017",
+          "1044",
+          "1321",
+          "2014",
+          "1086",
+          "1403",
+          "1149",
+          "1004",
+          "3002",
+          "2009",
+          "1007",
+          "1147",
+          "1113",
+          "1073",
+          "1071",
+          "1049",
+          "1046",
+          "2018",
+          "1041",
+          "1153",
+          "2004",
+          "1310",
+          "2002",
+          "1034",
+          "1013",
+          "1302",
+          "1105",
+          "1111",
+          "2003",
+          "1404",
+          "1405",
+          "3008"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"copper\":\"1\",\"inside_diameter\":\"3/4\\\"\",\"length\":\"10'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\",\"pipe\":\"3\",\"type_l\":\"2\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "1611",
+          "3707150",
+          "1611",
+          "85403",
+          "C008",
+          "LHARDF10",
+          "CT2070",
+          "75CULP",
+          "CP3/4X10",
+          "LHARDF10",
+          "PE216",
+          "CP3/4X10",
+          "10531",
+          "3/4\" COPPER B"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "2"
+      },
+      "customer_number": {
+        "raw": [
+          "303566",
+          "176208",
+          "269146",
+          "595984",
+          "546929",
+          "29265",
+          "301515",
+          "161261",
+          "153062",
+          "15065"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-42583",
+        "engine": "products-1637032997788",
+        "score": 441.92218
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-42583"
+      },
+      "internal_item_nbr": {
+        "raw": "3562756"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 1/2\"; Length 10'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-10 16:40:04.740"
+      },
+      "erp_product_id": {
+        "raw": "MSC-42583"
+      },
+      "product_sold_count": {
+        "raw": 9965.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDD10"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDD10 12X10 L HARD COP LH04010 01035 PIPE 12L10 12LH10 12X10LH"
+      },
+      "upc_id": {
+        "raw": "66238601035"
+      },
+      "web_description": {
+        "raw": "1/2\" X 10' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "10'"
+      },
+      "minimum_increment_qty": {
+        "raw": "10"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "2"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1086",
+          "1073",
+          "2008",
+          "1071",
+          "1013",
+          "2006",
+          "1004",
+          "2009",
+          "1406",
+          "1321",
+          "2010",
+          "1404",
+          "1149",
+          "1034",
+          "2017",
+          "1153",
+          "1041",
+          "2003",
+          "2004",
+          "1403",
+          "1113",
+          "1044",
+          "2001",
+          "1111",
+          "2005",
+          "1105",
+          "1302",
+          "1147",
+          "1007",
+          "4001",
+          "2002",
+          "1405",
+          "3002",
+          "2015",
+          "2018",
+          "1310",
+          "2014",
+          "1320",
+          "3008"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"copper\":\"1\",\"inside_diameter\":\"1/2\\\"\",\"length\":\"10'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\",\"pipe\":\"0\",\"type_l\":\"2\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "PE206",
+          "C007",
+          "85402",
+          "1610",
+          "PO_401 1/2X10",
+          "CT2060",
+          "CP1/2X10",
+          "3707140",
+          "1610",
+          "LHARDD10"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free; Made in USA"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100181/MUELERE00730_1.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100193/MUELERE00888_1_2.pdf"
+      },
+      "customer_number": {
+        "raw": [
+          "269469",
+          "155772",
+          "298993",
+          "296802",
+          "271211",
+          "269185",
+          "33029",
+          "269796",
+          "270136",
+          "270138",
+          "269211",
+          "269715",
+          "33312",
+          "150632",
+          "270531",
+          "33354",
+          "269062",
+          "161168",
+          "458996",
+          "176208",
+          "795999",
+          "30301",
+          "270135",
+          "270693",
+          "163528",
+          "54485",
+          "270386",
+          "30302",
+          "269426",
+          "149482",
+          "33353",
+          "270862",
+          "156519",
+          "793921",
+          "270368",
+          "79944",
+          "32000",
+          "269895",
+          "269300",
+          "270860",
+          "269797"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-377845",
+        "engine": "products-1637032997788",
+        "score": 433.63312
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-377845"
+      },
+      "internal_item_nbr": {
+        "raw": "3669864"
+      },
+      "product_overview_description": {
+        "raw": "Tube Strap; Type 2-Hole; Minimum Pipe Size 1/2 Inch; Maximum Pipe Size 1/2 Inch; Strap Width 0.38 Inch; Strap Length 1.97 Inch; Strap Material Copper; Process Wrot; Applicable Standard UL (Canada and US), ASME B16.15/B16.18/B16.22/B16.24/B16.50/B1.20.1, NSF 61G; Outer Diameter 5/8 Inch"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100142/MUELER_A-02529_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-11-15 22:43:51.457"
+      },
+      "erp_product_id": {
+        "raw": "MSC-377845"
+      },
+      "product_sold_count": {
+        "raw": 2143.0
+      },
+      "vendor_part_nbr": {
+        "raw": "CTSD"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100143/MUELER_A-02529_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100092/MUELERE00044_17_18_27.pdf"
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER FITTINGS CTSD 12 TUBE STRAP A 02529 10032416 9213400 12CTS 12STRAP 12CSTRA CTS1/2 1/2CTS CTS 1/2 TS 1/2TS"
+      },
+      "upc_id": {
+        "raw": "68576820584"
+      },
+      "web_description": {
+        "raw": "1/2\" Pipe, 5/8\" Dia, Wrot Copper, 2-Hole Tube Strap"
+      },
+      "in_stock_location": {
+        "raw": [
+          "2018",
+          "2015",
+          "1405",
+          "3010",
+          "2003",
+          "2008",
+          "2002",
+          "1401",
+          "2005",
+          "2004",
+          "1403",
+          "4001",
+          "1404",
+          "2014",
+          "1406",
+          "2017",
+          "3008",
+          "3002",
+          "2006",
+          "1100",
+          "3007",
+          "3009",
+          "2001",
+          "2009",
+          "2010"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100142/MUELER_A-02529_MED.jpg"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"UL (Canada and US), ASME B16.15/B16.18/B16.22/B16.24/B16.50/B1.20.1, NSF 61G\",\"maximum_pipe_size\":\"1/2 Inch\",\"minimum_pipe_size\":\"1/2 Inch\",\"process\":\"Wrot\",\"strap_length\":\"1.97 Inch\",\"strap_material\":\"Copper\",\"strap_width\":\"0.38 Inch\",\"type\":\"2-Hole\"}"
+        ]
+      },
+      "customer_part_number": {
+        "raw": [
+          "9213400",
+          "2136",
+          "1172",
+          "12PS",
+          "COF12STRP",
+          "12C2H",
+          "501-2",
+          "R-15-18",
+          "CF12TS",
+          "12C2H",
+          "12C2H",
+          "12C2H",
+          "9213400",
+          "CS12",
+          "14484",
+          "9213400",
+          "12C2H",
+          "12CTS",
+          "2519",
+          "C167",
+          "12C2H",
+          "120 1/2",
+          "12C2H",
+          "COF12STRP",
+          "2519",
+          "CF9160",
+          "12C2H",
+          "10032416",
+          "100.228.05",
+          "004001013001",
+          "9213400",
+          "COF12STRP",
+          "CS12",
+          "12C2H",
+          "12C2H",
+          "A 02529",
+          "A 02529",
+          "STRTHCD",
+          "12C2H",
+          "COF12STRP",
+          "12C2H"
+        ]
+      },
+      "unspc_id": {
+        "raw": "31151901"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "2"
+      },
+      "customer_number": {
+        "raw": [
+          "15065",
+          "595984",
+          "301118",
+          "301515",
+          "303566",
+          "269146",
+          "153062",
+          "29265",
+          "269796",
+          "176208",
+          "177659"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-39723",
+        "engine": "products-1637032997788",
+        "score": 422.99304
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-39723"
+      },
+      "internal_item_nbr": {
+        "raw": "3562064"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 1\"; Length 10'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water S"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-10 16:40:04.740"
+      },
+      "erp_product_id": {
+        "raw": "MSC-39723"
+      },
+      "product_sold_count": {
+        "raw": 4553.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDG10"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDG10 1X10 L HARD COP LH10010 01075 PIPE 1L10 1LH10 LH1X10"
+      },
+      "upc_id": {
+        "raw": "66238601075"
+      },
+      "web_description": {
+        "raw": "1\" X 10' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "10'"
+      },
+      "minimum_increment_qty": {
+        "raw": "10"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "3"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1111",
+          "2002",
+          "1302",
+          "1303",
+          "4001",
+          "1013",
+          "2009",
+          "1041",
+          "1113",
+          "2014",
+          "1033",
+          "1405",
+          "1149",
+          "2008",
+          "1007",
+          "1153",
+          "2018",
+          "1403",
+          "2003",
+          "1004",
+          "2017",
+          "3002",
+          "1321",
+          "1073",
+          "2001",
+          "2005",
+          "2010",
+          "1105",
+          "1034",
+          "1071",
+          "1147",
+          "2015",
+          "1086",
+          "3008",
+          "1406",
+          "2004"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"inside_diameter\":\"1\\\"\",\"length\":\"10'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "LHARDG10",
+          "1612",
+          "1CULP",
+          "CP1X10",
+          "PE224",
+          "85404",
+          "1612",
+          "CT1800",
+          "LHARDG10",
+          "C009",
+          "1\" COPPER B"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; Copper Solder-Joint Fittings for Supply/Pressurized Systems have Been the Leading Brand of Copper Fittings for Over 80 Years; Available in Both Wrot Copper and Cast Bronze; The Acknowledged Experts at Engineering and Manufacturing Precision Solder-Joint Copper Fittings; Quality, Consistency and Reliability have Made the Streamline Brand Trusted and Specified All Around the World"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100145/MUELERE00577_1.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100240/MUELERE03072_1.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "301132",
+          "29262",
+          "161261",
+          "269146",
+          "735145",
+          "35648",
+          "157880",
+          "301501",
+          "109344",
+          "216715",
+          "269469",
+          "29267",
+          "29301",
+          "29302",
+          "29326",
+          "300719",
+          "302259",
+          "308478",
+          "29263",
+          "29286",
+          "17977",
+          "33353",
+          "29281",
+          "603037",
+          "29257",
+          "29269",
+          "269796",
+          "270862",
+          "29270",
+          "270860",
+          "29298",
+          "1056",
+          "29274",
+          "302212",
+          "306172",
+          "29259",
+          "29284",
+          "335352",
+          "176208",
+          "29292",
+          "306501",
+          "29325",
+          "307891",
+          "35648",
+          "14452",
+          "164641",
+          "302914",
+          "302357",
+          "149876",
+          "302222",
+          "29368",
+          "269477",
+          "29195",
+          "29328",
+          "302996",
+          "269498",
+          "477463",
+          "155772",
+          "301902",
+          "269895",
+          "1454",
+          "30301",
+          "302216",
+          "301952",
+          "270370",
+          "11481",
+          "298993",
+          "36639",
+          "29300",
+          "265719",
+          "303566",
+          "33312",
+          "29290",
+          "29295",
+          "305320",
+          "29304",
+          "303200",
+          "270249",
+          "302682",
+          "15065",
+          "458996",
+          "180470",
+          "29280",
+          "29195",
+          "270531",
+          "29294",
+          "156517",
+          "269426",
+          "29283",
+          "32000",
+          "271211",
+          "36736",
+          "302841",
+          "29265",
+          "302940",
+          "29288",
+          "153062",
+          "150132",
+          "287172",
+          "149482",
+          "54485",
+          "302241",
+          "307993",
+          "161168",
+          "301759",
+          "270693",
+          "300922",
+          "230373",
+          "595984",
+          "29303",
+          "270136",
+          "302636",
+          "269296",
+          "163528",
+          "30301",
+          "29276",
+          "29277",
+          "301738",
+          "29273",
+          "29275",
+          "301277",
+          "757544",
+          "33354",
+          "301515",
+          "270571",
+          "302936",
+          "300892",
+          "11268",
+          "306398",
+          "659",
+          "29305",
+          "296802",
+          "29327",
+          "30302",
+          "29291",
+          "302381",
+          "29278"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-31747",
+        "engine": "products-1637032997788",
+        "score": 417.68445
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-31747"
+      },
+      "internal_item_nbr": {
+        "raw": "3710105"
+      },
+      "product_overview_description": {
+        "raw": "Adapter Fitting; Type Male, Straight; Size A 3/4\"; Size B 3/4\"; Thickness 0.033\"; End Connection Female Soldered x Male Threaded; Material Copper; Material Specification ASTM B75; Process Wrot; Application Potable Water; Applicable Standard ASME B16.22/B1.20.1, NSF 61G; Packaging Quantity 25 per Inner Carton, 250 per Master Carton"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MUELER_WB01130_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-11-15 16:40:04.637"
+      },
+      "erp_product_id": {
+        "raw": "MSC-31747"
+      },
+      "product_sold_count": {
+        "raw": 19727.0
+      },
+      "vendor_part_nbr": {
+        "raw": "CMAF"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MUELER_WB01130_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100145/MUELERE00056_18_19.pdf"
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER FITTINGS CMAF 34 COP CXMIP MALE ADPT CXM WB01146 10030330 9030950 ADAPTER 34CMA 34MA 60434 CMA34 604F CMA3/4 3/4CMA CMA 3/4 MA 3/4MA"
+      },
+      "upc_id": {
+        "raw": "68576823249"
+      },
+      "web_description": {
+        "raw": "3/4\" Wrot Copper Reducing Coupling"
+      },
+      "in_stock_location": {
+        "raw": [
+          "3009",
+          "2006",
+          "1406",
+          "2015",
+          "1096",
+          "1321",
+          "1147",
+          "1015",
+          "1036",
+          "1060",
+          "1047",
+          "1045",
+          "1303",
+          "1016",
+          "1310",
+          "1020",
+          "1136",
+          "2001",
+          "1320",
+          "1075",
+          "1404",
+          "2002",
+          "1003",
+          "1028",
+          "1010",
+          "1034",
+          "1059",
+          "2017",
+          "1100",
+          "1111",
+          "1109",
+          "1029",
+          "1009",
+          "1401",
+          "1022",
+          "1153",
+          "1023",
+          "1008",
+          "1046",
+          "1084",
+          "1002",
+          "1041",
+          "3004",
+          "1012",
+          "1019",
+          "1101",
+          "1004",
+          "3007",
+          "1014",
+          "2018",
+          "1086",
+          "3012",
+          "1076",
+          "2003",
+          "1040",
+          "3008",
+          "1027",
+          "1044",
+          "1403",
+          "1013",
+          "1032",
+          "1039",
+          "1001",
+          "1007",
+          "1006",
+          "1068",
+          "2005",
+          "1405",
+          "1149",
+          "1137",
+          "2004",
+          "2010",
+          "2008",
+          "1302",
+          "2009",
+          "4001",
+          "1071",
+          "1055",
+          "1105",
+          "1067",
+          "3013",
+          "3014",
+          "1064",
+          "2014",
+          "1114",
+          "1030",
+          "1304",
+          "3002",
+          "3010",
+          "1033",
+          "1073",
+          "1035",
+          "1113",
+          "1043",
+          "1017",
+          "1056"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MUELER_WB01130_MED.jpg"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ASME B16.22/B1.20.1, NSF 61G\",\"application\":\"Potable Water\",\"end_connection\":\"Female Soldered x Male Threaded\",\"material\":\"Copper\",\"material_specification\":\"ASTM B75\",\"process\":\"Wrot\",\"size_a\":\"3/4\\\"\",\"size_b\":\"3/4\\\"\",\"thickness\":\"0.033\\\"\",\"type\":\"Male, Straight\"}"
+        ]
+      },
+      "customer_part_number": {
+        "raw": [
+          "@31747",
+          "CF3280",
+          "3700070",
+          "71906",
+          "31747",
+          "31747",
+          "27248",
+          "1400820",
+          "CMAF",
+          "605-0007",
+          "9030950",
+          "CF3280",
+          "CF3280",
+          "CF3280",
+          "CF3280",
+          "CF34M",
+          "Y01-04-05",
+          "A21M0160",
+          "CF3280",
+          "CF3280",
+          "34CMA",
+          "9030950",
+          "CF3280",
+          "@31747",
+          "CF3280",
+          "CF3280",
+          "R-22-11",
+          "COF34M",
+          "CF3280",
+          "COF34M",
+          "CF3280",
+          "34CMA",
+          "CF3280",
+          "3312318 ADAPT CU 7/8\"CX3/4 MPT",
+          "600244000",
+          "CF3280",
+          "CF3280",
+          "@31747",
+          "C046",
+          "CF3280",
+          "38-015004",
+          "CF3280",
+          "107449",
+          "000191",
+          "2093",
+          "200060021",
+          "1400820",
+          "1400820",
+          "6740",
+          "73-00265",
+          "CF3280",
+          "17030",
+          "WB01146",
+          "CF3280",
+          "1400820",
+          "R1308",
+          "10528",
+          "2043",
+          "38-015004",
+          "CMAF",
+          "CZMAZF",
+          "10030330",
+          "1400820",
+          "1400820",
+          "R1308",
+          "913-60434",
+          "1145",
+          "34CMA",
+          "CF3280",
+          "191",
+          "CPE08",
+          "9030950",
+          "CF3280",
+          "CF3280",
+          "1400820",
+          "CF3280",
+          "@31747",
+          "604-34",
+          "1400820",
+          "CMAF",
+          "2187",
+          "J2624",
+          "CF3280",
+          "W 01146",
+          "14123",
+          "CF3280",
+          "27248",
+          "100.216.D07",
+          "CF3280",
+          "WB01146",
+          "COF34M",
+          "000191",
+          "CF7834M",
+          "CF3280",
+          "@31747",
+          "CF3280",
+          "1786",
+          "34CMA",
+          "CMAF",
+          "004001001003",
+          "CF3280",
+          "8408",
+          "0200273",
+          "34CMA",
+          "1400820",
+          "COF34M",
+          "@31747",
+          "CZMAZF",
+          "1786",
+          "CF3280",
+          "CF34MIP",
+          "@31747",
+          "34CMA",
+          "2187",
+          "104 3/4",
+          "CF3280",
+          "CF3280",
+          "1400820",
+          "CF3280",
+          "CF3280",
+          "1400820",
+          "@31747",
+          "9030950",
+          "CP3/4MIP",
+          "@6005",
+          "1400820",
+          "PL00046",
+          "CFMAC",
+          "@31747",
+          "B-3451",
+          "CF3280",
+          "CF34CMA",
+          "CF3280",
+          "10030330",
+          "CF3280",
+          "1400820",
+          "CF3280"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183109"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Copper Solder-Joint Fittings for Supply/Pressurized Systems have Been the Leading Brand of Copper Fittings for Over 80 Years; Available in Both Wrot Copper and Cast Bronze; The Acknowledged Experts at Engineering and Manufacturing Precision Solder-Joint Copper Fittings; Quality, Consistency and Reliability have Made the Streamline Brand Trusted and Specified All Around the World"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100145/MUELERE00601_1.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100240/MUELERE03088_1.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "29294",
+          "287176",
+          "335352",
+          "29284",
+          "300922",
+          "150632",
+          "302038",
+          "269426",
+          "302936",
+          "180470",
+          "302608",
+          "33353",
+          "29273",
+          "795999",
+          "35648",
+          "29275",
+          "149482",
+          "793921",
+          "36736",
+          "270693",
+          "155772",
+          "29304",
+          "301902",
+          "29267",
+          "269146",
+          "603037",
+          "29276",
+          "29328",
+          "29274",
+          "287172",
+          "156519",
+          "36736",
+          "302222",
+          "29263",
+          "219703",
+          "29277",
+          "300892",
+          "30301",
+          "270571",
+          "29270",
+          "302608",
+          "30302",
+          "302259",
+          "303200",
+          "11268",
+          "302216",
+          "29290",
+          "303566",
+          "306398",
+          "300719",
+          "595984",
+          "269715",
+          "302357",
+          "301515",
+          "35648",
+          "271211",
+          "269895",
+          "149876",
+          "29280",
+          "150132",
+          "163528",
+          "265719",
+          "35648",
+          "11478",
+          "36639",
+          "29302",
+          "33354",
+          "301277",
+          "269469",
+          "29300",
+          "29291",
+          "298993",
+          "157880",
+          "29265",
+          "153062",
+          "270249",
+          "308478",
+          "15065",
+          "1454",
+          "29286",
+          "230373",
+          "302914",
+          "29368",
+          "296802",
+          "29326",
+          "269421",
+          "29305",
+          "79944",
+          "296604",
+          "301738",
+          "302996",
+          "29303",
+          "306501",
+          "659",
+          "265719",
+          "29288",
+          "29259",
+          "30301",
+          "305320",
+          "298670",
+          "302636",
+          "270136",
+          "458996",
+          "270860",
+          "302682",
+          "270862",
+          "176208",
+          "14452",
+          "302381",
+          "29292",
+          "307993",
+          "270531",
+          "161261",
+          "477463",
+          "29278",
+          "29325",
+          "33312",
+          "29269",
+          "269062",
+          "29262",
+          "29327",
+          "29298",
+          "29301",
+          "29295",
+          "109344",
+          "29195",
+          "54485",
+          "3103",
+          "1056",
+          "269796",
+          "32000",
+          "29283",
+          "269185",
+          "302940",
+          "161168",
+          "301952",
+          "269300",
+          "156517",
+          "29257"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-33860",
+        "engine": "products-1637032997788",
+        "score": 414.38272
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-33860"
+      },
+      "internal_item_nbr": {
+        "raw": "3710176"
+      },
+      "product_overview_description": {
+        "raw": "Cap Fitting; Type Round Head; Nominal Size 1/2\"; End Connection Female Soldered; Material Copper; Process Wrot; Application Ground Potable Water Supply System; Applicable Standard ASME B16.22, ANSI/NSF 61 G; Packaging Quantity 50 per Inner Pack, 1000 per Master Carton"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MUELER_W-07004_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-11-15 22:43:51.457"
+      },
+      "erp_product_id": {
+        "raw": "MSC-33860"
+      },
+      "product_sold_count": {
+        "raw": 11076.0
+      },
+      "vendor_part_nbr": {
+        "raw": "CCAPD"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MUELER_W-07004_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100145/MUELERE00056_18_20.pdf"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER FITTINGS CCAPD 12 COP TUBE CAP WB07007 10030626 9172650 PIPE CAPACITOR CAPS 12CK 12CAP 12CCAP 61712 CCAP12 617D CCAP1/2 1/2CCAP CCAP 1/2 CAP 1/2CAP"
+      },
+      "upc_id": {
+        "raw": "68576823241"
+      },
+      "web_description": {
+        "raw": "1/2\" Wrot Copper Cap"
+      },
+      "in_stock_location": {
+        "raw": [
+          "2009",
+          "1048",
+          "1406",
+          "1044",
+          "1303",
+          "1310",
+          "1084",
+          "1027",
+          "1022",
+          "1147",
+          "1045",
+          "1404",
+          "1013",
+          "1004",
+          "1002",
+          "1321",
+          "1028",
+          "1046",
+          "1017",
+          "2010",
+          "1101",
+          "2008",
+          "1043",
+          "1012",
+          "1016",
+          "1035",
+          "1320",
+          "1304",
+          "1302",
+          "3007",
+          "1015",
+          "1056",
+          "1034",
+          "1114",
+          "1153",
+          "1073",
+          "1405",
+          "1033",
+          "3014",
+          "1036",
+          "1111",
+          "1068",
+          "1010",
+          "1007",
+          "2003",
+          "3010",
+          "1067",
+          "1009",
+          "1032",
+          "1003",
+          "2018",
+          "1096",
+          "1039",
+          "2002",
+          "2017",
+          "2015",
+          "1149",
+          "1041",
+          "2014",
+          "1055",
+          "1086",
+          "1071",
+          "1001",
+          "1040",
+          "1029",
+          "1109",
+          "1064",
+          "1076",
+          "1100",
+          "2006",
+          "2005",
+          "2004",
+          "1006",
+          "1014",
+          "1403",
+          "1059",
+          "3009",
+          "1401",
+          "1113",
+          "2001",
+          "1023",
+          "1075",
+          "1030",
+          "3002",
+          "1008",
+          "1105",
+          "1047",
+          "1060",
+          "3008"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MUELER_W-07004_MED.jpg"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ASME B16.22, ANSI/NSF 61 G\",\"application\":\"Ground Potable Water Supply System\",\"end_connection\":\"Female Soldered\",\"material\":\"Copper\",\"nominal_size\":\"1/2\\\"\",\"process\":\"Wrot\",\"type\":\"Round Head\"}"
+        ]
+      },
+      "customer_part_number": {
+        "raw": [
+          "CF8060",
+          "12CK",
+          "@33860",
+          "CF8060",
+          "@33860",
+          "COCAP12",
+          "600303000",
+          "100.218.05",
+          "1402615",
+          "J2631",
+          "P2961",
+          "9172650",
+          "CF8060",
+          "12CCAP",
+          "000177",
+          "CF8060",
+          "004001012001",
+          "12CCAP",
+          "000169",
+          "COF12CA",
+          "2055",
+          "CF8060",
+          "38-001509",
+          "CF8060",
+          "71812",
+          "@33860",
+          "CF8060",
+          "CF8060",
+          "CF8060",
+          "CCAPD",
+          "COCAP12",
+          "000177",
+          "73-00550",
+          "CF8060",
+          "COPCP012",
+          "CF8060",
+          "PL00078",
+          "117 1/2",
+          "@6140",
+          "CF8060",
+          "2961",
+          "10030626",
+          "Y01-06-07",
+          "@33860",
+          "CFCAPB",
+          "1402615",
+          "CF8060",
+          "CPC16",
+          "@33860",
+          "CF12CAP",
+          "1767",
+          "12CCAP",
+          "1402615",
+          "CP1/2C",
+          "000169",
+          "COF12CA",
+          "CCAPD",
+          "5970",
+          "CF8060",
+          "12CCAP",
+          "2252",
+          "177",
+          "33860",
+          "33860",
+          "12CK",
+          "CF8060",
+          "9172650",
+          "1402615",
+          "9172650",
+          "CF8060",
+          "CF8060",
+          "1170",
+          "33860",
+          "CF8060",
+          "1767",
+          "617-12",
+          "C2100004",
+          "CCAPD",
+          "CZCAPZD",
+          "CF8060",
+          "CZCAPZD",
+          "1402615",
+          "CF8060",
+          "CF12CCAP",
+          "CF8060",
+          "922323",
+          "CF8060",
+          "WB07007",
+          "COPCP012",
+          "1402615",
+          "1402615",
+          "CF8060",
+          "38-001509",
+          "B-3234",
+          "169",
+          "CF8060",
+          "CF8060",
+          "10030626",
+          "1402615",
+          "CAP1/2COPPER",
+          "@33860",
+          "CF12CAP",
+          "2252",
+          "COF12CA",
+          "1402615",
+          "COF12CA",
+          "C075",
+          "2122",
+          "1402615",
+          "CF8060",
+          "0200286",
+          "14400",
+          "3701440",
+          "10100",
+          "CF8060",
+          "CF8060",
+          "9172650",
+          "CF8060",
+          "12CCAP",
+          "CF8060",
+          "CF8060",
+          "CF8060",
+          "CF8060",
+          "CF8060",
+          "CCAPD",
+          "W 07007",
+          "CF8060",
+          "csc12",
+          "12CK",
+          "R-15-06",
+          "WB07007",
+          "CF8060",
+          "12CCAP",
+          "@33860",
+          "12CCAP",
+          "1402615",
+          "12CCAP",
+          "27437",
+          "CF8060"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183104"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100089/CERROCE00003_1_2.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": [
+          "29267",
+          "29298",
+          "36736",
+          "29327",
+          "302381",
+          "29274",
+          "29259",
+          "659",
+          "109344",
+          "302996",
+          "29195",
+          "316393",
+          "150632",
+          "301738",
+          "1373",
+          "302940",
+          "302216",
+          "306398",
+          "300922",
+          "29325",
+          "29283",
+          "270860",
+          "29326",
+          "303200",
+          "302212",
+          "150132",
+          "301277",
+          "659",
+          "29328",
+          "29288",
+          "29300",
+          "301095",
+          "1454",
+          "29294",
+          "29269",
+          "265719",
+          "29302",
+          "29368",
+          "29277",
+          "269895",
+          "11268",
+          "216715",
+          "302357",
+          "307891",
+          "29276",
+          "29295",
+          "29257",
+          "29265",
+          "269426",
+          "2454",
+          "54485",
+          "302936",
+          "29292",
+          "270693",
+          "301952",
+          "29270",
+          "29305",
+          "335352",
+          "29262",
+          "315364",
+          "29278",
+          "302914",
+          "164641",
+          "270531",
+          "270862",
+          "302682",
+          "302636",
+          "161168",
+          "29301",
+          "29304",
+          "29303",
+          "29284",
+          "29291",
+          "149876",
+          "35648",
+          "269796",
+          "29275",
+          "308478",
+          "271211",
+          "265719",
+          "230373",
+          "302222",
+          "36639",
+          "156519",
+          "270571",
+          "29263",
+          "301132",
+          "29273",
+          "35648",
+          "287172",
+          "29280",
+          "269296",
+          "29286",
+          "1056",
+          "305320",
+          "29290"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-39741",
+        "engine": "products-1637032997788",
+        "score": 411.97437
+      },
+      "id": {
+        "raw": "products-1637032997788|MSC-39741"
+      },
+      "internal_item_nbr": {
+        "raw": "3562068"
+      },
+      "product_overview_description": {
+        "raw": "Tubing; Inside Diameter 1-1/2\"; Length 20'; Material C12200 Copper; Material Specification ASTM B88; Color Blue; Application Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Wat"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_LRG.jpg"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100000/CERROCMSDS00002.pdf"
+      },
+      "last_update_date": {
+        "raw": "2021-11-13 16:40:04.620"
+      },
+      "product_search_boost_2_nbr": {
+        "raw": "1"
+      },
+      "erp_product_id": {
+        "raw": "MSC-39741"
+      },
+      "product_sold_count": {
+        "raw": 5760.0
+      },
+      "vendor_part_nbr": {
+        "raw": "LHARDJ20"
+      },
+      "mfr_full_name": {
+        "raw": "Generic"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Copper Tube & Fittings"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "material": {
+        "raw": "C12200 Copper"
+      },
+      "search_keyword_text": {
+        "raw": "GENERIC COPPER TUBE LHARDJ20 112X20 L HARD COP LH14020 01103 PIPE 112L20 112LH LH112 LHARDK"
+      },
+      "upc_id": {
+        "raw": "66238601103"
+      },
+      "web_description": {
+        "raw": "1-1/2\" X 20' Hard Copper Type L Tubing"
+      },
+      "length": {
+        "raw": "20'"
+      },
+      "minimum_increment_qty": {
+        "raw": "20"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1040",
+          "1013",
+          "1012",
+          "1010",
+          "3009",
+          "1401",
+          "2009",
+          "1403",
+          "1033",
+          "1002",
+          "2005",
+          "2017",
+          "1004",
+          "1073",
+          "1084",
+          "1046",
+          "3004",
+          "1147",
+          "1022",
+          "1405",
+          "1039",
+          "1034",
+          "1114",
+          "1321",
+          "4001",
+          "1029",
+          "1035",
+          "1030",
+          "1028",
+          "1153",
+          "1067",
+          "1001",
+          "3002",
+          "1017",
+          "1047",
+          "1071",
+          "1007",
+          "1059",
+          "1111",
+          "1055",
+          "1064",
+          "1015",
+          "1068",
+          "1006",
+          "3008",
+          "2004",
+          "1303",
+          "2015",
+          "1003",
+          "1027",
+          "1113",
+          "3010",
+          "1032",
+          "1304",
+          "3007",
+          "3014",
+          "1041",
+          "1045",
+          "1023",
+          "1014",
+          "1406",
+          "1009",
+          "1100",
+          "1086",
+          "1101",
+          "1044",
+          "2008",
+          "1016",
+          "2010",
+          "2001",
+          "1105",
+          "1076",
+          "1302",
+          "2014",
+          "2002",
+          "1008",
+          "1109",
+          "1149",
+          "1404",
+          "1056"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100093/CERROC_TUBING_CR_MED.jpg"
+      },
+      "product_line": {
+        "raw": "cerrotube"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"application\":\"Plumbing, Air Conditioning and Refrigeration Applications in Residential, Commercial and Institutional Installations, Domestic Water Service and Distribution, Fire Protection, Solar, Fuel/Fuel Oil, HVAC Snow Melting, Compressed Air, Natural Gas, Liquefied\",\"color\":\"Blue\",\"copper\":\"1\",\"inside_diameter\":\"1-1/2\\\"\",\"length\":\"20'\",\"material\":\"C12200 Copper\",\"material_specification\":\"ASTM B88\",\"pipe\":\"1\",\"type_l\":\"1\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/CERROCINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "CT1830",
+          "CT1830",
+          "003426",
+          "CT1830",
+          "1301750",
+          "CT1830",
+          "CT1830",
+          "B-6736",
+          "LHARDJ20",
+          "1301750",
+          "LH14020",
+          "1112L020H",
+          "COTUB112L",
+          "1301750",
+          "010MU8915A",
+          "@39741",
+          "1301750",
+          "@39741",
+          "@39741",
+          "CT1830",
+          "CT1830",
+          "COP112L20",
+          "CT1830",
+          "@39741",
+          "3379018 TUBE CU 1-5/8OD TYPE L",
+          "112L",
+          "1301750",
+          "B-5059",
+          "CT1830",
+          "CT1830",
+          "CT1830",
+          "107959",
+          "CZPIPEZJ",
+          "CT1830",
+          "CT1830",
+          "3426",
+          "CT1830",
+          "CT1830",
+          "CT1830",
+          "CPJ",
+          "PIPECOPDWVF",
+          "702-0008",
+          "1301750",
+          "107959",
+          "CT1830",
+          "CT1830",
+          "CT1830",
+          "CT1830",
+          "100.202.L15",
+          "10023",
+          "CT1830",
+          "1301750",
+          "CT1830",
+          "COP112L20",
+          "1301750",
+          "CT1830",
+          "CT1830",
+          "@39741",
+          "CT1830",
+          "01103",
+          "CT1830",
+          "1301750",
+          "108142008",
+          "15928",
+          "COP112L20",
+          "1301750",
+          "@39741",
+          "112L",
+          "CT1830",
+          "CT1830",
+          "CT1830",
+          "CT1830",
+          "CT1830",
+          "5530",
+          "39741",
+          "LHARD-15",
+          "CT1830",
+          "P21LT014",
+          "COP112L20",
+          "8611",
+          "CZPIPEZJ",
+          "73-00130",
+          "112L20 ",
+          "COTUB112L",
+          "@6870",
+          "CT1830",
+          "@39741",
+          "CT1830",
+          "003426",
+          "CPJ",
+          "CT1830",
+          "112LH",
+          "CT1830",
+          "112L20",
+          "1301750",
+          "CT1830"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40183100"
+      }
+    }
+  ],
+  "facets": {
+    "inlet_size": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "btu": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "flow_rate": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "depth": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "energy_star_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "in_stock_location": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "4001",
+            "count": 609
+          },
+          {
+            "value": "3008",
+            "count": 550
+          },
+          {
+            "value": "1303",
+            "count": 513
+          },
+          {
+            "value": "1310",
+            "count": 511
+          },
+          {
+            "value": "1007",
+            "count": 469
+          },
+          {
+            "value": "1096",
+            "count": 468
+          },
+          {
+            "value": "1101",
+            "count": 464
+          },
+          {
+            "value": "1321",
+            "count": 463
+          },
+          {
+            "value": "1046",
+            "count": 460
+          },
+          {
+            "value": "1302",
+            "count": 456
+          },
+          {
+            "value": "2017",
+            "count": 452
+          },
+          {
+            "value": "2018",
+            "count": 431
+          },
+          {
+            "value": "1013",
+            "count": 427
+          },
+          {
+            "value": "1105",
+            "count": 409
+          },
+          {
+            "value": "1073",
+            "count": 401
+          },
+          {
+            "value": "3007",
+            "count": 398
+          },
+          {
+            "value": "1320",
+            "count": 395
+          },
+          {
+            "value": "2004",
+            "count": 377
+          },
+          {
+            "value": "1100",
+            "count": 358
+          },
+          {
+            "value": "1004",
+            "count": 357
+          },
+          {
+            "value": "2015",
+            "count": 351
+          },
+          {
+            "value": "2009",
+            "count": 342
+          },
+          {
+            "value": "1027",
+            "count": 339
+          },
+          {
+            "value": "3010",
+            "count": 315
+          },
+          {
+            "value": "2008",
+            "count": 311
+          },
+          {
+            "value": "3002",
+            "count": 300
+          },
+          {
+            "value": "2014",
+            "count": 294
+          },
+          {
+            "value": "1304",
+            "count": 293
+          },
+          {
+            "value": "1003",
+            "count": 292
+          },
+          {
+            "value": "1075",
+            "count": 290
+          },
+          {
+            "value": "2005",
+            "count": 289
+          },
+          {
+            "value": "3009",
+            "count": 289
+          },
+          {
+            "value": "1017",
+            "count": 284
+          },
+          {
+            "value": "1153",
+            "count": 283
+          },
+          {
+            "value": "1403",
+            "count": 280
+          },
+          {
+            "value": "1406",
+            "count": 279
+          },
+          {
+            "value": "2010",
+            "count": 273
+          },
+          {
+            "value": "2002",
+            "count": 271
+          },
+          {
+            "value": "1034",
+            "count": 268
+          },
+          {
+            "value": "1071",
+            "count": 268
+          },
+          {
+            "value": "1008",
+            "count": 266
+          },
+          {
+            "value": "2003",
+            "count": 259
+          },
+          {
+            "value": "1405",
+            "count": 252
+          },
+          {
+            "value": "1033",
+            "count": 247
+          },
+          {
+            "value": "1044",
+            "count": 244
+          },
+          {
+            "value": "1113",
+            "count": 244
+          },
+          {
+            "value": "1147",
+            "count": 242
+          },
+          {
+            "value": "1045",
+            "count": 241
+          },
+          {
+            "value": "1040",
+            "count": 238
+          },
+          {
+            "value": "2006",
+            "count": 237
+          },
+          {
+            "value": "1109",
+            "count": 233
+          },
+          {
+            "value": "1001",
+            "count": 230
+          },
+          {
+            "value": "1028",
+            "count": 217
+          },
+          {
+            "value": "3014",
+            "count": 216
+          },
+          {
+            "value": "3004",
+            "count": 214
+          },
+          {
+            "value": "1111",
+            "count": 213
+          },
+          {
+            "value": "1002",
+            "count": 209
+          },
+          {
+            "value": "1030",
+            "count": 203
+          },
+          {
+            "value": "1041",
+            "count": 197
+          },
+          {
+            "value": "1068",
+            "count": 197
+          },
+          {
+            "value": "1023",
+            "count": 194
+          },
+          {
+            "value": "1039",
+            "count": 194
+          },
+          {
+            "value": "1009",
+            "count": 191
+          },
+          {
+            "value": "1149",
+            "count": 189
+          },
+          {
+            "value": "1047",
+            "count": 185
+          },
+          {
+            "value": "1014",
+            "count": 175
+          },
+          {
+            "value": "1064",
+            "count": 174
+          },
+          {
+            "value": "1035",
+            "count": 170
+          },
+          {
+            "value": "2001",
+            "count": 159
+          },
+          {
+            "value": "1029",
+            "count": 158
+          },
+          {
+            "value": "1086",
+            "count": 158
+          },
+          {
+            "value": "1022",
+            "count": 157
+          },
+          {
+            "value": "1006",
+            "count": 155
+          },
+          {
+            "value": "1032",
+            "count": 154
+          },
+          {
+            "value": "1015",
+            "count": 151
+          },
+          {
+            "value": "1010",
+            "count": 150
+          },
+          {
+            "value": "1076",
+            "count": 150
+          },
+          {
+            "value": "1401",
+            "count": 148
+          },
+          {
+            "value": "1016",
+            "count": 145
+          },
+          {
+            "value": "1067",
+            "count": 145
+          },
+          {
+            "value": "1114",
+            "count": 145
+          },
+          {
+            "value": "1012",
+            "count": 144
+          },
+          {
+            "value": "1404",
+            "count": 140
+          },
+          {
+            "value": "1056",
+            "count": 137
+          },
+          {
+            "value": "1084",
+            "count": 132
+          },
+          {
+            "value": "1055",
+            "count": 128
+          },
+          {
+            "value": "1036",
+            "count": 127
+          },
+          {
+            "value": "1059",
+            "count": 113
+          },
+          {
+            "value": "1060",
+            "count": 95
+          },
+          {
+            "value": "1043",
+            "count": 93
+          },
+          {
+            "value": "1031",
+            "count": 87
+          },
+          {
+            "value": "1138",
+            "count": 79
+          },
+          {
+            "value": "1092",
+            "count": 73
+          },
+          {
+            "value": "1048",
+            "count": 70
+          },
+          {
+            "value": "1019",
+            "count": 58
+          },
+          {
+            "value": "1020",
+            "count": 56
+          },
+          {
+            "value": "1095",
+            "count": 52
+          },
+          {
+            "value": "1057",
+            "count": 51
+          },
+          {
+            "value": "3013",
+            "count": 36
+          },
+          {
+            "value": "1137",
+            "count": 32
+          },
+          {
+            "value": "1148",
+            "count": 31
+          },
+          {
+            "value": "1146",
+            "count": 29
+          },
+          {
+            "value": "1050",
+            "count": 27
+          },
+          {
+            "value": "3012",
+            "count": 27
+          },
+          {
+            "value": "1152",
+            "count": 23
+          },
+          {
+            "value": "1154",
+            "count": 23
+          },
+          {
+            "value": "1051",
+            "count": 22
+          },
+          {
+            "value": "1089",
+            "count": 18
+          },
+          {
+            "value": "1136",
+            "count": 15
+          },
+          {
+            "value": "1049",
+            "count": 12
+          },
+          {
+            "value": "1080",
+            "count": 1
+          },
+          {
+            "value": "3017",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "product_line": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "cerrotube",
+            "count": 94
+          },
+          {
+            "value": "SureThread",
+            "count": 19
+          },
+          {
+            "value": "Band-Seal",
+            "count": 18
+          },
+          {
+            "value": "Flex-Seal",
+            "count": 12
+          },
+          {
+            "value": "cerropure",
+            "count": 12
+          },
+          {
+            "value": "Kohler",
+            "count": 5
+          },
+          {
+            "value": "American Standard",
+            "count": 2
+          },
+          {
+            "value": "Sterling",
+            "count": 2
+          },
+          {
+            "value": "Streamline",
+            "count": 2
+          },
+          {
+            "value": "Toto",
+            "count": 2
+          },
+          {
+            "value": "Eljer, Mansfield",
+            "count": 1
+          },
+          {
+            "value": "Gerber",
+            "count": 1
+          },
+          {
+            "value": "Moen, Chateau",
+            "count": 1
+          },
+          {
+            "value": "Price Pfister",
+            "count": 1
+          },
+          {
+            "value": "Repair",
+            "count": 1
+          },
+          {
+            "value": "XIRTEC 140",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "length": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "20'",
+            "count": 100
+          },
+          {
+            "value": "10'",
+            "count": 49
+          },
+          {
+            "value": "60'",
+            "count": 14
+          },
+          {
+            "value": "5'",
+            "count": 13
+          },
+          {
+            "value": "50'",
+            "count": 10
+          },
+          {
+            "value": "100'",
+            "count": 9
+          },
+          {
+            "value": "21'",
+            "count": 8
+          },
+          {
+            "value": "30'",
+            "count": 5
+          },
+          {
+            "value": "6\"",
+            "count": 4
+          },
+          {
+            "value": "4\"",
+            "count": 2
+          },
+          {
+            "value": "3.5\"",
+            "count": 1
+          },
+          {
+            "value": "40'",
+            "count": 1
+          },
+          {
+            "value": "6.5\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "category_2_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Metal Pipe & Fittings",
+            "count": 1033
+          },
+          {
+            "value": "Plastic Pipe & Fittings - Drainage",
+            "count": 77
+          },
+          {
+            "value": "TBC",
+            "count": 28
+          },
+          {
+            "value": "Plumbing Installation",
+            "count": 27
+          },
+          {
+            "value": "Appliances",
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "colorfinish": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Black",
+            "count": 88
+          },
+          {
+            "value": "White",
+            "count": 46
+          },
+          {
+            "value": "Hot Dipped Galvanized",
+            "count": 21
+          },
+          {
+            "value": "Polished Chrome",
+            "count": 3
+          },
+          {
+            "value": "Blue",
+            "count": 2
+          },
+          {
+            "value": "Galvanized",
+            "count": 2
+          },
+          {
+            "value": "Chrome Plated",
+            "count": 1
+          },
+          {
+            "value": "Red",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "hazardous_material_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 13
+          }
+        ]
+      }
+    ],
+    "mfr_full_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Generic",
+            "count": 1241
+          }
+        ]
+      }
+    ],
+    "water_sense_compliant_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "voltage": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "size": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "3\"",
+            "count": 3
+          },
+          {
+            "value": "1-1/2\" x 1-1/4\"",
+            "count": 2
+          },
+          {
+            "value": "2\" x 1-1/2\"",
+            "count": 2
+          },
+          {
+            "value": "3/8\" Diameter",
+            "count": 2
+          },
+          {
+            "value": "1\" x 3/4\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/4\" x 1\"",
+            "count": 1
+          },
+          {
+            "value": "1/2\" x 1/4\"",
+            "count": 1
+          },
+          {
+            "value": "1/2\" x 3/8\"",
+            "count": 1
+          },
+          {
+            "value": "12\"",
+            "count": 1
+          },
+          {
+            "value": "2\"",
+            "count": 1
+          },
+          {
+            "value": "2\" x 1-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "3/4\" x 1/2\"",
+            "count": 1
+          },
+          {
+            "value": "3/4\" x 5/8\"",
+            "count": 1
+          },
+          {
+            "value": "3/8\" x 1/4\"",
+            "count": 1
+          },
+          {
+            "value": "4\"",
+            "count": 1
+          },
+          {
+            "value": "5\"",
+            "count": 1
+          },
+          {
+            "value": "6\"",
+            "count": 1
+          },
+          {
+            "value": "8\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "mercury_free_flag": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "material": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Copper",
+            "count": 413
+          },
+          {
+            "value": "UNS C12200 Copper",
+            "count": 216
+          },
+          {
+            "value": "Steel",
+            "count": 107
+          },
+          {
+            "value": "C12200 Copper",
+            "count": 80
+          },
+          {
+            "value": "PVC",
+            "count": 48
+          },
+          {
+            "value": "Gray Cast Iron",
+            "count": 37
+          },
+          {
+            "value": "300 Stainless Steel Worm Drive, Neoprene Rubber Sleeve",
+            "count": 14
+          },
+          {
+            "value": "ABS Plastic",
+            "count": 10
+          },
+          {
+            "value": "ASTM C564/A74 Rubber",
+            "count": 7
+          },
+          {
+            "value": "Bronze",
+            "count": 4
+          },
+          {
+            "value": "Plastic",
+            "count": 3
+          },
+          {
+            "value": "Rubber",
+            "count": 3
+          },
+          {
+            "value": "316 Stainless Steel Clamp, 300 Stainless Steel Shear Ring, Rubber Sleeve",
+            "count": 1
+          },
+          {
+            "value": "C12200 Copper Alloy",
+            "count": 1
+          },
+          {
+            "value": "C84400 Copper Alloy",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "tonnage": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "low_lead_compliant_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 647
+          }
+        ]
+      }
+    ],
+    "category_3_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Copper Tube & Fittings",
+            "count": 876
+          },
+          {
+            "value": "Steel Pipe & Fittings",
+            "count": 105
+          },
+          {
+            "value": "PVC Pipe & Fittings",
+            "count": 67
+          },
+          {
+            "value": "Cast Iron Pipe & Fittings",
+            "count": 52
+          },
+          {
+            "value": "TBC",
+            "count": 27
+          },
+          {
+            "value": "ABS Pipe & Fittings",
+            "count": 10
+          },
+          {
+            "value": "Garbage Disposals",
+            "count": 2
+          },
+          {
+            "value": "Ice Makers",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "pressure_rating": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "700 PSI",
+            "count": 27
+          },
+          {
+            "value": "130 PSI at 73 Deg F",
+            "count": 5
+          },
+          {
+            "value": "700 PSI at 250 Deg F",
+            "count": 5
+          },
+          {
+            "value": "1000 PSI",
+            "count": 3
+          },
+          {
+            "value": "180 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "220 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "260 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "280 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "330 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "494 PSI at 100 Deg F (Annealed), 850 PSI at 100 Deg F (Drawn)",
+            "count": 3
+          },
+          {
+            "value": "130 PSI at 73.4 Deg F",
+            "count": 2
+          },
+          {
+            "value": "140 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "160 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "2000 PSI",
+            "count": 2
+          },
+          {
+            "value": "2500 PSI",
+            "count": 2
+          },
+          {
+            "value": "300 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "370 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "435 PSI at 100 Deg F (Annealed), 747 PSI at 100 Deg F (Drawn)",
+            "count": 2
+          },
+          {
+            "value": "480 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "511 PSI at 100 Deg F",
+            "count": 2
+          },
+          {
+            "value": "582 PSI at 100 Deg F",
+            "count": 2
+          },
+          {
+            "value": "600 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "1074 PSI at 100 Deg F (Annealed), 1850 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "1130 PSI at 100 Deg F (Annealed), 1946 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "1935 PSI at 100 Deg F",
+            "count": 1
+          },
+          {
+            "value": "2000 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "2800 PSI",
+            "count": 1
+          },
+          {
+            "value": "3074 PSI at 100 Deg F",
+            "count": 1
+          },
+          {
+            "value": "330 PSI at 100 Deg F (Annealed), 566 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "336 PSI at 100 Deg F (Annealed), 577 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "364 PSI at -20 to 100 Deg F",
+            "count": 1
+          },
+          {
+            "value": "450 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "494 PSI at -20 to 100 Deg F",
+            "count": 1
+          },
+          {
+            "value": "494 PSI at 100 Deg F",
+            "count": 1
+          },
+          {
+            "value": "570 PSI at 100 Deg F (Annealed), 982 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "582 PSI at 100 Deg F (Annealed), 1002 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "618 PSI at 100 Deg F",
+            "count": 1
+          },
+          {
+            "value": "631 PSI at 100 Deg F (Annealed), 1086 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "655 PSI at 100 Deg F (Annealed), 1126 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "722 PSI at 100 Deg F (Annealed), 1242 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "779 PSI at 100 Deg F (Annealed), 1341 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "852 PSI at 100 Deg F (Annealed), 1466 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "891 PSI at 100 Deg F (Annealed), 1534 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "912 PSI at 100 Deg F (Annealed), 1569 PSI at 100 Deg F (Drawn)",
+            "count": 1
+          },
+          {
+            "value": "984 PSI at 100 Deg F",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "width": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "8.12\"",
+            "count": 2
+          },
+          {
+            "value": "10\"",
+            "count": 1
+          },
+          {
+            "value": "10.8\"",
+            "count": 1
+          },
+          {
+            "value": "2.5\"",
+            "count": 1
+          },
+          {
+            "value": "3.5\"",
+            "count": 1
+          },
+          {
+            "value": "5.4\"",
+            "count": 1
+          },
+          {
+            "value": "6\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "category_1_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Pipe & Fittings",
+            "count": 1167
+          },
+          {
+            "value": "Plumbing Installation, Tools, Hardware & Safety",
+            "count": 29
+          },
+          {
+            "value": "Faucets, Fixtures & Appliances",
+            "count": 27
+          },
+          {
+            "value": "TBC",
+            "count": 15
+          }
+        ]
+      }
+    ],
+    "temperature_rating": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "140 Deg F",
+            "count": 54
+          },
+          {
+            "value": "212 Deg F",
+            "count": 37
+          },
+          {
+            "value": "100 to 400 Deg F (Annealed/Drawn)",
+            "count": 18
+          },
+          {
+            "value": "250 Deg F",
+            "count": 10
+          },
+          {
+            "value": "100 to 400 Deg F",
+            "count": 9
+          },
+          {
+            "value": "-20 to 400 Deg F",
+            "count": 2
+          },
+          {
+            "value": "-40 to 180 Deg F",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "height": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "wattage": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ]
+  }
+}

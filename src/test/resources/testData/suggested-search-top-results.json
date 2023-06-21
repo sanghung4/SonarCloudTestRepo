@@ -1,0 +1,4831 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "precision": 2,
+    "page": {
+      "current": 1,
+      "total_pages": 1662,
+      "total_results": 4984,
+      "size": 3
+    },
+    "engine": {
+      "name": "ecomm-products",
+      "type": "meta"
+    },
+    "request_id": "worc7Lr-QyC7Xn8-KOopNw"
+  },
+  "results": [
+    {
+      "product_overview_description": {
+        "raw": "High Strength Concrete Mix; Item Concrete Mix; Container Capacity 60 Lb; Container Type Bag; Water Content 2.5 Quart; Physical State Solid; Color Gray; Pressure Rating 4000 PSI; Temperature Rating 40 to 80 Deg F; Application Driveway, Slab, Patios, Walkway, Curb, Stairs, Ramp, Setting Fence Post, Foundation Wall and Footing, Structural Application Requiring a Small Volume of Concrete; Applicable Standard ASTM C387/C39"
+      },
+      "mfr_full_name": {
+        "raw": "Sakrete"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/SAKRTE_65200390_SML.jpg"
+      },
+      "vendor_part_nbr": {
+        "raw": "65200940"
+      },
+      "erp_product_id": {
+        "raw": "MSC-299154"
+      },
+      "_meta": {
+        "engine": "products-1637558383022",
+        "score": 198.05402,
+        "id": "MSC-299154"
+      },
+      "id": {
+        "raw": "products-1637558383022|MSC-299154"
+      }
+    },
+    {
+      "product_overview_description": {
+        "raw": "Adapter Fitting; Type Straight; Size A 1/2 Inch; Size B 1/2 Inch; End Connection PEX x PEX; Material Polyphenylsulfone Acudel; Material Specification ASTM F2159/F876; Application Plumbing; Applicable Standard CSA B137.5, NSF; Lead-Free"
+      },
+      "mfr_full_name": {
+        "raw": "Sioux Chief"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100178/SIOUXT_646PX2_SML.jpg"
+      },
+      "vendor_part_nbr": {
+        "raw": "646PX2"
+      },
+      "erp_product_id": {
+        "raw": "MSC-552492"
+      },
+      "_meta": {
+        "engine": "products-1637558383022",
+        "score": 169.97896,
+        "id": "MSC-552492"
+      },
+      "id": {
+        "raw": "products-1637558383022|MSC-552492"
+      }
+    },
+    {
+      "product_overview_description": {
+        "raw": "Elbow Fitting; Type Straight; Angle 90 Degree; Size A 3/4 Inch; Size B 3/4 Inch; End Connection PEX Crimp x PEX Crimp; Material Polysulfone/Polyphenylsulfone Acudel; Material Specification ASTM F2159; Temperature Rating 194 Deg F at 44 PSI; Application Hot and Cold Water Distribution System; Applicable Standard NSF PW-G (Canada and US), CSA B137.5"
+      },
+      "mfr_full_name": {
+        "raw": "Sioux Chief"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100178/SIOUXT_642PX2_SML.jpg"
+      },
+      "vendor_part_nbr": {
+        "raw": "642PX3"
+      },
+      "erp_product_id": {
+        "raw": "MSC-552477"
+      },
+      "_meta": {
+        "engine": "products-1637558383022",
+        "score": 166.12672,
+        "id": "MSC-552477"
+      },
+      "id": {
+        "raw": "products-1637558383022|MSC-552477"
+      }
+    }
+  ],
+  "facets": {
+    "inlet_size": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "1/2\"",
+            "count": 5
+          },
+          {
+            "value": "2\"",
+            "count": 5
+          },
+          {
+            "value": "3/4\"",
+            "count": 4
+          },
+          {
+            "value": "1\"",
+            "count": 2
+          },
+          {
+            "value": "1-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "1/2\"-14 NPSM",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "btu": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "flow_rate": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "9.1 GPM at 60 PSI",
+            "count": 3
+          },
+          {
+            "value": "0.5 GPM",
+            "count": 2
+          },
+          {
+            "value": "20 GPM",
+            "count": 2
+          },
+          {
+            "value": "0 to 9 GPM",
+            "count": 1
+          },
+          {
+            "value": "1.5 GPM",
+            "count": 1
+          },
+          {
+            "value": "10 GPM",
+            "count": 1
+          },
+          {
+            "value": "100 GPM",
+            "count": 1
+          },
+          {
+            "value": "15 GPM",
+            "count": 1
+          },
+          {
+            "value": "25 GPM",
+            "count": 1
+          },
+          {
+            "value": "5 GPM",
+            "count": 1
+          },
+          {
+            "value": "50 GPM",
+            "count": 1
+          },
+          {
+            "value": "75 GPM",
+            "count": 1
+          },
+          {
+            "value": "9 GPM",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "depth": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "4-3/4\"",
+            "count": 3
+          },
+          {
+            "value": "22\"",
+            "count": 2
+          },
+          {
+            "value": "22.75\"",
+            "count": 2
+          },
+          {
+            "value": "22-7/16\"",
+            "count": 1
+          },
+          {
+            "value": "25.63\"",
+            "count": 1
+          },
+          {
+            "value": "6-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "6-23/32\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "energy_star_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 15
+          }
+        ]
+      }
+    ],
+    "in_stock_location": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "3008",
+            "count": 610
+          },
+          {
+            "value": "2018",
+            "count": 577
+          },
+          {
+            "value": "1046",
+            "count": 564
+          },
+          {
+            "value": "2017",
+            "count": 540
+          },
+          {
+            "value": "1075",
+            "count": 501
+          },
+          {
+            "value": "1310",
+            "count": 470
+          },
+          {
+            "value": "1013",
+            "count": 468
+          },
+          {
+            "value": "1303",
+            "count": 464
+          },
+          {
+            "value": "4001",
+            "count": 462
+          },
+          {
+            "value": "1100",
+            "count": 452
+          },
+          {
+            "value": "3007",
+            "count": 430
+          },
+          {
+            "value": "1007",
+            "count": 429
+          },
+          {
+            "value": "2004",
+            "count": 419
+          },
+          {
+            "value": "1009",
+            "count": 412
+          },
+          {
+            "value": "1114",
+            "count": 410
+          },
+          {
+            "value": "1002",
+            "count": 407
+          },
+          {
+            "value": "1304",
+            "count": 406
+          },
+          {
+            "value": "1008",
+            "count": 391
+          },
+          {
+            "value": "1073",
+            "count": 388
+          },
+          {
+            "value": "1320",
+            "count": 384
+          },
+          {
+            "value": "1068",
+            "count": 379
+          },
+          {
+            "value": "2015",
+            "count": 373
+          },
+          {
+            "value": "1302",
+            "count": 369
+          },
+          {
+            "value": "1321",
+            "count": 369
+          },
+          {
+            "value": "1101",
+            "count": 364
+          },
+          {
+            "value": "1105",
+            "count": 360
+          },
+          {
+            "value": "2009",
+            "count": 349
+          },
+          {
+            "value": "1010",
+            "count": 345
+          },
+          {
+            "value": "1035",
+            "count": 344
+          },
+          {
+            "value": "1071",
+            "count": 344
+          },
+          {
+            "value": "1040",
+            "count": 339
+          },
+          {
+            "value": "1017",
+            "count": 338
+          },
+          {
+            "value": "1004",
+            "count": 336
+          },
+          {
+            "value": "1034",
+            "count": 335
+          },
+          {
+            "value": "1032",
+            "count": 334
+          },
+          {
+            "value": "1027",
+            "count": 333
+          },
+          {
+            "value": "1039",
+            "count": 323
+          },
+          {
+            "value": "3009",
+            "count": 322
+          },
+          {
+            "value": "1047",
+            "count": 305
+          },
+          {
+            "value": "3002",
+            "count": 302
+          },
+          {
+            "value": "1015",
+            "count": 301
+          },
+          {
+            "value": "3004",
+            "count": 293
+          },
+          {
+            "value": "1016",
+            "count": 289
+          },
+          {
+            "value": "1003",
+            "count": 285
+          },
+          {
+            "value": "1076",
+            "count": 279
+          },
+          {
+            "value": "2008",
+            "count": 279
+          },
+          {
+            "value": "1033",
+            "count": 276
+          },
+          {
+            "value": "3014",
+            "count": 276
+          },
+          {
+            "value": "1014",
+            "count": 271
+          },
+          {
+            "value": "1030",
+            "count": 269
+          },
+          {
+            "value": "2014",
+            "count": 265
+          },
+          {
+            "value": "2003",
+            "count": 262
+          },
+          {
+            "value": "1022",
+            "count": 261
+          },
+          {
+            "value": "1067",
+            "count": 259
+          },
+          {
+            "value": "1028",
+            "count": 253
+          },
+          {
+            "value": "2002",
+            "count": 252
+          },
+          {
+            "value": "1036",
+            "count": 251
+          },
+          {
+            "value": "1041",
+            "count": 250
+          },
+          {
+            "value": "1059",
+            "count": 249
+          },
+          {
+            "value": "1029",
+            "count": 248
+          },
+          {
+            "value": "3010",
+            "count": 248
+          },
+          {
+            "value": "2010",
+            "count": 245
+          },
+          {
+            "value": "1023",
+            "count": 243
+          },
+          {
+            "value": "2006",
+            "count": 238
+          },
+          {
+            "value": "1113",
+            "count": 235
+          },
+          {
+            "value": "1006",
+            "count": 233
+          },
+          {
+            "value": "1012",
+            "count": 231
+          },
+          {
+            "value": "1045",
+            "count": 228
+          },
+          {
+            "value": "1403",
+            "count": 228
+          },
+          {
+            "value": "1406",
+            "count": 226
+          },
+          {
+            "value": "1001",
+            "count": 225
+          },
+          {
+            "value": "1086",
+            "count": 220
+          },
+          {
+            "value": "1111",
+            "count": 215
+          },
+          {
+            "value": "2005",
+            "count": 203
+          },
+          {
+            "value": "1405",
+            "count": 194
+          },
+          {
+            "value": "1060",
+            "count": 190
+          },
+          {
+            "value": "1149",
+            "count": 189
+          },
+          {
+            "value": "1153",
+            "count": 187
+          },
+          {
+            "value": "1043",
+            "count": 185
+          },
+          {
+            "value": "1147",
+            "count": 182
+          },
+          {
+            "value": "1109",
+            "count": 179
+          },
+          {
+            "value": "1056",
+            "count": 177
+          },
+          {
+            "value": "1064",
+            "count": 177
+          },
+          {
+            "value": "1055",
+            "count": 167
+          },
+          {
+            "value": "1044",
+            "count": 165
+          },
+          {
+            "value": "1401",
+            "count": 146
+          },
+          {
+            "value": "1096",
+            "count": 144
+          },
+          {
+            "value": "1404",
+            "count": 134
+          },
+          {
+            "value": "1138",
+            "count": 128
+          },
+          {
+            "value": "1084",
+            "count": 125
+          },
+          {
+            "value": "1049",
+            "count": 112
+          },
+          {
+            "value": "1020",
+            "count": 107
+          },
+          {
+            "value": "1057",
+            "count": 103
+          },
+          {
+            "value": "1048",
+            "count": 88
+          },
+          {
+            "value": "1031",
+            "count": 86
+          },
+          {
+            "value": "1051",
+            "count": 80
+          },
+          {
+            "value": "3013",
+            "count": 78
+          },
+          {
+            "value": "1148",
+            "count": 74
+          },
+          {
+            "value": "1136",
+            "count": 72
+          },
+          {
+            "value": "1137",
+            "count": 69
+          },
+          {
+            "value": "1146",
+            "count": 68
+          },
+          {
+            "value": "1019",
+            "count": 64
+          },
+          {
+            "value": "1152",
+            "count": 63
+          },
+          {
+            "value": "1092",
+            "count": 58
+          },
+          {
+            "value": "1154",
+            "count": 57
+          },
+          {
+            "value": "1134",
+            "count": 56
+          },
+          {
+            "value": "1050",
+            "count": 51
+          },
+          {
+            "value": "1095",
+            "count": 51
+          },
+          {
+            "value": "2097",
+            "count": 48
+          },
+          {
+            "value": "1089",
+            "count": 45
+          },
+          {
+            "value": "3012",
+            "count": 27
+          },
+          {
+            "value": "3017",
+            "count": 16
+          },
+          {
+            "value": "1080",
+            "count": 15
+          },
+          {
+            "value": "1158",
+            "count": 14
+          },
+          {
+            "value": "1079",
+            "count": 12
+          },
+          {
+            "value": "1161",
+            "count": 12
+          },
+          {
+            "value": "1126",
+            "count": 11
+          },
+          {
+            "value": "1085",
+            "count": 10
+          },
+          {
+            "value": "1112",
+            "count": 7
+          },
+          {
+            "value": "1135",
+            "count": 7
+          },
+          {
+            "value": "1155",
+            "count": 7
+          },
+          {
+            "value": "9401",
+            "count": 7
+          },
+          {
+            "value": "1094",
+            "count": 5
+          },
+          {
+            "value": "1093",
+            "count": 3
+          },
+          {
+            "value": "1011",
+            "count": 2
+          },
+          {
+            "value": "1119",
+            "count": 2
+          },
+          {
+            "value": "1120",
+            "count": 2
+          },
+          {
+            "value": "1128",
+            "count": 2
+          },
+          {
+            "value": "1157",
+            "count": 2
+          },
+          {
+            "value": "2019",
+            "count": 2
+          },
+          {
+            "value": "1106",
+            "count": 1
+          },
+          {
+            "value": "1133",
+            "count": 1
+          },
+          {
+            "value": "3011",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "product_line": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "BECK",
+            "count": 344
+          },
+          {
+            "value": "XIRTEC 140",
+            "count": 206
+          },
+          {
+            "value": "Chemtrol",
+            "count": 67
+          },
+          {
+            "value": "EverTUFF",
+            "count": 51
+          },
+          {
+            "value": "ProScrew",
+            "count": 33
+          },
+          {
+            "value": "Corzan",
+            "count": 28
+          },
+          {
+            "value": "Invincibox",
+            "count": 23
+          },
+          {
+            "value": "SureThread",
+            "count": 19
+          },
+          {
+            "value": "WHITE RHINO",
+            "count": 15
+          },
+          {
+            "value": "Copeland Scroll",
+            "count": 13
+          },
+          {
+            "value": "FortÃ© Sculpted",
+            "count": 13
+          },
+          {
+            "value": "Zip-in",
+            "count": 11
+          },
+          {
+            "value": "ChemDrain",
+            "count": 10
+          },
+          {
+            "value": "AB&A",
+            "count": 9
+          },
+          {
+            "value": "ELKAY RESIDENTIAL",
+            "count": 9
+          },
+          {
+            "value": "KOHLER",
+            "count": 9
+          },
+          {
+            "value": "OAT",
+            "count": 9
+          },
+          {
+            "value": "Super Saber",
+            "count": 9
+          },
+          {
+            "value": "DEVCO",
+            "count": 8
+          },
+          {
+            "value": "Other",
+            "count": 8
+          },
+          {
+            "value": "Artifacts",
+            "count": 7
+          },
+          {
+            "value": "Corzan, Chemtrol",
+            "count": 7
+          },
+          {
+            "value": "Innovator",
+            "count": 7
+          },
+          {
+            "value": "Sculpted",
+            "count": 7
+          },
+          {
+            "value": "X-CEL",
+            "count": 7
+          },
+          {
+            "value": "Chemdrain",
+            "count": 6
+          },
+          {
+            "value": "Copeland Scroll, UltraTech",
+            "count": 6
+          },
+          {
+            "value": "ELKAY COMMERCIAL",
+            "count": 6
+          },
+          {
+            "value": "OxBox",
+            "count": 6
+          },
+          {
+            "value": "PowerPEX, AccuCrimp",
+            "count": 6
+          },
+          {
+            "value": "Pro Point",
+            "count": 6
+          },
+          {
+            "value": "Zip-In",
+            "count": 6
+          },
+          {
+            "value": "Bit-Tip",
+            "count": 5
+          },
+          {
+            "value": "Chemtrol, Corzan",
+            "count": 5
+          },
+          {
+            "value": "FinishLine",
+            "count": 5
+          },
+          {
+            "value": "FlowGuard Gold",
+            "count": 5
+          },
+          {
+            "value": "TOTALINE",
+            "count": 5
+          },
+          {
+            "value": "Blue Box",
+            "count": 4
+          },
+          {
+            "value": "Brilliance",
+            "count": 4
+          },
+          {
+            "value": "Clean-Fit",
+            "count": 4
+          },
+          {
+            "value": "Hang-Tite",
+            "count": 4
+          },
+          {
+            "value": "VISE-GRIP",
+            "count": 4
+          },
+          {
+            "value": "Zamac",
+            "count": 4
+          },
+          {
+            "value": "5/2/2001",
+            "count": 3
+          },
+          {
+            "value": "Aqua-Pure",
+            "count": 3
+          },
+          {
+            "value": "Chemdrain, ReUze",
+            "count": 3
+          },
+          {
+            "value": "Enfield",
+            "count": 3
+          },
+          {
+            "value": "FortÃ©",
+            "count": 3
+          },
+          {
+            "value": "Great Basin",
+            "count": 3
+          },
+          {
+            "value": "Great Basin, TeleGlide",
+            "count": 3
+          },
+          {
+            "value": "Gripper",
+            "count": 3
+          },
+          {
+            "value": "Margaux",
+            "count": 3
+          },
+          {
+            "value": "Monogram",
+            "count": 3
+          },
+          {
+            "value": "NEMCO",
+            "count": 3
+          },
+          {
+            "value": "NSX",
+            "count": 3
+          },
+          {
+            "value": "PowerPEX",
+            "count": 3
+          },
+          {
+            "value": "Pumptrol",
+            "count": 3
+          },
+          {
+            "value": "Shield",
+            "count": 3
+          },
+          {
+            "value": "Techno-Cap",
+            "count": 3
+          },
+          {
+            "value": "Verdera",
+            "count": 3
+          },
+          {
+            "value": "Water-Tite",
+            "count": 3
+          },
+          {
+            "value": "ALL-IN-ONE",
+            "count": 2
+          },
+          {
+            "value": "Clean Ream Extreme",
+            "count": 2
+          },
+          {
+            "value": "CounterStrike, AutoSnap",
+            "count": 2
+          },
+          {
+            "value": "Flex-Seal",
+            "count": 2
+          },
+          {
+            "value": "Gerber",
+            "count": 2
+          },
+          {
+            "value": "Goldenrod",
+            "count": 2
+          },
+          {
+            "value": "Grip-Cut",
+            "count": 2
+          },
+          {
+            "value": "HousePure",
+            "count": 2
+          },
+          {
+            "value": "InVent Series",
+            "count": 2
+          },
+          {
+            "value": "LabWaste",
+            "count": 2
+          },
+          {
+            "value": "LockBlock",
+            "count": 2
+          },
+          {
+            "value": "M12, M-SPECTOR 360",
+            "count": 2
+          },
+          {
+            "value": "MegaPressG",
+            "count": 2
+          },
+          {
+            "value": "MetalHead",
+            "count": 2
+          },
+          {
+            "value": "Navitrack Scout",
+            "count": 2
+          },
+          {
+            "value": "PlumBest, LTConnections",
+            "count": 2
+          },
+          {
+            "value": "Press System",
+            "count": 2
+          },
+          {
+            "value": "Rite-Temp",
+            "count": 2
+          },
+          {
+            "value": "SAWZALL, HACKZALL",
+            "count": 2
+          },
+          {
+            "value": "SCALECUTTER",
+            "count": 2
+          },
+          {
+            "value": "SCOT",
+            "count": 2
+          },
+          {
+            "value": "STAY CLEAN",
+            "count": 2
+          },
+          {
+            "value": "Scramento",
+            "count": 2
+          },
+          {
+            "value": "Sewer Viewer",
+            "count": 2
+          },
+          {
+            "value": "TeleGlide",
+            "count": 2
+          },
+          {
+            "value": "TurboVent",
+            "count": 2
+          },
+          {
+            "value": "Twister Bolt",
+            "count": 2
+          },
+          {
+            "value": "Vari-angle",
+            "count": 2
+          },
+          {
+            "value": "10-Fold",
+            "count": 1
+          },
+          {
+            "value": "781",
+            "count": 1
+          },
+          {
+            "value": "AMERIVENT",
+            "count": 1
+          },
+          {
+            "value": "ANVIL-STRUT",
+            "count": 1
+          },
+          {
+            "value": "Aerie",
+            "count": 1
+          },
+          {
+            "value": "American Standard",
+            "count": 1
+          },
+          {
+            "value": "Artesso",
+            "count": 1
+          },
+          {
+            "value": "Ashlyn",
+            "count": 1
+          },
+          {
+            "value": "BLACKMAX",
+            "count": 1
+          },
+          {
+            "value": "BOSS®",
+            "count": 1
+          },
+          {
+            "value": "BRIZO",
+            "count": 1
+          },
+          {
+            "value": "Bancroft",
+            "count": 1
+          },
+          {
+            "value": "COMPUTE-A-CHARGE",
+            "count": 1
+          },
+          {
+            "value": "Clean-Fit, Blue Monster",
+            "count": 1
+          },
+          {
+            "value": "Commander",
+            "count": 1
+          },
+          {
+            "value": "Copeland",
+            "count": 1
+          },
+          {
+            "value": "Corrogard",
+            "count": 1
+          },
+          {
+            "value": "Damask",
+            "count": 1
+          },
+          {
+            "value": "Delta",
+            "count": 1
+          },
+          {
+            "value": "Devonshire",
+            "count": 1
+          },
+          {
+            "value": "DropKick",
+            "count": 1
+          },
+          {
+            "value": "Duron",
+            "count": 1
+          },
+          {
+            "value": "E Lite®",
+            "count": 1
+          },
+          {
+            "value": "Flexi-Fin",
+            "count": 1
+          },
+          {
+            "value": "Flow Splitter",
+            "count": 1
+          },
+          {
+            "value": "Flowguard Gold",
+            "count": 1
+          },
+          {
+            "value": "Gilford",
+            "count": 1
+          },
+          {
+            "value": "Hangs Tuff",
+            "count": 1
+          },
+          {
+            "value": "HangsTuff",
+            "count": 1
+          },
+          {
+            "value": "IDEAL",
+            "count": 1
+          },
+          {
+            "value": "KALLISTA",
+            "count": 1
+          },
+          {
+            "value": "KOBRA®",
+            "count": 1
+          },
+          {
+            "value": "KWIK SEAL®",
+            "count": 1
+          },
+          {
+            "value": "Lustra",
+            "count": 1
+          },
+          {
+            "value": "Luxury",
+            "count": 1
+          },
+          {
+            "value": "M12 FUEL",
+            "count": 1
+          },
+          {
+            "value": "NOVENT",
+            "count": 1
+          },
+          {
+            "value": "Nashua®",
+            "count": 1
+          },
+          {
+            "value": "Novent",
+            "count": 1
+          },
+          {
+            "value": "Observer",
+            "count": 1
+          },
+          {
+            "value": "Optima, Regal",
+            "count": 1
+          },
+          {
+            "value": "OxBox, MiniRester",
+            "count": 1
+          },
+          {
+            "value": "PC-64",
+            "count": 1
+          },
+          {
+            "value": "Parohn",
+            "count": 1
+          },
+          {
+            "value": "Pivotal",
+            "count": 1
+          },
+          {
+            "value": "Power-Clean",
+            "count": 1
+          },
+          {
+            "value": "PowerBar",
+            "count": 1
+          },
+          {
+            "value": "Pro-Bubble",
+            "count": 1
+          },
+          {
+            "value": "Pro-Lube-VAC",
+            "count": 1
+          },
+          {
+            "value": "Pro-Span",
+            "count": 1
+          },
+          {
+            "value": "ProGuard",
+            "count": 1
+          },
+          {
+            "value": "Prospector",
+            "count": 1
+          },
+          {
+            "value": "PureLine",
+            "count": 1
+          },
+          {
+            "value": "QO®",
+            "count": 1
+          },
+          {
+            "value": "Quik-Fix",
+            "count": 1
+          },
+          {
+            "value": "Rapi-Driv",
+            "count": 1
+          },
+          {
+            "value": "RapidFuse®",
+            "count": 1
+          },
+          {
+            "value": "Rigidlok",
+            "count": 1
+          },
+          {
+            "value": "SAWZALL",
+            "count": 1
+          },
+          {
+            "value": "STERLING",
+            "count": 1
+          },
+          {
+            "value": "Saf-N-Kleen",
+            "count": 1
+          },
+          {
+            "value": "Scorcher",
+            "count": 1
+          },
+          {
+            "value": "SimpleComfort",
+            "count": 1
+          },
+          {
+            "value": "SittinÆ Chicken",
+            "count": 1
+          },
+          {
+            "value": "Slide Drive",
+            "count": 1
+          },
+          {
+            "value": "SpeediChannel",
+            "count": 1
+          },
+          {
+            "value": "Stefan",
+            "count": 1
+          },
+          {
+            "value": "StrongArm",
+            "count": 1
+          },
+          {
+            "value": "Stronghold",
+            "count": 1
+          },
+          {
+            "value": "Summit Commercial",
+            "count": 1
+          },
+          {
+            "value": "Surgeons",
+            "count": 1
+          },
+          {
+            "value": "TECH-SET",
+            "count": 1
+          },
+          {
+            "value": "TEMPSTAR",
+            "count": 1
+          },
+          {
+            "value": "THREADLOCKER",
+            "count": 1
+          },
+          {
+            "value": "TKO",
+            "count": 1
+          },
+          {
+            "value": "TORQSTART ST",
+            "count": 1
+          },
+          {
+            "value": "TWIN PEAKS",
+            "count": 1
+          },
+          {
+            "value": "Tapcon",
+            "count": 1
+          },
+          {
+            "value": "Techno-Caps",
+            "count": 1
+          },
+          {
+            "value": "Teiber",
+            "count": 1
+          },
+          {
+            "value": "Therm-O-Disc",
+            "count": 1
+          },
+          {
+            "value": "TurnControl",
+            "count": 1
+          },
+          {
+            "value": "Venturi",
+            "count": 1
+          },
+          {
+            "value": "Vestige, Posi-Temp",
+            "count": 1
+          },
+          {
+            "value": "WELD-ON®, EZ Flush",
+            "count": 1
+          },
+          {
+            "value": "WELD-ON®, WHITE SEAL PLUS",
+            "count": 1
+          },
+          {
+            "value": "WISDOM",
+            "count": 1
+          },
+          {
+            "value": "Wedge-It",
+            "count": 1
+          },
+          {
+            "value": "Wypall, Teri",
+            "count": 1
+          },
+          {
+            "value": "Xirtec 140",
+            "count": 1
+          },
+          {
+            "value": "comport",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "length": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "20'",
+            "count": 79
+          },
+          {
+            "value": "2\"",
+            "count": 23
+          },
+          {
+            "value": "1/2\"",
+            "count": 22
+          },
+          {
+            "value": "10'",
+            "count": 18
+          },
+          {
+            "value": "3/4\"",
+            "count": 16
+          },
+          {
+            "value": "1\"",
+            "count": 15
+          },
+          {
+            "value": "1-1/2\"",
+            "count": 14
+          },
+          {
+            "value": "2-1/2\"",
+            "count": 10
+          },
+          {
+            "value": "1-1/4\"",
+            "count": 9
+          },
+          {
+            "value": "21'",
+            "count": 8
+          },
+          {
+            "value": "3\"",
+            "count": 8
+          },
+          {
+            "value": "6-3/4\"",
+            "count": 6
+          },
+          {
+            "value": "1-5/8\"",
+            "count": 5
+          },
+          {
+            "value": "4-5/8\"",
+            "count": 5
+          },
+          {
+            "value": "10 Yard",
+            "count": 4
+          },
+          {
+            "value": "2-1/4\"",
+            "count": 4
+          },
+          {
+            "value": "1-1/8\"",
+            "count": 3
+          },
+          {
+            "value": "12\"",
+            "count": 3
+          },
+          {
+            "value": "33\"",
+            "count": 3
+          },
+          {
+            "value": "4\"",
+            "count": 3
+          },
+          {
+            "value": "4-3/4\"",
+            "count": 3
+          },
+          {
+            "value": "5-11/16\"",
+            "count": 3
+          },
+          {
+            "value": "23\"",
+            "count": 2
+          },
+          {
+            "value": "25\"",
+            "count": 2
+          },
+          {
+            "value": "36-5/16\"",
+            "count": 2
+          },
+          {
+            "value": "4\" x 8\"",
+            "count": 2
+          },
+          {
+            "value": "4.13\"",
+            "count": 2
+          },
+          {
+            "value": "5 Yard",
+            "count": 2
+          },
+          {
+            "value": "7\"",
+            "count": 2
+          },
+          {
+            "value": "9\"",
+            "count": 2
+          },
+          {
+            "value": "0.25\"",
+            "count": 1
+          },
+          {
+            "value": "1-3/4\"",
+            "count": 1
+          },
+          {
+            "value": "14-3/4\"",
+            "count": 1
+          },
+          {
+            "value": "14-5/16\"",
+            "count": 1
+          },
+          {
+            "value": "16\"",
+            "count": 1
+          },
+          {
+            "value": "17\"",
+            "count": 1
+          },
+          {
+            "value": "2.75\"",
+            "count": 1
+          },
+          {
+            "value": "21\"",
+            "count": 1
+          },
+          {
+            "value": "21-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "24\"",
+            "count": 1
+          },
+          {
+            "value": "27\"",
+            "count": 1
+          },
+          {
+            "value": "3-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "36-3/4\"",
+            "count": 1
+          },
+          {
+            "value": "37-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "4.31\"",
+            "count": 1
+          },
+          {
+            "value": "5/8\"",
+            "count": 1
+          },
+          {
+            "value": "50 Yard",
+            "count": 1
+          },
+          {
+            "value": "9.8\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "category_2_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Plastic Pipe & Fittings - Drainage",
+            "count": 1364
+          },
+          {
+            "value": "TBC",
+            "count": 586
+          },
+          {
+            "value": "Plastic Pipe & Fittings - Supply",
+            "count": 480
+          },
+          {
+            "value": "Metal Pipe & Fittings",
+            "count": 316
+          },
+          {
+            "value": "Plumbing Installation",
+            "count": 316
+          },
+          {
+            "value": "Hardware",
+            "count": 135
+          },
+          {
+            "value": "Tools",
+            "count": 109
+          },
+          {
+            "value": "Air Distribution",
+            "count": 88
+          },
+          {
+            "value": "Faucets, Showers & Bathroom Accessories",
+            "count": 55
+          },
+          {
+            "value": "Repair & Replacement Parts",
+            "count": 53
+          },
+          {
+            "value": "Water Heater Parts & Accessories",
+            "count": 46
+          },
+          {
+            "value": "Appliances",
+            "count": 30
+          },
+          {
+            "value": "Commercial Equipment",
+            "count": 16
+          },
+          {
+            "value": "IAQ",
+            "count": 6
+          },
+          {
+            "value": "Plumbing Specialty Valves",
+            "count": 5
+          },
+          {
+            "value": "Pumps",
+            "count": 3
+          },
+          {
+            "value": "Residential Equipment",
+            "count": 3
+          },
+          {
+            "value": "Safety",
+            "count": 3
+          },
+          {
+            "value": "Controls, Sensors, & Zoning",
+            "count": 2
+          },
+          {
+            "value": "Fans & Ventilation",
+            "count": 2
+          },
+          {
+            "value": "Toilets, Urinals, Sinks & Flush Valves",
+            "count": 2
+          },
+          {
+            "value": "Installation Supplies",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "colorfinish": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "White",
+            "count": 386
+          },
+          {
+            "value": "Black",
+            "count": 314
+          },
+          {
+            "value": "Gray",
+            "count": 243
+          },
+          {
+            "value": "Galvanized",
+            "count": 171
+          },
+          {
+            "value": "Zinc Plated",
+            "count": 88
+          },
+          {
+            "value": "Dark Gray",
+            "count": 38
+          },
+          {
+            "value": "Polished Chrome",
+            "count": 25
+          },
+          {
+            "value": "Chrome Plated",
+            "count": 21
+          },
+          {
+            "value": "Hot Dipped Galvanized",
+            "count": 21
+          },
+          {
+            "value": "VibrantÂ® Brushed Nickel",
+            "count": 11
+          },
+          {
+            "value": "Yellow Zinc",
+            "count": 10
+          },
+          {
+            "value": "Medium Gray",
+            "count": 8
+          },
+          {
+            "value": "Black Oxide",
+            "count": 7
+          },
+          {
+            "value": "Magnesium Oxide and Nickel Plating",
+            "count": 6
+          },
+          {
+            "value": "Light Gray",
+            "count": 5
+          },
+          {
+            "value": "Stainless Steel",
+            "count": 5
+          },
+          {
+            "value": "White Prime Coated",
+            "count": 5
+          },
+          {
+            "value": "Chrome",
+            "count": 4
+          },
+          {
+            "value": "Orange",
+            "count": 4
+          },
+          {
+            "value": "Purple",
+            "count": 4
+          },
+          {
+            "value": "Satin Nickel",
+            "count": 4
+          },
+          {
+            "value": "White (Head)",
+            "count": 4
+          },
+          {
+            "value": "Aged Bronze",
+            "count": 3
+          },
+          {
+            "value": "Blue",
+            "count": 3
+          },
+          {
+            "value": "Light Grey",
+            "count": 3
+          },
+          {
+            "value": "Oil-Rubbed Bronze",
+            "count": 3
+          },
+          {
+            "value": "Stainless Steel (Cabinet)",
+            "count": 3
+          },
+          {
+            "value": "Straw/Clear",
+            "count": 3
+          },
+          {
+            "value": "VibrantÂ® Polished Nickel",
+            "count": 3
+          },
+          {
+            "value": "VibrantÂ® Stainless",
+            "count": 3
+          },
+          {
+            "value": "Bisque",
+            "count": 2
+          },
+          {
+            "value": "Brown",
+            "count": 2
+          },
+          {
+            "value": "Chrome Plated (Clamp), Zinc Plated (Screw)",
+            "count": 2
+          },
+          {
+            "value": "Clear to Slightly Yellow Liquid",
+            "count": 2
+          },
+          {
+            "value": "Copper Plated",
+            "count": 2
+          },
+          {
+            "value": "Gold Plated",
+            "count": 2
+          },
+          {
+            "value": "Hammered Mirror",
+            "count": 2
+          },
+          {
+            "value": "Hand-Scraped Walnut",
+            "count": 2
+          },
+          {
+            "value": "Oil Rubbed Bronze",
+            "count": 2
+          },
+          {
+            "value": "Red",
+            "count": 2
+          },
+          {
+            "value": "Venetian Bronze",
+            "count": 2
+          },
+          {
+            "value": "Yellow",
+            "count": 2
+          },
+          {
+            "value": "Beige",
+            "count": 1
+          },
+          {
+            "value": "Brass",
+            "count": 1
+          },
+          {
+            "value": "Bright Polished Silver",
+            "count": 1
+          },
+          {
+            "value": "Buffed Satin",
+            "count": 1
+          },
+          {
+            "value": "Champagne Bronze",
+            "count": 1
+          },
+          {
+            "value": "Clean Touch Steel",
+            "count": 1
+          },
+          {
+            "value": "Cobalt Plated",
+            "count": 1
+          },
+          {
+            "value": "Cotton",
+            "count": 1
+          },
+          {
+            "value": "Electrogalvanized",
+            "count": 1
+          },
+          {
+            "value": "Ground, Polished",
+            "count": 1
+          },
+          {
+            "value": "Hand-Scraped Teak",
+            "count": 1
+          },
+          {
+            "value": "Lustrous Satin",
+            "count": 1
+          },
+          {
+            "value": "Matte Black",
+            "count": 1
+          },
+          {
+            "value": "Nickel Plated",
+            "count": 1
+          },
+          {
+            "value": "Opaque White",
+            "count": 1
+          },
+          {
+            "value": "Orange Painted",
+            "count": 1
+          },
+          {
+            "value": "Rough Chrome Plated",
+            "count": 1
+          },
+          {
+            "value": "Satin",
+            "count": 1
+          },
+          {
+            "value": "Stainless Copper",
+            "count": 1
+          },
+          {
+            "value": "Stainless Steel (Cabinet/Front)",
+            "count": 1
+          },
+          {
+            "value": "Textured White",
+            "count": 1
+          },
+          {
+            "value": "VibrantÂ® Brushed Bronze",
+            "count": 1
+          },
+          {
+            "value": "VibrantÂ® French Gold",
+            "count": 1
+          },
+          {
+            "value": "White Painted",
+            "count": 1
+          },
+          {
+            "value": "Wrought Iron",
+            "count": 1
+          },
+          {
+            "value": "Yellow Coated",
+            "count": 1
+          },
+          {
+            "value": "Zinc Phosphate Coated",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "hazardous_material_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 226
+          }
+        ]
+      }
+    ],
+    "mfr_full_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Spears",
+            "count": 857
+          },
+          {
+            "value": "Generic",
+            "count": 660
+          },
+          {
+            "value": "Charlotte Pipe",
+            "count": 375
+          },
+          {
+            "value": "IPEX",
+            "count": 267
+          },
+          {
+            "value": "Nibco",
+            "count": 233
+          },
+          {
+            "value": "L.H. Dottie",
+            "count": 92
+          },
+          {
+            "value": "Sioux Chief",
+            "count": 86
+          },
+          {
+            "value": "Dura Plastic",
+            "count": 85
+          },
+          {
+            "value": "Kohler",
+            "count": 59
+          },
+          {
+            "value": "Merit Brass",
+            "count": 52
+          },
+          {
+            "value": "M&M",
+            "count": 51
+          },
+          {
+            "value": "Southwark Metal",
+            "count": 47
+          },
+          {
+            "value": "Grohe",
+            "count": 44
+          },
+          {
+            "value": "A.O. Smith",
+            "count": 43
+          },
+          {
+            "value": "Builders Best",
+            "count": 43
+          },
+          {
+            "value": "Peco Fasteners",
+            "count": 43
+          },
+          {
+            "value": "Jones Stephens",
+            "count": 41
+          },
+          {
+            "value": "Malco",
+            "count": 37
+          },
+          {
+            "value": "Schier",
+            "count": 37
+          },
+          {
+            "value": "Great Pacific Elbow",
+            "count": 35
+          },
+          {
+            "value": "Pro Products",
+            "count": 35
+          },
+          {
+            "value": "EGW Utilities",
+            "count": 34
+          },
+          {
+            "value": "DiversiTech",
+            "count": 33
+          },
+          {
+            "value": "Matco-Norca",
+            "count": 32
+          },
+          {
+            "value": "Klein Tools",
+            "count": 30
+          },
+          {
+            "value": "Ridgid",
+            "count": 30
+          },
+          {
+            "value": "PASCO",
+            "count": 29
+          },
+          {
+            "value": "Elkay",
+            "count": 25
+          },
+          {
+            "value": "Schlage",
+            "count": 25
+          },
+          {
+            "value": "Metallics",
+            "count": 24
+          },
+          {
+            "value": "Copeland",
+            "count": 20
+          },
+          {
+            "value": "Westermann",
+            "count": 19
+          },
+          {
+            "value": "Milwaukee",
+            "count": 18
+          },
+          {
+            "value": "IPS",
+            "count": 17
+          },
+          {
+            "value": "Duro Dyne",
+            "count": 16
+          },
+          {
+            "value": "Camco",
+            "count": 14
+          },
+          {
+            "value": "Mountain Plumbing Products",
+            "count": 14
+          },
+          {
+            "value": "T&S Brass",
+            "count": 14
+          },
+          {
+            "value": "Zurn",
+            "count": 14
+          },
+          {
+            "value": "Hardware Resources",
+            "count": 13
+          },
+          {
+            "value": "Oatey",
+            "count": 13
+          },
+          {
+            "value": "Fieldpiece",
+            "count": 12
+          },
+          {
+            "value": "KITZ",
+            "count": 12
+          },
+          {
+            "value": "Royal Building Products",
+            "count": 12
+          },
+          {
+            "value": "Watco",
+            "count": 12
+          },
+          {
+            "value": "Westbrass",
+            "count": 12
+          },
+          {
+            "value": "Lasco",
+            "count": 11
+          },
+          {
+            "value": "Venti Air Products",
+            "count": 11
+          },
+          {
+            "value": "Craftmade",
+            "count": 10
+          },
+          {
+            "value": "Danco",
+            "count": 10
+          },
+          {
+            "value": "Dearborn",
+            "count": 10
+          },
+          {
+            "value": "Delta",
+            "count": 10
+          },
+          {
+            "value": "American Standard",
+            "count": 9
+          },
+          {
+            "value": "Symmons",
+            "count": 9
+          },
+          {
+            "value": "Watts",
+            "count": 9
+          },
+          {
+            "value": "Georg Fischer Harvel",
+            "count": 8
+          },
+          {
+            "value": "Irwin",
+            "count": 8
+          },
+          {
+            "value": "LG",
+            "count": 8
+          },
+          {
+            "value": "Lenox",
+            "count": 8
+          },
+          {
+            "value": "Moen",
+            "count": 8
+          },
+          {
+            "value": "Noritz",
+            "count": 8
+          },
+          {
+            "value": "Precision Plumbing Products",
+            "count": 8
+          },
+          {
+            "value": "Sloan",
+            "count": 8
+          },
+          {
+            "value": "Brasscraft",
+            "count": 7
+          },
+          {
+            "value": "CPS",
+            "count": 7
+          },
+          {
+            "value": "GE",
+            "count": 7
+          },
+          {
+            "value": "JB Industries",
+            "count": 7
+          },
+          {
+            "value": "JB Products",
+            "count": 7
+          },
+          {
+            "value": "Jaclo",
+            "count": 7
+          },
+          {
+            "value": "McGuire",
+            "count": 7
+          },
+          {
+            "value": "Mueller Steam",
+            "count": 7
+          },
+          {
+            "value": "Nu-Calgon",
+            "count": 7
+          },
+          {
+            "value": "TRUaire",
+            "count": 7
+          },
+          {
+            "value": "Viega",
+            "count": 7
+          },
+          {
+            "value": "ActivTek",
+            "count": 6
+          },
+          {
+            "value": "California Faucets",
+            "count": 6
+          },
+          {
+            "value": "Cody",
+            "count": 6
+          },
+          {
+            "value": "Dial Manufacturing",
+            "count": 6
+          },
+          {
+            "value": "Diversitech",
+            "count": 6
+          },
+          {
+            "value": "General Wire Spring",
+            "count": 6
+          },
+          {
+            "value": "Hudson Valley Lighting",
+            "count": 6
+          },
+          {
+            "value": "Larsen Supply",
+            "count": 6
+          },
+          {
+            "value": "Legend Valve",
+            "count": 6
+          },
+          {
+            "value": "Mill-Rose",
+            "count": 6
+          },
+          {
+            "value": "PHD",
+            "count": 6
+          },
+          {
+            "value": "Rinnai",
+            "count": 6
+          },
+          {
+            "value": "Schneider Electric",
+            "count": 6
+          },
+          {
+            "value": "Scotsman",
+            "count": 6
+          },
+          {
+            "value": "Tyler Union",
+            "count": 6
+          },
+          {
+            "value": "American Valve",
+            "count": 5
+          },
+          {
+            "value": "DIVERSITECH",
+            "count": 5
+          },
+          {
+            "value": "Emtek",
+            "count": 5
+          },
+          {
+            "value": "General Plastics",
+            "count": 5
+          },
+          {
+            "value": "MARS Motors & Armatures",
+            "count": 5
+          },
+          {
+            "value": "Orion Fittings",
+            "count": 5
+          },
+          {
+            "value": "SANDERSON PIPE CORPORATION",
+            "count": 5
+          },
+          {
+            "value": "Summit",
+            "count": 5
+          },
+          {
+            "value": "Test-Tite",
+            "count": 5
+          },
+          {
+            "value": "Wingmaster Plus",
+            "count": 5
+          },
+          {
+            "value": "Apollo Valves",
+            "count": 4
+          },
+          {
+            "value": "Diablo Tools",
+            "count": 4
+          },
+          {
+            "value": "Everflow Supplies",
+            "count": 4
+          },
+          {
+            "value": "Honeywell",
+            "count": 4
+          },
+          {
+            "value": "JVJ Hardware",
+            "count": 4
+          },
+          {
+            "value": "NDS",
+            "count": 4
+          },
+          {
+            "value": "Reed",
+            "count": 4
+          },
+          {
+            "value": "Water-Tite",
+            "count": 4
+          },
+          {
+            "value": "Yellow Jacket",
+            "count": 4
+          },
+          {
+            "value": "3M",
+            "count": 3
+          },
+          {
+            "value": "Anvil International",
+            "count": 3
+          },
+          {
+            "value": "Arrowhead",
+            "count": 3
+          },
+          {
+            "value": "BK Resources",
+            "count": 3
+          },
+          {
+            "value": "Better Home Products",
+            "count": 3
+          },
+          {
+            "value": "Capital Lighting",
+            "count": 3
+          },
+          {
+            "value": "Channellock",
+            "count": 3
+          },
+          {
+            "value": "Eastman",
+            "count": 3
+          },
+          {
+            "value": "Grinnell",
+            "count": 3
+          },
+          {
+            "value": "HydraPro",
+            "count": 3
+          },
+          {
+            "value": "Kichler",
+            "count": 3
+          },
+          {
+            "value": "King Bros",
+            "count": 3
+          },
+          {
+            "value": "Mason Industries",
+            "count": 3
+          },
+          {
+            "value": "Merrill",
+            "count": 3
+          },
+          {
+            "value": "Navien",
+            "count": 3
+          },
+          {
+            "value": "Newport Brass",
+            "count": 3
+          },
+          {
+            "value": "Packard",
+            "count": 3
+          },
+          {
+            "value": "Pipelife Jet Stream",
+            "count": 3
+          },
+          {
+            "value": "Robern",
+            "count": 3
+          },
+          {
+            "value": "SAS Safety",
+            "count": 3
+          },
+          {
+            "value": "Sunstone",
+            "count": 3
+          },
+          {
+            "value": "Taco",
+            "count": 3
+          },
+          {
+            "value": "Trim To The Trade",
+            "count": 3
+          },
+          {
+            "value": "Uniweld",
+            "count": 3
+          },
+          {
+            "value": "Walraven",
+            "count": 3
+          },
+          {
+            "value": "Alfresco",
+            "count": 2
+          },
+          {
+            "value": "Big Green Egg",
+            "count": 2
+          },
+          {
+            "value": "Broan",
+            "count": 2
+          },
+          {
+            "value": "Caleffi",
+            "count": 2
+          },
+          {
+            "value": "Chicago Faucet",
+            "count": 2
+          },
+          {
+            "value": "Cresline",
+            "count": 2
+          },
+          {
+            "value": "FAMCO",
+            "count": 2
+          },
+          {
+            "value": "Harris",
+            "count": 2
+          },
+          {
+            "value": "ICM Controls",
+            "count": 2
+          },
+          {
+            "value": "International Comfort Products",
+            "count": 2
+          },
+          {
+            "value": "J.C. Whitlam",
+            "count": 2
+          },
+          {
+            "value": "Jay R. Smith",
+            "count": 2
+          },
+          {
+            "value": "Just Manufacturing",
+            "count": 2
+          },
+          {
+            "value": "Keeney Manufacturing",
+            "count": 2
+          },
+          {
+            "value": "LSP Products",
+            "count": 2
+          },
+          {
+            "value": "Maxim Lighting",
+            "count": 2
+          },
+          {
+            "value": "Preferred Construction Products",
+            "count": 2
+          },
+          {
+            "value": "RectorSeal",
+            "count": 2
+          },
+          {
+            "value": "Southern Meter Box",
+            "count": 2
+          },
+          {
+            "value": "Speakman",
+            "count": 2
+          },
+          {
+            "value": "Sterling",
+            "count": 2
+          },
+          {
+            "value": "Swan",
+            "count": 2
+          },
+          {
+            "value": "TIFCO",
+            "count": 2
+          },
+          {
+            "value": "TracPipe",
+            "count": 2
+          },
+          {
+            "value": "Tube Forgings",
+            "count": 2
+          },
+          {
+            "value": "Vu-Flow",
+            "count": 2
+          },
+          {
+            "value": "Wal-Rich",
+            "count": 2
+          },
+          {
+            "value": "Water Incorporated",
+            "count": 2
+          },
+          {
+            "value": "Weiss Instruments",
+            "count": 2
+          },
+          {
+            "value": "White-Rodgers",
+            "count": 2
+          },
+          {
+            "value": "AB&A",
+            "count": 1
+          },
+          {
+            "value": "AccuCast",
+            "count": 1
+          },
+          {
+            "value": "Action Bolt Supply",
+            "count": 1
+          },
+          {
+            "value": "Airzone",
+            "count": 1
+          },
+          {
+            "value": "American Granby",
+            "count": 1
+          },
+          {
+            "value": "American Plumber",
+            "count": 1
+          },
+          {
+            "value": "American Presto",
+            "count": 1
+          },
+          {
+            "value": "Amerivent",
+            "count": 1
+          },
+          {
+            "value": "Aprilaire",
+            "count": 1
+          },
+          {
+            "value": "B & K",
+            "count": 1
+          },
+          {
+            "value": "BRK Brands",
+            "count": 1
+          },
+          {
+            "value": "Bonney Forge",
+            "count": 1
+          },
+          {
+            "value": "Bradford White",
+            "count": 1
+          },
+          {
+            "value": "Briggs Plumbing",
+            "count": 1
+          },
+          {
+            "value": "Brizo",
+            "count": 1
+          },
+          {
+            "value": "CB Supplies",
+            "count": 1
+          },
+          {
+            "value": "Centoco",
+            "count": 1
+          },
+          {
+            "value": "DELTA FAUCET COMPANY KITCHEN/BATH/BAR/LAUNDRY",
+            "count": 1
+          },
+          {
+            "value": "Deflecto",
+            "count": 1
+          },
+          {
+            "value": "Design Polymerics",
+            "count": 1
+          },
+          {
+            "value": "Dixon Valve",
+            "count": 1
+          },
+          {
+            "value": "Ductmate",
+            "count": 1
+          },
+          {
+            "value": "Duravit",
+            "count": 1
+          },
+          {
+            "value": "Electrolux",
+            "count": 1
+          },
+          {
+            "value": "Elmdor Stoneman",
+            "count": 1
+          },
+          {
+            "value": "Essick Air",
+            "count": 1
+          },
+          {
+            "value": "Falcon Stainless",
+            "count": 1
+          },
+          {
+            "value": "Ferguson Enterprises",
+            "count": 1
+          },
+          {
+            "value": "Fluidmaster",
+            "count": 1
+          },
+          {
+            "value": "Geberit",
+            "count": 1
+          },
+          {
+            "value": "Gemline",
+            "count": 1
+          },
+          {
+            "value": "Gerber",
+            "count": 1
+          },
+          {
+            "value": "Global",
+            "count": 1
+          },
+          {
+            "value": "Good Water Warehouse",
+            "count": 1
+          },
+          {
+            "value": "Grundfos",
+            "count": 1
+          },
+          {
+            "value": "Hart & Cooley",
+            "count": 1
+          },
+          {
+            "value": "Harvey",
+            "count": 1
+          },
+          {
+            "value": "Jomar",
+            "count": 1
+          },
+          {
+            "value": "Kallista",
+            "count": 1
+          },
+          {
+            "value": "Kissler",
+            "count": 1
+          },
+          {
+            "value": "Krowne",
+            "count": 1
+          },
+          {
+            "value": "Lambro",
+            "count": 1
+          },
+          {
+            "value": "Liberty Pumps",
+            "count": 1
+          },
+          {
+            "value": "MOEN/CREATIVE SPECIALTIES INTERNATIONAL/SHOWHOUSE",
+            "count": 1
+          },
+          {
+            "value": "Magnolia Brush",
+            "count": 1
+          },
+          {
+            "value": "Miele",
+            "count": 1
+          },
+          {
+            "value": "Miljoco",
+            "count": 1
+          },
+          {
+            "value": "Milwaukee Tool",
+            "count": 1
+          },
+          {
+            "value": "Norwesco",
+            "count": 1
+          },
+          {
+            "value": "Picquic Tool",
+            "count": 1
+          },
+          {
+            "value": "Price Pfister",
+            "count": 1
+          },
+          {
+            "value": "Robinair",
+            "count": 1
+          },
+          {
+            "value": "Rohl",
+            "count": 1
+          },
+          {
+            "value": "Sakrete",
+            "count": 1
+          },
+          {
+            "value": "Sigma",
+            "count": 1
+          },
+          {
+            "value": "Silver-Line Plastics",
+            "count": 1
+          },
+          {
+            "value": "Simpson Strong-Tie",
+            "count": 1
+          },
+          {
+            "value": "Streamline",
+            "count": 1
+          },
+          {
+            "value": "Swanstone",
+            "count": 1
+          },
+          {
+            "value": "Toto",
+            "count": 1
+          },
+          {
+            "value": "Tri-State Fasteners",
+            "count": 1
+          },
+          {
+            "value": "Trumbull",
+            "count": 1
+          },
+          {
+            "value": "Victaulic",
+            "count": 1
+          },
+          {
+            "value": "Weld-On",
+            "count": 1
+          },
+          {
+            "value": "WypAll",
+            "count": 1
+          },
+          {
+            "value": "ZoneFirst",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "water_sense_compliant_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 8
+          }
+        ]
+      }
+    ],
+    "voltage": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "600 Volt",
+            "count": 4
+          },
+          {
+            "value": "115 Volt AC at 60 Hertz 1 Phase",
+            "count": 3
+          },
+          {
+            "value": "18 to 30 Volt AC",
+            "count": 2
+          },
+          {
+            "value": "300 Volt",
+            "count": 2
+          },
+          {
+            "value": "115 Volt AC at 60 Hertz",
+            "count": 1
+          },
+          {
+            "value": "115 Volt at 60 Hertz",
+            "count": 1
+          },
+          {
+            "value": "115/208 to 230/460 Volt at 2 HP, 208 to 230/460 Volt at 3 HP, 230/460 Volt at 5 HP, 230/460 Volt at 7-1/2 HP",
+            "count": 1
+          },
+          {
+            "value": "12 Volt",
+            "count": 1
+          },
+          {
+            "value": "24 Volt AC",
+            "count": 1
+          },
+          {
+            "value": "9 Volt (Alkaline Battery)",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "size": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "3/4\" x 1/2\"",
+            "count": 14
+          },
+          {
+            "value": "2\" x 3/4\"",
+            "count": 13
+          },
+          {
+            "value": "1\" x 1/2\"",
+            "count": 12
+          },
+          {
+            "value": "1\" x 3/4\"",
+            "count": 12
+          },
+          {
+            "value": "1-1/2\" x 1\"",
+            "count": 12
+          },
+          {
+            "value": "2\" x 1-1/4\"",
+            "count": 12
+          },
+          {
+            "value": "1-1/2\" x 1-1/4\"",
+            "count": 11
+          },
+          {
+            "value": "1-1/4\" x 1\"",
+            "count": 11
+          },
+          {
+            "value": "2\" x 1\"",
+            "count": 11
+          },
+          {
+            "value": "2\" x 1-1/2\"",
+            "count": 11
+          },
+          {
+            "value": "2\" x 1/2\"",
+            "count": 11
+          },
+          {
+            "value": "6\"",
+            "count": 11
+          },
+          {
+            "value": "1-1/2\" x 3/4\"",
+            "count": 10
+          },
+          {
+            "value": "1-1/4\" x 3/4\"",
+            "count": 10
+          },
+          {
+            "value": "3\" x 2\"",
+            "count": 9
+          },
+          {
+            "value": "4\"",
+            "count": 9
+          },
+          {
+            "value": "4\" x 3\"",
+            "count": 9
+          },
+          {
+            "value": "4\" x 2\"",
+            "count": 8
+          },
+          {
+            "value": "8\"",
+            "count": 8
+          },
+          {
+            "value": "1-1/2\" x 1/2\"",
+            "count": 7
+          },
+          {
+            "value": "1-1/4\" x 1/2\"",
+            "count": 7
+          },
+          {
+            "value": "10\"",
+            "count": 7
+          },
+          {
+            "value": "12\"",
+            "count": 7
+          },
+          {
+            "value": "1\" Threaded",
+            "count": 6
+          },
+          {
+            "value": "2-1/2\" x 2\"",
+            "count": 6
+          },
+          {
+            "value": "3\" x 2-1/2\"",
+            "count": 6
+          },
+          {
+            "value": "5.5\" Diameter x 15.3\" Height",
+            "count": 6
+          },
+          {
+            "value": "14\"",
+            "count": 5
+          },
+          {
+            "value": "2-1/2\" x 1-1/2\"",
+            "count": 5
+          },
+          {
+            "value": "6\" x 4\"",
+            "count": 5
+          },
+          {
+            "value": "7.3\" Diameter x 18\" Height",
+            "count": 5
+          },
+          {
+            "value": "1/4\"",
+            "count": 4
+          },
+          {
+            "value": "16\"",
+            "count": 4
+          },
+          {
+            "value": "5\"",
+            "count": 4
+          },
+          {
+            "value": "6.5\" Diameter x 16.4\" Height",
+            "count": 4
+          },
+          {
+            "value": "6.5\" Diameter x 16.5\" Height",
+            "count": 4
+          },
+          {
+            "value": "7\"",
+            "count": 4
+          },
+          {
+            "value": "9\"",
+            "count": 4
+          },
+          {
+            "value": "1/2\" x 1/4\"",
+            "count": 3
+          },
+          {
+            "value": "1\"",
+            "count": 2
+          },
+          {
+            "value": "1-1/2\" Thickness",
+            "count": 2
+          },
+          {
+            "value": "1.1\" Outer Diameter",
+            "count": 2
+          },
+          {
+            "value": "16.41\" Height",
+            "count": 2
+          },
+          {
+            "value": "18\"",
+            "count": 2
+          },
+          {
+            "value": "18.01\" Height",
+            "count": 2
+          },
+          {
+            "value": "2.39\" Diameter x 0.73\" Height",
+            "count": 2
+          },
+          {
+            "value": "2.95\" Diameter x 1\" Height",
+            "count": 2
+          },
+          {
+            "value": "3/4\"",
+            "count": 2
+          },
+          {
+            "value": "5/16\"",
+            "count": 2
+          },
+          {
+            "value": "54\"",
+            "count": 2
+          },
+          {
+            "value": "8\" x 6\"",
+            "count": 2
+          },
+          {
+            "value": "1-1/2\" x 1-1/2\" x 3/4\"",
+            "count": 1
+          },
+          {
+            "value": "1-15/16\" Length x 1/4\" Width",
+            "count": 1
+          },
+          {
+            "value": "1-5/8\"",
+            "count": 1
+          },
+          {
+            "value": "1-7/8\"",
+            "count": 1
+          },
+          {
+            "value": "1/2\" CPVC x 1/2\" Female Threaded",
+            "count": 1
+          },
+          {
+            "value": "1/2\" Diameter",
+            "count": 1
+          },
+          {
+            "value": "1/2\" x 3/8\"",
+            "count": 1
+          },
+          {
+            "value": "1/4\" x 3-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "1/4\"-20 TPI x 4\" Length",
+            "count": 1
+          },
+          {
+            "value": "1/4\"-20 TPI x 6\" Length",
+            "count": 1
+          },
+          {
+            "value": "12\" x 10\"",
+            "count": 1
+          },
+          {
+            "value": "13\"",
+            "count": 1
+          },
+          {
+            "value": "13.3\"",
+            "count": 1
+          },
+          {
+            "value": "13.5\"",
+            "count": 1
+          },
+          {
+            "value": "16.5\"",
+            "count": 1
+          },
+          {
+            "value": "18.23\" Height",
+            "count": 1
+          },
+          {
+            "value": "2-1/2\" Thickness",
+            "count": 1
+          },
+          {
+            "value": "2-1/2\" x 1\"",
+            "count": 1
+          },
+          {
+            "value": "2-1/2\" x 1-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "2.25\" Diameter x 0.7\" Height",
+            "count": 1
+          },
+          {
+            "value": "2.95\" Diameter x 0.9\" Height",
+            "count": 1
+          },
+          {
+            "value": "20\"",
+            "count": 1
+          },
+          {
+            "value": "3\"",
+            "count": 1
+          },
+          {
+            "value": "3\" Hub",
+            "count": 1
+          },
+          {
+            "value": "3\" x 1\"",
+            "count": 1
+          },
+          {
+            "value": "3\" x 1-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "3' x 2-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "3.75\" Length x 4.6\" Width x 1.12\" Height",
+            "count": 1
+          },
+          {
+            "value": "3/4\" Diameter x 16\" Length",
+            "count": 1
+          },
+          {
+            "value": "3/4\" Diameter x 32\" Length",
+            "count": 1
+          },
+          {
+            "value": "3/4\" Diameter x 42\" Length",
+            "count": 1
+          },
+          {
+            "value": "3/8\"",
+            "count": 1
+          },
+          {
+            "value": "4\" x 2-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "4-1/4\" Diameter",
+            "count": 1
+          },
+          {
+            "value": "4-3/4\" Width x 12-1/4\" Height",
+            "count": 1
+          },
+          {
+            "value": "5/8\"",
+            "count": 1
+          },
+          {
+            "value": "5/8\"-18 TPI",
+            "count": 1
+          },
+          {
+            "value": "6\" Length",
+            "count": 1
+          },
+          {
+            "value": "6\" x 2\"",
+            "count": 1
+          },
+          {
+            "value": "67.4 MM Width x 45.1 MM Depth x 205.5 MM Height",
+            "count": 1
+          },
+          {
+            "value": "70\"",
+            "count": 1
+          },
+          {
+            "value": "71.2 MM Width x 42.7 MM Depth x 258.3 MM Height",
+            "count": 1
+          },
+          {
+            "value": "79 MM Width x 45 MM Depth x 233 MM Height",
+            "count": 1
+          },
+          {
+            "value": "79.5 MM Width x 50 MM Depth x 287.5 MM Height",
+            "count": 1
+          },
+          {
+            "value": "8\" x 4\"",
+            "count": 1
+          },
+          {
+            "value": "8.6\" Width x 4.75\" Depth x 10.25\" Height",
+            "count": 1
+          },
+          {
+            "value": "85\" Width x 48-1/4\" Depth x 54\" Height",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "mercury_free_flag": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "material": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "PVC",
+            "count": 1068
+          },
+          {
+            "value": "Steel",
+            "count": 565
+          },
+          {
+            "value": "CPVC",
+            "count": 125
+          },
+          {
+            "value": "Carbon Steel",
+            "count": 50
+          },
+          {
+            "value": "Brass",
+            "count": 38
+          },
+          {
+            "value": "Copper",
+            "count": 37
+          },
+          {
+            "value": "Sheet Metal",
+            "count": 27
+          },
+          {
+            "value": "304/304L Stainless Steel",
+            "count": 23
+          },
+          {
+            "value": "Stainless Steel",
+            "count": 17
+          },
+          {
+            "value": "ABS Plastic",
+            "count": 16
+          },
+          {
+            "value": "ASTM A653 B Galvanized Steel",
+            "count": 16
+          },
+          {
+            "value": "Plastic",
+            "count": 14
+          },
+          {
+            "value": "Solid Brass",
+            "count": 13
+          },
+          {
+            "value": "Solid Forged Brass",
+            "count": 12
+          },
+          {
+            "value": "Fiberglass",
+            "count": 11
+          },
+          {
+            "value": "304L Stainless Steel",
+            "count": 10
+          },
+          {
+            "value": "Cast Iron",
+            "count": 8
+          },
+          {
+            "value": "Metal",
+            "count": 8
+          },
+          {
+            "value": "Galvanized Steel",
+            "count": 7
+          },
+          {
+            "value": "Copper Tubing",
+            "count": 6
+          },
+          {
+            "value": "Zamac",
+            "count": 6
+          },
+          {
+            "value": "304 Stainless Steel",
+            "count": 5
+          },
+          {
+            "value": "316/316L Stainless Steel",
+            "count": 5
+          },
+          {
+            "value": "Anodized Aluminum",
+            "count": 4
+          },
+          {
+            "value": "Chrome Vanadium",
+            "count": 4
+          },
+          {
+            "value": "Aluminum",
+            "count": 3
+          },
+          {
+            "value": "Granite",
+            "count": 3
+          },
+          {
+            "value": "Vitreous China",
+            "count": 3
+          },
+          {
+            "value": "Brass Plated",
+            "count": 2
+          },
+          {
+            "value": "Grade 5 1040 Medium Carbon Steel",
+            "count": 2
+          },
+          {
+            "value": "High Impact PVC",
+            "count": 2
+          },
+          {
+            "value": "Nickel Alloy Stainless Steel (Sheath), Incoloy Nickel (Base)",
+            "count": 2
+          },
+          {
+            "value": "Nickel Chromium Alloy",
+            "count": 2
+          },
+          {
+            "value": "Plastic (Cap), Brass (Screw)",
+            "count": 2
+          },
+          {
+            "value": "Polyethylene",
+            "count": 2
+          },
+          {
+            "value": "Rubber",
+            "count": 2
+          },
+          {
+            "value": "Sheet Metal (Door Front)",
+            "count": 2
+          },
+          {
+            "value": "Stainless Steel (Clamp), Carbon Steel (Screw)",
+            "count": 2
+          },
+          {
+            "value": "Yellow Brass",
+            "count": 2
+          },
+          {
+            "value": "0",
+            "count": 1
+          },
+          {
+            "value": "18 Gauge 304 Nickel Bearing Stainless Steel",
+            "count": 1
+          },
+          {
+            "value": "316 Stainless Steel",
+            "count": 1
+          },
+          {
+            "value": "ASTM D2661 ABS Plastic",
+            "count": 1
+          },
+          {
+            "value": "Acrylic",
+            "count": 1
+          },
+          {
+            "value": "Bi-Metal",
+            "count": 1
+          },
+          {
+            "value": "Bi-Metal, High Speed Steel",
+            "count": 1
+          },
+          {
+            "value": "Brass (Stop), Chrome Plated Copper (Tube), Chrome Plated Brass (Nut)",
+            "count": 1
+          },
+          {
+            "value": "Carbide Tip",
+            "count": 1
+          },
+          {
+            "value": "Cast Brass",
+            "count": 1
+          },
+          {
+            "value": "Die Cast Zinc",
+            "count": 1
+          },
+          {
+            "value": "Ductile Iron",
+            "count": 1
+          },
+          {
+            "value": "High Grade Chrome Vanadium Alloy Steel",
+            "count": 1
+          },
+          {
+            "value": "High-Impact Plastic",
+            "count": 1
+          },
+          {
+            "value": "Lint-Free Dual Textured",
+            "count": 1
+          },
+          {
+            "value": "Magnesium",
+            "count": 1
+          },
+          {
+            "value": "Metal Body, Frosted Glass",
+            "count": 1
+          },
+          {
+            "value": "Mild Steel",
+            "count": 1
+          },
+          {
+            "value": "Molded Polypropylene",
+            "count": 1
+          },
+          {
+            "value": "Molded Wood",
+            "count": 1
+          },
+          {
+            "value": "Nickel Alloy (Sheath)",
+            "count": 1
+          },
+          {
+            "value": "Polyphosphate (Filter Media), Polypropylene (Shell/Post-Filter), Buna-N (Gasket)",
+            "count": 1
+          },
+          {
+            "value": "Polypropylene",
+            "count": 1
+          },
+          {
+            "value": "Red Brass",
+            "count": 1
+          },
+          {
+            "value": "Soft PVC",
+            "count": 1
+          },
+          {
+            "value": "Solid Vikrell",
+            "count": 1
+          },
+          {
+            "value": "Stainless Steel (Cabinet), Sheet Metal (Door Front)",
+            "count": 1
+          },
+          {
+            "value": "Tempered Glass (Door)",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "tonnage": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "low_lead_compliant_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 663
+          }
+        ]
+      }
+    ],
+    "category_3_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "PVC Pipe & Fittings",
+            "count": 1355
+          },
+          {
+            "value": "TBC",
+            "count": 778
+          },
+          {
+            "value": "Steel Pipe & Fittings",
+            "count": 297
+          },
+          {
+            "value": "CPVC Pipe & Fittings",
+            "count": 277
+          },
+          {
+            "value": "PEX Pipe & Fittings",
+            "count": 203
+          },
+          {
+            "value": "Sheet Metal Pipe & Fittings",
+            "count": 80
+          },
+          {
+            "value": "Heating Element",
+            "count": 36
+          },
+          {
+            "value": "Commercial Packaged Systems",
+            "count": 16
+          },
+          {
+            "value": "Copper Tube & Fittings",
+            "count": 16
+          },
+          {
+            "value": "ABS Pipe & Fittings",
+            "count": 9
+          },
+          {
+            "value": "Bathroom Accessories",
+            "count": 9
+          },
+          {
+            "value": "Air Cleaners",
+            "count": 6
+          },
+          {
+            "value": "Grills, Registers & Diffusers",
+            "count": 6
+          },
+          {
+            "value": "Outdoor Grills and BBQ",
+            "count": 6
+          },
+          {
+            "value": "Ranges and Stoves",
+            "count": 6
+          },
+          {
+            "value": "Ice Makers",
+            "count": 5
+          },
+          {
+            "value": "Anodes",
+            "count": 4
+          },
+          {
+            "value": "Brushes",
+            "count": 4
+          },
+          {
+            "value": "Power Tool",
+            "count": 4
+          },
+          {
+            "value": "Refrigerators And Freezers",
+            "count": 4
+          },
+          {
+            "value": "Water Heater Accessories",
+            "count": 4
+          },
+          {
+            "value": "Wye Strainers",
+            "count": 4
+          },
+          {
+            "value": "CATCLEAN",
+            "count": 3
+          },
+          {
+            "value": "Microwaves",
+            "count": 3
+          },
+          {
+            "value": "Thermostats",
+            "count": 3
+          },
+          {
+            "value": "Appliance Accessories",
+            "count": 2
+          },
+          {
+            "value": "Brass Pipe & Fittings",
+            "count": 2
+          },
+          {
+            "value": "Dryers",
+            "count": 2
+          },
+          {
+            "value": "Tub & Shower",
+            "count": 2
+          },
+          {
+            "value": "AC Condensers",
+            "count": 1
+          },
+          {
+            "value": "Contactors, Relays, Transformers",
+            "count": 1
+          },
+          {
+            "value": "Ductile Iron Pipe & Fittings",
+            "count": 1
+          },
+          {
+            "value": "Electrical",
+            "count": 1
+          },
+          {
+            "value": "Elements",
+            "count": 1
+          },
+          {
+            "value": "Garbage Disposals",
+            "count": 1
+          },
+          {
+            "value": "OEM Parts",
+            "count": 1
+          },
+          {
+            "value": "Ovens",
+            "count": 1
+          },
+          {
+            "value": "Parts and Accessories",
+            "count": 1
+          },
+          {
+            "value": "Thermostat Mixing Valves",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "pressure_rating": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "2000 PSI at 73 Deg F",
+            "count": 72
+          },
+          {
+            "value": "370 PSI",
+            "count": 37
+          },
+          {
+            "value": "280 PSI",
+            "count": 36
+          },
+          {
+            "value": "400 PSI",
+            "count": 36
+          },
+          {
+            "value": "450 PSI",
+            "count": 29
+          },
+          {
+            "value": "630 PSI",
+            "count": 28
+          },
+          {
+            "value": "480 PSI",
+            "count": 27
+          },
+          {
+            "value": "690 PSI",
+            "count": 27
+          },
+          {
+            "value": "330 PSI",
+            "count": 26
+          },
+          {
+            "value": "470 PSI",
+            "count": 26
+          },
+          {
+            "value": "850 PSI",
+            "count": 22
+          },
+          {
+            "value": "520 PSI",
+            "count": 20
+          },
+          {
+            "value": "600 PSI",
+            "count": 17
+          },
+          {
+            "value": "150 PSI at 73 Deg F",
+            "count": 14
+          },
+          {
+            "value": "320 PSI",
+            "count": 14
+          },
+          {
+            "value": "120 PSI",
+            "count": 13
+          },
+          {
+            "value": "220 PSI",
+            "count": 13
+          },
+          {
+            "value": "260 PSI",
+            "count": 13
+          },
+          {
+            "value": "235 PSI at 73 Deg F",
+            "count": 12
+          },
+          {
+            "value": "420 PSI",
+            "count": 10
+          },
+          {
+            "value": "300 PSI",
+            "count": 9
+          },
+          {
+            "value": "180 PSI",
+            "count": 7
+          },
+          {
+            "value": "2240 PSI at -20 to 650 Deg F",
+            "count": 7
+          },
+          {
+            "value": "100 PSI",
+            "count": 6
+          },
+          {
+            "value": "1506 PSI at -20 to 650 Deg F",
+            "count": 6
+          },
+          {
+            "value": "130 PSI at 73 Deg F",
+            "count": 5
+          },
+          {
+            "value": "1201 PSI at -20 to 650 Deg F",
+            "count": 4
+          },
+          {
+            "value": "280 PSI at 73 Deg F",
+            "count": 4
+          },
+          {
+            "value": "370 PSI at 73 Deg F",
+            "count": 4
+          },
+          {
+            "value": "100 PSI at 180 Deg F",
+            "count": 3
+          },
+          {
+            "value": "1000 PSI",
+            "count": 3
+          },
+          {
+            "value": "125 PSI",
+            "count": 3
+          },
+          {
+            "value": "1324 PSI at -20 to 650 Deg F",
+            "count": 3
+          },
+          {
+            "value": "160 PSI",
+            "count": 3
+          },
+          {
+            "value": "1659 PSI at -20 to 650 Deg F",
+            "count": 3
+          },
+          {
+            "value": "180 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "1895 PSI at -20 to 650 Deg F",
+            "count": 3
+          },
+          {
+            "value": "220 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "2360 PSI at -20 to 650 Deg F",
+            "count": 3
+          },
+          {
+            "value": "2583 PSI at -20 to 650 Deg F",
+            "count": 3
+          },
+          {
+            "value": "260 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "330 PSI at 73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "130 PSI at 73.4 Deg F",
+            "count": 2
+          },
+          {
+            "value": "140 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "150 PSI",
+            "count": 2
+          },
+          {
+            "value": "160 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "2000 PSI",
+            "count": 2
+          },
+          {
+            "value": "2374 PSI at -20 to 650 Deg F",
+            "count": 2
+          },
+          {
+            "value": "25 PSIG",
+            "count": 2
+          },
+          {
+            "value": "250 PSI SWP at 406 Deg F, 400 PSI WOG at 150 Deg F",
+            "count": 2
+          },
+          {
+            "value": "2500 PSI",
+            "count": 2
+          },
+          {
+            "value": "2751 PSI at -20 to 650 Deg F",
+            "count": 2
+          },
+          {
+            "value": "300 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "3124 PSI at -20 to 650 Deg F",
+            "count": 2
+          },
+          {
+            "value": "3178 PSI at -20 to 650 Deg F",
+            "count": 2
+          },
+          {
+            "value": "480 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "600 PSI at 73 Deg F",
+            "count": 2
+          },
+          {
+            "value": "75 PSI",
+            "count": 2
+          },
+          {
+            "value": "125 PSI SWP at 353 Deg F, 200 PSI WOG at 210 Deg F",
+            "count": 1
+          },
+          {
+            "value": "125 PSI SWP at 353 Deg F, 400 PSI WOG at 210 Deg F",
+            "count": 1
+          },
+          {
+            "value": "140 PSI",
+            "count": 1
+          },
+          {
+            "value": "190 PSI",
+            "count": 1
+          },
+          {
+            "value": "200 PSI WOG at 150 Deg F, 125 PSI Steam at 450 Deg F",
+            "count": 1
+          },
+          {
+            "value": "200 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "2097 PSI at -20 to 650 Deg F",
+            "count": 1
+          },
+          {
+            "value": "230 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "25 to 125 PSI",
+            "count": 1
+          },
+          {
+            "value": "250 PSI",
+            "count": 1
+          },
+          {
+            "value": "250 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "280 PSI at 73.4 Deg F",
+            "count": 1
+          },
+          {
+            "value": "2800 PSI",
+            "count": 1
+          },
+          {
+            "value": "2806 PSI at -20 to 650 Deg F",
+            "count": 1
+          },
+          {
+            "value": "320 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "330 PSI at 73.4 Deg F",
+            "count": 1
+          },
+          {
+            "value": "3591 PSI at -20 to 650 Deg F",
+            "count": 1
+          },
+          {
+            "value": "400 PSI at 150 Deg F",
+            "count": 1
+          },
+          {
+            "value": "400 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "4065 PSI at -20 to 650 Deg F",
+            "count": 1
+          },
+          {
+            "value": "420 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "450 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "450 PSI at 73.4 Deg F",
+            "count": 1
+          },
+          {
+            "value": "470 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "480 PSI at 73.4 Deg F",
+            "count": 1
+          },
+          {
+            "value": "500 PSI",
+            "count": 1
+          },
+          {
+            "value": "500 PSI SWP, 150 PSI",
+            "count": 1
+          },
+          {
+            "value": "520 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "620 PSI",
+            "count": 1
+          },
+          {
+            "value": "630 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "690 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "750 PSI",
+            "count": 1
+          },
+          {
+            "value": "820 PSI at -20 to 650 Deg F",
+            "count": 1
+          },
+          {
+            "value": "850 PSI at 73 Deg F",
+            "count": 1
+          },
+          {
+            "value": "941 PSI at -20 to 650 Deg F",
+            "count": 1
+          },
+          {
+            "value": "ASTM B88/F1960",
+            "count": 1
+          },
+          {
+            "value": "Class 125",
+            "count": 1
+          },
+          {
+            "value": "Class 125, 200 PSI at -20 to 150 Deg F",
+            "count": 1
+          },
+          {
+            "value": "Class 250, 400 PSI at -20 to 150 Deg F",
+            "count": 1
+          },
+          {
+            "value": "Class 3000",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "width": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "2-5/8\"",
+            "count": 7
+          },
+          {
+            "value": "1-1/2\"",
+            "count": 6
+          },
+          {
+            "value": "4-5/8\"",
+            "count": 6
+          },
+          {
+            "value": "12\"",
+            "count": 4
+          },
+          {
+            "value": "14.875\"",
+            "count": 4
+          },
+          {
+            "value": "22\"",
+            "count": 4
+          },
+          {
+            "value": "0.38\"",
+            "count": 3
+          },
+          {
+            "value": "18-5/8\"",
+            "count": 3
+          },
+          {
+            "value": "4-7/8\"",
+            "count": 3
+          },
+          {
+            "value": "19-1/2\"",
+            "count": 2
+          },
+          {
+            "value": "5\"",
+            "count": 2
+          },
+          {
+            "value": "0.25\"",
+            "count": 1
+          },
+          {
+            "value": "1.75\"",
+            "count": 1
+          },
+          {
+            "value": "14-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "14-5/16\"",
+            "count": 1
+          },
+          {
+            "value": "16-11/16 to 17\"",
+            "count": 1
+          },
+          {
+            "value": "18\"",
+            "count": 1
+          },
+          {
+            "value": "18-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "18-3/4\"",
+            "count": 1
+          },
+          {
+            "value": "19\"",
+            "count": 1
+          },
+          {
+            "value": "20\"",
+            "count": 1
+          },
+          {
+            "value": "22-1/8\"",
+            "count": 1
+          },
+          {
+            "value": "23-7/16\"",
+            "count": 1
+          },
+          {
+            "value": "23.63\"",
+            "count": 1
+          },
+          {
+            "value": "24\"",
+            "count": 1
+          },
+          {
+            "value": "27-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "3\"",
+            "count": 1
+          },
+          {
+            "value": "4\"",
+            "count": 1
+          },
+          {
+            "value": "4-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "40\"",
+            "count": 1
+          },
+          {
+            "value": "5-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "6\"",
+            "count": 1
+          },
+          {
+            "value": "6-7/16\"",
+            "count": 1
+          },
+          {
+            "value": "6.77\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "capacity": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "26 Lb",
+            "count": 4
+          },
+          {
+            "value": "8 GPH",
+            "count": 3
+          },
+          {
+            "value": "12.6 Cu Ft",
+            "count": 1
+          },
+          {
+            "value": "16 Oz",
+            "count": 1
+          },
+          {
+            "value": "22 Gauge (Crimping)",
+            "count": 1
+          },
+          {
+            "value": "4 Oz",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "category_1_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Pipe & Fittings",
+            "count": 2749
+          },
+          {
+            "value": "Plumbing Installation, Tools, Hardware & Safety",
+            "count": 712
+          },
+          {
+            "value": "Heating & Cooling",
+            "count": 373
+          },
+          {
+            "value": "Faucets, Fixtures & Appliances",
+            "count": 364
+          },
+          {
+            "value": "TBC",
+            "count": 320
+          },
+          {
+            "value": "Hot Water, Valves, Irrigation & Pumps",
+            "count": 118
+          }
+        ]
+      }
+    ],
+    "temperature_rating": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "140 Deg F",
+            "count": 1037
+          },
+          {
+            "value": "200 Deg F",
+            "count": 93
+          },
+          {
+            "value": "800 Deg F",
+            "count": 44
+          },
+          {
+            "value": "220 Deg F",
+            "count": 19
+          },
+          {
+            "value": "180 Deg F",
+            "count": 9
+          },
+          {
+            "value": "210 Deg F",
+            "count": 9
+          },
+          {
+            "value": "105 Deg C",
+            "count": 4
+          },
+          {
+            "value": "40 to 100 Deg F",
+            "count": 4
+          },
+          {
+            "value": "160 Deg F",
+            "count": 3
+          },
+          {
+            "value": "73 Deg F",
+            "count": 3
+          },
+          {
+            "value": "-20 to 150 Deg F",
+            "count": 2
+          },
+          {
+            "value": "-20 to 200 Deg F",
+            "count": 2
+          },
+          {
+            "value": "-20 to 650 Deg F",
+            "count": 2
+          },
+          {
+            "value": "353 Deg F",
+            "count": 2
+          },
+          {
+            "value": "40 to 140 Deg F",
+            "count": 2
+          },
+          {
+            "value": "406 Deg F",
+            "count": 2
+          },
+          {
+            "value": "-40 to 230 Deg F",
+            "count": 1
+          },
+          {
+            "value": "150 Deg F",
+            "count": 1
+          },
+          {
+            "value": "221 Deg F",
+            "count": 1
+          },
+          {
+            "value": "230 Deg F",
+            "count": 1
+          },
+          {
+            "value": "32 to 104 Deg F",
+            "count": 1
+          },
+          {
+            "value": "40 to 220 Deg F",
+            "count": 1
+          },
+          {
+            "value": "45 to 75 Deg F",
+            "count": 1
+          },
+          {
+            "value": "45 to 90 Deg F",
+            "count": 1
+          },
+          {
+            "value": "450 Deg F",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "height": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "6\"",
+            "count": 10
+          },
+          {
+            "value": "5-13/16\"",
+            "count": 7
+          },
+          {
+            "value": "12-3/8\"",
+            "count": 5
+          },
+          {
+            "value": "33.375\"",
+            "count": 4
+          },
+          {
+            "value": "8\"",
+            "count": 4
+          },
+          {
+            "value": "0.38\"",
+            "count": 3
+          },
+          {
+            "value": "11-13/16\"",
+            "count": 3
+          },
+          {
+            "value": "3-7/8\"",
+            "count": 3
+          },
+          {
+            "value": "30\"",
+            "count": 3
+          },
+          {
+            "value": "9-1/2\"",
+            "count": 3
+          },
+          {
+            "value": "1-3/16\"",
+            "count": 2
+          },
+          {
+            "value": "15\"",
+            "count": 2
+          },
+          {
+            "value": "2-3/4\"",
+            "count": 2
+          },
+          {
+            "value": "27-1/8\"",
+            "count": 2
+          },
+          {
+            "value": "6-3/4\"",
+            "count": 2
+          },
+          {
+            "value": "9\"",
+            "count": 2
+          },
+          {
+            "value": "0.25\"",
+            "count": 1
+          },
+          {
+            "value": "0.31\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/8\"",
+            "count": 1
+          },
+          {
+            "value": "1.75\"",
+            "count": 1
+          },
+          {
+            "value": "10\"",
+            "count": 1
+          },
+          {
+            "value": "10-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "11-5/16\"",
+            "count": 1
+          },
+          {
+            "value": "14\"",
+            "count": 1
+          },
+          {
+            "value": "15-13/16\"",
+            "count": 1
+          },
+          {
+            "value": "16-13/16\"",
+            "count": 1
+          },
+          {
+            "value": "17-15/16\"",
+            "count": 1
+          },
+          {
+            "value": "25-5/16\"",
+            "count": 1
+          },
+          {
+            "value": "26\"",
+            "count": 1
+          },
+          {
+            "value": "4.22\"",
+            "count": 1
+          },
+          {
+            "value": "57\"",
+            "count": 1
+          },
+          {
+            "value": "6-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "6.5\"",
+            "count": 1
+          },
+          {
+            "value": "7\"",
+            "count": 1
+          },
+          {
+            "value": "7-11/16\"",
+            "count": 1
+          },
+          {
+            "value": "70\"",
+            "count": 1
+          },
+          {
+            "value": "8-3/4\"",
+            "count": 1
+          },
+          {
+            "value": "8-5/8\"",
+            "count": 1
+          },
+          {
+            "value": "9-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "9-1/8\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "wattage": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "60 Watt",
+            "count": 1
+          },
+          {
+            "value": "900 Watt",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  }
+}

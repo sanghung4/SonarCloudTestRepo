@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-3.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="james.feigel@dialexa.com" id="dropNotNullConstraintsOnDeliveries">
+        <preConditions onFail="MARK_RAN" onFailMessage="NOT NULL constraints on deliveries do not exist">
+            <not>
+                <sqlCheck expectedResult="YES">
+                    SELECT is_nullable FROM information_schema.columns WHERE table_name = 'deliveries' AND column_name = 'preferred_date'
+                </sqlCheck>
+            </not>
+            <not>
+                <sqlCheck expectedResult="YES">
+                    SELECT is_nullable FROM information_schema.columns WHERE table_name = 'deliveries' AND column_name = 'preferred_time'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <dropNotNullConstraint tableName="deliveries" columnName="preferred_time" />
+        <dropNotNullConstraint tableName="deliveries" columnName="preferred_date" />
+        <rollback>
+            <addNotNullConstraint tableName="deliveries" columnName="preferred_time" />
+            <addNotNullConstraint tableName="deliveries" columnName="preferred_date" />
+        </rollback>
+    </changeSet>
+    <changeSet author="james.feigel@dialexa.com" id="changeDefaultShouldShipFullOrder">
+        <preConditions onFail="MARK_RAN" onFailMessage="should_ship_full_order already defaults to true">
+            <not>
+                <sqlCheck expectedResult="true">
+                    SELECT column_default FROM information_schema.columns WHERE table_name = 'deliveries' AND column_name = 'should_ship_full_order'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <addDefaultValue tableName="deliveries" columnName="should_ship_full_order" defaultValueBoolean="true" />
+        <rollback>
+            <addDefaultValue tableName="deliveries" columnName="should_ship_full_order" defaultValueBoolean="false" />
+        </rollback>
+    </changeSet>
+    <changeSet author="james.feigel@dialexa.com" id="dropNotNullConstraintsOnWillCalls">
+        <preConditions onFail="MARK_RAN" onFailMessage="NOT NULL constraints on will_calls do not exist">
+            <not>
+                <sqlCheck expectedResult="YES">
+                    SELECT is_nullable FROM information_schema.columns WHERE table_name = 'will_calls' AND column_name = 'preferred_date'
+                </sqlCheck>
+            </not>
+            <not>
+                <sqlCheck expectedResult="YES">
+                    SELECT is_nullable FROM information_schema.columns WHERE table_name = 'will_calls' AND column_name = 'preferred_time'
+                </sqlCheck>
+            </not>
+            <not>
+                <sqlCheck expectedResult="YES">
+                    SELECT is_nullable FROM information_schema.columns WHERE table_name = 'will_calls' AND column_name = 'branch_id'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <dropNotNullConstraint tableName="will_calls" columnName="preferred_time" />
+        <dropNotNullConstraint tableName="will_calls" columnName="preferred_date" />
+        <dropNotNullConstraint tableName="will_calls" columnName="branch_id" />
+        <rollback>
+            <addNotNullConstraint tableName="will_calls" columnName="preferred_time" />
+            <addNotNullConstraint tableName="will_calls" columnName="preferred_date" />
+            <addNotNullConstraint tableName="will_calls" columnName="branch_id" />
+        </rollback>
+    </changeSet>
+    <changeSet author="james.feigel@dialexa.com" id="tag-3-products">
+        <tagDatabase tag="products-v3"/>
+    </changeSet>
+</databaseChangeLog>

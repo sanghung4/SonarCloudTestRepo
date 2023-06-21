@@ -1,21 +1,20 @@
-## JIRA Ticket
-<!-- Which JIRA story / requirements is associated with the code? -->
-[INVII-XXX](https://reeceusa.atlassian.net/browse/INVII-XXX)
+## JIRA Ticket Link
 
-## Summary :a:
-<!-- Describe what this task accomplishes. -->
+Related #[DP-XXX]
 
-## Changelog :b:
-<!-- Describe updates to the repo to accomplish the tasks listed above. -->
+## Description
 
-## New Dependencies :no_entry_sign:
-<!-- List any new dependencies and what it provides the app. -->
+_Description of changes and why there are necessary._
 
-## Checklist :ballot_box_with_check:
-- [ ] Environment variables are up to date
-- [ ] New tests are written
-- [ ] Tests pass
-- [ ] Code is documented in line
+## Database Migrations
 
-## Demo Screenshot or GIF :cinema:
-<!-- Upload a screenshot or gif of the changes. -->
+_Are there any database migrations?_
+
+## PR Dependencies
+
+_Did you introduce any new dependencies?_
+
+## Checklist
+
+- [ ] Story Review Complete
+- [ ] Tests (If no test are introduced add context why)

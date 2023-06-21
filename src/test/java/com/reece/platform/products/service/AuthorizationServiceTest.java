@@ -1,0 +1,35 @@
+package com.reece.platform.products.service;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class AuthorizationServiceTest {
+
+    private AuthorizationService authorizationService;
+
+    @BeforeEach
+    public void setup() throws Exception {
+        authorizationService = new AuthorizationService();
+    }
+
+    @Test
+    void userCanManageBranches_success() {
+        String authToken =
+            "Bearer eyJraWQiOiJFYklyU0VBTzdyNEdYcF9LdnVDNExXNjRsU29jRWdaMDlpSmZpbFhhNndzIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULkhZVXNDOUJxaHBIS2Z1TWppZzNHMHBuQzdWWHJRT3hMaGYxRTBtMWF0MmsiLCJpc3MiOiJodHRwczovL2Rldi00MzI1NDYub2t0YS5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjY3MDY4NTkwLCJleHAiOjE2NjcxNTQ5OTAsImNpZCI6IjBvYTEzYjBiNWJNS1haZkpVNHg3IiwidWlkIjoiMDB1OXRvb2U3NnlLM1paWXY0eDciLCJzY3AiOlsicHJvZmlsZSIsImVtYWlsIiwib3BlbmlkIl0sImF1dGhfdGltZSI6MTY2NzA2ODU4Nywic3ViIjoibW9yc2NvLWVuZ2luZWVyLWxvY2FsQHJlZWNlLmNvbSIsImVjb21tVXNlcklkIjoiMTYzMjQ2OGItMzAyNy00NzdhLTgzNDItMTVmNzA2YjY2NzliIiwiZWNvbW1QZXJtaXNzaW9ucyI6WyJtYW5hZ2VfYnJhbmNoZXMiLCJhcHByb3ZlX2FjY291bnRfdXNlciIsIm1hbmFnZV9yb2xlcyIsImFwcHJvdmVfYWxsX3VzZXJzIiwidmlld19pbnZvaWNlIiwic3VibWl0X3F1b3RlX29yZGVyIiwiZWRpdF9wcm9maWxlIiwiZWRpdF9saXN0IiwibWFuYWdlX3BheW1lbnRfbWV0aG9kcyIsInN1Ym1pdF9jYXJ0X3dpdGhvdXRfYXBwcm92YWwiLCJpbnZpdGVfdXNlciIsInRvZ2dsZV9mZWF0dXJlcyIsImFwcHJvdmVfY2FydCJdfQ.isehc92F7wzRqCKEuZzKFkMCtklq9pP8EWcNy44a0bntHpMeF0ML3IcIvlyTUk7QXF8z";
+        assertEquals(true, authorizationService.userCanManageBranches(authToken));
+    }
+
+    @Test
+    void userCanManageBranches_null() {
+        assertEquals(false, authorizationService.userCanManageBranches(null));
+    }
+
+    @Test
+    void userCanManageBranches_missingPermissions() {
+        String authToken =
+            "Bearer eyJraWQiOiJFYklyU0VBTzdyNEdYcF9LdnVDNExXNjRsU29jRWdaMDlpSmZpbFhhNndzIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULmt4XzlTRDNiREdQMF9HNWw4akVKTEJ3cFhzd3o4LURjVGlBTENRdV9xeVUiLCJpc3MiOiJodHRwczovL2Rldi00MzI1NDYub2t0YS5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjY2OTk5MjA2LCJleHAiOjE2NjcwODU2MDYsImNpZCI6IjBvYTEzYjBiNWJNS1haZkpVNHg3IiwidWlkIjoiMDB1OXJ3ZzkwMER2OTN4RDU0eDciLCJzY3AiOlsicHJvZmlsZSIsImVtYWlsIiwib3BlbmlkIl0sImF1dGhfdGltZSI6MTY2Njk5OTIwMiwic3ViIjoicmVlY2VxYStsb2NhbC1hZG1pbi0zMDI4NDEtMkBnbWFpbC5jb20iLCJlY29tbVVzZXJJZCI6IjRiZmU5Njk0LTZhOWYtNDY3NS1iMzdkLWE0M2JmNmIxZTY4NCIsImVjb21tUGVybWlzc2lvbnMiOlsiZWRpdF9saXN0Iiwic3VibWl0X2NhcnRfd2l0aG91dF9hcHByb3ZhbCIsInN1Ym1pdF9xdW90ZV9vcmRlciIsInZpZXdfaW52b2ljZSJdfQ.dV9ItU6M_TgJmxGuUFqVKxuUqhwYR4kEoaEcDg8WDxINJGEkOH3M_jyJpcOycDR_Dbz4WBrz4d69-9tDkmPwI-1xKP7vOnBZ9RJVlEddn9Pd4CfSq4HrcpFqczTsTtgsTpbkUGM4IULH6zKLdzstvHKh5mZN2t9qAqpIQFd054JWT1tIjs-GGTxW_C4I3OORU8dXpmD4DZM_2oxbx1vtYHa6a0qvD86VKAahEkyH6SCj14WupNlbpzJlYOtgPI_QGL_Kxvuifd0svlaw0MO0jEVWVJ4Pd2XQf3mlReNkbMfY3o--b0gpe06xl_Amq3UDmSwRr9x8neKFvWYthlwfMA";
+        assertEquals(false, authorizationService.userCanManageBranches(authToken));
+    }
+}

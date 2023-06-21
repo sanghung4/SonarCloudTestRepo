@@ -1,6 +1,0 @@
-mutation UpdateCount($item: ItemInput!) {
-  updateCount(item: $item) {
-    success
-    message
-  }
-}

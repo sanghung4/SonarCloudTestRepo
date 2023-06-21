@@ -1,0 +1,1243 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "page": {
+      "current": 1,
+      "total_pages": 7,
+      "total_results": 61,
+      "size": 10
+    },
+    "engine": {
+      "name": "ecomm-products",
+      "type": "meta"
+    },
+    "request_id": "f9a0bd68-88cf-4352-a80a-d964339c5785"
+  },
+  "results": [
+    {
+      "feature_benefit_list_text": {
+        "raw": "When Emerson First Pioneered the Use of Scroll Technology in Compressors, it Changed the Industry Forever; Since Then, Copeland Scroll Technology Remains at the Forefront for HVACR Applications, Impressing Contractors and Original Equipment Manufacturers (OEMS) with Its Superior Efficiency, Proven Reliability and Ease of Installation; Efficiency - Approximately 35 Percent of the Electrical Energy Consumed Each Year in the United States is Used by HVACR Systems; Compressors Make up a Vast Maj..."
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100174/COPLNDE05178_5.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100078/COPLNDE00020_1.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "customer_number": {
+        "raw": ["303200", "29267"]
+      },
+      "_meta": {
+        "id": "MSC-104443",
+        "engine": "products-1635656666801",
+        "score": 9.547849
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-104443"
+      },
+      "internal_item_nbr": {
+        "raw": "3727060"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner, HVAC System, Heat Pump; Refrigerant Type R-410A; Voltage Rating 208/230 Volt AC at 60 Hertz 1 Phase; Cooling Capacity 20000 BTU/HR; Oil Type POE Oil; Motor Type Permanent Split Capacitor; Includes Molded Plug Service"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-11-02 22:40:04.500"
+      },
+      "erp_product_id": {
+        "raw": "MSC-104443"
+      },
+      "product_sold_count": {
+        "raw": 286.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP20K6E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/COPLNDE00002_2.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP20K6EPFV830 COMPRESSOR ZP20K6EPFV830"
+      },
+      "web_description": {
+        "raw": "208/230 VAC, 20000 BTU/HR, Air Conditioner Compressor"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1137",
+          "1057",
+          "1031",
+          "1152",
+          "1019",
+          "1051",
+          "1089",
+          "1032",
+          "3013",
+          "1154",
+          "1020",
+          "1048",
+          "1049",
+          "1006",
+          "1076"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland Scroll"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner, HVAC System, Heat Pump\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100008/COPLNDINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": ["@104443", "FQ21020"]
+      },
+      "unspc_id": {
+        "raw": "40151601"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "When Emerson First Pioneered the Use of Scroll Technology in Compressors, it Changed the Industry Forever; Since Then, Copeland Scroll Technology Remains at the Forefront for HVACR Applications, Impressing Contractors and Original Equipment Manufacturers (OEMS) with Its Superior Efficiency, Proven Reliability and Ease of Installation; Efficiency - Approximately 35 Percent of the Electrical Energy Consumed Each Year in the United States is Used by HVACR Systems; Compressors Make up a Vast Maj..."
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100174/COPLNDE05178_5.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100078/COPLNDE00020_1.pdf"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "2"
+      },
+      "customer_number": {
+        "raw": ["29267"]
+      },
+      "_meta": {
+        "id": "MSC-104515",
+        "engine": "products-1635656666801",
+        "score": 9.1447315
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-104515"
+      },
+      "internal_item_nbr": {
+        "raw": "3657243"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner, HVAC System, Heat Pump; Refrigerant Type R-410A; Voltage Rating 208/230 Volt AC at 60 Hertz 1 Phase; Cooling Capacity 18000 BTU/HR; Oil Type POE Oil; Motor Type Permanent Split Capacitor; Includes Molded Plug Service"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-27 16:40:04.663"
+      },
+      "erp_product_id": {
+        "raw": "MSC-104515"
+      },
+      "product_sold_count": {
+        "raw": 225.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP14K6E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/COPLNDE00002_2.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP14K6EPFV830 COMPRESSOR ZP14K6EPFV830 ICPZP14K6EPFV830"
+      },
+      "web_description": {
+        "raw": "208/230 VAC, 18000 BTU/HR, Air Conditioner Compressor"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "2"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1154",
+          "1031",
+          "1148",
+          "1019",
+          "1089",
+          "1136",
+          "1057",
+          "1152",
+          "1020",
+          "1049",
+          "1137",
+          "1051",
+          "1048",
+          "1006"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland Scroll"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner, HVAC System, Heat Pump\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100008/COPLNDINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": ["FQ21018"]
+      },
+      "unspc_id": {
+        "raw": "40151601"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "When Emerson First Pioneered the Use of Scroll Technology in Compressors, it Changed the Industry Forever; Since Then, Copeland Scroll Technology Remains at the Forefront for HVACR Applications, Impressing Contractors and Original Equipment Manufacturers (OEMS) with Its Superior Efficiency, Proven Reliability and Ease of Installation; Efficiency - Approximately 35 Percent of the Electrical Energy Consumed Each Year in the United States is Used by HVACR Systems; Compressors Make up a Vast Maj..."
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100174/COPLNDE05178_3.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100078/COPLNDE00020_1.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "2"
+      },
+      "customer_number": {
+        "raw": [
+          "29267",
+          "29270",
+          "29305",
+          "29301",
+          "29263",
+          "29292",
+          "29294",
+          "29281",
+          "29297",
+          "29257"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-60955",
+        "engine": "products-1635656666801",
+        "score": 8.98161
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-60955"
+      },
+      "internal_item_nbr": {
+        "raw": "5041108"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner, HVAC System, Heat Pump; Refrigerant Type R-410A; Voltage Rating 208/230 Volt AC at 60 Hertz 1 Phase; Cooling Capacity 31100 BTU/HR; Current Rating 18.6 Amp; Oil Type POE Oil; Motor Type Permanent Split Capacitor; Includes Molded Plug Service"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-26 03:04:10.950"
+      },
+      "erp_product_id": {
+        "raw": "MSC-60955"
+      },
+      "product_sold_count": {
+        "raw": 195.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP31K5E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100078/COPLNDE00002_2_7.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP31K5EPFV830 COMPRESSOR SCROLL 31 000 BTU 2301 PHASE 410A WPLUG ZP31K5EPFV830"
+      },
+      "upc_id": {
+        "raw": "68268888712"
+      },
+      "web_description": {
+        "raw": "208/230 VAC, 18.6 A, 31100 BTU/HR, Air Conditioner Compressor"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "2"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1002",
+          "1154",
+          "1138",
+          "1020",
+          "1049",
+          "1035",
+          "1006",
+          "1031",
+          "1008",
+          "1057",
+          "1050",
+          "3013"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland Scroll"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner, HVAC System, Heat Pump\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100008/COPLNDINST00003.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "FQ07084",
+          "FQ07084",
+          "FQ07084",
+          "FQ07084",
+          "FQ07084",
+          "FQ07084",
+          "FQ07084",
+          "FQ07084",
+          "FQ07084",
+          "FQ07084"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40151601"
+      }
+    },
+    {
+      "product_search_boost_4_nbr": {
+        "raw": "3"
+      },
+      "customer_number": {
+        "raw": [
+          "29270",
+          "29298",
+          "29263",
+          "29269",
+          "29281",
+          "29257",
+          "29294",
+          "29297",
+          "29283",
+          "29280",
+          "29290",
+          "29267",
+          "29302"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-97367",
+        "engine": "products-1635656666801",
+        "score": 8.445125
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-97367"
+      },
+      "internal_item_nbr": {
+        "raw": "3576586"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner; Voltage Rating 208/230 Volt at 60 Hertz 1 Phase; Capacity 37500 BTU/HR; Rotor Load Current Rating 22.1 Amp; Capacitance 45 Microfarad at 370 Volt; Locked Rotor Current Rating 109 Amp"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-26 03:04:10.950"
+      },
+      "erp_product_id": {
+        "raw": "MSC-97367"
+      },
+      "product_sold_count": {
+        "raw": 142.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP38K5E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100110/EMERSO_ZR16K5-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "COPLNDE00002_2_7.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP38K5EPFV830 COMP"
+      },
+      "upc_id": {
+        "raw": "662442976147"
+      },
+      "web_description": {
+        "raw": "37500 BTU 45 Microfarad at 370 V Air Conditioner Compressor - Copeland, 208/230 VAC, 1-Phase, 22.1 A Rotor Load / 109 A Locked Rotor"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "3"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1040",
+          "1152",
+          "1049",
+          "1050",
+          "1008",
+          "1057",
+          "1048",
+          "1020",
+          "1035",
+          "1137",
+          "1009",
+          "1089",
+          "1006",
+          "1154",
+          "3013",
+          "1031",
+          "1029",
+          "1051",
+          "1002",
+          "1148",
+          "1022"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner\"}"
+        ]
+      },
+      "customer_part_number": {
+        "raw": [
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155",
+          "FQ10155"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40101700"
+      }
+    },
+    {
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/EMERSOE00669_1.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "2"
+      },
+      "customer_number": {
+        "raw": [
+          "29281",
+          "29280",
+          "29270",
+          "29297",
+          "29298",
+          "29269",
+          "29290",
+          "29263",
+          "29259",
+          "29301",
+          "29292",
+          "29294",
+          "29305",
+          "29257",
+          "29267"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-96201",
+        "engine": "products-1635656666801",
+        "score": 8.359718
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-96201"
+      },
+      "internal_item_nbr": {
+        "raw": "3576286"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner; Voltage Rating 208/230 Volt at 60 Hertz 1 Phase; Capacity 51000 BTU/HR; Rotor Load Current Rating 29.4 Amp; Capacitance 70 Microfarad at 370 Volt; Locked Rotor Current Rating 134 Amp"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-27 22:40:03.933"
+      },
+      "erp_product_id": {
+        "raw": "MSC-96201"
+      },
+      "product_sold_count": {
+        "raw": 135.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP51K5E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100110/EMERSO_ZR16K5-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "COPLNDE00002_2_7.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP51K5EPFV830 COMP"
+      },
+      "upc_id": {
+        "raw": "662442948144"
+      },
+      "web_description": {
+        "raw": "51000 BTU 70 Microfarad at 370 V Air Conditioner Compressor - Copeland, 208/230 VAC, 1-Phase, 29.4 A Rotor Load / 134 A Locked Rotor"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "2"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1008",
+          "1048",
+          "1009",
+          "1032",
+          "1057",
+          "1022",
+          "1050",
+          "1029",
+          "1002",
+          "1031",
+          "3013",
+          "1019",
+          "1035",
+          "1020"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner\"}"
+        ]
+      },
+      "customer_part_number": {
+        "raw": [
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096",
+          "FQ07096"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40101700"
+      }
+    },
+    {
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/EMERSOE00666_1.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "3"
+      },
+      "customer_number": {
+        "raw": [
+          "29269",
+          "29301",
+          "29292",
+          "29263",
+          "29259",
+          "29257",
+          "29297",
+          "29267",
+          "29283",
+          "29270",
+          "29294",
+          "29281"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-96194",
+        "engine": "products-1635656666801",
+        "score": 8.256555
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-96194"
+      },
+      "internal_item_nbr": {
+        "raw": "3576284"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner; Voltage Rating 208/230 Volt at 60 Hertz 1 Phase; Capacity 42000 BTU/HR; Rotor Load Current Rating 24.3 Amp; Capacitance 70 Microfarad at 370 Volt; Locked Rotor Current Rating 117 Amp"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-26 03:04:10.950"
+      },
+      "erp_product_id": {
+        "raw": "MSC-96194"
+      },
+      "product_sold_count": {
+        "raw": 127.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP42K5E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100110/EMERSO_ZR16K5-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "COPLNDE00002_2_7.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP42K5EPFV830 COMP"
+      },
+      "upc_id": {
+        "raw": "662442948120"
+      },
+      "web_description": {
+        "raw": "42000 BTU 70 Microfarad at 370 V Air Conditioner Compressor - Copeland, 208/230 VAC, 1-Phase, 24.3 A Rotor Load / 117 A Locked Rotor"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "3"
+      },
+      "in_stock_location": {
+        "raw": [
+          "3004",
+          "3007",
+          "1154",
+          "3013",
+          "1138",
+          "1047",
+          "1113",
+          "1050",
+          "1002",
+          "1035",
+          "1028",
+          "1048",
+          "1031",
+          "1020",
+          "1019",
+          "1008",
+          "1029",
+          "1152",
+          "1022"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner\"}"
+        ]
+      },
+      "customer_part_number": {
+        "raw": [
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094",
+          "FQ07094"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40101700"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "When Emerson First Pioneered the Use of Scroll Technology in Compressors, it Changed the Industry Forever; Since Then, Copeland Scroll Technology Remains at the Forefront for HVACR Applications, Impressing Contractors and Original Equipment Manufacturers (OEMS) with Its Superior Efficiency, Proven Reliability and Ease of Installation; Efficiency - Approximately 35 Percent of the Electrical Energy Consumed Each Year in the United States is Used by HVACR Systems; Compressors Make up a Vast Maj..."
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100174/COPLNDE05178_5.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100078/COPLNDE00020_1.pdf"
+      },
+      "customer_number": {
+        "raw": ["29267"]
+      },
+      "_meta": {
+        "id": "MSC-104419",
+        "engine": "products-1635656666801",
+        "score": 7.8364806
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-104419"
+      },
+      "internal_item_nbr": {
+        "raw": "3726894"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner, HVAC System, Heat Pump; Refrigerant Type R-410A; Voltage Rating 208/230 Volt AC at 60 Hertz 1 Phase; Cooling Capacity 24000 BTU/HR; Current Rating 64 Amp; Oil Type POE Oil; Motor Type Permanent Split Capacitor; Includes Molded Plug Service"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-29 22:40:04.717"
+      },
+      "erp_product_id": {
+        "raw": "MSC-104419"
+      },
+      "product_sold_count": {
+        "raw": 99.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP24K6E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100078/COPLNDE00002_2_7.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP24K6EPFV830 COMPRESSOR ZP24K6EPFV830"
+      },
+      "web_description": {
+        "raw": "208/230 VAC, 64 A, 24000 BTU/HR, Air Conditioner Compressor"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1092",
+          "1076",
+          "1006",
+          "1048",
+          "1154",
+          "1029",
+          "1057",
+          "1035",
+          "1009",
+          "3004",
+          "1051",
+          "1019",
+          "1148",
+          "1049",
+          "1152",
+          "1137",
+          "3013",
+          "1008"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland Scroll"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner, HVAC System, Heat Pump\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100008/COPLNDINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": ["FQ21022"]
+      },
+      "unspc_id": {
+        "raw": "40151601"
+      }
+    },
+    {
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/EMERSOE00661_1.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "3"
+      },
+      "customer_number": {
+        "raw": ["29281", "29263", "29280", "29292", "29290", "29267", "29297"]
+      },
+      "_meta": {
+        "id": "MSC-97364",
+        "engine": "products-1635656666801",
+        "score": 7.6381783
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-97364"
+      },
+      "internal_item_nbr": {
+        "raw": "3576585"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner; Voltage Rating 208/230 Volt at 60 Hertz 1 Phase; Capacity 15500 BTU/HR; Rotor Load Current Rating 10 Amp; Capacitance 30 Microfarad at 370 Volt; Locked Rotor Current Rating 48 Amp"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-26 03:04:10.950"
+      },
+      "erp_product_id": {
+        "raw": "MSC-97364"
+      },
+      "product_sold_count": {
+        "raw": 88.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP16K5E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100110/EMERSO_ZR16K5-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "COPLNDE00002_2_7.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP16K5EPFV830 COMP"
+      },
+      "upc_id": {
+        "raw": "662442947956"
+      },
+      "web_description": {
+        "raw": "15500 BTU 30 Microfarad at 370 V Air Conditioner Compressor - Copeland, 208/230 VAC, 1-Phase, 10 A Rotor Load / 48 A Locked Rotor"
+      },
+      "product_search_boost_3_nbr": {
+        "raw": "3"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1137",
+          "1152",
+          "1146",
+          "1020",
+          "1113",
+          "1028",
+          "1019",
+          "1057",
+          "1154",
+          "1049",
+          "1031",
+          "1048",
+          "1138",
+          "3013",
+          "3004",
+          "4001",
+          "1002",
+          "1051"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner\"}"
+        ]
+      },
+      "customer_part_number": {
+        "raw": [
+          "FQ10150",
+          "FQ10150",
+          "FQ10150",
+          "FQ10150",
+          "FQ10150",
+          "FQ10150",
+          "FQ10150"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40101700"
+      }
+    },
+    {
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "customer_number": {
+        "raw": [
+          "29263",
+          "29270",
+          "29267",
+          "29297",
+          "29298",
+          "29290",
+          "29281",
+          "29257"
+        ]
+      },
+      "_meta": {
+        "id": "MSC-96170",
+        "engine": "products-1635656666801",
+        "score": 7.4343705
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-96170"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP29K5EPFV830 COMP"
+      },
+      "upc_id": {
+        "raw": "662442948038"
+      },
+      "web_description": {
+        "raw": "29000 BTU 45 Microfarad at 370 V Air Conditioner Compressor - Copeland, 208/230 VAC, 1-Phase, 15.7 A Rotor Load / 77 A Locked Rotor"
+      },
+      "internal_item_nbr": {
+        "raw": "3576278"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner; Voltage Rating 208/230 Volt at 60 Hertz 1 Phase; Capacity 29000 BTU/HR; Rotor Load Current Rating 15.7 Amp; Capacitance 45 Microfarad at 370 Volt; Locked Rotor Current Rating 77 Amp"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-27 22:40:03.933"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1137",
+          "1009",
+          "1020",
+          "1032",
+          "1006",
+          "1019",
+          "1002",
+          "1154",
+          "1075",
+          "1146",
+          "1152",
+          "1031",
+          "1049",
+          "1138",
+          "1051",
+          "1008",
+          "1048",
+          "1092",
+          "1028",
+          "1050",
+          "1148",
+          "1029"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-96170"
+      },
+      "product_sold_count": {
+        "raw": 81.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP29K5E-PFV-830"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100109/EMERSO_ZR16K5-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner\"}"
+        ]
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100110/EMERSO_ZR16K5-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "COPLNDE00002_2_7.pdf"
+      },
+      "customer_part_number": {
+        "raw": [
+          "FQ07082",
+          "FQ07082",
+          "FQ07082",
+          "FQ07082",
+          "FQ07082",
+          "FQ07082",
+          "FQ07082",
+          "FQ07082"
+        ]
+      },
+      "unspc_id": {
+        "raw": "40101700"
+      }
+    },
+    {
+      "feature_benefit_list_text": {
+        "raw": "When Emerson First Pioneered the Use of Scroll Technology in Compressors, it Changed the Industry Forever; Since Then, Copeland Scroll Technology Remains at the Forefront for HVACR Applications, Impressing Contractors and Original Equipment Manufacturers (OEMS) with Its Superior Efficiency, Proven Reliability and Ease of Installation; Efficiency - Approximately 35 Percent of the Electrical Energy Consumed Each Year in the United States is Used by HVACR Systems; Compressors Make up a Vast Maj..."
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100174/COPLNDE05178_5.pdf"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100078/COPLNDE00020_1.pdf"
+      },
+      "customer_number": {
+        "raw": ["29267"]
+      },
+      "_meta": {
+        "id": "MSC-104491",
+        "engine": "products-1635656666801",
+        "score": 7.2611876
+      },
+      "id": {
+        "raw": "products-1635656666801|MSC-104491"
+      },
+      "internal_item_nbr": {
+        "raw": "3727096"
+      },
+      "product_overview_description": {
+        "raw": "Air Conditioner Compressor; Item Compressor; Used On Item Air Conditioner, HVAC System, Heat Pump; Refrigerant Type R-410A; Voltage Rating 208/230 Volt AC at 60 Hertz 1 Phase; Cooling Capacity 34000 BTU/HR; Oil Type POE Oil; Motor Type Permanent Split Capacitor; Includes Molded Plug Service"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_LRG.jpg"
+      },
+      "last_update_date": {
+        "raw": "2021-10-26 03:04:10.950"
+      },
+      "erp_product_id": {
+        "raw": "MSC-104491"
+      },
+      "product_sold_count": {
+        "raw": 73.0
+      },
+      "vendor_part_nbr": {
+        "raw": "ZP34K6E-PFV-830"
+      },
+      "mfr_full_name": {
+        "raw": "Copeland"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_SML.jpg"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/COPLNDE00002_2.pdf"
+      },
+      "category_3_name": {
+        "raw": "TBC"
+      },
+      "category_1_name": {
+        "raw": "Heating & Cooling"
+      },
+      "category_2_name": {
+        "raw": "Repair & Replacement Parts"
+      },
+      "search_keyword_text": {
+        "raw": "FAST PART DIVISION OF ICP CORP ZP34K6EPFV830 COMPRESSOR ZP34K6EPFV830 ICPZP34K6EPFV830"
+      },
+      "web_description": {
+        "raw": "208/230 VAC, 34000 BTU/HR, Air Conditioner Compressor"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1048",
+          "1137",
+          "1152",
+          "1006",
+          "1002",
+          "3013",
+          "1009",
+          "1154",
+          "1031",
+          "1089",
+          "1050",
+          "1020"
+        ]
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100133/COPLND_ZP14K6E-PFV-830_MED.jpg"
+      },
+      "product_line": {
+        "raw": "Copeland Scroll"
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"item\":\"Compressor\",\"used_on_item\":\"Air Conditioner, HVAC System, Heat Pump\"}"
+        ]
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100008/COPLNDINST00002.pdf"
+      },
+      "customer_part_number": {
+        "raw": ["FQ21024"]
+      },
+      "unspc_id": {
+        "raw": "40151601"
+      }
+    }
+  ]
+}

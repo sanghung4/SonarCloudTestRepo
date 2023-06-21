@@ -1,6 +1,0 @@
-mutation CompleteVarianceCount($locationId: String!) {
-  completeVarianceCount(locationId: $locationId) {
-    success
-    message
-  }
-}

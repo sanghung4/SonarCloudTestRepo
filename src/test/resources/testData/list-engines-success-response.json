@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "page": {
+      "current": 1,
+      "total_pages": 1,
+      "total_results": 9,
+      "size": 25
+    }
+  },
+  "results": [
+    {
+      "name": "products-1645092370124",
+      "type": "default",
+      "language": "en",
+      "document_count": 101239
+    },
+    {
+      "name": "mincron-products-1644919962208",
+      "type": "default",
+      "language": "en",
+      "document_count": 367930
+    },
+    {
+      "name": "ted-products-1644538900021",
+      "type": "default",
+      "language": "en",
+      "document_count": 101156
+    },
+    {
+      "name": "products-1644532932118",
+      "type": "default",
+      "language": "en",
+      "document_count": 73686
+    },
+    {
+      "name": "ted-test",
+      "type": "meta",
+      "source_engines": ["ted-products-1644538900021"],
+      "document_count": 101156
+    },
+    {
+      "name": "products-1643882770842",
+      "type": "default",
+      "language": "en",
+      "document_count": 31087
+    },
+    {
+      "name": "mincron-products-demo",
+      "type": "default",
+      "language": "en",
+      "document_count": 272130
+    },
+    {
+      "name": "mincron-ecomm-products",
+      "type": "meta",
+      "source_engines": ["mincron-products-1644919962208"],
+      "document_count": 367930
+    },
+    {
+      "name": "ecomm-products",
+      "type": "meta",
+      "source_engines": ["products-1645092370124"],
+      "document_count": 101239
+    }
+  ]
+}

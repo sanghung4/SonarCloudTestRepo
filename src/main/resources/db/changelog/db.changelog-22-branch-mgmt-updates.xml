@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-22-branch-mgmt-updates.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd"
+>
+    <changeSet id="branchManagementCols" author="erik.gabrielsen@dialexa.com">
+        <preConditions onFail="MARK_RAN" onFailMessage="branch management columns exist">
+            <not>
+                <columnExists tableName="branches" columnName="isActive" />
+            </not>
+        </preConditions>
+        <addColumn tableName="branches">
+            <column name="is_available_in_store_finder" type="bool" defaultValue="true" />
+            <column name="is_shoppable" type="bool" defaultValue="true" />
+            <column name="is_pricing_only" type="bool" defaultValue="false" />
+        </addColumn>
+        <renameColumn tableName="branches" oldColumnName="deleted" newColumnName="is_active" />
+        <sql>
+            UPDATE branches
+            SET is_active = NOT is_active;
+        </sql>
+        <rollback>
+            <dropColumn tableName="branches" columnName="is_available_in_store_finder" />
+            <dropColumn tableName="branches" columnName="is_shoppable" />
+            <dropColumn tableName="branches" columnName="is_pricing_only" />
+            <renameColumn tableName="branches" oldColumnName="is_active" newColumnName="deleted" />
+            <sql>
+                UPDATE branches
+                SET deleted = NOT deleted;
+            </sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="erik.gabrielsen@dialexa.com" id="tag-22-products">
+        <tagDatabase tag="products-v22" />
+    </changeSet>
+</databaseChangeLog>

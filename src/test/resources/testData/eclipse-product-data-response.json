@@ -1,0 +1,1596 @@
+{
+  "massProductInquiryResponse": {
+    "sessionId": "",
+    "productList": {
+      "products": [
+        {
+          "description": "COPFTG 3/4 COP CXC 90 ELL 7/8OD (C9F)",
+          "alternateDescription": "COPFTG 3/4 COP CXC 90 ELL 7/8OD",
+          "partIdentifiers": {
+            "eclipsePartNumber": "32058",
+            "upcList": {
+              "upcList": [
+                {
+                  "upc": "68576823230",
+                  "primaryUPC": "Yes"
+                },
+                {
+                  "upc": "685768232308",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "50685768232303",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "03992331288",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "683264312883",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "039923312884",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "66833331288",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "68326431288",
+                  "primaryUPC": "No"
+                }
+              ]
+            },
+            "catalogNumber": "C9F",
+            "productKeywords": "GENERIC COPPER FITTINGS C9F 34 COP CXC 90 ELL 78OD ELB WB01634 10031288 9055600 ELBOW OR 34C90 34L 34CC90 60734 CC90E34 607F C93/4 3/4C9 C9 3/4 9 3/49",
+            "description": "COPFTG 3/4 COP CXC 90 ELL 7/8OD (C9F)",
+            "userDefinedProductCodeList": {
+              "userDefinedProductCode1": "C9F",
+              "userDefinedProductCode2": "1403820",
+              "userDefinedProductCode3": "COPFTG_C9F",
+              "userDefinedProductCode4": "CF4280_MUEB",
+              "userDefinedProductCode5": "32058_WEB",
+              "userDefinedProductCode6": null,
+              "userDefinedProductCode7": null,
+              "userDefinedProductCode8": null,
+              "userDefinedProductCode9": "32058"
+            }
+          },
+          "availabilityList": {
+            "branchAvailabilityList": [
+              {
+                "branch": {
+                  "branchId": "1001",
+                  "branchName": "ABILENE PLBG",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "417"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1002",
+                  "branchName": "AMARILLO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "77"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1006",
+                  "branchName": "WICHITA FLLS",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "56"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1008",
+                  "branchName": "LUBBOCK",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "662"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/13/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1009",
+                  "branchName": "ODESSA",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "88"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1010",
+                  "branchName": "BIG SPRING",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "14"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/26/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1011",
+                  "branchName": "MIDLAND SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/26/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1021",
+                  "branchName": "*KILGORE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1022",
+                  "branchName": "TYLER",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "32"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1023",
+                  "branchName": "TEXARKANA",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "110"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1024",
+                  "branchName": "*NACOGDOCHES",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1027",
+                  "branchName": "LONGVW PLBG",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "52"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1029",
+                  "branchName": "SAN ANGELO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "106"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1032",
+                  "branchName": "MIDLAND PLBG",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "35"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1035",
+                  "branchName": "CARLSBAD",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "199"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1039",
+                  "branchName": "ALAMOGORDO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "132"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1040",
+                  "branchName": "LAS CRUCES",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "537"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1044",
+                  "branchName": "ALBUQUERQUE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "831"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1045",
+                  "branchName": "MCALLEN",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "800"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1055",
+                  "branchName": "BROWNSVILLE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "98"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1056",
+                  "branchName": "HARLINGEN",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "167"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1075",
+                  "branchName": "GARDEN CITY",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "79"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1076",
+                  "branchName": "HUTCHINSON",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "25"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1079",
+                  "branchName": "LUBBOCK SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1084",
+                  "branchName": "LAREDO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "130"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1085",
+                  "branchName": "ABILENE SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1100",
+                  "branchName": "EL PASO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "487"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1109",
+                  "branchName": "SANTA FE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "326"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1112",
+                  "branchName": "EL PASO SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              }
+            ]
+          },
+          "uomList": [
+            {
+              "umqt": null,
+              "uom": "ea"
+            }
+          ],
+          "pricingUOM": {
+            "uom": "ea"
+          },
+          "pricing": {
+            "eclipsePartNumber": "32058",
+            "entityId": "10783",
+            "pricingBranch": {
+              "branch": {
+                "branchId": "1002",
+                "branchName": "AMARILLO",
+                "address": null
+              }
+            },
+            "currency": "US",
+            "quantity": {
+              "uom": "ea",
+              "umqt": "1",
+              "quantity": "1"
+            },
+            "listPrice": "13.380",
+            "customerPrice": "1.826000000",
+            "extendedPrice": "1.826000000"
+          },
+          "volume": "0.0000",
+          "weight": "0.0940",
+          "buyLine": "DC_COPFT",
+          "priceLine": "COPFIT",
+          "status": "Stock",
+          "indexType": "Primary",
+          "richContentList": null
+        },
+        {
+          "description": "COPFTG 1/2 COP CXC 90 ELL 5/8OD (C9D)",
+          "alternateDescription": "COPFTG 1/2 COP CXC 90 ELL 5/8OD",
+          "partIdentifiers": {
+            "eclipsePartNumber": "32049",
+            "upcList": {
+              "upcList": [
+                {
+                  "upc": "68576823234",
+                  "primaryUPC": "Yes"
+                },
+                {
+                  "upc": "685768232346",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "50685768232341",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "683264312722",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "039923312723",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "68326431272",
+                  "primaryUPC": "No"
+                },
+                {
+                  "upc": "03992331272",
+                  "primaryUPC": "No"
+                }
+              ]
+            },
+            "catalogNumber": "C9D",
+            "productKeywords": "GENERIC COPPER FITTINGS C9D 12 COP CXC 90 ELL 58OD ELB WB01622 10031272 9055450 ELBOW OR 12C90 12L 12CC90 60712 CC90E12 607D C91/2 1/2C9 C9 1/2 9 1/29 1589 TPS.MERGE 1/2 C X C SR 90 ELL 607-1/2 12C90 12CC9 12CC90 COPFTG 12CELL 12COP90 P2405 C9D COPPER CXC 90 ELL ELBOW 65006 12cl SEAN  ELKHART EPC DAVID C COPPER SOLDER FITTINGS FTTGS FTGS 12607                                     12IN CXC 15c90 tiddy COPFTG TAX9011811 PINOT.MERGE 1685 12CL 12C90 180 COPPER COPPERFITTING",
+            "description": "COPFTG 1/2 COP CXC 90 ELL 5/8OD (C9D)",
+            "userDefinedProductCodeList": {
+              "userDefinedProductCode1": "C9D",
+              "userDefinedProductCode2": "1403815",
+              "userDefinedProductCode3": "COPFTG_C9D",
+              "userDefinedProductCode4": "CF4260_MUEB",
+              "userDefinedProductCode5": "32049_WEB",
+              "userDefinedProductCode6": null,
+              "userDefinedProductCode7": null,
+              "userDefinedProductCode8": null,
+              "userDefinedProductCode9": null
+            }
+          },
+          "availabilityList": {
+            "branchAvailabilityList": [
+              {
+                "branch": {
+                  "branchId": "1001",
+                  "branchName": "ABILENE PLBG",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "863"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1002",
+                  "branchName": "AMARILLO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "167"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1006",
+                  "branchName": "WICHITA FLLS",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "124"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1008",
+                  "branchName": "LUBBOCK",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "601"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/13/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1009",
+                  "branchName": "ODESSA",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "264"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1010",
+                  "branchName": "BIG SPRING",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "45"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/26/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1011",
+                  "branchName": "MIDLAND SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/26/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1021",
+                  "branchName": "*KILGORE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1022",
+                  "branchName": "TYLER",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "28"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1023",
+                  "branchName": "TEXARKANA",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "189"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1024",
+                  "branchName": "*NACOGDOCHES",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1027",
+                  "branchName": "LONGVW PLBG",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "143"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "01/30/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1029",
+                  "branchName": "SAN ANGELO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "149"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1032",
+                  "branchName": "MIDLAND PLBG",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "100"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1035",
+                  "branchName": "CARLSBAD",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "158"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1039",
+                  "branchName": "ALAMOGORDO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "129"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1040",
+                  "branchName": "LAS CRUCES",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "879"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1044",
+                  "branchName": "ALBUQUERQUE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "626"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1045",
+                  "branchName": "MCALLEN",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "700"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1055",
+                  "branchName": "BROWNSVILLE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "157"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1056",
+                  "branchName": "HARLINGEN",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "189"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1075",
+                  "branchName": "GARDEN CITY",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "657"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1076",
+                  "branchName": "HUTCHINSON",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "73"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1079",
+                  "branchName": "LUBBOCK SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/03/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1084",
+                  "branchName": "LAREDO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "321"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1085",
+                  "branchName": "ABILENE SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1100",
+                  "branchName": "EL PASO",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "171"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1109",
+                  "branchName": "SANTA FE",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "128"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              },
+              {
+                "branch": {
+                  "branchId": "1112",
+                  "branchName": "EL PASO SHOW",
+                  "address": null
+                },
+                "nowQuantity": {
+                  "quantity": {
+                    "uom": "ea",
+                    "umqt": "1",
+                    "quantity": "0"
+                  }
+                },
+                "earliestMoreDate": {
+                  "date": "01/06/2022"
+                },
+                "earliestMoreQuantity": null,
+                "plentyDate": {
+                  "date": "02/06/2022"
+                },
+                "stockQuantityOnOrder": null,
+                "taggedQuantityOnOrder": null,
+                "projectedInventoryLevel": null
+              }
+            ]
+          },
+          "uomList": [
+            {
+              "umqt": null,
+              "uom": "ea"
+            }
+          ],
+          "pricingUOM": {
+            "uom": "ea"
+          },
+          "pricing": {
+            "eclipsePartNumber": "32049",
+            "entityId": "10783",
+            "pricingBranch": {
+              "branch": {
+                "branchId": "1002",
+                "branchName": "AMARILLO",
+                "address": null
+              }
+            },
+            "currency": "US",
+            "quantity": {
+              "uom": "ea",
+              "umqt": "1",
+              "quantity": "1"
+            },
+            "listPrice": "6.070",
+            "customerPrice": "0.827000000",
+            "extendedPrice": "0.827000000"
+          },
+          "volume": "0.0000",
+          "weight": "0.0410",
+          "buyLine": "DC_COPFT",
+          "priceLine": "COPFIT",
+          "status": "Stock",
+          "indexType": "Primary",
+          "richContentList": null
+        }
+      ]
+    },
+    "statusResult": {
+      "success": "Yes",
+      "description": "Mass Product Information retrieved successfully.",
+      "errorMessageList": null
+    }
+  }
+}

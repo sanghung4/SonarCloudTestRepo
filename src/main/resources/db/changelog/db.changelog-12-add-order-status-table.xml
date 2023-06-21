@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-12.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="morshed.basher@morsco.com" id="createOrderStatusTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table order_status already exists">
+            <not>
+                <tableExists tableName="order_status"/>
+            </not>
+        </preConditions>
+        <createTable tableName="order_status">
+            <column name="id" defaultValueComputed="uuid_generate_v4()" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_order_status"/>
+            </column>
+            <column name="erp_account_id" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="order_id" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="order_status" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="branch_name" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ship_to_id" type="UUID">
+                <constraints nullable="false"/>
+            </column>
+            <column name="first_name" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="order_status"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="morshed.basher@morsco.com" id="tag-12-products">
+        <tagDatabase tag="products-v12"/>
+    </changeSet>
+</databaseChangeLog>

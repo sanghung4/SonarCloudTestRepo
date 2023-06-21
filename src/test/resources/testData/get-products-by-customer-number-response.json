@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "precision": 2,
+    "page": {
+      "current": 1,
+      "total_pages": 1,
+      "total_results": 1,
+      "size": 10
+    },
+    "engine": {
+      "name": "mincron-ecomm-products",
+      "type": "meta"
+    },
+    "request_id": "n9BAtnbnT32vcMzcNW44LA"
+  },
+  "results": [
+    {
+      "unspc_id": {
+        "raw": "40175300"
+      },
+      "mfr_msds_doc_file_name": {
+        "raw": "http://images.tradeservice.com/MSDS/DIR100001/MCWANEMSDS00002.pdf"
+      },
+      "minimum_increment_qty": {
+        "raw": "0"
+      },
+      "package_length_nbr": {
+        "raw": "12.1 inches"
+      },
+      "mfr_full_name": {
+        "raw": "McWane, Inc. (Tyler Union)"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100245/MCWANEE00085_1.pdf"
+      },
+      "product_search_boost_2_nbr": {
+        "raw": "0"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead-Free"
+      },
+      "category_2_name": {
+        "raw": "SEWER|FITTINGS"
+      },
+      "end_connection": {
+        "raw": "Mechanical Joint x Mechanical Joint"
+      },
+      "web_description": {
+        "raw": "6\" x 6\", Mechanical Joint x Mechanical Joint, 350 PSI, Lead-Free, Ductile Iron, Domestic, Compact, Solid, Long, Straight, Sleeve"
+      },
+      "product_sold_count": {
+        "raw": 405.0
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2022-03-19 01:50:29.4030000 +00:00"
+      },
+      "package_height_nbr": {
+        "raw": 0.0
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100185/MCWANE_081968_LRG_LIN_REP.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "FTL6MSD"
+      },
+      "customer_part_number": {
+        "raw": "6MSD"
+      },
+      "erp_product_id": {
+        "raw": "C471B39C-9190-4C1D-AE62-894FE194F84B"
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/RANWADINST00181.pdf"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100185/MCWANE_081968_MED_LIN_REP.jpg"
+      },
+      "category_1_name": {
+        "raw": "SEWER"
+      },
+      "upc_id": {
+        "raw": "670610081951"
+      },
+      "product_line": {
+        "raw": "D20-4930"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100245/RANWADE01233_1_8.pdf"
+      },
+      "material": {
+        "raw": "Ductile Iron"
+      },
+      "pressure_rating": {
+        "raw": "350 PSI"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100185/MCWANE_081968_SML_LIN_REP.jpg"
+      },
+      "category_3_name": {
+        "raw": "SEWER|FITTINGS|DUCTILEIRON"
+      },
+      "vendor_part_nbr": {
+        "raw": "081951"
+      },
+      "package_width_nbr": {
+        "raw": 0.0
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "0"
+      },
+      "_meta": {
+        "engine": "mincron-products-1647684448782",
+        "score": 1.0,
+        "id": "C471B39C-9190-4C1D-AE62-894FE194F84B"
+      },
+      "id": {
+        "raw": "mincron-products-1647684448782|C471B39C-9190-4C1D-AE62-894FE194F84B"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2595 @@
+{
+  "pagination": {
+    "currentPage": 1,
+    "pageSize": 12,
+    "totalItemCount": 46
+  },
+  "aggregates": {
+    "productTypes": null,
+    "brands": [
+      {
+        "value": "Viega",
+        "count": 46
+      }
+    ],
+    "lines": [
+      {
+        "value": "ProPress",
+        "count": 26
+      },
+      {
+        "value": "ProPress XL",
+        "count": 20
+      },
+      {
+        "value": "PEX Press",
+        "count": 4
+      },
+      {
+        "value": "PEX Crimp",
+        "count": 1
+      },
+      {
+        "value": "PureFlow",
+        "count": 1
+      }
+    ],
+    "category": [
+      {
+        "value": "Metal Pipe & Fittings",
+        "count": 46
+      }
+    ],
+    "flowRate": [],
+    "environmentalOptions": [
+      {
+        "value": "Low lead compliant",
+        "count": 46
+      }
+    ],
+    "inStockLocation": [
+      {
+        "value": "in_stock_location",
+        "count": 100
+      }
+    ],
+    "material": [
+      {
+        "value": "Copper",
+        "count": 39
+      }
+    ],
+    "colorFinish": [],
+    "size": [],
+    "length": [],
+    "width": [],
+    "height": [],
+    "depth": [],
+    "voltage": [],
+    "tonnage": [],
+    "btu": [],
+    "pressureRating": [
+      {
+        "value": "200 PSI",
+        "count": 39
+      }
+    ],
+    "temperatureRating": [
+      {
+        "value": "0 to 250 Deg F",
+        "count": 38
+      }
+    ],
+    "inletSize": [],
+    "capacity": [],
+    "wattage": []
+  },
+  "products": [
+    {
+      "id": "MSC-163358",
+      "partNumber": "163358",
+      "name": "3/4\" Copper 90D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77022",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_20.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-5.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477022",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 90 Degree; Size A 3/4\"; Size B 3/4\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "90 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "3/4\""
+        },
+        {
+          "name": "Size B",
+          "value": "3/4\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_3_nbr": "2",
+        "product_search_boost_1_nbr": "1",
+        "product_search_boost_4_nbr": "2"
+      },
+      "lastUpdateDate": "2022-01-05 22:40:05.507",
+      "productSoldCount": "14485.0",
+      "searchKeywordText": "VIEGA LLC 77022 34 PROPRESS PXP PRS 90 ELL 34 ELBOW OR ELB 34PC90 34VPPCC90 PP 34L",
+      "customerNumber": [
+        "735144",
+        "1373",
+        "15065",
+        "269895",
+        "735141",
+        "300719",
+        "180470",
+        "766223",
+        "270368",
+        "766225",
+        "735132",
+        "296802",
+        "603037",
+        "300719",
+        "303566",
+        "766219",
+        "180470",
+        "562377",
+        "735140",
+        "269211",
+        "735136",
+        "735145",
+        "735135"
+      ],
+      "customerPartNumber": [
+        "163358 ",
+        "212RG9529D",
+        "V77022",
+        "MPF01634",
+        "163358 ",
+        "77022",
+        "J6390",
+        "163358 ",
+        "34VPP90",
+        "163358 ",
+        "163358",
+        "PP349",
+        "@163358",
+        "CFPP3490",
+        "PPE030",
+        "163358 ",
+        "J6340",
+        "77022",
+        "163358 ",
+        "34VPP90",
+        "163358 ",
+        "163358",
+        "163358 "
+      ],
+      "inStockLocation": [
+        "1056",
+        "1147",
+        "3010",
+        "1033",
+        "1304",
+        "1023",
+        "2017",
+        "1047",
+        "2009",
+        "1014",
+        "1059",
+        "1073",
+        "1006",
+        "2004",
+        "1013",
+        "1046",
+        "1036",
+        "1012",
+        "2002",
+        "1035",
+        "1043",
+        "1028",
+        "1027",
+        "1111",
+        "1045",
+        "1153",
+        "2014",
+        "1029",
+        "1064",
+        "1001",
+        "1002",
+        "1015",
+        "2005",
+        "1109",
+        "2008",
+        "3007",
+        "2006",
+        "1010",
+        "1004",
+        "1105",
+        "1032",
+        "1114",
+        "3002",
+        "1022",
+        "1403",
+        "3004",
+        "3008",
+        "1041",
+        "3009",
+        "1034",
+        "1030",
+        "9401",
+        "2010",
+        "1071",
+        "1009",
+        "1310",
+        "1320",
+        "1113",
+        "1321",
+        "3014",
+        "1075",
+        "1068",
+        "2003",
+        "1076",
+        "2015",
+        "1101",
+        "1003",
+        "1016",
+        "1302",
+        "1404",
+        "1017",
+        "1060",
+        "1096",
+        "1040",
+        "1406",
+        "1405",
+        "1303",
+        "1086",
+        "1084",
+        "1100",
+        "1044",
+        "1039",
+        "1401",
+        "4001",
+        "1007",
+        "1149"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-163359",
+      "partNumber": "163359",
+      "name": "1\" Copper 90D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77027",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_20.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-5.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477027",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 90 Degree; Size A 1\"; Size B 1\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CR...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "90 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "1\""
+        },
+        {
+          "name": "Size B",
+          "value": "1\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_1_nbr": "1",
+        "product_search_boost_4_nbr": "3"
+      },
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "7012.0",
+      "searchKeywordText": "VIEGA LLC 77027 1 PROPRESS PXP PRS 90 ELL 1 ELBOW OR ELB 1PC90 PP 1L",
+      "customerNumber": [
+        "735140",
+        "766225",
+        "269211",
+        "766219",
+        "562377",
+        "766223",
+        "15065",
+        "300719",
+        "735144",
+        "296802",
+        "735135",
+        "603037",
+        "735145",
+        "270368",
+        "735141",
+        "735132",
+        "1373",
+        "300719",
+        "303566",
+        "735136"
+      ],
+      "customerPartNumber": [
+        "163359 ",
+        "163359 ",
+        "1VPP90",
+        "163359 ",
+        "77027",
+        "163359 ",
+        "V77027",
+        "CFPP190",
+        "163359 ",
+        "PP19",
+        "163359 ",
+        "@163359",
+        "163359",
+        "1VPP90",
+        "163359 ",
+        "163359",
+        "212RG9529E",
+        "77027",
+        "PPG040",
+        "163359 "
+      ],
+      "inStockLocation": [
+        "1041",
+        "2010",
+        "1027",
+        "1105",
+        "1404",
+        "1046",
+        "1406",
+        "3009",
+        "1075",
+        "1403",
+        "3008",
+        "1068",
+        "1009",
+        "1064",
+        "1060",
+        "3014",
+        "1086",
+        "9401",
+        "1001",
+        "1035",
+        "1056",
+        "1043",
+        "1010",
+        "3002",
+        "1015",
+        "1302",
+        "1030",
+        "1004",
+        "1067",
+        "2006",
+        "1310",
+        "1405",
+        "1012",
+        "1022",
+        "1047",
+        "2017",
+        "1096",
+        "1036",
+        "1014",
+        "1113",
+        "1114",
+        "2002",
+        "3010",
+        "2004",
+        "1002",
+        "1007",
+        "1303",
+        "2015",
+        "1013",
+        "1101",
+        "1147",
+        "1016",
+        "1033",
+        "1320",
+        "2003",
+        "1111",
+        "3007",
+        "2018",
+        "1076",
+        "1149",
+        "2009",
+        "1304",
+        "1153",
+        "1017",
+        "1073",
+        "1029",
+        "4001",
+        "1109",
+        "1008",
+        "2008",
+        "1032",
+        "2014",
+        "1006",
+        "1034",
+        "1045",
+        "1044",
+        "1059",
+        "1401",
+        "1321",
+        "1003",
+        "1028",
+        "1071",
+        "1040"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-160739",
+      "partNumber": "160739",
+      "name": "2\" Copper 90D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77042",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_20.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-5.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477042",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 90 Degree; Size A 2\"; Size B 2\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CR...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "90 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "2\""
+        },
+        {
+          "name": "Size B",
+          "value": "2\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_3_nbr": "2",
+        "product_search_boost_1_nbr": "1",
+        "product_search_boost_4_nbr": "1"
+      },
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "4731.0",
+      "searchKeywordText": "VIEGA LLC 77042 2 PROPRESS PXP PRS 90 ELL 2 ELBOW OR ELB 2PC90 PP 2L",
+      "customerNumber": ["270368", "269211", "15065", "1373"],
+      "customerPartNumber": ["2VPP90", "2VPP90", "V77042", "212RG9526C"],
+      "inStockLocation": [
+        "1310",
+        "1033",
+        "1147",
+        "1032",
+        "2003",
+        "1007",
+        "1015",
+        "2017",
+        "1003",
+        "1028",
+        "1073",
+        "1016",
+        "1064",
+        "1013",
+        "1109",
+        "1405",
+        "1059",
+        "1153",
+        "1303",
+        "1029",
+        "1068",
+        "2006",
+        "1047",
+        "1045",
+        "1012",
+        "1034",
+        "9401",
+        "1027",
+        "1111",
+        "1040",
+        "1096",
+        "1403",
+        "1030",
+        "1010",
+        "1060",
+        "3008",
+        "3014",
+        "1036",
+        "1101",
+        "1320",
+        "1401",
+        "1105",
+        "1004",
+        "2014",
+        "1001",
+        "4001",
+        "1075",
+        "1302",
+        "3002",
+        "2005",
+        "1321",
+        "1404",
+        "1071",
+        "1046",
+        "1017",
+        "1406",
+        "1149",
+        "1035",
+        "1022",
+        "3004",
+        "2015",
+        "2010",
+        "2004",
+        "2008",
+        "1009",
+        "1114",
+        "1006",
+        "1055",
+        "1086",
+        "3010",
+        "1041",
+        "3009",
+        "3007",
+        "2002",
+        "1014",
+        "1100",
+        "1304",
+        "1002",
+        "1008",
+        "1113"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-163368",
+      "partNumber": "163368",
+      "name": "1-1/2\" Copper 90D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77037",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_20.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-5.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477037",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 90 Degree; Size A 1-1/2\"; Size B 1-1/2\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13,...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "90 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "1-1/2\""
+        },
+        {
+          "name": "Size B",
+          "value": "1-1/2\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_3_nbr": "2",
+        "product_search_boost_1_nbr": "1",
+        "product_search_boost_4_nbr": "2"
+      },
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "4643.0",
+      "searchKeywordText": "VIEGA LLC 77037 112 PROPRESS PXP PRS 90 ELL 112 ELBOW OR ELB 112PC90 PP 112L",
+      "customerNumber": ["1056", "270368", "1373", "15065", "269211"],
+      "customerPartNumber": [
+        "112CPP90",
+        "112VPP90",
+        "212RG9529F",
+        "V77037",
+        "112VPP90"
+      ],
+      "inStockLocation": [
+        "1040",
+        "1045",
+        "2015",
+        "2003",
+        "1101",
+        "1113",
+        "1022",
+        "1010",
+        "1014",
+        "2014",
+        "1071",
+        "1076",
+        "1015",
+        "1075",
+        "1111",
+        "1013",
+        "3010",
+        "1032",
+        "1320",
+        "2006",
+        "1055",
+        "1059",
+        "1041",
+        "1405",
+        "1064",
+        "1149",
+        "1035",
+        "1105",
+        "1009",
+        "1029",
+        "1406",
+        "1001",
+        "1068",
+        "1310",
+        "1012",
+        "1047",
+        "3007",
+        "1017",
+        "3009",
+        "1027",
+        "1147",
+        "1401",
+        "3002",
+        "4001",
+        "2009",
+        "1030",
+        "1033",
+        "2004",
+        "1109",
+        "1114",
+        "1060",
+        "1006",
+        "1302",
+        "1046",
+        "2005",
+        "2017",
+        "3008",
+        "3014",
+        "2008",
+        "1008",
+        "1007",
+        "1028",
+        "1016",
+        "1321",
+        "1153",
+        "1086",
+        "1096",
+        "1034",
+        "2010",
+        "1004",
+        "1056",
+        "1003",
+        "1073",
+        "1403",
+        "1100",
+        "1002",
+        "2002",
+        "1303"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-146660",
+      "partNumber": "146660",
+      "name": "3/4\" Copper 45D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77023",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_22.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-4_6.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477023",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 45 Degree; Size A 3/4\"; Size B 3/4\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "45 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "3/4\""
+        },
+        {
+          "name": "Size B",
+          "value": "3/4\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {},
+      "lastUpdateDate": "2022-01-05 16:40:04.900",
+      "productSoldCount": "3089.0",
+      "searchKeywordText": "VIEGA LLC 77023 34 PROPRESS PXP PRS 45 ELL 34 ELBOW 18 BEND 14 OR ELB 34PC45 PP 3445",
+      "customerNumber": [
+        "766219",
+        "766223",
+        "270368",
+        "735140",
+        "766225",
+        "1373",
+        "603037",
+        "735141",
+        "735132",
+        "296802",
+        "269211",
+        "15065",
+        "735135",
+        "735144",
+        "303566",
+        "735136",
+        "180470",
+        "735145"
+      ],
+      "customerPartNumber": [
+        "146660 ",
+        "146660 ",
+        "34VPP45",
+        "146660 ",
+        "146660 ",
+        "212RG9553",
+        "@146660",
+        "146660 ",
+        "146660",
+        "PP344",
+        "34VPP45",
+        "V77023",
+        "146660 ",
+        "146660 ",
+        "PPE028",
+        "146660 ",
+        "J6340",
+        "146660"
+      ],
+      "inStockLocation": [
+        "1059",
+        "1076",
+        "1007",
+        "1101",
+        "1153",
+        "1028",
+        "1017",
+        "4001",
+        "1047",
+        "1040",
+        "2015",
+        "2006",
+        "1032",
+        "1030",
+        "1401",
+        "1014",
+        "1035",
+        "1012",
+        "3010",
+        "1149",
+        "1016",
+        "1004",
+        "1008",
+        "1041",
+        "1105",
+        "1086",
+        "2018",
+        "1096",
+        "1029",
+        "1302",
+        "2017",
+        "1147",
+        "2014",
+        "1113",
+        "1320",
+        "1114",
+        "1109",
+        "1100",
+        "1064",
+        "1060",
+        "2002",
+        "2003",
+        "2004",
+        "3009",
+        "1033",
+        "1002",
+        "1003",
+        "1075",
+        "1406",
+        "3007",
+        "2009",
+        "3008",
+        "1027",
+        "1055",
+        "3014",
+        "1015",
+        "3002",
+        "2008",
+        "1404",
+        "1001",
+        "1405",
+        "9401",
+        "1068",
+        "2005",
+        "1403",
+        "1045",
+        "1046",
+        "1073",
+        "1006",
+        "1013",
+        "1310",
+        "1034",
+        "1044",
+        "2010",
+        "1009",
+        "1071",
+        "1111",
+        "1304",
+        "1303"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-144585",
+      "partNumber": "144585",
+      "name": "2\" Copper 45D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77043",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_22.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-4_6.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477043",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 45 Degree; Size A 2\"; Size B 2\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CR...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "45 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "2\""
+        },
+        {
+          "name": "Size B",
+          "value": "2\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_1_nbr": "1"
+      },
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "1674.0",
+      "searchKeywordText": "VIEGA LLC 77043 2 PROPRESS PXP PRS 45 ELL 2 ELBOW 18 BEND 14 OR ELB 2PC45",
+      "customerNumber": ["269211", "15065", "270368", "1373"],
+      "customerPartNumber": ["2VPP45", "V77043", "2VPP45", "212RG9528C"],
+      "inStockLocation": [
+        "1320",
+        "1033",
+        "1068",
+        "1403",
+        "1149",
+        "1075",
+        "1002",
+        "1056",
+        "1096",
+        "1017",
+        "1055",
+        "3008",
+        "1046",
+        "1027",
+        "1113",
+        "1041",
+        "2017",
+        "1105",
+        "1028",
+        "1100",
+        "2008",
+        "2014",
+        "1147",
+        "1109",
+        "1003",
+        "1101",
+        "1004",
+        "1071",
+        "1001",
+        "1310",
+        "1047",
+        "1032",
+        "1404",
+        "1030",
+        "2018",
+        "2010",
+        "1076",
+        "3010",
+        "1008",
+        "1401",
+        "1114",
+        "1073",
+        "1029",
+        "1302",
+        "1045",
+        "1303",
+        "2004",
+        "1016",
+        "1009",
+        "1007",
+        "1035",
+        "1405",
+        "2005",
+        "2002",
+        "1153",
+        "1034",
+        "1086",
+        "1406",
+        "1111",
+        "1013",
+        "2009",
+        "4001",
+        "1304",
+        "1321",
+        "1060",
+        "3007",
+        "3009"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-163370",
+      "partNumber": "163370",
+      "name": "1\" Copper 45D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77028",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_22.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-4_6.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477028",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 45 Degree; Size A 1\"; Size B 1\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CR...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "45 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "1\""
+        },
+        {
+          "name": "Size B",
+          "value": "1\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_1_nbr": "1"
+      },
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "1665.0",
+      "searchKeywordText": "VIEGA LLC 77028 1 PROPRESS PXP PRS 45 ELL 1 ELBOW 18 BEND 14 OR ELB 1PC45 PP 145",
+      "customerNumber": [
+        "735144",
+        "1373",
+        "15065",
+        "766223",
+        "735132",
+        "603037",
+        "735141",
+        "735136",
+        "296802",
+        "270368",
+        "735140",
+        "269211",
+        "766225",
+        "735135",
+        "735145",
+        "766219"
+      ],
+      "customerPartNumber": [
+        "163370 ",
+        "212RG9553B",
+        "V77028",
+        "163370 ",
+        "163370",
+        "@163370",
+        "163370 ",
+        "163370 ",
+        "PP14",
+        "1VPP45",
+        "163370 ",
+        "1VPP45",
+        "163370 ",
+        "163370 ",
+        "163370",
+        "163370 "
+      ],
+      "inStockLocation": [
+        "1405",
+        "1034",
+        "1147",
+        "2006",
+        "1007",
+        "1032",
+        "2017",
+        "2005",
+        "1076",
+        "1100",
+        "3007",
+        "2001",
+        "1008",
+        "1001",
+        "1028",
+        "1012",
+        "1111",
+        "2009",
+        "1040",
+        "1303",
+        "1004",
+        "1114",
+        "1101",
+        "1041",
+        "1003",
+        "1017",
+        "1403",
+        "1055",
+        "1113",
+        "1310",
+        "1030",
+        "2018",
+        "2002",
+        "1153",
+        "1059",
+        "1149",
+        "1014",
+        "1027",
+        "1064",
+        "2010",
+        "1404",
+        "1035",
+        "2003",
+        "1075",
+        "1033",
+        "1067",
+        "1060",
+        "3010",
+        "1073",
+        "1016",
+        "1047",
+        "1029",
+        "1015",
+        "2008",
+        "1320",
+        "1086",
+        "1045",
+        "1071",
+        "1006",
+        "1406",
+        "3008",
+        "2015",
+        "1304",
+        "1013",
+        "9401",
+        "1321",
+        "3002",
+        "1046",
+        "4001",
+        "3009",
+        "1302",
+        "2014",
+        "1068",
+        "1109",
+        "1009"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-163360",
+      "partNumber": "163360",
+      "name": "1-1/4\" Copper 90D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77032",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_20.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-5.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477032",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 90 Degree; Size A 1-1/4\"; Size B 1-1/4\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13,...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "90 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "1-1/4\""
+        },
+        {
+          "name": "Size B",
+          "value": "1-1/4\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77022._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77022._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_1_nbr": "1"
+      },
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "3297.0",
+      "searchKeywordText": "VIEGA LLC 77032 114 PROPRESS PXP PRS 90 ELL 114 ELBOW OR ELB 114PC90 PP 114L",
+      "customerNumber": ["270368", "15065", "269211", "1373"],
+      "customerPartNumber": ["114VPP90", "V77032", "114VPP90", "212RG9526A"],
+      "inStockLocation": [
+        "1059",
+        "1006",
+        "2009",
+        "1304",
+        "1039",
+        "4001",
+        "1035",
+        "1004",
+        "1044",
+        "1030",
+        "1001",
+        "1114",
+        "1068",
+        "1013",
+        "3009",
+        "1303",
+        "1046",
+        "1105",
+        "3004",
+        "1320",
+        "3014",
+        "1027",
+        "1003",
+        "1071",
+        "1076",
+        "1060",
+        "2010",
+        "3010",
+        "1075",
+        "2006",
+        "1096",
+        "1029",
+        "1033",
+        "1401",
+        "1149",
+        "1016",
+        "1034",
+        "2015",
+        "1047",
+        "1113",
+        "1100",
+        "2014",
+        "2004",
+        "1406",
+        "1111",
+        "1302",
+        "1040",
+        "1017",
+        "2003",
+        "1056",
+        "1310",
+        "1073",
+        "1109",
+        "1028",
+        "3008",
+        "2018",
+        "1321",
+        "1032",
+        "1002",
+        "1153",
+        "1007",
+        "1404",
+        "1012",
+        "3007",
+        "1405",
+        "1101",
+        "2008",
+        "1015",
+        "1064",
+        "1010",
+        "1403",
+        "1086",
+        "2005",
+        "1009",
+        "1147",
+        "1008",
+        "1014",
+        "1045",
+        "1022"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-163372",
+      "partNumber": "163372",
+      "name": "1-1/2\" Copper 45D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77038",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_22.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-4_6.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477038",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 45 Degree; Size A 1-1/2\"; Size B 1-1/2\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13,...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "45 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "1-1/2\""
+        },
+        {
+          "name": "Size B",
+          "value": "1-1/2\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {
+        "product_search_boost_1_nbr": "1"
+      },
+      "lastUpdateDate": "2022-01-06 10:40:05.067",
+      "productSoldCount": "1310.0",
+      "searchKeywordText": "VIEGA LLC 77038 112 PROPRESS PXP PRS 45 ELL 112 ELBOW 18 BEND 14 OR ELB 112PC45 PP 11245",
+      "customerNumber": ["1373", "269211", "270368"],
+      "customerPartNumber": ["212RG0276", "112VPP45", "112VPP45"],
+      "inStockLocation": [
+        "1032",
+        "1015",
+        "3008",
+        "3009",
+        "1111",
+        "1013",
+        "1320",
+        "1004",
+        "1017",
+        "1046",
+        "1033",
+        "2014",
+        "1030",
+        "1153",
+        "2005",
+        "2004",
+        "1029",
+        "1302",
+        "1310",
+        "1040",
+        "1002",
+        "1016",
+        "2009",
+        "1071",
+        "1304",
+        "4001",
+        "1303",
+        "1147",
+        "1405",
+        "1075",
+        "1076",
+        "1114",
+        "1105",
+        "1401",
+        "1028",
+        "1041",
+        "1022",
+        "2017",
+        "1007",
+        "1003",
+        "1045",
+        "1073",
+        "1113",
+        "1047",
+        "1034",
+        "1027",
+        "2003",
+        "1101",
+        "1086",
+        "1055",
+        "1009",
+        "1109",
+        "3010",
+        "1100",
+        "1014",
+        "1149",
+        "2015",
+        "1001",
+        "2008",
+        "1403",
+        "1406",
+        "3007",
+        "1321",
+        "1060",
+        "1404",
+        "1008",
+        "1059"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-150529",
+      "partNumber": "150529",
+      "name": "3/4\" Copper 90D Straight Elbow - ProPress, ProPress x FTG, Street",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77052",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_20.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-5.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477052",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Type Street; Angle 90 Degree; Size A 3/4\"; Size B 3/4\"; End Connection Press x Male Soldered; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG ...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "90 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Male Soldered"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "3/4\""
+        },
+        {
+          "name": "Size B",
+          "value": "3/4\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Type",
+          "value": "Street"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77052_SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77052_SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77052_MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77052_LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {},
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "2637.0",
+      "searchKeywordText": "VIEGA LLC 77052 34 PROPRESS FTGXP PRS 90 ELL 34 ELBOW OR ELB 34PFC90 PP 34STL 34PCF90",
+      "customerNumber": [
+        "735135",
+        "735141",
+        "735136",
+        "766225",
+        "735145",
+        "270368",
+        "180470",
+        "300719",
+        "735132",
+        "15065",
+        "766219",
+        "735140",
+        "296802",
+        "735144",
+        "269211",
+        "300719",
+        "766223",
+        "1373"
+      ],
+      "customerPartNumber": [
+        "150529 ",
+        "150529 ",
+        "150529 ",
+        "150529 ",
+        "150529",
+        "34VPPS90",
+        "J6395",
+        "CFPP34S90",
+        "150529",
+        "V77052",
+        "150529 ",
+        "150529 ",
+        "PP34S9",
+        "150529 ",
+        "34VPPS90",
+        "77052",
+        "150529 ",
+        "212RG9529G"
+      ],
+      "inStockLocation": [
+        "1017",
+        "2004",
+        "3008",
+        "1003",
+        "1320",
+        "1302",
+        "1059",
+        "1113",
+        "2008",
+        "1304",
+        "1034",
+        "1004",
+        "1096",
+        "1073",
+        "1001",
+        "1045",
+        "1016",
+        "2015",
+        "1075",
+        "1041",
+        "4001",
+        "1105",
+        "2003",
+        "1068",
+        "1147",
+        "1006",
+        "1405",
+        "2017",
+        "1027",
+        "2005",
+        "1153",
+        "3009",
+        "1060",
+        "1033",
+        "1086",
+        "1014",
+        "3014",
+        "1321",
+        "9401",
+        "1002",
+        "1064",
+        "1032",
+        "2002",
+        "2018",
+        "1076",
+        "1013",
+        "1310",
+        "2006",
+        "1015",
+        "1149",
+        "1303",
+        "1010",
+        "3010",
+        "1035",
+        "1046",
+        "2010",
+        "1009",
+        "2009",
+        "1401",
+        "3007",
+        "1109",
+        "1029",
+        "1404",
+        "1111",
+        "1007",
+        "1101",
+        "1071",
+        "1056",
+        "1008",
+        "1406",
+        "1100",
+        "1012",
+        "2014",
+        "1403"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-163371",
+      "partNumber": "163371",
+      "name": "1-1/4\" Copper 45D Straight Elbow - ProPress",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77033",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_22.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-4_6.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477033",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Angle 45 Degree; Size A 1-1/4\"; Size B 1-1/4\"; End Connection Press x Press; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13,...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "45 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Press"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "1-1/4\""
+        },
+        {
+          "name": "Size B",
+          "value": "1-1/4\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77023._SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77023._LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {},
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "944.0",
+      "searchKeywordText": "VIEGA LLC 77033 114 PROPRESS PXP PRS 45 ELL 114 ELBOW 18 BEND 14 OR ELB 114PC45 PP 11445",
+      "customerNumber": ["15065", "1373", "270368", "269211"],
+      "customerPartNumber": ["V77033", "212RG9528A", "114VPP45", "114VPP45"],
+      "inStockLocation": [
+        "1015",
+        "1075",
+        "1302",
+        "4001",
+        "1071",
+        "1068",
+        "1059",
+        "1114",
+        "1008",
+        "1153",
+        "1016",
+        "1073",
+        "2002",
+        "1027",
+        "2009",
+        "1105",
+        "1003",
+        "1086",
+        "1007",
+        "1147",
+        "2018",
+        "1047",
+        "1013",
+        "1113",
+        "1403",
+        "3007",
+        "3010",
+        "1028",
+        "2005",
+        "1014",
+        "2006",
+        "2004",
+        "1034",
+        "1304",
+        "1404",
+        "3009",
+        "1030",
+        "1109",
+        "1004",
+        "2008",
+        "1405",
+        "1321",
+        "1032",
+        "1320",
+        "1033",
+        "1101",
+        "1035",
+        "2003",
+        "2017",
+        "1064",
+        "1001",
+        "1017",
+        "1303",
+        "1076",
+        "1149",
+        "3008",
+        "1009",
+        "2010",
+        "3002",
+        "1310",
+        "1100",
+        "1406",
+        "1046",
+        "1040",
+        "1401",
+        "2014"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    },
+    {
+      "id": "MSC-163361",
+      "partNumber": "163361",
+      "name": "1\" Copper 90D Straight Elbow - ProPress, ProPress x FTG, Street",
+      "taxonomy": null,
+      "categories": [
+        "Pipe & Fittings",
+        "Metal Pipe & Fittings",
+        "Copper Tube & Fittings"
+      ],
+      "manufacturerName": "Viega",
+      "manufacturerNumber": "77057",
+      "productType": null,
+      "price": 0.0,
+      "stock": null,
+      "technicalDocuments": [
+        {
+          "name": "MFR Catalog Page",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00230_18_20.pdf"
+        },
+        {
+          "name": "Technical Specification",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00265_1-5.pdf"
+        },
+        {
+          "name": "Installation Sheet",
+          "url": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100007/VIEGAPINST00102.pdf"
+        },
+        {
+          "name": "MFR Item Data",
+          "url": "http://images.tradeservice.com/ATTACHMENTS/DIR100148/VIEGAPE00286_1.pdf"
+        }
+      ],
+      "environmentalOptions": ["Low lead compliant"],
+      "upc": "69151477057",
+      "unspsc": "40183101",
+      "seriesModelFigureNumber": null,
+      "productOverview": "Elbow Fitting; Type Street; Angle 90 Degree; Size A 1\"; Size B 1\"; End Connection Press x Male Soldered; Material Copper; Pressure Rating 200 PSI; Temperature Rating 0 to 250 Deg F; Application Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum; Applicable Standard NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037...",
+      "featuresAndBenefits": "Lead Free; Patented Smart Connect; Fast and Easy to Use; Flameless; Permanent Connection; Consistent Professional Appearance; Less Equipment Required; Environmentally Friendly Connection System; 50 Year Limited Warranty",
+      "techSpecifications": [
+        {
+          "name": "material",
+          "value": "Copper"
+        },
+        {
+          "name": "pressure_rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "temperature_rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Angle",
+          "value": "90 Degree"
+        },
+        {
+          "name": "Applicable Standard",
+          "value": "NSF 61G, IAPMO PS117, UL 213, FM Class 1920, ICC-ES PMG 1037, CSA MSE-13, ABS, CRN OA4541.5, ICC, IAPMO, PHCC, NFPA 13/13D/13R, ASME B16.51"
+        },
+        {
+          "name": "Application",
+          "value": "Hot and Cold Potable Water, Rainwater/Gray Water, Fire Sprinkler, Chilled Water, Hydronic Heating, Cooling Water, Low Pressure Steam, Ethanol, Compressed Air Gas, Oxygen, Nitrogen, Carbon Dioxide, Argon, Hydrogen, Vacuum"
+        },
+        {
+          "name": "End Connection",
+          "value": "Press x Male Soldered"
+        },
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Pressure Rating",
+          "value": "200 PSI"
+        },
+        {
+          "name": "Size A",
+          "value": "1\""
+        },
+        {
+          "name": "Size B",
+          "value": "1\""
+        },
+        {
+          "name": "Temperature Rating",
+          "value": "0 to 250 Deg F"
+        },
+        {
+          "name": "Type",
+          "value": "Street"
+        }
+      ],
+      "imageUrls": {
+        "thumb": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77052_SML.jpg",
+        "small": "http://images.tradeservice.com/ProductImages/DIR100112/VIEGAP_77052_SML.jpg",
+        "medium": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77052_MED.jpg",
+        "large": "http://images.tradeservice.com/ProductImages/DIR100111/VIEGAP_77052_LRG.jpg"
+      },
+      "packageDimensions": null,
+      "erp": "ECLIPSE",
+      "minIncrementQty": 0,
+      "productSearchBoost": {},
+      "lastUpdateDate": "2022-01-04 16:44:00.713",
+      "productSoldCount": "947.0",
+      "searchKeywordText": "VIEGA LLC 77057 1 PROPRESS FTGXP PRS 90 ELL 1 ELBOW OR ELB 1PFC90 PP 1STL 1PCF90",
+      "customerNumber": [
+        "735135",
+        "296802",
+        "735136",
+        "735144",
+        "15065",
+        "735140",
+        "766225",
+        "1373",
+        "735141",
+        "270368",
+        "735132",
+        "766223",
+        "269211",
+        "735145",
+        "766219"
+      ],
+      "customerPartNumber": [
+        "163361 ",
+        "PP1S9",
+        "163361 ",
+        "163361 ",
+        "V77057",
+        "163361 ",
+        "163361 ",
+        "212RG9529H",
+        "163361 ",
+        "1VPPS90",
+        "163361",
+        "163361 ",
+        "1VPPS90",
+        "163361",
+        "163361 "
+      ],
+      "inStockLocation": [
+        "1002",
+        "1012",
+        "1304",
+        "1017",
+        "3010",
+        "1073",
+        "1035",
+        "1404",
+        "2005",
+        "1045",
+        "1032",
+        "3007",
+        "1153",
+        "1046",
+        "1075",
+        "1003",
+        "1009",
+        "1405",
+        "2004",
+        "1033",
+        "1036",
+        "1302",
+        "1027",
+        "2008",
+        "1004",
+        "9401",
+        "2015",
+        "1101",
+        "2010",
+        "1086",
+        "1149",
+        "4001",
+        "1147",
+        "1014",
+        "1013",
+        "1034",
+        "2003",
+        "1303",
+        "1100",
+        "1008",
+        "1403",
+        "1310",
+        "3008",
+        "2018",
+        "2014",
+        "1111",
+        "1071",
+        "1016",
+        "1059",
+        "1320",
+        "1015",
+        "1041",
+        "2006",
+        "1068",
+        "3009",
+        "1007",
+        "1105",
+        "1406",
+        "2002",
+        "1321",
+        "1064",
+        "1001",
+        "1096",
+        "2009",
+        "1076",
+        "1401",
+        "1109",
+        "3014",
+        "1029",
+        "2017"
+      ],
+      "productBranchExclusion": null,
+      "status": null
+    }
+  ],
+  "selectedAttributes": [
+    {
+      "attributeType": "brand",
+      "attributeValue": "Viega"
+    },
+    {
+      "attributeType": "line",
+      "attributeValue": "ProPress"
+    },
+    {
+      "attributeType": "line",
+      "attributeValue": "ProPress XL"
+    },
+    {
+      "attributeType": "Low lead compliant",
+      "attributeValue": "true"
+    }
+  ],
+  "selectedCategories": [
+    {
+      "attributeType": "category1",
+      "attributeValue": "Pipe & Fittings"
+    }
+  ],
+  "categoryLevel": 1
+}

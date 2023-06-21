@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+>
+    <include file="db.changelog-1-cart.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-2-will-call-delivery.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-3-not-null-will-call-delivery.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-4-delivery-method.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-5-add-erp-to-cart.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-6-add-uom-umqt-to-line-items.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-7-add-lists.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-8-add-payment-type.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-9-custom-address.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-10-add-category.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-11-add-orders-pending-approval.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-12-add-order-status-table.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-13-add-creditcard-payment-type.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-14-add-quote-status.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-15-order-status-refactor.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-16-credit-card.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-17-remove-bad-fks.xml" relativeToChangelogFile="true" />
+    <include file="branches/db.changelog-1-initial-structure.xml" relativeToChangelogFile="true" />
+    <include file="branches/db.changelog-2-new-structure.xml" relativeToChangelogFile="true" />
+    <include file="branches/db.changelog-3-add-branch-manager-email.xml" relativeToChangelogFile="true" />
+    <include file="branches/db.changelog-4-update-branch-structure.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-18-search-index-metadata.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-19-list-line-items-constraints.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-20-soft-delete-branches.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-21-order-status-audit.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-22-branch-mgmt-updates.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-23-increase-delivery-instructions-length.xml" relativeToChangelogFile="true" />
+    <include file="db.changelog-24-increase-will-call-instructions-length.xml" relativeToChangelogFile="true" />
+</databaseChangeLog>

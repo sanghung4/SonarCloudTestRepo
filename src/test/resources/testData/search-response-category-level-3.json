@@ -1,0 +1,3606 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "page": {
+      "current": 1,
+      "total_pages": 42,
+      "total_results": 504,
+      "size": 12
+    },
+    "engine": {
+      "name": "ecomm-products",
+      "type": "meta"
+    },
+    "request_id": "88RVdv86QnKbQaFYicjdPw"
+  },
+  "results": [
+    {
+      "unspc_id": {
+        "raw": "40183107"
+      },
+      "customer_number": {
+        "raw": [
+          "296802",
+          "219703",
+          "29290",
+          "29267",
+          "458996",
+          "29273",
+          "155772",
+          "29286",
+          "603037",
+          "29278",
+          "29291",
+          "29283",
+          "54485",
+          "29328",
+          "29303",
+          "29274",
+          "29304",
+          "29300",
+          "269211",
+          "269146",
+          "735145",
+          "296604",
+          "29280",
+          "29288",
+          "29276",
+          "29275",
+          "29277",
+          "270386",
+          "29262",
+          "269106",
+          "29265",
+          "29295",
+          "624610"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "RELIANCE WORLDWIDE CORPORATION U008LF 12 LF BRS CPLG PUSH CNCT SHARKBITE COUPLING WITH STOP LEAD FREE ZERO BRASS 12SBCLF 12C SB12C 88005 SB00D"
+      },
+      "mfr_full_name": {
+        "raw": "SharkBite"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; Instant Push-Fit Connection for Increased Ease-of-Use; Integrated Design Means No Loose Components, Ensures Secure, Reliable Connection; Inspector Friendly, Peace of Mind; Compact, Robust Body Foundation of a Strong, Corrosion Resistant, Durable Fitting; 25 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Coupling Fitting; Type Straight; Size A 1/2\"; Size B 1/2\"; End Connection Push-Fit x Push-Fit; Material DZR Brass; Finish Natural Brass/Chrome Plated; Pressure Rating 200 PSI; Temperature Rating 200 Deg F; Application Potable Water and Hydronic Heating Water Distribution; Applicable Standard ANSI/NSF 61/372, ASSE 1061, IAPMO, IPC, UPC, CUPC; Length 2\"; Includes EPDM O-Ring, Stainless Steel Grab Ring, Polysulfone Tube Support Liner; Packaging Quantity 12 per Bag; Warranty 25 Year Limited"
+      },
+      "web_description": {
+        "raw": "1/2\" DZR Brass Straight Coupling - Push-Fit"
+      },
+      "product_sold_count": {
+        "raw": 5258.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI/NSF 61/372, ASSE 1061, IAPMO, IPC, UPC, CUPC\",\"application\":\"Potable Water and Hydronic Heating Water Distribution\",\"end_connection\":\"Push-Fit x Push-Fit\",\"finish\":\"Natural Brass/Chrome Plated\",\"material\":\"DZR Brass\",\"pressure_rating\":\"200 PSI\",\"size_a\":\"1/2\\\"\",\"size_b\":\"1/2\\\"\",\"temperature_rating\":\"200 Deg F\",\"type\":\"Straight\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-11-30 22:44:10.693"
+      },
+      "temperature_rating": {
+        "raw": "200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100107/SHRKBT_U006_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3557895"
+      },
+      "customer_part_number": {
+        "raw": [
+          "SB12",
+          "MISBU008",
+          "BF8630",
+          "BF8630",
+          "602460",
+          "BF8630",
+          "2157",
+          "BF8630",
+          "@21768",
+          "BF8630",
+          "BF8630",
+          "BF8630",
+          "BF8000",
+          "BF8630",
+          "BF8630",
+          "BF8630",
+          "BF8630",
+          "BF8630",
+          "12SBC",
+          "85907",
+          "21768",
+          "MISBU008",
+          "BF8630",
+          "BF8630",
+          "BF8630",
+          "BF8630",
+          "BF8630",
+          "12SBC",
+          "BF8630",
+          "FAR-SBITECOUP12-261",
+          "BF8630",
+          "BF8630",
+          "12 shark cplg"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-21768"
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/SHRKBTINST00001.pdf"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U006_MED.jpg"
+      },
+      "colorfinish": {
+        "raw": "Natural Brass/Chrome Plated"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "69728546502"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100127/SHRKBTE00006_1-3.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "SHRKBTE00035_3.pdf"
+      },
+      "material": {
+        "raw": "DZR Brass"
+      },
+      "pressure_rating": {
+        "raw": "200 PSI"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U006_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "U008LF"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1109",
+          "1033",
+          "2005",
+          "1001",
+          "1321",
+          "1027",
+          "1017",
+          "1073",
+          "1047",
+          "1044",
+          "3007",
+          "1059",
+          "1039",
+          "2006",
+          "2014",
+          "1035",
+          "1022",
+          "1036",
+          "1028",
+          "1405",
+          "1030",
+          "1153",
+          "1004",
+          "1045",
+          "1046",
+          "2010",
+          "2002",
+          "1100",
+          "1068",
+          "1016",
+          "1111",
+          "1041",
+          "3009",
+          "1147",
+          "1040",
+          "3008",
+          "1105",
+          "1114",
+          "1007",
+          "1404",
+          "1101",
+          "1003",
+          "1013",
+          "1113",
+          "1060",
+          "1002",
+          "1008",
+          "3010",
+          "1406",
+          "1086",
+          "1034",
+          "2015",
+          "2009",
+          "2017",
+          "1012",
+          "1401",
+          "1023",
+          "4001",
+          "1067",
+          "1029",
+          "1075",
+          "1064",
+          "1056",
+          "1403",
+          "2003",
+          "2004",
+          "1009",
+          "1043",
+          "1084",
+          "1096",
+          "1015",
+          "1071",
+          "1149",
+          "1032",
+          "1006",
+          "1010",
+          "1055",
+          "2018",
+          "2008",
+          "1014",
+          "1076",
+          "3002"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 25.703089,
+        "id": "MSC-21768"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-21768"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40183107"
+      },
+      "customer_number": {
+        "raw": [
+          "29283",
+          "296604",
+          "562377",
+          "29290",
+          "296802",
+          "29276",
+          "29273",
+          "54485",
+          "29286",
+          "29304",
+          "29291",
+          "735145",
+          "29267",
+          "29328",
+          "29300",
+          "269211",
+          "269106",
+          "155772",
+          "219703",
+          "458996",
+          "269146",
+          "29288",
+          "29265",
+          "29278",
+          "29277",
+          "29262",
+          "29303",
+          "270386",
+          "603037",
+          "29274",
+          "29280",
+          "29275",
+          "29295"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "RELIANCE WORLDWIDE CORPORATION U016LF 34 LF BRS CPLG PUSH CNCT SHARKBITE COUPLING WITH STOP LEAD FREE ZERO BRASS 34SBCLF 34C SB34C SB00F"
+      },
+      "mfr_full_name": {
+        "raw": "SharkBite"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; Instant Push-Fit Connection for Increased Ease-of-Use; Integrated Design Means No Loose Components, Ensures Secure, Reliable Connection; Inspector Friendly, Peace of Mind; Compact, Robust Body Foundation of a Strong, Corrosion Resistant, Durable Fitting; 25 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Coupling Fitting; Type Straight; Size A 3/4\"; Size B 3/4\"; End Connection Push-Fit x Push-Fit; Material DZR Brass; Finish Natural Brass/Chrome Plated; Pressure Rating 200 PSI; Temperature Rating 200 Deg F; Application Potable Water and Hydronic Heating Water Distribution; Applicable Standard ANSI/NSF 61/372, ASSE 1061, IAPMO, IPC, UPC, CUPC; Length 2.36\"; Includes EPDM O-Ring, Stainless Steel Grab Ring, Polysulfone Tube Support Liner; Packaging Quantity 12 per Bag; Warranty 25 Year Limited"
+      },
+      "web_description": {
+        "raw": "3/4\" DZR Brass Straight Coupling - Push-Fit"
+      },
+      "product_sold_count": {
+        "raw": 4352.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI/NSF 61/372, ASSE 1061, IAPMO, IPC, UPC, CUPC\",\"application\":\"Potable Water and Hydronic Heating Water Distribution\",\"end_connection\":\"Push-Fit x Push-Fit\",\"finish\":\"Natural Brass/Chrome Plated\",\"material\":\"DZR Brass\",\"pressure_rating\":\"200 PSI\",\"size_a\":\"3/4\\\"\",\"size_b\":\"3/4\\\"\",\"temperature_rating\":\"200 Deg F\",\"type\":\"Straight\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-12-03 16:40:04.500"
+      },
+      "temperature_rating": {
+        "raw": "200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100107/SHRKBT_U006_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3557896"
+      },
+      "customer_part_number": {
+        "raw": [
+          "BF8635",
+          "MISBU016",
+          "U008LF",
+          "BF8635",
+          "SB34",
+          "BF8635",
+          "BF8635",
+          "BF8010",
+          "BF8635",
+          "BF8635",
+          "BF8635",
+          "21772",
+          "BF8635",
+          "BF8635",
+          "BF8635",
+          "34SBC",
+          "FAR-SBITECOUP34-261",
+          "2161",
+          "MISBU016",
+          "604304",
+          "85901",
+          "BF8635",
+          "BF8635",
+          "BF8635",
+          "BF8635",
+          "BF8635",
+          "BF8635",
+          "34SBC",
+          "@21772",
+          "BF8635",
+          "BF8635",
+          "BF8635",
+          "BF8635"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-21772"
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/SHRKBTINST00001.pdf"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U006_MED.jpg"
+      },
+      "colorfinish": {
+        "raw": "Natural Brass/Chrome Plated"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "69728546504"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100127/SHRKBTE00006_1-3.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "SHRKBTE00035_3.pdf"
+      },
+      "material": {
+        "raw": "DZR Brass"
+      },
+      "pressure_rating": {
+        "raw": "200 PSI"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U006_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "U016LF"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "2008",
+          "1008",
+          "1321",
+          "1027",
+          "1017",
+          "2006",
+          "1406",
+          "2015",
+          "1043",
+          "1010",
+          "1404",
+          "1405",
+          "1064",
+          "1034",
+          "2017",
+          "2009",
+          "1096",
+          "1039",
+          "4001",
+          "1055",
+          "1068",
+          "1105",
+          "1030",
+          "3014",
+          "3002",
+          "1041",
+          "1403",
+          "2005",
+          "1036",
+          "1006",
+          "1100",
+          "1149",
+          "1015",
+          "1075",
+          "1001",
+          "2018",
+          "1044",
+          "1045",
+          "1014",
+          "1046",
+          "1023",
+          "1086",
+          "3010",
+          "1076",
+          "1033",
+          "1012",
+          "1059",
+          "1071",
+          "2004",
+          "1084",
+          "1060",
+          "1056",
+          "1073",
+          "1153",
+          "3009",
+          "2002",
+          "2003",
+          "1114",
+          "1009",
+          "1101",
+          "1007",
+          "2014",
+          "1113",
+          "1028",
+          "1109",
+          "3008",
+          "1016",
+          "1047",
+          "1147",
+          "1401",
+          "1032",
+          "1067",
+          "1002",
+          "1003",
+          "1029",
+          "1004",
+          "1040",
+          "3007",
+          "1111",
+          "2010",
+          "1022"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 25.135862,
+        "id": "MSC-21772"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-21772"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40183104"
+      },
+      "customer_number": {
+        "raw": [
+          "29295",
+          "603037",
+          "29291",
+          "219707",
+          "29276",
+          "29274",
+          "29304",
+          "29278",
+          "29326",
+          "54485",
+          "29273",
+          "29275",
+          "29325",
+          "562377",
+          "296604",
+          "29262",
+          "29280",
+          "155772",
+          "735145",
+          "29303",
+          "458996",
+          "29265",
+          "29267",
+          "161261",
+          "296802",
+          "29288",
+          "29283",
+          "29286",
+          "29277",
+          "29328",
+          "269469",
+          "29300",
+          "29290"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "RELIANCE WORLDWIDE CORPORATION U514LF 12 LF BRS CAP PUSH CNCT END STOP CAP CAPACITOR LEAD FREE ZERO BRASS CAPS 12SBKLF 12CAP SB12C 12SBC SB17D"
+      },
+      "mfr_full_name": {
+        "raw": "SharkBite"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; Instant Push-Fit Connection for Increased Ease-of-Use; Integrated Design Means No Loose Components, Ensures Secure, Reliable Connection; Inspector Friendly, Peace of Mind; Compact, Robust Body Foundation of a Strong, Corrosion Resistant, Durable Fitting; 25 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Cap Fitting; Type End; Nominal Size 1/2\"; End Connection Push-Fit; Material DZR Brass; Finish Natural Brass/Chrome Plated; Pressure Rating 200 PSI; Temperature Rating 200 Deg F; Application Potable Water Distribution and Hydronic Heating; Applicable Standard ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC; Packaging Type Bulk; Packaging Quantity 12 per Bag; Warranty 25 Year Limited"
+      },
+      "web_description": {
+        "raw": "1/2\" DZR Brass End Cap"
+      },
+      "product_sold_count": {
+        "raw": 2617.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC\",\"application\":\"Potable Water Distribution and Hydronic Heating\",\"end_connection\":\"Push-Fit\",\"finish\":\"Natural Brass/Chrome Plated\",\"material\":\"DZR Brass\",\"nominal_size\":\"1/2\\\"\",\"pressure_rating\":\"200 PSI\",\"temperature_rating\":\"200 Deg F\",\"type\":\"End\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-11-30 22:40:04.540"
+      },
+      "temperature_rating": {
+        "raw": "200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100107/SHRKBT_U512LF_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3557930"
+      },
+      "customer_part_number": {
+        "raw": [
+          "BF8795",
+          "@21904",
+          "BF8795",
+          "U514LF",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "U514LF",
+          "MISBU514",
+          "BF8795",
+          "BF8795",
+          "2158",
+          "21904",
+          "BF8795",
+          "602461",
+          "BF8795",
+          "BF8795",
+          "3713052",
+          "SB12CAP",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "BF8795",
+          "U514LF",
+          "BF8795",
+          "BF8795"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-21904"
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/SHRKBTINST00001.pdf"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U512LF_MED.jpg"
+      },
+      "colorfinish": {
+        "raw": "Natural Brass/Chrome Plated"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "69728546550"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100127/SHRKBTE00006_1-3.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "SHRKBTE00035_5_36.pdf"
+      },
+      "material": {
+        "raw": "DZR Brass"
+      },
+      "pressure_rating": {
+        "raw": "200 PSI"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U512LF_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "U514LF"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1016",
+          "1035",
+          "1006",
+          "1010",
+          "1041",
+          "1030",
+          "1075",
+          "1036",
+          "1043",
+          "3010",
+          "1076",
+          "2014",
+          "1086",
+          "1015",
+          "1068",
+          "1022",
+          "1001",
+          "1055",
+          "2003",
+          "1071",
+          "1405",
+          "1100",
+          "1009",
+          "2015",
+          "2018",
+          "1033",
+          "1403",
+          "1004",
+          "1147",
+          "3007",
+          "1149",
+          "1111",
+          "2005",
+          "1064",
+          "1067",
+          "1084",
+          "1073",
+          "3002",
+          "1105",
+          "1029",
+          "1028",
+          "1056",
+          "1047",
+          "1113",
+          "1153",
+          "2017",
+          "1032",
+          "1044",
+          "2008",
+          "3009",
+          "1321",
+          "1406",
+          "1003",
+          "2006",
+          "1040",
+          "1096",
+          "1059",
+          "1008",
+          "1002",
+          "2009",
+          "1023",
+          "1027",
+          "1046",
+          "1013",
+          "1114",
+          "1012",
+          "1007",
+          "1014",
+          "1401",
+          "1017",
+          "4001",
+          "2010",
+          "1034",
+          "1045",
+          "1060",
+          "1404",
+          "1039"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 23.610498,
+        "id": "MSC-21904"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-21904"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40172601"
+      },
+      "customer_number": {
+        "raw": [
+          "29325",
+          "29291",
+          "29275",
+          "29326",
+          "29283",
+          "35648",
+          "149482",
+          "29257",
+          "29292",
+          "35648",
+          "29276",
+          "79944",
+          "29273",
+          "29301",
+          "29259",
+          "270531",
+          "11268",
+          "29263",
+          "36736",
+          "29262",
+          "35648",
+          "11336",
+          "325538",
+          "29288",
+          "29300",
+          "29302",
+          "29270",
+          "15065",
+          "29277",
+          "35648",
+          "269146",
+          "269895",
+          "29274",
+          "269796",
+          "29294",
+          "265719",
+          "29327",
+          "14452",
+          "269602",
+          "29303",
+          "29305"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "MATCONORCA INC BRC0504LF 1X34 LF BRS IMP RED CPLG NPT THRD BRASS COUPLING WITH STOP LEAD FREE ZERO 134TBRILF 134BRC"
+      },
+      "mfr_full_name": {
+        "raw": "Matco-Norca"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "3"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; 1 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Coupling Fitting; Type Reducing, Import; Size A 1\"; Size B 3/4\"; End Connection Female Threaded x Female Threaded; Material Brass; Material Specification ASTM B62; Gasket Supplied No; Applicable Standard ANSI, UL; Packaging Quantity 25 per Inner Carton, 100 per Master Carton; Warranty 1 Year Limited"
+      },
+      "web_description": {
+        "raw": "1\" X 3/4\" Brass Import Reducing Coupling"
+      },
+      "product_sold_count": {
+        "raw": 2444.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI, UL\",\"end_connection\":\"Female Threaded x Female Threaded\",\"gasket_supplied\":\"No\",\"material\":\"Brass\",\"material_specification\":\"ASTM B62\",\"size_a\":\"1\\\"\",\"size_b\":\"3/4\\\"\",\"type\":\"Reducing, Import\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-11-16 16:40:03.893"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MATNOR_B-RC0403LF_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3646841"
+      },
+      "customer_part_number": {
+        "raw": [
+          "IB6365",
+          "IB6365",
+          "IB6365",
+          "IB6365",
+          "IB6365",
+          "080016",
+          "004008017003",
+          "IB6365",
+          "IB6365",
+          "64257",
+          "IB6365",
+          "2420 A",
+          "IB6365",
+          "IB6365",
+          "IB6365",
+          "13430",
+          "BRASSCOUPDC",
+          "IB6365",
+          "001029",
+          "IB6365",
+          "001029",
+          "IBRLFRCGF",
+          "2420 A",
+          "IB6365",
+          "IB6365",
+          "IB6365",
+          "IB6365",
+          "2636",
+          "IB6365",
+          "002501",
+          "949050",
+          "BBRGF",
+          "IB6365",
+          "L-49-29",
+          "IB6365",
+          "1029",
+          "IB6365",
+          "2420 A",
+          "000071971",
+          "IB6365",
+          "IB6365"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-64257"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MATNOR_B-RC0403LF_MED.jpg"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "08264708499"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100145/MATNORE00424_3_7.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "MATNORE00443_53.pdf"
+      },
+      "material": {
+        "raw": "Brass"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MATNOR_B-RC0403LF_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "B-RC0504LF"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1022",
+          "1075",
+          "1044",
+          "1100",
+          "1017",
+          "1034",
+          "2008",
+          "1007",
+          "1028",
+          "1086",
+          "3008",
+          "3007",
+          "1006",
+          "3014",
+          "1036",
+          "1016",
+          "1147",
+          "1008",
+          "1076",
+          "1149",
+          "1027",
+          "1111",
+          "2017",
+          "1010",
+          "1033",
+          "1015",
+          "1060",
+          "1004",
+          "3010",
+          "1109",
+          "1029",
+          "1035",
+          "1064",
+          "1114",
+          "1153",
+          "1040",
+          "1039",
+          "1003",
+          "1014",
+          "1113",
+          "1043",
+          "1001",
+          "1059",
+          "1002",
+          "1096",
+          "1041",
+          "1012",
+          "3009",
+          "3002",
+          "1013"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 23.405401,
+        "id": "MSC-64257"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-64257"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40171701"
+      },
+      "customer_number": {
+        "raw": [
+          "29280",
+          "29275",
+          "29292",
+          "14452",
+          "29326",
+          "29274",
+          "79944",
+          "29257",
+          "29300",
+          "176208",
+          "29305",
+          "325538",
+          "29259",
+          "28443",
+          "29302",
+          "29267",
+          "29328"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "OMEGAFLEX INC FGPFST500 FLARESTR FTG 12 NPT FITTING 12AFS TPIPE12MA"
+      },
+      "mfr_full_name": {
+        "raw": "TracPipe"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100147/OMEGAFE00016_5.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "The Self-Piloting Fitting that Attaches TracPipe Counterstrike to Traditional Gas Fittings and Appliances; No Special Tools or Additional Parts Required; 1 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Adapter Fitting; Type Straight; Size A 1/2\"; Size B 1/2\"; End Connection Male Threaded x Flare; Material Yellow Brass; Pressure Rating 125 PSIG; Temperature Rating -20 to 200 Deg F; Application Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location; Applicable Standard ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC; Includes Stainless Steel Insert and 1\" Split Ring; Packaging Quantity 24 per Box; Warranty 1 Ye..."
+      },
+      "web_description": {
+        "raw": "1/2\" Brass Male Straight Adapter - AutoFlare, MPT x Flare"
+      },
+      "product_sold_count": {
+        "raw": 2166.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC\",\"application\":\"Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location\",\"end_connection\":\"Male Threaded x Flare\",\"material\":\"Yellow Brass\",\"pressure_rating\":\"125 PSIG\",\"size_a\":\"1/2\\\"\",\"size_b\":\"1/2\\\"\",\"temperature_rating\":\"-20 to 200 Deg F\",\"type\":\"Straight\"}"
+        ]
+      },
+      "last_update_date": {
+        "raw": "2021-12-03 16:40:04.500"
+      },
+      "temperature_rating": {
+        "raw": "-20 to 200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100095/OMEGAF_FGP-FST-1000_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3582263"
+      },
+      "customer_part_number": {
+        "raw": [
+          "GP58060",
+          "GP58060",
+          "GP58060",
+          "TP.12AF",
+          "GP58060",
+          "GP58060",
+          "TP.12AF",
+          "GP58060",
+          "GP58060",
+          "TRPIPE001",
+          "GP58060",
+          "TP.12AF",
+          "GP58060",
+          "GP58060-NA",
+          "GP58060",
+          "GP58060",
+          "GP58060"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-11321"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100095/OMEGAF_FGP-FST-1000_MED.jpg"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "product_line": {
+        "raw": "CounterStrike, AutoFlare"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "OMEGAFE00020_6.pdf"
+      },
+      "material": {
+        "raw": "Yellow Brass"
+      },
+      "pressure_rating": {
+        "raw": "125 PSIG"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100095/OMEGAF_FGP-FST-1000_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "FGP-FST-500"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1031",
+          "1013",
+          "1015",
+          "1012",
+          "1064",
+          "1401",
+          "2009",
+          "1028",
+          "1027",
+          "2003",
+          "2014",
+          "1044",
+          "1138",
+          "1002",
+          "1147",
+          "1022",
+          "1004",
+          "1073",
+          "2005",
+          "1403",
+          "1034",
+          "2006",
+          "2010",
+          "2015",
+          "1039",
+          "1404",
+          "1016",
+          "1086",
+          "1101",
+          "1047",
+          "1067",
+          "2018",
+          "2008",
+          "1059",
+          "1006",
+          "1030",
+          "1043",
+          "4001",
+          "2017",
+          "2002",
+          "1076",
+          "1014",
+          "1001",
+          "1041",
+          "1321"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 23.043297,
+        "id": "MSC-11321"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-11321"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40183110"
+      },
+      "customer_number": {
+        "raw": [
+          "29304",
+          "54485",
+          "29276",
+          "29278",
+          "29277",
+          "29280",
+          "29283",
+          "149482",
+          "29267",
+          "29274",
+          "29303",
+          "29291",
+          "29295",
+          "29275",
+          "29262",
+          "155772",
+          "29265",
+          "29273",
+          "29290",
+          "29286",
+          "735145",
+          "29288",
+          "29328",
+          "29300"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "RELIANCE WORLDWIDE CORPORATION U134LF 34 LF BRS ADPT PUSHXMPT SHARKBITEX34 MIP LEAD FREE ZERO ADAPTER BRASS 34SB34MALF 34MA SB34MA 34SBM SB04F"
+      },
+      "mfr_full_name": {
+        "raw": "SharkBite"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "2"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; Instant Push-Fit Connection for Increased Ease-of-Use; Integrated Design Means No Loose Components, Ensures Secure, Reliable Connection; Inspector Friendly, Peace of Mind; Compact, Robust Body Foundation of a Strong, Corrosion Resistant, Durable Fitting; 25 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Connector Fitting; Type Male, Straight; Size A 3/4\"; Size B 3/4\"; Overall Length 1.89\"; End Connection Push-Fit x Male Threaded; Material DZR Brass; Finish Natural Brass/Chrome Plated; Pressure Rating 200 PSI; Temperature Rating 200 Deg F; Application Potable Water and Hydronic Heating Water Distribution; Applicable Standard ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC; Includes EPDM O-Ring, Stainless Steel Grab Ring, Polysulfone Tube Support Liner; Packaging Quantity 12 per Bag; War..."
+      },
+      "web_description": {
+        "raw": "3/4\" DZR Brass Male Straight Connector"
+      },
+      "product_sold_count": {
+        "raw": 1997.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC\",\"application\":\"Potable Water and Hydronic Heating Water Distribution\",\"end_connection\":\"Push-Fit x Male Threaded\",\"finish\":\"Natural Brass/Chrome Plated\",\"material\":\"DZR Brass\",\"overall_length\":\"1.89\\\"\",\"pressure_rating\":\"200 PSI\",\"size_a\":\"3/4\\\"\",\"size_b\":\"3/4\\\"\",\"temperature_rating\":\"200 Deg F\",\"type\":\"Male, Straight\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-12-02 16:40:04.980"
+      },
+      "temperature_rating": {
+        "raw": "200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100107/SHRKBT_U116_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3557908"
+      },
+      "customer_part_number": {
+        "raw": [
+          "BF8690",
+          "BF8140",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "004021003001",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "2163",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "BF8690",
+          "21819",
+          "BF8690",
+          "BF8690",
+          "BF8690"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-21819"
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/SHRKBTINST00001.pdf"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U116_MED.jpg"
+      },
+      "colorfinish": {
+        "raw": "Natural Brass/Chrome Plated"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "69728546517"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100127/SHRKBTE00006_1-3.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "SHRKBTE00035_3.pdf"
+      },
+      "material": {
+        "raw": "DZR Brass"
+      },
+      "pressure_rating": {
+        "raw": "200 PSI"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U116_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "U134LF"
+      },
+      "in_stock_location": {
+        "raw": [
+          "3010",
+          "1022",
+          "2015",
+          "1003",
+          "1071",
+          "1028",
+          "2014",
+          "2006",
+          "1041",
+          "4001",
+          "1321",
+          "1153",
+          "1013",
+          "1030",
+          "1045",
+          "1027",
+          "1036",
+          "1073",
+          "1096",
+          "1084",
+          "1001",
+          "3007",
+          "1006",
+          "1060",
+          "1059",
+          "1016",
+          "1044",
+          "1014",
+          "1075",
+          "1064",
+          "1406",
+          "1056",
+          "2010",
+          "1113",
+          "1086",
+          "1008",
+          "1401",
+          "1055",
+          "1033",
+          "1114",
+          "1004",
+          "1105",
+          "1068",
+          "1009",
+          "2017",
+          "1017",
+          "1111",
+          "1007",
+          "1100",
+          "3002",
+          "1076",
+          "1043",
+          "2009",
+          "1029",
+          "1101",
+          "2004",
+          "1403",
+          "1032",
+          "1015",
+          "2002",
+          "3009",
+          "3008",
+          "1047",
+          "2018",
+          "1023",
+          "2005",
+          "1035",
+          "1147",
+          "1046",
+          "1149",
+          "1012",
+          "1109",
+          "1404",
+          "1034",
+          "3014",
+          "1405",
+          "2008",
+          "1002"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 22.799706,
+        "id": "MSC-21819"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-21819"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40171701"
+      },
+      "customer_number": {
+        "raw": [
+          "29274",
+          "265719",
+          "79944",
+          "35648",
+          "35648",
+          "29294",
+          "29300",
+          "29257",
+          "14452",
+          "29280",
+          "325538",
+          "29305",
+          "36736",
+          "150132",
+          "29273",
+          "176208",
+          "29303",
+          "29292",
+          "29302",
+          "29267",
+          "28443",
+          "29328",
+          "29275",
+          "29326",
+          "29259"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "OMEGAFLEX INC FGPFST750 FLARESTR FTG 34 NPT FITTING 34AFS TPIPE34MA"
+      },
+      "mfr_full_name": {
+        "raw": "TracPipe"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100147/OMEGAFE00016_5.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "The Self-Piloting Fitting that Attaches TracPipe Counterstrike to Traditional Gas Fittings and Appliances; No Special Tools or Additional Parts Required; 1 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Adapter Fitting; Type Straight; Size A 3/4\"; Size B 3/4\"; End Connection Male Threaded x Flare; Material Yellow Brass; Pressure Rating 125 PSIG; Temperature Rating -20 to 200 Deg F; Application Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location; Applicable Standard ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC; Includes Stainless Steel Insert and 1\" Split Ring; Packaging Quantity 16 per Box; Warranty 1 Ye..."
+      },
+      "web_description": {
+        "raw": "3/4\" Brass Male Straight Adapter - AutoFlare, MPT x Flare"
+      },
+      "product_sold_count": {
+        "raw": 1997.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC\",\"application\":\"Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location\",\"end_connection\":\"Male Threaded x Flare\",\"material\":\"Yellow Brass\",\"pressure_rating\":\"125 PSIG\",\"size_a\":\"3/4\\\"\",\"size_b\":\"3/4\\\"\",\"temperature_rating\":\"-20 to 200 Deg F\",\"type\":\"Straight\"}"
+        ]
+      },
+      "last_update_date": {
+        "raw": "2021-10-20 22:40:05.637"
+      },
+      "temperature_rating": {
+        "raw": "-20 to 200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100095/OMEGAF_FGP-FST-1000_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3582265"
+      },
+      "customer_part_number": {
+        "raw": [
+          "GP58070",
+          "8454",
+          "TP.34AF",
+          "11325",
+          "008454",
+          "GP58070",
+          "GP58070",
+          "GP58070",
+          "TP.34AF",
+          "GP58070",
+          "TP.34AF",
+          "GP58070",
+          "008454",
+          "34TPMA",
+          "GP58070",
+          "TRPIPE003",
+          "GP58070",
+          "GP58070",
+          "GP58070",
+          "GP58070",
+          "GP58070-NA",
+          "GP58070",
+          "GP58070",
+          "GP58070",
+          "GP58070"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-11325"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100095/OMEGAF_FGP-FST-1000_MED.jpg"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "product_line": {
+        "raw": "CounterStrike, AutoFlare"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "OMEGAFE00020_6.pdf"
+      },
+      "material": {
+        "raw": "Yellow Brass"
+      },
+      "pressure_rating": {
+        "raw": "125 PSIG"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100095/OMEGAF_FGP-FST-1000_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "FGP-FST-750"
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1405",
+          "2010",
+          "1014",
+          "1045",
+          "1406",
+          "1039",
+          "1004",
+          "1002",
+          "1028",
+          "1041",
+          "2006",
+          "2014",
+          "1138",
+          "1086",
+          "1015",
+          "1401",
+          "2017",
+          "1076",
+          "1101",
+          "1034",
+          "1404",
+          "1016",
+          "1012",
+          "1023",
+          "1022",
+          "1147",
+          "1073",
+          "1030",
+          "1043",
+          "4001",
+          "1006",
+          "2015",
+          "1096",
+          "1003",
+          "2002",
+          "2018",
+          "2008",
+          "1047",
+          "1013",
+          "2009",
+          "1067",
+          "1064",
+          "1027",
+          "1321",
+          "1059",
+          "1044",
+          "2003",
+          "1403"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 22.799706,
+        "id": "MSC-11325"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-11325"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40172601"
+      },
+      "customer_number": {
+        "raw": [
+          "29295",
+          "14452",
+          "29368",
+          "35648",
+          "29259",
+          "29326",
+          "29305",
+          "29276",
+          "603037",
+          "29325",
+          "269146",
+          "54485",
+          "29270",
+          "29284",
+          "29294",
+          "15065",
+          "29263",
+          "269469",
+          "29302",
+          "29283",
+          "29265",
+          "269602",
+          "29273",
+          "325538",
+          "79944",
+          "29292",
+          "29301",
+          "29274",
+          "29277",
+          "298993",
+          "15065",
+          "269895",
+          "29275",
+          "269796",
+          "29280",
+          "29327",
+          "29257",
+          "29328",
+          "296802",
+          "29262",
+          "29300",
+          "29291"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "MATCONORCA INC BCP04LF 34 LF BRS IMP CPLG NPT THREADED BR COUPLING WITH STOP LEAD FREE ZERO BRASS 34TBCILF 34BRC RB34C"
+      },
+      "mfr_full_name": {
+        "raw": "Matco-Norca"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "3"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; 1 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Coupling Fitting; Type Straight, Banded, Import; Size A 3/4\"; Size B 3/4\"; End Connection Female Threaded x Female Threaded; Material Brass; Material Specification ASTM B62; Gasket Supplied No; Applicable Standard ANSI, UL, NSF 61-4; Packaging Quantity 25 per Inner Carton, 100 per Master Carton; Warranty 1 Year Limited"
+      },
+      "web_description": {
+        "raw": "3/4\" Brass Banded Straight Import Coupling"
+      },
+      "product_sold_count": {
+        "raw": 1855.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI, UL, NSF 61-4\",\"end_connection\":\"Female Threaded x Female Threaded\",\"gasket_supplied\":\"No\",\"material\":\"Brass\",\"material_specification\":\"ASTM B62\",\"size_a\":\"3/4\\\"\",\"size_b\":\"3/4\\\"\",\"type\":\"Straight, Banded, Import\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-11-16 16:43:56.637"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MATNOR_B-CP07LF_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3647088"
+      },
+      "customer_part_number": {
+        "raw": [
+          "IB6305",
+          "2425 C",
+          "IB6305",
+          "003654",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "@66635",
+          "IB6305",
+          "949040",
+          "IB2650",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "5660",
+          "IB6305",
+          "B-CP04",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "000011000",
+          "IB6305",
+          "2425 C",
+          "2425 C",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "3143",
+          "IBRLFCF",
+          "BCF",
+          "IB6305",
+          "L-49-27",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "IB6305",
+          "B34C",
+          "IB6305",
+          "IB6305",
+          "IB6305"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-66635"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MATNOR_B-CP07LF_MED.jpg"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "08264708044"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100145/MATNORE00424_3_7.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "MATNORE00443_14_52.pdf"
+      },
+      "material": {
+        "raw": "Brass"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100103/MATNOR_B-CP07LF_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "B-CP04LF"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1006",
+          "1041",
+          "3007",
+          "1056",
+          "1002",
+          "1007",
+          "1114",
+          "1086",
+          "1004",
+          "1014",
+          "3002",
+          "1047",
+          "1064",
+          "1153",
+          "3010",
+          "1008",
+          "1404",
+          "1003",
+          "3008",
+          "1076",
+          "1149",
+          "1403",
+          "1013",
+          "1009",
+          "1405",
+          "1401",
+          "1015",
+          "1030",
+          "1001",
+          "3009",
+          "1059",
+          "1105",
+          "1040",
+          "1067",
+          "1406",
+          "1017",
+          "1033",
+          "1055",
+          "1109",
+          "3004",
+          "3014",
+          "1043",
+          "1028",
+          "1071",
+          "1068",
+          "1034",
+          "1075",
+          "1044",
+          "1016",
+          "1029",
+          "1111",
+          "1073",
+          "1039",
+          "1012",
+          "1147",
+          "1010",
+          "1027",
+          "1036",
+          "1100",
+          "1113",
+          "1060",
+          "1023",
+          "1022"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 22.578537,
+        "id": "MSC-66635"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-66635"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40183101"
+      },
+      "customer_number": {
+        "raw": [
+          "269211",
+          "29290",
+          "161261",
+          "29291",
+          "29288",
+          "270386",
+          "29275",
+          "54485",
+          "29267",
+          "29300",
+          "155772",
+          "29295",
+          "29328",
+          "29274",
+          "603037",
+          "29304",
+          "296802",
+          "29283",
+          "735145",
+          "29262",
+          "29278",
+          "29276",
+          "269146",
+          "29277",
+          "29286",
+          "29273",
+          "29280",
+          "458996",
+          "29265"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "RELIANCE WORLDWIDE CORPORATION U248LF 12 LF BRS 90 ELL PUSH CNCT SHARKBITE ELBOW OR LEAD FREE ZERO BRASS ELB 12SB90LF 12L SB129 12SB90 SB07D"
+      },
+      "mfr_full_name": {
+        "raw": "SharkBite"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; Instant Push-Fit Connection for Increased Ease-of-Use; Integrated Design Means No Loose Components, Ensures Secure, Reliable Connection; Inspector Friendly, Peace of Mind; Compact, Robust Body Foundation of a Strong, Corrosion Resistant, Durable Fitting; 25 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Elbow Fitting; Angle 90 Degree; Size A 1/2\"; Size B 1/2\"; End Connection Push-Fit x Push-Fit; Material DZR Brass; Finish Natural Brass/Chrome Plated; Pressure Rating 200 PSI; Temperature Rating 200 Deg F; Application Potable Water and Hydronic Heating Water Distribution; Applicable Standard ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC; Includes EPDM O-Ring, Stainless Steel Grab Ring, Polysulfone Tube Support Liner; Packaging Type Bulk; Packaging Quantity 12 per Bag; Warranty 25 Year ..."
+      },
+      "web_description": {
+        "raw": "1/2\" DZR Brass 90D Straight Elbow - Push-Fit"
+      },
+      "product_sold_count": {
+        "raw": 1831.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"angle\":\"90 Degree\",\"applicable_standard\":\"ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC\",\"application\":\"Potable Water and Hydronic Heating Water Distribution\",\"end_connection\":\"Push-Fit x Push-Fit\",\"finish\":\"Natural Brass/Chrome Plated\",\"material\":\"DZR Brass\",\"pressure_rating\":\"200 PSI\",\"size_a\":\"1/2\\\"\",\"size_b\":\"1/2\\\"\",\"temperature_rating\":\"200 Deg F\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-11-30 22:44:10.693"
+      },
+      "temperature_rating": {
+        "raw": "200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100107/SHRKBT_U246_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3557914"
+      },
+      "customer_part_number": {
+        "raw": [
+          "12SB90",
+          "BF8720",
+          "3713051",
+          "BF8720",
+          "BF8720",
+          "12SB90",
+          "BF8720",
+          "BF8190",
+          "BF8720",
+          "BF8720",
+          "2172",
+          "BF8720",
+          "BF8720",
+          "BF8720",
+          "@21843",
+          "BF8720",
+          "SB1290",
+          "BF8720",
+          "21843",
+          "BF8720",
+          "BF8720",
+          "BF8720",
+          "813041",
+          "BF8720",
+          "BF8720",
+          "BF8720",
+          "BF8720",
+          "300095",
+          "BF8720"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-21843"
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/SHRKBTINST00001.pdf"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U246_MED.jpg"
+      },
+      "colorfinish": {
+        "raw": "Natural Brass/Chrome Plated"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "69728546522"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100127/SHRKBTE00006_1-3.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "SHRKBTE00035_3_36.pdf"
+      },
+      "material": {
+        "raw": "DZR Brass"
+      },
+      "pressure_rating": {
+        "raw": "200 PSI"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U246_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "U248LF"
+      },
+      "in_stock_location": {
+        "raw": [
+          "2009",
+          "1071",
+          "1101",
+          "1044",
+          "1007",
+          "1043",
+          "1064",
+          "3007",
+          "2018",
+          "1010",
+          "1015",
+          "1028",
+          "1056",
+          "3010",
+          "1030",
+          "1029",
+          "1027",
+          "1111",
+          "1008",
+          "1014",
+          "1032",
+          "2005",
+          "1068",
+          "3008",
+          "1045",
+          "3014",
+          "2017",
+          "1022",
+          "1060",
+          "1153",
+          "1076",
+          "1059",
+          "1034",
+          "1041",
+          "1406",
+          "1023",
+          "1404",
+          "2010",
+          "1405",
+          "1067",
+          "1035",
+          "2002",
+          "1114",
+          "2008",
+          "4001",
+          "1004",
+          "1321",
+          "1012",
+          "1109",
+          "1016",
+          "1401",
+          "2004",
+          "1147",
+          "1105",
+          "1003",
+          "1113",
+          "1013",
+          "1036",
+          "1017",
+          "1039",
+          "3009",
+          "1084",
+          "1006",
+          "1149",
+          "1075",
+          "1073",
+          "1009",
+          "1033",
+          "1086",
+          "1001",
+          "1100",
+          "1096",
+          "2015",
+          "1047",
+          "1040",
+          "1046",
+          "1403",
+          "1055",
+          "2014"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 22.53949,
+        "id": "MSC-21843"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-21843"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40183101"
+      },
+      "customer_number": {
+        "raw": [
+          "54485",
+          "270386",
+          "29290",
+          "29276",
+          "29277",
+          "155772",
+          "29300",
+          "29267",
+          "29303",
+          "29328",
+          "29274",
+          "29295",
+          "269146",
+          "29325",
+          "29280",
+          "269211",
+          "29273",
+          "29265",
+          "29275",
+          "29288",
+          "603037",
+          "29283",
+          "29278",
+          "29291",
+          "296802",
+          "29262",
+          "29304",
+          "29286",
+          "735145",
+          "458996"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "RELIANCE WORLDWIDE CORPORATION U256LF 34 LF BRS 90 ELL PUSH CNCT SHARKBITE ELBOW OR LEAD FREE ZERO BRASS ELB 34SB90LF 34L SB349 34SB90 SB07F"
+      },
+      "mfr_full_name": {
+        "raw": "SharkBite"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "Lead Free; Instant Push-Fit Connection for Increased Ease-of-Use; Integrated Design Means No Loose Components, Ensures Secure, Reliable Connection; Inspector Friendly, Peace of Mind; Compact, Robust Body Foundation of a Strong, Corrosion Resistant, Durable Fitting; 25 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Elbow Fitting; Angle 90 Degree; Size A 3/4\"; Size B 3/4\"; End Connection Push-Fit x Push-Fit; Material DZR Brass; Finish Natural Brass/Chrome Plated; Pressure Rating 200 PSI; Temperature Rating 200 Deg F; Application Potable Water and Hydronic Heating Water Distribution; Applicable Standard ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC; Includes EPDM O-Ring, Stainless Steel Grab Ring, Polysulfone Tube Support Liner; Packaging Type Bulk; Packaging Quantity 6 per Bag; Warranty 25 Year L..."
+      },
+      "web_description": {
+        "raw": "3/4\" DZR Brass 90D Elbow"
+      },
+      "product_sold_count": {
+        "raw": 1748.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"angle\":\"90 Degree\",\"applicable_standard\":\"ANSI/NSF 14/61/372, ASSE 1061, IAPMO, UPC, CUPC, IPC\",\"application\":\"Potable Water and Hydronic Heating Water Distribution\",\"end_connection\":\"Push-Fit x Push-Fit\",\"finish\":\"Natural Brass/Chrome Plated\",\"material\":\"DZR Brass\",\"pressure_rating\":\"200 PSI\",\"size_a\":\"3/4\\\"\",\"size_b\":\"3/4\\\"\",\"temperature_rating\":\"200 Deg F\"}"
+        ]
+      },
+      "low_lead_compliant_flag": {
+        "raw": "true"
+      },
+      "last_update_date": {
+        "raw": "2021-12-01 16:40:04.473"
+      },
+      "temperature_rating": {
+        "raw": "200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100107/SHRKBT_U246_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3557915"
+      },
+      "customer_part_number": {
+        "raw": [
+          "BF8725",
+          "34SB90",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "2173",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "85910",
+          "BF8725",
+          "BF8725",
+          "34SB90",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "@21846",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "SB3490",
+          "BF8725",
+          "BF8725",
+          "BF8725",
+          "21846",
+          "603502"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-21846"
+      },
+      "mfr_install_instruction_doc_file_name": {
+        "raw": "http://images.tradeservice.com/INSTALLATIONSHEETS/DIR100005/SHRKBTINST00001.pdf"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U246_MED.jpg"
+      },
+      "colorfinish": {
+        "raw": "Natural Brass/Chrome Plated"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "upc_id": {
+        "raw": "69728546524"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100127/SHRKBTE00006_1-3.pdf"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "SHRKBTE00035_3_36.pdf"
+      },
+      "material": {
+        "raw": "DZR Brass"
+      },
+      "pressure_rating": {
+        "raw": "200 PSI"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100108/SHRKBT_U246_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "U256LF"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1022",
+          "1002",
+          "1004",
+          "3010",
+          "2009",
+          "1147",
+          "1111",
+          "3008",
+          "2015",
+          "3014",
+          "3007",
+          "1012",
+          "1096",
+          "1017",
+          "1034",
+          "1068",
+          "1075",
+          "2018",
+          "1045",
+          "2003",
+          "1401",
+          "1086",
+          "1015",
+          "1030",
+          "1028",
+          "4001",
+          "1013",
+          "1032",
+          "1040",
+          "1059",
+          "1105",
+          "1036",
+          "1321",
+          "1084",
+          "1101",
+          "1003",
+          "1064",
+          "1009",
+          "1406",
+          "1055",
+          "2004",
+          "1067",
+          "1029",
+          "1071",
+          "1060",
+          "1044",
+          "3009",
+          "2006",
+          "1027",
+          "2010",
+          "1114",
+          "2017",
+          "1073",
+          "2014",
+          "1113",
+          "1405",
+          "1404",
+          "2002",
+          "1153",
+          "1023",
+          "1100",
+          "1007",
+          "1046",
+          "1033",
+          "3002",
+          "1014",
+          "1149",
+          "1035",
+          "2008",
+          "1041",
+          "1047",
+          "1109",
+          "1056",
+          "1076",
+          "1039",
+          "1008",
+          "1403",
+          "1001",
+          "1016"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 22.400398,
+        "id": "MSC-21846"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-21846"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40171701"
+      },
+      "customer_number": {
+        "raw": [
+          "29302",
+          "29298",
+          "29301",
+          "29273",
+          "29294",
+          "269469",
+          "270136",
+          "29300",
+          "29269",
+          "29275",
+          "29257",
+          "15065",
+          "29263",
+          "29277",
+          "219707"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "OMEGAFLEX INC FGPSFST750 AUTO SNAP MALE ADPT 34 ADAPTER 34ASMA 34TPM 34ASA"
+      },
+      "mfr_full_name": {
+        "raw": "TracPipe"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100147/OMEGAFE00016_38.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "The Self-Piloting Fitting that Attaches TracPipe Counterstrike to Traditional Gas Fittings and Appliances; No Special Tools or Additional Parts Required; This Greatly Reduces Installation Difficulty and Time as there are No Small Loose Gaskets, O-Rings or Retainer Rings to Contend with in a Dark or Cold Work Place Environment; Reusability; 1 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Adapter Fitting; Type Straight; Size A 3/4\"; Size B 3/4\"; End Connection Male Threaded x Tubing Nut; Material Yellow Brass; Pressure Rating 125 PSIG; Temperature Rating -20 to 200 Deg F; Application Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location; Applicable Standard ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC; Packaging Quantity 16 per Box; Warranty 1 Year Limited"
+      },
+      "web_description": {
+        "raw": "3/4\" Brass Male Straight Adapter - AutoSnap, MPT x Tubing Nut"
+      },
+      "product_sold_count": {
+        "raw": 1745.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC\",\"application\":\"Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location\",\"end_connection\":\"Male Threaded x Tubing Nut\",\"material\":\"Yellow Brass\",\"pressure_rating\":\"125 PSIG\",\"size_a\":\"3/4\\\"\",\"size_b\":\"3/4\\\"\",\"temperature_rating\":\"-20 to 200 Deg F\",\"type\":\"Straight\"}"
+        ]
+      },
+      "last_update_date": {
+        "raw": "2021-12-02 16:43:45.543"
+      },
+      "temperature_rating": {
+        "raw": "-20 to 200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100119/OMEGAF_FGP-SFST-1000_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3648630"
+      },
+      "customer_part_number": {
+        "raw": [
+          "GP58658",
+          "GP58658",
+          "GP58658",
+          "GP58658",
+          "GP58658",
+          "FGP-SFST-750",
+          "TPFGPFST750",
+          "GP58658",
+          "GP58658",
+          "GP58658",
+          "GP58658",
+          "FGP-SFST-750",
+          "GP58658",
+          "GP58658",
+          "FGP-SFST-750"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-75940"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100120/OMEGAF_FGP-SFST-1000_MED.jpg"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100152/OMEGAFE00024_1_2.pdf"
+      },
+      "product_line": {
+        "raw": "CounterStrike, AutoSnap"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "OMEGAFE00020_5.pdf"
+      },
+      "material": {
+        "raw": "Yellow Brass"
+      },
+      "pressure_rating": {
+        "raw": "125 PSIG"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100120/OMEGAF_FGP-SFST-1000_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "FGP-SFST-750"
+      },
+      "package_weight_nbr": {
+        "raw": 0.5
+      },
+      "product_search_boost_1_nbr": {
+        "raw": "1"
+      },
+      "in_stock_location": {
+        "raw": [
+          "1033",
+          "1003",
+          "1045",
+          "1007",
+          "2009",
+          "1015",
+          "2017",
+          "1060",
+          "1035",
+          "1113",
+          "3004",
+          "1321",
+          "1073",
+          "1075",
+          "1041",
+          "2003",
+          "2018",
+          "1096",
+          "1016",
+          "1036",
+          "1047",
+          "1032",
+          "3007",
+          "1029",
+          "2004",
+          "2015",
+          "1008",
+          "1153",
+          "2005",
+          "1101",
+          "2014",
+          "1010",
+          "1044",
+          "1406",
+          "1022",
+          "1034",
+          "1068",
+          "3008",
+          "1405",
+          "1401",
+          "2010",
+          "3009",
+          "3002",
+          "1109",
+          "1114",
+          "1071",
+          "1111",
+          "1006",
+          "1023",
+          "1017",
+          "1056",
+          "2006",
+          "1009"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 22.395248,
+        "id": "MSC-75940"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-75940"
+      }
+    },
+    {
+      "unspc_id": {
+        "raw": "40171701"
+      },
+      "customer_number": {
+        "raw": [
+          "29275",
+          "29263",
+          "29302",
+          "29301",
+          "15065",
+          "29277",
+          "29273",
+          "29300",
+          "29294",
+          "29298",
+          "29269",
+          "624610",
+          "29257"
+        ]
+      },
+      "search_keyword_text": {
+        "raw": "OMEGAFLEX INC FGPSFST500 AUTO SNAP MALE ADPT 12 ADAPTER 12ASMA 12ASA"
+      },
+      "mfr_full_name": {
+        "raw": "TracPipe"
+      },
+      "mfr_item_data_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100147/OMEGAFE00016_38.pdf"
+      },
+      "product_search_boost_4_nbr": {
+        "raw": "1"
+      },
+      "feature_benefit_list_text": {
+        "raw": "The Self-Piloting Fitting that Attaches TracPipe Counterstrike to Traditional Gas Fittings and Appliances; No Special Tools or Additional Parts Required; This Greatly Reduces Installation Difficulty and Time as there are No Small Loose Gaskets, O-Rings or Retainer Rings to Contend with in a Dark or Cold Work Place Environment; Reusability; 1 Year Limited Warranty"
+      },
+      "category_2_name": {
+        "raw": "Metal Pipe & Fittings"
+      },
+      "product_overview_description": {
+        "raw": "Adapter Fitting; Type Straight; Size A 1/2\"; Size B 1/2\"; End Connection Male Threaded x Tubing Nut; Material Yellow Brass; Pressure Rating 125 PSIG; Temperature Rating -20 to 200 Deg F; Application Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location; Applicable Standard ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC; Packaging Quantity 24 per Box; Warranty 1 Year Limited"
+      },
+      "web_description": {
+        "raw": "1/2\" Brass Male Straight Adapter - AutoSnap, MPT x Tubing Nut"
+      },
+      "product_sold_count": {
+        "raw": 1632.0
+      },
+      "technical_specifications": {
+        "raw": [
+          "{\"applicable_standard\":\"ANSI LC1/CSA 6.26, ANSI Z223.1, CAN/CSA B149.1, CSA, IAPMO (UPC), ICC PMG 1046/1058, IFGC, IMC, IPC, IRC, NFPA 54/58, UPC\",\"application\":\"Gas Fitting and Appliance, Indoor, Outdoor, Concealed Location\",\"end_connection\":\"Male Threaded x Tubing Nut\",\"material\":\"Yellow Brass\",\"pressure_rating\":\"125 PSIG\",\"size_a\":\"1/2\\\"\",\"size_b\":\"1/2\\\"\",\"temperature_rating\":\"-20 to 200 Deg F\",\"type\":\"Straight\"}"
+        ]
+      },
+      "last_update_date": {
+        "raw": "2021-11-30 22:40:04.540"
+      },
+      "temperature_rating": {
+        "raw": "-20 to 200 Deg F"
+      },
+      "full_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100119/OMEGAF_FGP-SFST-1000_LRG.jpg"
+      },
+      "internal_item_nbr": {
+        "raw": "3649071"
+      },
+      "customer_part_number": {
+        "raw": [
+          "GP58656",
+          "GP58656",
+          "GP58656",
+          "GP58656",
+          "FGP-SFST-500",
+          "GP58656",
+          "GP58656",
+          "GP58656",
+          "GP58656",
+          "GP58656",
+          "GP58656",
+          "FPG-SFST-500",
+          "GP58656"
+        ]
+      },
+      "erp_product_id": {
+        "raw": "MSC-79138"
+      },
+      "medium_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100120/OMEGAF_FGP-SFST-1000_MED.jpg"
+      },
+      "category_1_name": {
+        "raw": "Pipe & Fittings"
+      },
+      "mfr_spec_tech_doc_file_name": {
+        "raw": "http://images.tradeservice.com/ATTACHMENTS/DIR100152/OMEGAFE00024_1_2.pdf"
+      },
+      "product_line": {
+        "raw": "CounterStrike, AutoSnap"
+      },
+      "mfr_catalog_doc_file_name": {
+        "raw": "OMEGAFE00020_5.pdf"
+      },
+      "material": {
+        "raw": "Yellow Brass"
+      },
+      "pressure_rating": {
+        "raw": "125 PSIG"
+      },
+      "thumbnail_image_url_name": {
+        "raw": "http://images.tradeservice.com/ProductImages/DIR100120/OMEGAF_FGP-SFST-1000_SML.jpg"
+      },
+      "category_3_name": {
+        "raw": "Brass Pipe & Fittings"
+      },
+      "vendor_part_nbr": {
+        "raw": "FGP-SFST-500"
+      },
+      "package_weight_nbr": {
+        "raw": 0.4
+      },
+      "in_stock_location": {
+        "raw": [
+          "1101",
+          "2014",
+          "3002",
+          "1060",
+          "2004",
+          "1109",
+          "1023",
+          "1056",
+          "1111",
+          "2017",
+          "3004",
+          "1406",
+          "1007",
+          "2005",
+          "3008",
+          "1022",
+          "1047",
+          "1071",
+          "1045",
+          "1401",
+          "1008",
+          "2008",
+          "1016",
+          "2010",
+          "2006",
+          "1041",
+          "1096",
+          "1015",
+          "1114",
+          "1009",
+          "2009",
+          "1010",
+          "2015",
+          "1035",
+          "1032",
+          "3007",
+          "3009",
+          "1073",
+          "1044",
+          "1003",
+          "1017",
+          "1034",
+          "1068",
+          "1113",
+          "1029",
+          "2018",
+          "1321",
+          "1036",
+          "1075",
+          "1027",
+          "1033",
+          "1153"
+        ]
+      },
+      "_meta": {
+        "engine": "products-1638785057795",
+        "score": 22.194523,
+        "id": "MSC-79138"
+      },
+      "id": {
+        "raw": "products-1638785057795|MSC-79138"
+      }
+    }
+  ],
+  "facets": {
+    "inlet_size": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "3/4\"",
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "btu": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "flow_rate": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "1 to 20 GPM",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "depth": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "energy_star_flag": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "in_stock_location": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "4001",
+            "count": 123
+          },
+          {
+            "value": "1096",
+            "count": 117
+          },
+          {
+            "value": "2018",
+            "count": 105
+          },
+          {
+            "value": "3008",
+            "count": 97
+          },
+          {
+            "value": "1007",
+            "count": 85
+          },
+          {
+            "value": "2017",
+            "count": 85
+          },
+          {
+            "value": "3014",
+            "count": 83
+          },
+          {
+            "value": "2004",
+            "count": 82
+          },
+          {
+            "value": "3007",
+            "count": 82
+          },
+          {
+            "value": "1034",
+            "count": 80
+          },
+          {
+            "value": "1321",
+            "count": 80
+          },
+          {
+            "value": "1068",
+            "count": 78
+          },
+          {
+            "value": "1153",
+            "count": 74
+          },
+          {
+            "value": "1004",
+            "count": 72
+          },
+          {
+            "value": "1406",
+            "count": 72
+          },
+          {
+            "value": "3002",
+            "count": 72
+          },
+          {
+            "value": "1003",
+            "count": 69
+          },
+          {
+            "value": "1032",
+            "count": 69
+          },
+          {
+            "value": "1147",
+            "count": 67
+          },
+          {
+            "value": "2009",
+            "count": 67
+          },
+          {
+            "value": "1075",
+            "count": 66
+          },
+          {
+            "value": "1033",
+            "count": 65
+          },
+          {
+            "value": "2015",
+            "count": 65
+          },
+          {
+            "value": "2005",
+            "count": 64
+          },
+          {
+            "value": "1076",
+            "count": 63
+          },
+          {
+            "value": "1403",
+            "count": 62
+          },
+          {
+            "value": "3009",
+            "count": 62
+          },
+          {
+            "value": "1045",
+            "count": 56
+          },
+          {
+            "value": "1109",
+            "count": 56
+          },
+          {
+            "value": "2003",
+            "count": 56
+          },
+          {
+            "value": "3010",
+            "count": 56
+          },
+          {
+            "value": "1064",
+            "count": 54
+          },
+          {
+            "value": "2006",
+            "count": 53
+          },
+          {
+            "value": "1047",
+            "count": 52
+          },
+          {
+            "value": "2014",
+            "count": 52
+          },
+          {
+            "value": "1015",
+            "count": 51
+          },
+          {
+            "value": "1303",
+            "count": 50
+          },
+          {
+            "value": "1009",
+            "count": 49
+          },
+          {
+            "value": "1013",
+            "count": 49
+          },
+          {
+            "value": "1014",
+            "count": 49
+          },
+          {
+            "value": "1016",
+            "count": 49
+          },
+          {
+            "value": "1036",
+            "count": 49
+          },
+          {
+            "value": "2008",
+            "count": 49
+          },
+          {
+            "value": "1022",
+            "count": 46
+          },
+          {
+            "value": "1105",
+            "count": 45
+          },
+          {
+            "value": "1149",
+            "count": 45
+          },
+          {
+            "value": "1023",
+            "count": 44
+          },
+          {
+            "value": "1046",
+            "count": 44
+          },
+          {
+            "value": "1017",
+            "count": 43
+          },
+          {
+            "value": "1060",
+            "count": 43
+          },
+          {
+            "value": "1405",
+            "count": 43
+          },
+          {
+            "value": "1044",
+            "count": 42
+          },
+          {
+            "value": "1008",
+            "count": 40
+          },
+          {
+            "value": "1027",
+            "count": 40
+          },
+          {
+            "value": "1401",
+            "count": 40
+          },
+          {
+            "value": "2002",
+            "count": 40
+          },
+          {
+            "value": "2010",
+            "count": 40
+          },
+          {
+            "value": "1100",
+            "count": 39
+          },
+          {
+            "value": "1404",
+            "count": 39
+          },
+          {
+            "value": "1029",
+            "count": 38
+          },
+          {
+            "value": "1012",
+            "count": 37
+          },
+          {
+            "value": "1041",
+            "count": 37
+          },
+          {
+            "value": "1055",
+            "count": 37
+          },
+          {
+            "value": "1028",
+            "count": 36
+          },
+          {
+            "value": "1071",
+            "count": 34
+          },
+          {
+            "value": "1035",
+            "count": 32
+          },
+          {
+            "value": "1086",
+            "count": 32
+          },
+          {
+            "value": "1101",
+            "count": 32
+          },
+          {
+            "value": "1010",
+            "count": 31
+          },
+          {
+            "value": "1114",
+            "count": 31
+          },
+          {
+            "value": "3004",
+            "count": 31
+          },
+          {
+            "value": "1002",
+            "count": 29
+          },
+          {
+            "value": "1043",
+            "count": 29
+          },
+          {
+            "value": "1001",
+            "count": 28
+          },
+          {
+            "value": "1056",
+            "count": 28
+          },
+          {
+            "value": "1059",
+            "count": 28
+          },
+          {
+            "value": "1006",
+            "count": 27
+          },
+          {
+            "value": "1111",
+            "count": 27
+          },
+          {
+            "value": "1073",
+            "count": 25
+          },
+          {
+            "value": "1084",
+            "count": 25
+          },
+          {
+            "value": "1113",
+            "count": 25
+          },
+          {
+            "value": "1310",
+            "count": 24
+          },
+          {
+            "value": "1030",
+            "count": 23
+          },
+          {
+            "value": "1039",
+            "count": 22
+          },
+          {
+            "value": "1067",
+            "count": 19
+          },
+          {
+            "value": "1040",
+            "count": 16
+          },
+          {
+            "value": "1302",
+            "count": 12
+          },
+          {
+            "value": "1138",
+            "count": 9
+          },
+          {
+            "value": "1320",
+            "count": 9
+          },
+          {
+            "value": "1304",
+            "count": 4
+          },
+          {
+            "value": "1031",
+            "count": 1
+          },
+          {
+            "value": "9401",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "product_line": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "CounterStrike, AutoFlare",
+            "count": 16
+          },
+          {
+            "value": "CounterStrike, AutoSnap",
+            "count": 7
+          },
+          {
+            "value": "CounterStrike, PS-II",
+            "count": 4
+          },
+          {
+            "value": "FlowGuard Gold",
+            "count": 2
+          },
+          {
+            "value": "Heatguard, TANK BOOSTER PRO",
+            "count": 2
+          },
+          {
+            "value": "TANK BOOSTERPRO",
+            "count": 1
+          },
+          {
+            "value": "TracePipe, CounterStrike",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "length": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "18\"",
+            "count": 4
+          },
+          {
+            "value": "1.65\"",
+            "count": 1
+          },
+          {
+            "value": "1.89\"",
+            "count": 1
+          },
+          {
+            "value": "12\"",
+            "count": 1
+          },
+          {
+            "value": "15\"",
+            "count": 1
+          },
+          {
+            "value": "2.09\"",
+            "count": 1
+          },
+          {
+            "value": "24\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "category_2_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Metal Pipe & Fittings",
+            "count": 504
+          }
+        ]
+      }
+    ],
+    "colorfinish": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Natural Brass/Chrome Plated",
+            "count": 54
+          },
+          {
+            "value": "Yellow",
+            "count": 3
+          }
+        ]
+      }
+    ],
+    "hazardous_material_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 35
+          }
+        ]
+      }
+    ],
+    "mfr_full_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Merit Brass",
+            "count": 213
+          },
+          {
+            "value": "SharkBite",
+            "count": 138
+          },
+          {
+            "value": "TracPipe",
+            "count": 28
+          },
+          {
+            "value": "Matco-Norca",
+            "count": 14
+          },
+          {
+            "value": "Charlotte Pipe",
+            "count": 2
+          },
+          {
+            "value": "Cash-Acme",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "water_sense_compliant_flag": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "voltage": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "size": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "1\" x 1/2\"",
+            "count": 2
+          },
+          {
+            "value": "1\" x 3/4\"",
+            "count": 2
+          },
+          {
+            "value": "1-1/2\" x 1-1/4\"",
+            "count": 2
+          },
+          {
+            "value": "1/2\" x 1/4\"",
+            "count": 2
+          },
+          {
+            "value": "2\" x 1-1/2\"",
+            "count": 2
+          },
+          {
+            "value": "2\" x 3/4\"",
+            "count": 2
+          },
+          {
+            "value": "3/4\" x 1/2\"",
+            "count": 2
+          },
+          {
+            "value": "3/4\" x 1/4\"",
+            "count": 2
+          },
+          {
+            "value": "1-1/2\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/2\" x 1\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/2\" x 1/2\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/2\" x 3/4\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/4\" x 1\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/4\" x 1/2\"",
+            "count": 1
+          },
+          {
+            "value": "1-1/4\" x 3/4\"",
+            "count": 1
+          },
+          {
+            "value": "1/2\" x 1/8\"",
+            "count": 1
+          },
+          {
+            "value": "1/2\" x 3/8\"",
+            "count": 1
+          },
+          {
+            "value": "1/4\" x 1/8\"",
+            "count": 1
+          },
+          {
+            "value": "2\"",
+            "count": 1
+          },
+          {
+            "value": "2\" x 1\"",
+            "count": 1
+          },
+          {
+            "value": "2\" x 1-1/4\"",
+            "count": 1
+          },
+          {
+            "value": "3/8\" x 1/4\"",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "mercury_free_flag": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "material": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Brass",
+            "count": 194
+          },
+          {
+            "value": "DZR Brass",
+            "count": 52
+          },
+          {
+            "value": "Yellow Brass",
+            "count": 27
+          },
+          {
+            "value": "C89833 Brass",
+            "count": 15
+          },
+          {
+            "value": "Barstock CA360 Brass",
+            "count": 2
+          },
+          {
+            "value": "Polybutylene",
+            "count": 2
+          },
+          {
+            "value": "CPVC",
+            "count": 1
+          },
+          {
+            "value": "CPVC, Brass",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "tonnage": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "low_lead_compliant_flag": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "true",
+            "count": 244
+          }
+        ]
+      }
+    ],
+    "category_3_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Brass Pipe & Fittings",
+            "count": 504
+          }
+        ]
+      }
+    ],
+    "pressure_rating": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "125 PSI",
+            "count": 173
+          },
+          {
+            "value": "200 PSI",
+            "count": 78
+          },
+          {
+            "value": "Class 125, 200 PSI",
+            "count": 25
+          },
+          {
+            "value": "125 PSIG",
+            "count": 15
+          },
+          {
+            "value": "25 PSIG",
+            "count": 11
+          },
+          {
+            "value": "150 PSI",
+            "count": 4
+          },
+          {
+            "value": "100 PSI",
+            "count": 2
+          },
+          {
+            "value": "200 PSI at -20 Deg F, 125 PSI at 400 Deg F",
+            "count": 1
+          },
+          {
+            "value": "230 PSI",
+            "count": 1
+          },
+          {
+            "value": "40 PSI",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "width": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "capacity": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "category_1_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Pipe & Fittings",
+            "count": 504
+          }
+        ]
+      }
+    ],
+    "temperature_rating": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "200 Deg F",
+            "count": 75
+          },
+          {
+            "value": "-20 to 200 Deg F",
+            "count": 27
+          },
+          {
+            "value": "-20 to 400 Deg F",
+            "count": 26
+          },
+          {
+            "value": "400 Deg F",
+            "count": 22
+          },
+          {
+            "value": "150 Deg F",
+            "count": 3
+          },
+          {
+            "value": "180 Deg F",
+            "count": 2
+          },
+          {
+            "value": "120 to 180 Deg F",
+            "count": 1
+          },
+          {
+            "value": "140 Deg F",
+            "count": 1
+          },
+          {
+            "value": "90 to 130 Deg F",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "height": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ],
+    "wattage": [
+      {
+        "type": "value",
+        "data": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog
+    logicalFilePath="classpath:changelog-21.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.6.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd"
+>
+    <changeSet author="ted@dialexa.com" id="orderStatusAuditCols">
+        <preConditions onFail="MARK_RAN" onFailMessage="order_status audit columns exist">
+            <not>
+                <columnExists tableName="order_status" columnName="created_at" />
+            </not>
+        </preConditions>
+        <addColumn tableName="order_status">
+            <column name="error_message" type="varchar(255)" />
+            <column name="created_at" type="timestamp" />
+            <column name="created_by" type="varchar(255)" />
+            <column name="updated_at" type="timestamp" />
+            <column name="updated_by" type="varchar(255)" />
+        </addColumn>
+        <addNotNullConstraint tableName="order_status" columnName="created_at" defaultNullValue="now()" />
+        <addNotNullConstraint tableName="order_status" columnName="created_by" defaultNullValue="SYSTEM" />
+    </changeSet>
+    <changeSet author="ted@dialexa.com" id="tag-21-order_status-audit">
+        <tagDatabase tag="products-v21" />
+    </changeSet>
+</databaseChangeLog>

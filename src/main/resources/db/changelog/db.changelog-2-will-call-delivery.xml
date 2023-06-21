@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-2.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="brant.carthel@dialexa.com" id="createPreferredTimeType">
+        <preConditions onFail="MARK_RAN" onFailMessage="preferred_time_enum already created">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM pg_type WHERE typname = 'preferred_time_enum'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <sql>
+            CREATE TYPE preferred_time_enum AS ENUM ('MORNING','MIDDAY','AFTERNOON','ASAP')
+        </sql>
+        <rollback>
+            <sql>DROP TYPE preferred_time_enum</sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="castPreferredTimeEnumAsString">
+        <preConditions onFail="MARK_RAN" onFailMessage="preferred_time_enum cast to character varying already created">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM pg_cast AS pc INNER JOIN pg_type AS pt ON pc.casttarget = pt.oid WHERE pt.typname = 'preferred_time_enum'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <sql>
+            CREATE CAST (CHARACTER VARYING as preferred_time_enum) WITH INOUT AS IMPLICIT
+        </sql>
+        <rollback>
+            <sql>DROP CAST (CHARACTER VARYING as preferred_time_enum)</sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createWillCallsTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table will_calls already exists">
+            <not>
+                <tableExists tableName="will_calls"/>
+            </not>
+        </preConditions>
+        <createTable tableName="will_calls">
+            <column name="id" defaultValueComputed="uuid_generate_v4()" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_will_calls"/>
+            </column>
+            <column name="preferred_date" type="DATETIME">
+                <constraints nullable="false"/>
+            </column>
+            <column name="preferred_time" type="preferred_time_enum">
+                <constraints nullable="false"/>
+            </column>
+            <column name="branch_id" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="pickup_instructions" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="will_calls"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createAddressTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table address already exists">
+            <not>
+                <tableExists tableName="address"/>
+            </not>
+        </preConditions>
+        <createTable tableName="address">
+            <column name="id" defaultValueComputed="uuid_generate_v4()" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_address"/>
+            </column>
+            <column name="street1" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="street2" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="city" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="state" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="zip" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="country" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="address"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createDeliveriesTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table deliveries already exists">
+            <not>
+                <tableExists tableName="deliveries"/>
+            </not>
+        </preConditions>
+        <createTable tableName="deliveries">
+            <column name="id" defaultValueComputed="uuid_generate_v4()" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_delivery"/>
+            </column>
+            <column name="shipto_id" type="UUID">
+                <constraints nullable="true" foreignKeyName="fk_delivery_shipto_id" referencedTableName="accounts" referencedColumnNames="id"/>
+            </column>
+            <column name="address_id" type="UUID">
+                <constraints nullable="true" foreignKeyName="fk_delivery_address_id" referencedTableName="address" referencedColumnNames="id"/>
+            </column>
+            <column name="preferred_date" type="DATETIME">
+                <constraints nullable="false"/>
+            </column>
+            <column name="preferred_time" type="preferred_time_enum">
+                <constraints nullable="false"/>
+            </column>
+            <column name="delivery_instructions" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="should_ship_full_order" type="boolean" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="deliveries"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addDeliveryIdToCarts">
+        <preConditions onFail="MARK_RAN" onFailMessage="delivery_id on carts already exists">
+            <not>
+                <columnExists tableName="carts" columnName="delivery_id"/>
+            </not>
+        </preConditions>
+        <addColumn tableName="carts">
+            <column name="delivery_id" type="UUID">
+                <constraints nullable="true" foreignKeyName="fk_carts_delivery_id" referencedTableName="deliveries" referencedColumnNames="id"/>
+            </column>
+        </addColumn>
+        <rollback>
+            <dropColumn tableName="carts" columnName="delivery_id" />
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addWillCallIdToCarts">
+        <preConditions onFail="MARK_RAN" onFailMessage="will_call_id on carts already exists">
+            <not>
+                <columnExists tableName="carts" columnName="will_call_id"/>
+            </not>
+        </preConditions>
+        <addColumn tableName="carts">
+            <column name="will_call_id" type="UUID">
+                <constraints nullable="true" foreignKeyName="fk_carts_will_call_id" referencedTableName="will_calls" referencedColumnNames="id"/>
+            </column>
+        </addColumn>
+        <rollback>
+            <dropColumn tableName="carts" columnName="will_call_id" />
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="tag-2-products">
+        <tagDatabase tag="products-v2"/>
+    </changeSet>
+</databaseChangeLog>

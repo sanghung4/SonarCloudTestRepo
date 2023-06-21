@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="classpath:changelog-1.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="brant.carthel@dialexa.com" id="createApprovalFlowStatesType">
+        <preConditions onFail="MARK_RAN" onFailMessage="approval_flow_states_enum already created">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM pg_type WHERE typname = 'approval_flow_states_enum'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <sql>
+            CREATE TYPE approval_flow_states_enum AS ENUM ('ACTIVE','AWAITING_APPROVAL','SUBMITTED','REJECTED')
+        </sql>
+        <rollback>
+            <sql>DROP TYPE approval_flow_states_enum</sql>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createApprovalFlowStatesTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table approval_flow_states already exists">
+            <not>
+                <tableExists tableName="approval_flow_states"/>
+            </not>
+        </preConditions>
+        <createTable tableName="approval_flow_states">
+            <column name="id" defaultValueComputed="uuid_generate_v4()" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_approval_flow_states"/>
+            </column>
+            <column name="name" type="approval_flow_states_enum">
+                <constraints nullable="false"/>
+            </column>
+            <column name="display_name" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="approval_flow_states"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createCartsTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table carts already exists">
+            <not>
+                <tableExists tableName="carts"/>
+            </not>
+        </preConditions>
+        <createTable tableName="carts">
+            <column name="id" defaultValueComputed="uuid_generate_v4()" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_cart"/>
+            </column>
+            <column name="owner_id" type="UUID">
+                <constraints nullable="false" foreignKeyName="fk_cart_owner_id" referencedTableName="users" referencedColumnNames="id"/>
+            </column>
+            <column name="approver_id" type="UUID">
+                <constraints nullable="true" foreignKeyName="fk_cart_approver_id" referencedTableName="users" referencedColumnNames="id"/>
+            </column>
+            <column name="shipto_id" type="UUID">
+                <constraints nullable="false" foreignKeyName="fk_cart_shipto_id" referencedTableName="accounts" referencedColumnNames="id"/>
+            </column>
+            <column name="po_number" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="pricing_branch_id" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="shipping_branch_id" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="payment_method_type_id" type="UUID">
+                <constraints nullable="true"/>
+            </column>
+            <column name="cc_id" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="approval_state" type="UUID">
+                <constraints nullable="false" foreignKeyName="fk_cart_approval_state" referencedTableName="approval_flow_states" referencedColumnNames="id"/>
+            </column>
+            <column name="rejection_reason" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="subtotal" type="INT" defaultValue="0">
+                <constraints nullable="false" />
+            </column>
+            <column name="shipping_handling" type="INT" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+            <column name="tax" type="INT" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+            <column name="total" type="INT" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="carts"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="createLineItemsTable">
+        <preConditions onFail="MARK_RAN" onFailMessage="table line_items already exists">
+            <not>
+                <tableExists tableName="line_items"/>
+            </not>
+        </preConditions>
+        <createTable tableName="line_items">
+            <column name="id" defaultValueComputed="uuid_generate_v4()" type="UUID">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_line_items"/>
+            </column>
+            <column name="erp_part_number" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="customer_part_number" type="VARCHAR(200)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="quantity" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="price_per_unit" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="price_last_updated_at" type="DATETIME">
+                <constraints nullable="true"/>
+            </column>
+            <column name="qty_available" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="qty_available_last_updated_at" type="DATETIME">
+                <constraints nullable="true"/>
+            </column>
+            <column name="cart_id" type="UUID">
+                <constraints nullable="false" foreignKeyName="fk_line_item_cart" referencedTableName="carts" referencedColumnNames="id"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="line_items"/>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addActiveApprovalFlowSeed">
+        <preConditions onFail="MARK_RAN" onFailMessage="ACTIVE approval flow state already added for table approval_flow_states">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM approval_flow_states WHERE name = 'ACTIVE'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <insert tableName="approval_flow_states">
+            <column name="name" value="ACTIVE"/>
+            <column name="display_name" value="Active"/>
+        </insert>
+        <rollback>
+            <delete tableName="approval_flow_states">
+                <where>name = "ACTIVE"</where>
+            </delete>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addWaitingForApprovalFlowSeed">
+        <preConditions onFail="MARK_RAN" onFailMessage="AWAITING_APPROVAL approval flow state already added for table approval_flow_states">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM approval_flow_states WHERE name = 'AWAITING_APPROVAL'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <insert tableName="approval_flow_states">
+            <column name="name" value="AWAITING_APPROVAL"/>
+            <column name="display_name" value="Awaiting approval"/>
+        </insert>
+        <rollback>
+            <delete tableName="approval_flow_states">
+                <where>name = "AWAITING_APPROVAL"</where>
+            </delete>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addSubmittedApprovalFlowSeed">
+        <preConditions onFail="MARK_RAN" onFailMessage="SUBMITTED approval flow state already added for table approval_flow_states">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM approval_flow_states WHERE name = 'SUBMITTED'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <insert tableName="approval_flow_states">
+            <column name="name" value="SUBMITTED"/>
+            <column name="display_name" value="Submitted"/>
+        </insert>
+        <rollback>
+            <delete tableName="approval_flow_states">
+                <where>name = "SUBMITTED"</where>
+            </delete>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="addRejectedApprovalFlowSeed">
+        <preConditions onFail="MARK_RAN" onFailMessage="REJECTED approval flow state already added for table approval_flow_states">
+            <not>
+                <sqlCheck expectedResult="1">
+                    SELECT COUNT(1) FROM approval_flow_states WHERE name = 'REJECTED'
+                </sqlCheck>
+            </not>
+        </preConditions>
+        <insert tableName="approval_flow_states">
+            <column name="name" value="REJECTED"/>
+            <column name="display_name" value="Rejected"/>
+        </insert>
+        <rollback>
+            <delete tableName="approval_flow_states">
+                <where>name = "REJECTED"</where>
+            </delete>
+        </rollback>
+    </changeSet>
+    <changeSet author="brant.carthel@dialexa.com" id="tag-1-products">
+        <tagDatabase tag="products-v1"/>
+    </changeSet>
+</databaseChangeLog>

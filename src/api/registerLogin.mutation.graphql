@@ -1,6 +1,0 @@
-mutation RegisterLogin {
-  registerLogin {
-    success
-    message
-  }
-}

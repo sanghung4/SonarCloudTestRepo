@@ -1,0 +1,77 @@
+[
+  {
+    "addressComponents": [
+      {
+        "longName": "2101",
+        "shortName": "2101",
+        "types": ["STREET_NUMBER"]
+      },
+      {
+        "longName": "Acton Highway",
+        "shortName": "Acton Hwy",
+        "types": ["ROUTE"]
+      },
+      {
+        "longName": "Granbury",
+        "shortName": "Granbury",
+        "types": ["LOCALITY", "POLITICAL"]
+      },
+      {
+        "longName": "Hood County",
+        "shortName": "Hood County",
+        "types": ["ADMINISTRATIVE_AREA_LEVEL_2", "POLITICAL"]
+      },
+      {
+        "longName": "Texas",
+        "shortName": "TX",
+        "types": ["ADMINISTRATIVE_AREA_LEVEL_1", "POLITICAL"]
+      },
+      {
+        "longName": "United States",
+        "shortName": "US",
+        "types": ["COUNTRY", "POLITICAL"]
+      },
+      {
+        "longName": "76049",
+        "shortName": "76049",
+        "types": ["POSTAL_CODE"]
+      },
+      {
+        "longName": "5993",
+        "shortName": "5993",
+        "types": ["POSTAL_CODE_SUFFIX"]
+      }
+    ],
+    "formattedAddress": "2101 Acton Hwy, Granbury, TX 76049, USA",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 32.4405239,
+          "lng": -97.7475655
+        },
+        "southwest": {
+          "lat": 32.4400636,
+          "lng": -97.7482663
+        }
+      },
+      "location": {
+        "lat": 32.4402991,
+        "lng": -97.7479089
+      },
+      "locationType": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 32.4416674302915,
+          "lng": -97.74656691970848
+        },
+        "southwest": {
+          "lat": 32.4389694697085,
+          "lng": -97.7492648802915
+        }
+      }
+    },
+    "types": ["PREMISE"],
+    "partialMatch": true,
+    "placeId": "ChIJ9ZYvTVEgToYRtU6ZX1sigl4"
+  }
+]

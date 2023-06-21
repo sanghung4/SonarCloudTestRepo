@@ -1,6 +1,0 @@
-mutation CompleteCount($locationId: String!) {
-  completeCount(locationId: $locationId) {
-    success
-    message
-  }
-}

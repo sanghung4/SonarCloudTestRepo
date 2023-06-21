@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "page": {
+      "current": 1,
+      "totalPages": 322,
+      "totalResults": 3218,
+      "size": 10
+    },
+    "engine": {
+      "name": "ecomm-products",
+      "type": "meta"
+    },
+    "requestId": "lUL06_ahTha_AaD4y6ZiOw",
+    "precision": 2
+  },
+  "results": [],
+  "facets": {
+    "category_1_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Faucets, Fixtures \u0026 Appliances",
+            "count": 3218
+          }
+        ]
+      }
+    ],
+    "category_2_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Appliances",
+            "count": 3218
+          }
+        ]
+      }
+    ],
+    "category_3_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Refrigerators And Freezers",
+            "count": 577
+          },
+          {
+            "value": "Hoods and Vents",
+            "count": 427
+          },
+          {
+            "value": "Ranges and Stoves",
+            "count": 280
+          },
+          {
+            "value": "Outdoor Grills and BBQ",
+            "count": 279
+          },
+          {
+            "value": "Microwaves",
+            "count": 245
+          },
+          {
+            "value": "Garbage Disposals",
+            "count": 226
+          },
+          {
+            "value": "Appliance Accessories",
+            "count": 196
+          },
+          {
+            "value": "Dishwashers",
+            "count": 184
+          },
+          {
+            "value": "Dryers",
+            "count": 153
+          },
+          {
+            "value": "Ovens",
+            "count": 143
+          }
+        ]
+      }
+    ]
+  }
+}

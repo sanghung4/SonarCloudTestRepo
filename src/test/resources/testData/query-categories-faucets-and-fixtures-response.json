@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "page": {
+      "current": 1,
+      "totalPages": 1000,
+      "totalResults": 10000,
+      "size": 10
+    },
+    "engine": {
+      "name": "ecomm-products",
+      "type": "meta"
+    },
+    "requestId": "LCeptuSYRU6ssJyMnwY7dQ",
+    "precision": 2
+  },
+  "results": [],
+  "facets": {
+    "category_1_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Faucets, Fixtures \u0026 Appliances",
+            "count": 26378
+          }
+        ]
+      }
+    ],
+    "category_2_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "TBC",
+            "count": 4933
+          },
+          {
+            "value": "Faucets, Showers \u0026 Bathroom Accessories",
+            "count": 4853
+          },
+          {
+            "value": "Appliances",
+            "count": 3218
+          }
+        ]
+      }
+    ]
+  }
+}

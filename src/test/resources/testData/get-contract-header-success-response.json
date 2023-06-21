@@ -1,0 +1,36 @@
+{
+  "jobName": "GROT/TROC      ",
+  "shipToAddress": {
+    "address1": "GROC/TROC PROJECT  262000191",
+    "address2": "C/O ORGANIC CONSTRUCTIONWAREHO",
+    "address3": "RANGE ROAD",
+    "city": "EGLIN AFB",
+    "state": "FL",
+    "zip": "32542",
+    "county": null,
+    "country": ""
+  },
+  "gstHstUseCode": "",
+  "contractDate": "2021-08-26",
+  "promisedDate": null,
+  "otherCharges": "0.00",
+  "contractNumber": "5413088",
+  "subTotal": "196.10",
+  "gstHstAmount": "0.00",
+  "enteredBy": "AZM",
+  "branch": {
+    "branchNumber": "23 ",
+    "branchName": "FORTILINE PANAMA CITY    ",
+    "addressDTO": null
+  },
+  "firstReleaseDate": "2021-08-26",
+  "firstShipmentDate": null,
+  "lastReleaseDate": "2021-08-26",
+  "totalAmount": "207.87",
+  "specialInstructions": [],
+  "purchaseOrderNumber": "GWO# 262000191        ",
+  "lastShipmentDate": null,
+  "taxAmount": "11.77",
+  "jobNumber": "GROC/T    ",
+  "contractDescription": "contract description"
+}

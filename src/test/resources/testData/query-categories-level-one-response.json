@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "alerts": [],
+    "warnings": [],
+    "page": {
+      "current": 1,
+      "totalPages": 1000,
+      "totalResults": 10000,
+      "size": 10
+    },
+    "engine": {
+      "name": "ecomm-products",
+      "type": "meta"
+    },
+    "requestId": "t2wBsnEaT4aQyEDA4PH6pg",
+    "precision": 2
+  },
+  "results": [],
+  "facets": {
+    "category_1_name": [
+      {
+        "type": "value",
+        "data": [
+          {
+            "value": "Pipe \u0026 Fittings",
+            "count": 26378
+          },
+          {
+            "value": "Plumbing Installation & Hardware",
+            "count": 23584
+          }
+        ]
+      }
+    ]
+  }
+}
