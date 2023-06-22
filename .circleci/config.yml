@@ -270,7 +270,7 @@ orbs:
   coveralls: coveralls/coveralls@1.0.6
   github-cli: circleci/github-cli@2.0.0
   helm: circleci/helm@1.1.2
-  java-services: morsco-reece/java-services@1.2.0
+  # java-services: morsco-reece/java-services@1.2.0
   node: circleci/node@5.0.2
 
 # VS Code Extension Version: 1.5.1
