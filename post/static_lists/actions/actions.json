@@ -1,0 +1,74 @@
+{
+    "PARTS": {
+        "desc": "if passed after a PART it finds not the part but things related to it",
+        "regex_str": "(?i)^PARTS$"
+    },
+    "COPPER_FITTING_SHORTHAND": {
+        "desc": "like 12c90 means elbow fitting of dimensions, copper, bend",
+        "regex_str": "(?i)^\\d{1,2}c\\d{1,2}d?$"
+    },
+    "ELBOW_FITTING_SHORTHAND": {
+        "desc": "like 45 or 90 means elbow fitting of that bend",
+        "regex_str": "(?i)^(45|90)(( )?(d|deg|degree|degrees))?$"
+    },
+    "REPLACEMENT_PART_SHORTHAND": {
+        "desc": "RP means replacement part",
+        "regex_str": "^[Rr][Pp]$"
+    },
+    "COPPER_COIL": {
+        "desc": "copper coil means SOFT COPPER",
+        "regex_str": "(i?)^copper ?coil(s)?$"
+    },
+    "COPPER_COUPLING_STOP_SHORTHAND": {
+        "desc": "12ccws means 1/2 copper stop coupling CCWS = copper coupling with stop",
+        "regex_str": "(?i)^\\d{1,2}CCWS?$"
+    },
+    "COPPER_TEE_SHORTHAND": {
+        "desc": "12 CT means 1/2 copper tee",
+        "regex_str": "(?i)^\\d{1,2}CT$"
+    },
+    "VIEGA_COUPLING_STOP_SHORTHAND": {
+        "desc": "pccws VIEGA COUPLING WITH STOP, size is first num",
+        "regex_str": "(?i)^\\d{1,2}PCCWS$"
+    },
+    "VIEGA_UNION_SHORTHAND": {
+        "desc": "pcu means VIEGA UNION, size is the first num",
+        "regex_str": "(?i)^\\d{1,2}PCU$"
+    },
+    "BLACK_IRON_COUPLING_SHORTHAND": {
+        "desc": "black iron coupling means **MALLEABLE** IRON COUPLING",
+        "regex_str": "(?i)^\\d{1,2}BC$"
+    },
+    "BLACK_IRON_CAP_SHORTHAND": {
+        "desc": "black iron cap means **MALLEABLE** IRON CAP",
+        "regex_str": "(?i)^\\d{1,2}BK$"
+    },
+    "BLACK_IRON_BUSHING_SHORTHAND": {
+        "desc": "black iron bushing means **CAST** IRON BUSHING",
+        "regex_str": "(?i)^\\d{1,2}.\\d{1,2}b{2}$"
+    },
+    "PVC_ELBOW_FITTING_SHORTHAND": {
+        "desc": "Size, Schedule (40 or 80) fitting angle",
+        "regex_str": "(?i)^\\d{1,2}(40|80)\\d{2}$"
+    },
+    "PVC_CAP_FITTING_SHORTHAND": {
+        "desc": "Size, Schedule (40 or 80) K for cap",
+        "regex_str": "(?i)^\\d{1,2}b(40|80)k"
+    },
+    "PVC_COUPLING_FITTING_SHORTHAND": {
+        "desc": "Size and PC for pvc coupling",
+        "regex_str": "(?i)^\\d{1,2}PC$"
+    },
+    "PVCDWV_TEE_FITTING_SHORTHAND": {
+        "desc": "Size and PT for pvc tee",
+        "regex_str": "(?i)^\\d{1,2}PT$"
+    },
+    "PEX_PIPE_SHORTHAND": {
+        "desc": "Diameter x Length, Brand(zurn or uponor), Color (blue, red, white)",
+        "regex_str": "(?i)^\\d{1,3}x\\d{1,4} (ZURN|UPONOR) (blue|red|white)$"
+    },
+    "LOWBOY": {
+        "desc": "detect any text with the word lowboy, which means a short water heater",
+        "regex_str": "(?i)^lowboy$"
+    }
+}

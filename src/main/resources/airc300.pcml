@@ -1,8 +1,0 @@
-<pcml version="6.0">
-    <program name="AIRC300">
-        <data name="BRANCH#" type="char" length="3" usage="input"/>
-        <data name="COUNTID" type="char" length="3" usage="input"/>
-        <data name="CNTVALID" type="char" length="1" usage="output"/>
-        <data name="BRNAME" type="char" length="25" usage="output"/>
-    </program>
-</pcml>

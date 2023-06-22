@@ -1,69 +1,43 @@
 version: 2.1
 
+orbs:
+  python: circleci/python@2.1.1
+  python-services: morsco-reece/python-services@1.1.0
+
 workflows:
   single-job-lifecycle:
     jobs:
-      - maven/test:
-          executor:
-            name: maven/default
-            tag: '11.0'
-      # - java-services/validate_helm_chart:
-      #     helm-chart-path: ./charts/mincron-service
-      #     requires:
-      #       - maven/test
-      #     filters:
-      #       branches:
-      #         ignore:
-      #           - master
-      #           - /^release-v.*/
-      # - java-services/publish_release:
-      #     ecr-repo: reece/mincron-service
-      #     helm-chart-name: mincron-service
-      #     helm-chart-path: ./charts/mincron-service
-      #     requires:
-      #       - maven/test
-      #     filters:
-      #       branches:
-      #         only: master
-      # - java-services/publish_hotfix:
-      #     ecr-repo: reece/mincron-service
-      #     helm-chart-name: mincron-service
-      #     helm-chart-path: ./charts/mincron-service
-      #     requires:
-      #       - maven/test
-      #     filters:
-      #       branches:
-      #         only: /^release-v.*/
-      # - java-services/deploy_release_dev:
-      #     environments-repo-chart-name: mincron-service
-      #     requires:
-      #       - java-services/publish_release
-      #     filters:
-      #       branches:
-      #         only: master
-      # - maven/test:
-      #     name: test_coverage
-      #     executor:
-      #       name: maven/default
-      #       tag: '11.0'
-      #     command: clean test jacoco:report coveralls:report
-      #     requires:
-      #       - maven/test
+      - python-services/validate_helm_chart:
+            helm-chart-path: ./charts/post-api-service
+            filters:
+              branches:
+                ignore:
+                  - main
+                  - /^release-v.*/
+      - python-services/publish_release:
+          python-version: "3.8"
+          ecr-repo: reece/post-api-service
+          helm-chart-name: post-api-service
+          helm-chart-path: ./charts/post-api-service
+          dockerfile: ./aws/api/Dockerfile
+          filters:
+            branches:
+              only: main
+      - python-services/publish_hotfix:
+          python-version: "3.8"
+          ecr-repo: reece/post-api-service
+          helm-chart-name: post-api-service
+          helm-chart-path: ./charts/post-api-service
+          dockerfile: ./aws/api/Dockerfile
+          filters:
+            branches:
+              only: /^release-v.*/
+      - python-services/deploy_release_dev:
+          environments-repo-chart-name: post-api-service
+          requires:
+            - python-services/publish_release
+          filters:
+            branches:
+              only: main
       - sonar-cloud:
           context: SonarCloud
-          requires:
-            - maven/test 
-
-jobs:
-  sonar-cloud:
-    docker:
-      - image: 'cimg/openjdk:11-jdk'
-    steps:
-      - checkout
-      - run:
-          name: Analyze on SonarCloud
-          command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
-
-orbs:
-  # java-services: morsco-reece/java-services@1.2.0
-  maven: circleci/maven@1.2.0

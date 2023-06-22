@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+
+      context: test_ui/.
+    container_name: frontend
+    ports:
+      - "80:80"
+
+  api:
+    build:
+      context: .
+      dockerfile: aws/api/Dockerfile
+    container_name: api
+    environment:
+      # CHANGE THIS
+      - POST_ENV=DEV
+      - ELASTIC_USE_CLOUD=1
+      - ELASTIC_INDEX_PRODUCTS=post-products-alias
+    ports:
+      - "8000:8000"
+    deploy:
+      restart_policy:
+        condition: on-failure
+

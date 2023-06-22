@@ -1,0 +1,180 @@
+Transform: AWS::Serverless-2016-10-31
+
+Description: "Step Functions state machine for post-tagger"
+
+# Available top-level fields are listed in code completion
+Globals:
+  Function:
+    Timeout: 900
+    Tracing: Active
+    MemorySize: 3008
+
+Parameters:
+  Environment:
+    Description: The AWS Environment to deploy to
+    Type: String
+    Default: dev
+
+Resources:
+  SourceBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub ${Environment}-post-es-etl-pdw
+
+  ApplicationRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          -
+            Effect: "Allow"
+            Principal:
+              Service:
+                - "states.amazonaws.com"
+                - "lambda.amazonaws.com"
+                - "ecs-tasks.amazonaws.com"
+            Action:
+              - "sts:AssumeRole"
+      Policies:
+        - PolicyName: post-tagger-statemachine-policy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              -
+                Effect: Allow
+                Action:
+                - events:*
+                - states:*
+                - sns:publish
+                - xray:PutTraceSegments
+                - xray:PutTelemetryRecords
+                - xray:GetSamplingRules
+                - xray:GetSamplingTargets
+                - logs:CreateLogDelivery
+                - logs:GetLogDelivery
+                - logs:UpdateLogDelivery
+                - logs:DeleteLogDelivery
+                - logs:ListLogDeliveries
+                - logs:PutResourcePolicy
+                - logs:DescribeResourcePolicies
+                - logs:DescribeLogGroups
+                - cloudwatch:PutMetricData
+                - secretsmanager:GetSecretValue
+                - "ecs:RunTask"
+                - "ecs:StopTask"
+                - "ecs:DescribeTasks"
+                - s3:*
+                - iam:PassRole
+                Resource: '*'
+              -
+                Effect: Allow
+                Action:
+                - lambda:InvokeFunction
+                Resource: '*'
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy
+  ConsumerFunction:
+    Type: AWS::Serverless::Function
+    Environment:
+      Variables:
+        ELASTIC_USE_CLOUD: 1
+        SECRETS_MANAGER_KEY: post-api
+        POST_ENV: CONSUMER
+    Properties:
+      Role: !GetAtt ApplicationRole.Arn
+      PackageType: Image
+      MemorySize: 4096
+    Metadata:
+      Dockerfile: ./sam/functions/consumer/Dockerfile
+      DockerContext: .
+      DockerTag: latest
+  PDWDownloaderFunction:
+    Type: AWS::Serverless::Function
+    Environment:
+      Variables:
+        ELASTIC_USE_CLOUD: 1
+        SECRETS_MANAGER_KEY: post-api
+    Properties:
+      Role: !GetAtt ApplicationRole.Arn
+      PackageType: Image
+      MemorySize: 3008
+    Metadata:
+      Dockerfile: ./sam/functions/pdw_downloader/Dockerfile
+      DockerContext: .
+      DockerTag: latest
+  PDWBatcherFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.9
+      CodeUri: sam/functions/pdw_batcher
+      Role: !GetAtt ApplicationRole.Arn
+      MemorySize: 3008
+  ScoringFunction:
+    Type: AWS::Serverless::Function
+    MemorySize: 3008
+    Environment:
+      Variables:
+        ELASTIC_USE_CLOUD: 1
+        SECRETS_MANAGER_KEY: post-api
+    Properties:
+      CodeUri: sam/functions/scoring
+      Role: !GetAtt ApplicationRole.Arn
+      PackageType: Image
+    Metadata:
+      Dockerfile: ./sam/functions/scoring/Dockerfile
+      DockerContext: .
+      DockerTag: latest
+  AliasMigrationFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.9
+      CodeUri: sam/functions/migrate_alias
+      Role: !GetAtt ApplicationRole.Arn
+  CreateIndexFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.9
+      CodeUri: sam/functions/create_index
+      Role: !GetAtt ApplicationRole.Arn
+  StateMachinePostTagger:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      DefinitionSubstitutions:
+        ConsumerFunctionArn: !GetAtt ConsumerFunction.Arn
+        PDWDownloaderFunctionArn: !GetAtt PDWDownloaderFunction.Arn
+        BatcherFunctionArn: !GetAtt PDWBatcherFunction.Arn
+        ScoringFunctionArn: !GetAtt ScoringFunction.Arn
+        AliasMigrationFunctionArn: !GetAtt AliasMigrationFunction.Arn
+        CreateIndexFunctionArn: !GetAtt CreateIndexFunction.Arn
+      DefinitionUri: sam/statemachine/statemachine.asl.json
+      Events:
+        CronEvent:
+          Type: Schedule
+          Properties:
+            Schedule: cron(0 10 * * ? *)
+            Enabled: True
+            Name: PostTaggerCron
+      Tracing:
+        Enabled: true
+      Role: !GetAtt ApplicationRole.Arn
+      Logging:
+        Destinations:
+          - CloudWatchLogsLogGroup:
+              LogGroupArn: !GetAtt  LogGroupStateMachines.Arn
+        IncludeExecutionData: TRUE
+        Level: "ALL"
+      Type: "STANDARD"
+      Name: "post-elasticsearch-indexer"
+  LogGroupStateMachines:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Join [ "", ["/aws/states/post-tagger-StateMachineLogs"]]
+Outputs:
+  SourceBucket:
+    Description: "Name of the source bucket"
+    Value: !Ref SourceBucket
