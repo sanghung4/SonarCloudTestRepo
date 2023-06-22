@@ -207,7 +207,7 @@ jobs:
 
   sonar-cloud:
     docker:
-      - image: 'cimg/node:20.3.0'
+      - image: 'cimg/node:16.13.0'
     steps:
       - checkout
       - run:
