@@ -2,42 +2,42 @@ version: 2.1
 
 orbs:
   python: circleci/python@2.1.1
-  python-services: morsco-reece/python-services@1.1.0
+  # python-services: morsco-reece/python-services@1.1.0
 
 workflows:
   single-job-lifecycle:
     jobs:
-      - python-services/validate_helm_chart:
-            helm-chart-path: ./charts/post-api-service
-            filters:
-              branches:
-                ignore:
-                  - main
-                  - /^release-v.*/
-      - python-services/publish_release:
-          python-version: "3.8"
-          ecr-repo: reece/post-api-service
-          helm-chart-name: post-api-service
-          helm-chart-path: ./charts/post-api-service
-          dockerfile: ./aws/api/Dockerfile
-          filters:
-            branches:
-              only: main
-      - python-services/publish_hotfix:
-          python-version: "3.8"
-          ecr-repo: reece/post-api-service
-          helm-chart-name: post-api-service
-          helm-chart-path: ./charts/post-api-service
-          dockerfile: ./aws/api/Dockerfile
-          filters:
-            branches:
-              only: /^release-v.*/
-      - python-services/deploy_release_dev:
-          environments-repo-chart-name: post-api-service
-          requires:
-            - python-services/publish_release
-          filters:
-            branches:
-              only: main
+      # - python-services/validate_helm_chart:
+      #       helm-chart-path: ./charts/post-api-service
+      #       filters:
+      #         branches:
+      #           ignore:
+      #             - main
+      #             - /^release-v.*/
+      # - python-services/publish_release:
+      #     python-version: "3.8"
+      #     ecr-repo: reece/post-api-service
+      #     helm-chart-name: post-api-service
+      #     helm-chart-path: ./charts/post-api-service
+      #     dockerfile: ./aws/api/Dockerfile
+      #     filters:
+      #       branches:
+      #         only: main
+      # - python-services/publish_hotfix:
+      #     python-version: "3.8"
+      #     ecr-repo: reece/post-api-service
+      #     helm-chart-name: post-api-service
+      #     helm-chart-path: ./charts/post-api-service
+      #     dockerfile: ./aws/api/Dockerfile
+      #     filters:
+      #       branches:
+      #         only: /^release-v.*/
+      # - python-services/deploy_release_dev:
+      #     environments-repo-chart-name: post-api-service
+      #     requires:
+      #       - python-services/publish_release
+      #     filters:
+      #       branches:
+      #         only: main
       - sonar-cloud:
           context: SonarCloud
