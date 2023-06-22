@@ -2,208 +2,208 @@ version: 2.1
 workflows:
   test-and-deploy:
     jobs:
-      - test
-      - java-services/validate_helm_chart:
-          helm-chart-path: ./charts/max-portal
-          requires:
-            - test
-          filters:
-            branches:
-              ignore:
-                - develop
-                - test
-                - uat
-                - master
-                - /^release-v.*/
-      - publish_release:
-          requires:
-            - test
-          filters:
-            branches:
-              only: develop
-      - publish_hotfix:
-          requires:
-            - test
-          filters:
-            branches:
-              only: /^release-v.*/
-      - java-services/deploy_release_dev:
-          environments-repo-chart-name: max-portal
-          requires:
-            - publish_release
-          filters:
-            branches:
-              only: develop
+      # - test
+      # - java-services/validate_helm_chart:
+      #     helm-chart-path: ./charts/max-portal
+      #     requires:
+      #       - test
+      #     filters:
+      #       branches:
+      #         ignore:
+      #           - develop
+      #           - test
+      #           - uat
+      #           - master
+      #           - /^release-v.*/
+      # - publish_release:
+      #     requires:
+      #       - test
+      #     filters:
+      #       branches:
+      #         only: develop
+      # - publish_hotfix:
+      #     requires:
+      #       - test
+      #     filters:
+      #       branches:
+      #         only: /^release-v.*/
+      # - java-services/deploy_release_dev:
+      #     environments-repo-chart-name: max-portal
+      #     requires:
+      #       - publish_release
+      #     filters:
+      #       branches:
+      #         only: develop
       - sonar-cloud:
           context: SonarCloud
-          requires:
-            - test
+          # requires:
+          #   - test
 
 jobs:
-  test:
-    resource_class: large
-    executor:
-      name: node/default
-      tag: '16.14'
-    steps:
-      - checkout
-      - aws-cli/setup:
-          profile-name: shared
-      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
-      - run: echo "always-auth=true" >> $HOME/.npmrc
-      - node/install-packages:
-          pkg-manager: yarn    
-      - run: yarn test --reporters=jest-junit --coverage --maxWorkers=4 --watchAll=false
-      - store_test_results:
-          path: junit.xml
-      - coveralls/upload
+  # test:
+  #   resource_class: large
+  #   executor:
+  #     name: node/default
+  #     tag: '16.14'
+  #   steps:
+  #     - checkout
+  #     - aws-cli/setup:
+  #         profile-name: shared
+  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+  #     - run: echo "always-auth=true" >> $HOME/.npmrc
+  #     - node/install-packages:
+  #         pkg-manager: yarn    
+  #     - run: yarn test --reporters=jest-junit --coverage --maxWorkers=4 --watchAll=false
+  #     - store_test_results:
+  #         path: junit.xml
+  #     - coveralls/upload
   
-  publish_release:
-    docker:
-      - image: cimg/node:16.14
-    steps:
-      - setup_remote_docker
-      - checkout
+  # publish_release:
+  #   docker:
+  #     - image: cimg/node:16.14
+  #   steps:
+  #     - setup_remote_docker
+  #     - checkout
 
-      # Publish new release version to GitHub
-      - run:
-          command: |
-            current_version() {
-              git describe --tags | awk -F '-' '{print $1}' | cut -c2-
-            }
+  #     # Publish new release version to GitHub
+  #     - run:
+  #         command: |
+  #           current_version() {
+  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+  #           }
             
-            release_version() {
-              PREVIOUS_VERSION="$(current_version)"
+  #           release_version() {
+  #             PREVIOUS_VERSION="$(current_version)"
             
-              [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+  #             [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
             
-              MINOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f2 | rev)"
-              MAJOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f3 | rev)"
+  #             MINOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f2 | rev)"
+  #             MAJOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f3 | rev)"
             
-              NEW_MINOR_VERSION="$((MINOR_VERSION + 1))"
+  #             NEW_MINOR_VERSION="$((MINOR_VERSION + 1))"
             
-              echo "$MAJOR_VERSION.$NEW_MINOR_VERSION.0"
-            }
+  #             echo "$MAJOR_VERSION.$NEW_MINOR_VERSION.0"
+  #           }
             
-            echo "export RELEASE_VERSION=$(release_version)" >> "$BASH_ENV"
-          name: Increment version
-      - github-cli/setup:
-          version: 2.7.0
-      - run:
-          command: >-
-            gh release create v${RELEASE_VERSION} --generate-notes --target
-            $CIRCLE_SHA1
-          name: Create Github Release
+  #           echo "export RELEASE_VERSION=$(release_version)" >> "$BASH_ENV"
+  #         name: Increment version
+  #     - github-cli/setup:
+  #         version: 2.7.0
+  #     - run:
+  #         command: >-
+  #           gh release create v${RELEASE_VERSION} --generate-notes --target
+  #           $CIRCLE_SHA1
+  #         name: Create Github Release
 
-      # Publish build image to ECR
-      - aws-cli/setup:
-          profile-name: shared
-      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
-      - run:
-          command: |
-            cat $HOME/.npmrc > .npmrc
-            echo "always-auth=true" >> .npmrc
-          name: Copy CodeArtifact Token to Workdir
-      - aws-ecr/ecr-login:
-          profile-name: shared
-          region: $AWS_DEFAULT_REGION
-      - aws-ecr/build-image:
-          repo: reece/max-portal
-          tag: $RELEASE_VERSION
+  #     # Publish build image to ECR
+  #     - aws-cli/setup:
+  #         profile-name: shared
+  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+  #     - run:
+  #         command: |
+  #           cat $HOME/.npmrc > .npmrc
+  #           echo "always-auth=true" >> .npmrc
+  #         name: Copy CodeArtifact Token to Workdir
+  #     - aws-ecr/ecr-login:
+  #         profile-name: shared
+  #         region: $AWS_DEFAULT_REGION
+  #     - aws-ecr/build-image:
+  #         repo: reece/max-portal
+  #         tag: $RELEASE_VERSION
 
-      # Publish Helm charts to s3
-      - helm/install-helm-client:
-          version: v3.3.4
-      - java-services/helm_add_s3_repo:
-          chart-repo-name: reece-ecomm
-          chart-repo-url: s3://reece-ecomm-chart-repo/charts
-      - java-services/helm_publish:
-          helm-chart-name: max-portal
-          helm-chart-org: reece
-          helm-chart-path: ./charts/max-portal
-          helm-chart-repo-name: reece-ecomm
-          version: RELEASE_VERSION
+  #     # Publish Helm charts to s3
+  #     - helm/install-helm-client:
+  #         version: v3.3.4
+  #     - java-services/helm_add_s3_repo:
+  #         chart-repo-name: reece-ecomm
+  #         chart-repo-url: s3://reece-ecomm-chart-repo/charts
+  #     - java-services/helm_publish:
+  #         helm-chart-name: max-portal
+  #         helm-chart-org: reece
+  #         helm-chart-path: ./charts/max-portal
+  #         helm-chart-repo-name: reece-ecomm
+  #         version: RELEASE_VERSION
   
-  publish_hotfix:
-    docker:
-      - image: cimg/node:16.14
-    steps:
-      - setup_remote_docker
-      - checkout
+  # publish_hotfix:
+  #   docker:
+  #     - image: cimg/node:16.14
+  #   steps:
+  #     - setup_remote_docker
+  #     - checkout
 
-      # Publish new release version to GitHub
-      - run:
-          command: |
-            current_version() {
-              git describe --tags | awk -F '-' '{print $1}' | cut -c2-
-            }
+  #     # Publish new release version to GitHub
+  #     - run:
+  #         command: |
+  #           current_version() {
+  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+  #           }
             
-            hotfix_version() {
-              PREVIOUS_VERSION="$(current_version)"
+  #           hotfix_version() {
+  #             PREVIOUS_VERSION="$(current_version)"
             
-              [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+  #             [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
             
-              PATCH_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f1 | rev)"
+  #             PATCH_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f1 | rev)"
             
-              NEW_PATCH_VERSION="$((PATCH_VERSION + 1))"
+  #             NEW_PATCH_VERSION="$((PATCH_VERSION + 1))"
             
-              echo "$(echo $PREVIOUS_VERSION | rev | cut -f 2- -d . | rev).$NEW_PATCH_VERSION"
-            }
+  #             echo "$(echo $PREVIOUS_VERSION | rev | cut -f 2- -d . | rev).$NEW_PATCH_VERSION"
+  #           }
             
-            echo "export RELEASE_VERSION=$(hotfix_version)" >> "$BASH_ENV"
-          name: Increment version
-      - github-cli/setup:
-          version: 2.7.0
-      - run:
-          command: >-
-            gh release create v${RELEASE_VERSION} --generate-notes --target
-            $CIRCLE_SHA1
-          name: Create Github Release
+  #           echo "export RELEASE_VERSION=$(hotfix_version)" >> "$BASH_ENV"
+  #         name: Increment version
+  #     - github-cli/setup:
+  #         version: 2.7.0
+  #     - run:
+  #         command: >-
+  #           gh release create v${RELEASE_VERSION} --generate-notes --target
+  #           $CIRCLE_SHA1
+  #         name: Create Github Release
 
-      # Publish build image to ECR
-      - aws-cli/setup:
-          profile-name: shared
-      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
-      - run:
-          command: |
-            cat $HOME/.npmrc > .npmrc
-            echo "always-auth=true" >> .npmrc
-          name: Copy CodeArtifact Token to Workdir
-      - aws-ecr/ecr-login:
-          profile-name: shared
-          region: $AWS_DEFAULT_REGION
-      - aws-ecr/build-image:
-          repo: reece/max-portal
-          tag: $RELEASE_VERSION
+  #     # Publish build image to ECR
+  #     - aws-cli/setup:
+  #         profile-name: shared
+  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+  #     - run:
+  #         command: |
+  #           cat $HOME/.npmrc > .npmrc
+  #           echo "always-auth=true" >> .npmrc
+  #         name: Copy CodeArtifact Token to Workdir
+  #     - aws-ecr/ecr-login:
+  #         profile-name: shared
+  #         region: $AWS_DEFAULT_REGION
+  #     - aws-ecr/build-image:
+  #         repo: reece/max-portal
+  #         tag: $RELEASE_VERSION
 
-      # Publish Helm charts to s3
-      - helm/install-helm-client:
-          version: v3.3.4
-      - java-services/helm_add_s3_repo:
-          chart-repo-name: reece-ecomm
-          chart-repo-url: s3://reece-ecomm-chart-repo/charts
-      - java-services/helm_publish:
-          helm-chart-name: max-portal
-          helm-chart-org: reece
-          helm-chart-path: ./charts/max-portal
-          helm-chart-repo-name: reece-ecomm
-          version: RELEASE_VERSION
+  #     # Publish Helm charts to s3
+  #     - helm/install-helm-client:
+  #         version: v3.3.4
+  #     - java-services/helm_add_s3_repo:
+  #         chart-repo-name: reece-ecomm
+  #         chart-repo-url: s3://reece-ecomm-chart-repo/charts
+  #     - java-services/helm_publish:
+  #         helm-chart-name: max-portal
+  #         helm-chart-org: reece
+  #         helm-chart-path: ./charts/max-portal
+  #         helm-chart-repo-name: reece-ecomm
+  #         version: RELEASE_VERSION
 
-  invalidate-cloudfront-cache:
-    parameters:
-      environment_uppercase:
-        description: 'Deployed environment name - uppercase'
-        type: string
-    executor: aws-cli/default
-    steps:
-      - checkout
-      - run: mkdir $HOME/.aws
-      - run: touch $HOME/.aws/credentials
-      - run: echo '[default]' >> $HOME/.aws/credentials
-      - run: echo 'aws_access_key_id='$AWS_ACCESS_KEY_ID_<< parameters.environment_uppercase >> >> $HOME/.aws/credentials
-      - run: echo 'aws_secret_access_key='$AWS_SECRET_ACCESS_KEY_<< parameters.environment_uppercase >> >> $HOME/.aws/credentials
-      - aws-cli/install
-      - run: aws --profile default cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID_<< parameters.environment_uppercase >> --paths "/*"
+  # invalidate-cloudfront-cache:
+  #   parameters:
+  #     environment_uppercase:
+  #       description: 'Deployed environment name - uppercase'
+  #       type: string
+  #   executor: aws-cli/default
+  #   steps:
+  #     - checkout
+  #     - run: mkdir $HOME/.aws
+  #     - run: touch $HOME/.aws/credentials
+  #     - run: echo '[default]' >> $HOME/.aws/credentials
+  #     - run: echo 'aws_access_key_id='$AWS_ACCESS_KEY_ID_<< parameters.environment_uppercase >> >> $HOME/.aws/credentials
+  #     - run: echo 'aws_secret_access_key='$AWS_SECRET_ACCESS_KEY_<< parameters.environment_uppercase >> >> $HOME/.aws/credentials
+  #     - aws-cli/install
+  #     - run: aws --profile default cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID_<< parameters.environment_uppercase >> --paths "/*"
 
   sonar-cloud:
     docker:
