@@ -1,8 +1,4 @@
 version: 2.1
-parameters:
-  environments-repo-chart-name:
-    type: string
-    default: "eclipse-service"
 
 workflows:
   single-job-lifecycle:
@@ -12,7 +8,7 @@ workflows:
       #       name: maven/default
       #       tag: '11.0'
       # - java-services/validate_helm_chart:
-      #     helm-chart-path: ./charts/eclipse-service
+      #     helm-chart-path: ./charts/mincron-service
       #     requires:
       #       - maven/test
       #     filters:
@@ -21,25 +17,25 @@ workflows:
       #           - master
       #           - /^release-v.*/
       # - java-services/publish_release:
-      #     ecr-repo: reece/eclipse-service
-      #     helm-chart-name: eclipse-service
-      #     helm-chart-path: ./charts/eclipse-service
+      #     ecr-repo: reece/mincron-service
+      #     helm-chart-name: mincron-service
+      #     helm-chart-path: ./charts/mincron-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: master
       # - java-services/publish_hotfix:
-      #     ecr-repo: reece/eclipse-service
-      #     helm-chart-name: eclipse-service
-      #     helm-chart-path: ./charts/eclipse-service
+      #     ecr-repo: reece/mincron-service
+      #     helm-chart-name: mincron-service
+      #     helm-chart-path: ./charts/mincron-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: /^release-v.*/
       # - java-services/deploy_release_dev:
-      #     environments-repo-chart-name: eclipse-service
+      #     environments-repo-chart-name: mincron-service
       #     requires:
       #       - java-services/publish_release
       #     filters:
@@ -71,4 +67,3 @@ jobs:
 orbs:
   # java-services: morsco-reece/java-services@1.2.0
   maven: circleci/maven@1.2.0
-

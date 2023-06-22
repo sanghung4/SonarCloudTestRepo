@@ -1,0 +1,21 @@
+<pcml version="6.0">
+    <program name="AIRC100">
+        <data name="PIACCOUNTID" type="char" length="6" usage="input" />
+        <data name="PIUSERID" type="char" length="10" usage="input" />
+        <data name="PIUSERNAME" type="char" length="30" usage="input" />
+        <data name="PIOPTION" type="char" length="1" usage="input" />
+        <data name="PIPWD" type="char" length="10" usage="input" />
+        <data name="PIEMAIL" type="char" length="80" usage="input" />
+        <data name="PIVIEWAR" type="char" length="1" usage="input" />
+        <data name="PICCPROCESS" type="char" length="1" usage="input" />
+        <data name="PIBILLPAY" type="char" length="1" usage="input" />
+        <data name="PICOMPORDER" type="char" length="1" usage="input" />
+        <data name="PIMAINTUSERS" type="char" length="1" usage="inputoutput" />
+        <data name="PIORDEMAILFLG" type="char" length="1" usage="input" />
+        <data name="PISHPEMAILFLG" type="char" length="1" usage="input" />
+        <data name="PIAREACODE" type="char" length="3" usage="input" />
+        <data name="PIPREFIX" type="char" length="3" usage="input" />
+        <data name="PISUFFIX" type="char" length="4" usage="input" />
+        <data name="POERRCD" type="char" length="1" usage="output" />
+    </program>
+</pcml>

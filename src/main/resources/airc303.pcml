@@ -1,0 +1,9 @@
+<pcml version="6.0">
+    <program name="AIRC303">
+        <data name="BRANCH#" type="char" length="3" usage="input" />
+        <data name="COUNTID" type="char" length="3" usage="input" />
+        <data name="CURRENTLOC" type="char" length="9" usage="input" />
+        <data name="NEXTLOC" type="char" length="9" usage="output" />
+        <data name="ERRORCODE" type="char" length="1" usage="output" />
+    </program>
+</pcml>

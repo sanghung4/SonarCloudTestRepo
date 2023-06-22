@@ -1,10 +1,6 @@
-# Eclipse Service
+# Mincron Service
 
-This API extracts data from Eclipse.
-
-### Setup
-
-Check out https://www.baeldung.com/lombok-ide to set up Lombok in your IDE. It mainly provides boilerplate for getters/setters.
+This API manages products.
 
 ### Building
 
@@ -20,4 +16,4 @@ Use maven to test the app: `./mvnw test`
 
 For further details on running this application locally, see the [Development On-boarding](https://reeceusa.atlassian.net/wiki/spaces/ECOMM/pages/195919873/Development+On-boarding+Checklist) document.
 
-
+Adding comment to trigger code coverage update.

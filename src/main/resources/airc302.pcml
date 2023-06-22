@@ -1,0 +1,12 @@
+<pcml version="6.0">
+    <program name="AIRC302">
+        <data name="BRANCH#" type="char" length="3" usage="input"/>
+        <data name="COUNTID" type="char" length="3" usage="input"/>
+        <data name="NUMOFLOCS" type="packed" length="5" precision="0" usage="output"/>
+        <struct name="LOCATIONS" count="6000" usage="output">
+            <data name="ROW" type="char" length="3" usage="inherit"/>
+            <data name="BIN" type="char" length="3" usage="inherit"/>
+            <data name="SHELF" type="char" length="3" usage="inherit"/>
+        </struct>
+    </program>
+</pcml>

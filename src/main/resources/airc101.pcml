@@ -1,0 +1,16 @@
+<pcml version="6.0">
+    <struct name="POCONLIST">
+        <data name="USERNAME" type="char" length="30" usage="inherit"/>
+        <data name="USERPROFILE" type="char" length="10" usage="inherit"/>
+        <data name="USEREMAIL" type="char" length="80" usage="inherit"/>
+        <data name="PHAREACODE" type="char" length="3" usage="inherit"/>
+        <data name="PHPREFIX" type="char" length="3" usage="inherit"/>
+        <data name="PHSUFFIX" type="char" length="4" usage="inherit"/>
+    </struct>
+    <program name="AIRC101">
+        <data name="PIACCOUNTID" type="char" length="6" usage="input"/>
+        <data name="POERRCD" type="char" length="1" usage="output"/>
+        <data name="PONUMOFCON" type="packed" length="2" precision="0" usage="output"/>
+        <data name="POCONLIST" type="struct" struct="POCONLIST" count="50" usage="output"/>
+    </program>
+</pcml>

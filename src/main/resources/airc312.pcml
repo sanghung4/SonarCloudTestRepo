@@ -1,0 +1,10 @@
+<pcml version="6.0">
+    <program name="AIRC312">
+        <data name="BRANCH#" type="char" length="3" usage="input" />
+        <data name="COUNTID" type="char" length="3" usage="input" />
+        <data name="LOCATION" type="char" length="9" usage="input" />
+        <data name="PROD_NUM" type="char" length="17" usage="input" />
+        <data name="PROD_QTY" type="packed" length="7" precision="0" usage="input" />
+        <data name="ERROR_CODE" type="char" length="1" usage="output" />
+    </program>
+</pcml>

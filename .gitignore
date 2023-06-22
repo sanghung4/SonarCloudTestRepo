@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,java,visualstudiocode,eclipse,intellij+iml,intellij+all,maven,helm
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,java,visualstudiocode,eclipse,intellij+iml,intellij+all,maven,helm
+# Created by https://www.toptal.com/developers/gitignore/api/macos,java,visualstudiocode,mincron,intellij+iml,intellij+all,maven,helm
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,java,visualstudiocode,mincron,intellij+iml,intellij+all,maven,helm
 
 ### Eclipse ###
 .metadata
@@ -36,7 +36,7 @@ local.properties
 # PDT-specific (PHP Development Tools)
 .buildpath
 
-# sbteclipse plugin
+# sbtmincron plugin
 .target
 
 # Tern plugin
@@ -290,7 +290,7 @@ buildNumber.properties
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,java,visualstudiocode,eclipse,intellij+iml,intellij+all,maven,helm
+# End of https://www.toptal.com/developers/gitignore/api/macos,java,visualstudiocode,mincron,intellij+iml,intellij+all,maven,helm
 
 ### Dependencies
 node_modules/

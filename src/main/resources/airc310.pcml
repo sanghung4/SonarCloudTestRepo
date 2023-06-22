@@ -1,0 +1,20 @@
+<pcml version="6.0">
+    <program name="AIRC310">
+        <data name="BRANCH#" type="char" length="3" usage="input"/>
+        <data name="COUNTID" type="char" length="3" usage="input"/>
+        <data name="LOCATION" type="char" length="9" usage="input"/>
+        <data name="ERROR_CODE" type="char" length="1" usage="output"/>
+        <data name="TOTALQTY" type="packed" length="7" precision="0" usage="output"/>
+        <data name="ITEMCOUNT" type="packed" length="3" precision="0" usage="output"/>
+        <struct name="PARMARY" count="400" usage="output">
+            <data name="ITEM#" type="char" length="6" usage="inherit"/>
+            <data name="PROD#" type="char" length="17" usage="inherit"/>
+            <data name="PRODDESC" type="char" length="30" usage="inherit"/>
+            <data name="CAT#" type="char" length="30" usage="inherit"/>
+            <data name="TAG#" type="char" length="7" usage="inherit"/>
+            <data name="UOM" type="char" length="3" usage="inherit"/>
+            <data name="DLINE2" type="char" length="30" usage="inherit" />
+            <data name="DLINE3" type="char" length="30" usage="inherit" />
+        </struct>
+    </program>
+</pcml>

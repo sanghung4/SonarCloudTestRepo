@@ -1,0 +1,16 @@
+<pcml version="6.0">
+    <program name="AIRC103">
+        <data name="ACCOUNTID" type="char" length="6" usage="input"/>
+        <data name="CUSTNAME" type="char" length="30" usage="output"/>
+        <data name="ADDRLINE1" type="char" length="30" usage="output"/>
+        <data name="ADDRLINE2" type="char" length="30" usage="output"/>
+        <data name="ADDRLINE3" type="char" length="30" usage="output"/>
+        <data name="CITY" type="char" length="25" usage="output"/>
+        <data name="STATE" type="char" length="2" usage="output"/>
+        <data name="ZIP" type="char" length="10" usage="output"/>
+        <data name="HOMEBRANCH" type="char" length="3" usage="output"/>
+        <data name="AREACODE" type="char" length="3" usage="output" />
+        <data name="PREFIX" type="char" length="3" usage="output" />
+        <data name="SUFFIX" type="char" length="4" usage="output" />
+    </program>
+</pcml>

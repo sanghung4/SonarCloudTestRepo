@@ -1,0 +1,15 @@
+<pcml version="6.0">
+    <program name="AIRC301">
+        <data name="SRCH_BRN" type="char" length="3" usage="input" />
+        <data name="SRCH_STRING" type="char" length="30" usage="input" />
+        <data name="LAST_ITEM" type="char" length="17" usage="inputoutput" />
+        <data name="ERROR_CODE" type="char" length="1" usage="output" />
+        <struct name="RETURNI" count="10" usage="output">
+            <data name="PROD#" type="char" length="17" usage="inherit" />
+            <data name="PRODDESC" type="char" length="0" usage="inherit" />
+            <data name="UOM" type="char" length="3" usage="inherit" />
+            <data name="DLINE2" type="char" length="30" usage="inherit" />
+            <data name="DLINE3" type="char" length="30" usage="inherit" />
+        </struct>
+    </program>
+</pcml>
