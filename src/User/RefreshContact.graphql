@@ -1,0 +1,3 @@
+mutation refreshContact($emails: [String!]!) {
+  refreshContact(emails: $emails)
+}

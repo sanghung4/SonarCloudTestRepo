@@ -1,0 +1,58 @@
+query previouslyPurchasedProducts(
+  $ecommShipToId: ID!
+  $userId: ID!
+  $currentPage: Int
+  $pageSize: Int!
+  $customerNumber: String
+) {
+  previouslyPurchasedProducts(
+    ecommShipToId: $ecommShipToId
+    userId: $userId
+    currentPage: $currentPage
+    pageSize: $pageSize
+    customerNumber: $customerNumber
+  ) {
+    products {
+      product {
+        id
+        partNumber
+        name
+        price
+        upc
+        manufacturerName
+        manufacturerNumber
+        minIncrementQty
+        status
+        customerPartNumber
+        stock {
+          homeBranch {
+            branchName
+            branchId
+            availability
+          }
+          otherBranches {
+            branchId
+            availability
+          }
+        }
+        imageUrls {
+          thumb
+        }
+      }
+      quantity {
+        uom
+        umqt
+        quantity
+      }
+      lastOrder {
+        lastDate
+        lastQuantity
+      }
+    }
+    pagination {
+      pageSize
+      currentPage
+      totalItemCount
+    }
+  }
+}

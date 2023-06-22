@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout - Heading should match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-19wuj10"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+    >
+      test
+    </h5>
+  </div>
+  <div
+    class="MuiBox-root css-w6wjax"
+  >
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`Checkout - Heading should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-kjvg9x"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+    >
+      test
+    </h5>
+  </div>
+  <div
+    class="MuiBox-root css-1d9fmsb"
+  >
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+  </div>
+</div>
+`;

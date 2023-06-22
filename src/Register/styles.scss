@@ -1,0 +1,977 @@
+@use 'src/_reece.scss';
+
+.register {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  background-color: reece.$white-100;
+  height: 100%;
+
+  &__container.container {
+    display: flex;
+    padding: 0;
+    height: 100%;
+  }
+
+  &__banner {
+    background-color: reece.$dark-text-gray-100;
+    color: reece.$light-blue-5;
+    height: 5rem;
+    width: 100%;
+    &__container {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    &__button-container {
+      flex-basis: calc(100% / 3);
+      .button.text-link-dark {
+        color: reece.$white-100;
+      }
+    }
+    &__title {
+      font-size: 2.5rem;
+      margin: 0;
+      flex-basis: calc(100% / 3);
+      text-align: center;
+    }
+  }
+  &__content {
+    &.container {
+      width: 50%;
+      height: 100%;
+      padding: 3rem;
+    }
+    &__title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 2rem 0;
+      color: reece.$dark-blue-100;
+    }
+    &__button-container {
+      display: none;
+    }
+  }
+  &__image {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  @media (max-width: reece.$breakpoint-md) {
+    &__content {
+      &.container {
+        width: 100%;
+        padding: 1.5rem 1rem;
+      }
+      &__title {
+        font-size: 1.5rem;
+      }
+      &__button-container {
+        display: block;
+        text-decoration: none;
+        .button {
+          padding: 0;
+          color: reece.$text-gray-100;
+          line-height: 1.5rem;
+          font-weight: 400;
+        }
+      }
+      .stepper {
+        margin-top: 1.5rem;
+      }
+    }
+    &__image {
+      display: none;
+    }
+    &__banner {
+      &__button-container {
+        display: none;
+      }
+      &__title {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
+
+.register-email {
+  width: 100%;
+  font-family: Roboto;
+
+  &__form {
+    &__submit-button {
+      margin-top: 3rem;
+      margin-left: auto;
+    }
+    &__account-exists {
+      padding: 0.25rem 1rem 0;
+      font-size: 0.8rem;
+      line-height: 1rem;
+      color: reece.$orangy-red-100;
+      a {
+        color: reece.$light-blue-100;
+        margin-left: 0.25rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  @media (max-width: reece.$breakpoint-md) {
+    &__form {
+      &__submit-button {
+        width: 50%;
+      }
+    }
+  }
+}
+
+.register-company {
+  font-family: Roboto;
+  width: 100%;
+  &__employee {
+    color: reece.$text-gray-100;
+    line-height: 1.5rem;
+    &__title {
+      font-size: 1.25rem;
+      color: reece.$dark-text-gray-100;
+      margin: 0;
+    }
+    &__text {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      margin-top: 0;
+    }
+    &__subtext {
+      margin: 0 0 1.5rem;
+      font-size: 0.8rem;
+    }
+    &__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.625rem;
+      a {
+        text-decoration: none;
+      }
+      .button.secondary {
+        width: 8.5rem;
+      }
+    }
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .radio-input__label {
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      color: reece.$dark-blue-100;
+      margin-bottom: 1.5rem;
+      width: 100%;
+    }
+    .radio-input__message-wrapper {
+      padding-top: 1.5rem;
+      padding-left: 0;
+    }
+    .radio-input__message {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    &__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.625rem;
+      a {
+        text-decoration: none;
+      }
+      .button.secondary {
+        display: none;
+      }
+    }
+    &__waterworks__account {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      a {
+        color: reece.$light-blue-100;
+        font-weight: 400;
+        text-decoration: underline;
+      }
+    }
+  }
+  &__radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    label {
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      color: reece.$dark-blue-100;
+    }
+    &__options-wrapper {
+      display: flex;
+      gap: 2rem;
+    }
+    &__option {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0.75rem;
+      padding: 1.5rem;
+      box-shadow: 2px 2px 10px rgba(64, 64, 64, 0.15);
+      border-radius: 2px;
+      background-color: reece.$white-100;
+      flex: 1;
+      box-sizing: border-box;
+      border: 2px solid reece.$white-100;
+      position: relative;
+      &__check {
+        position: absolute;
+        right: 0.5rem;
+        top: 0.75rem;
+      }
+      &__title {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: reece.$dark-blue-100;
+      }
+      &__description {
+        font-size: 1rem;
+        color: reece.$text-gray-100;
+      }
+      &.checked {
+        border: 2px solid reece.$light-blue-100;
+        box-shadow: 0 0 0 6px reece.$light-blue-30;
+      }
+    }
+    &__message {
+      color: reece.$orangy-red-100;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+
+  @media (max-width: reece.$breakpoint-md) {
+    &__employee {
+      &__title {
+        margin-top: 3.7rem;
+      }
+      &__subtext {
+        line-height: 1.15rem;
+        margin-bottom: 3.7rem;
+      }
+      &__actions {
+        margin-bottom: 10rem;
+        a {
+          .button,
+          .button.secondary {
+            width: 100%;
+          }
+
+          width: 50%;
+        }
+      }
+    }
+    &__form {
+      &__actions {
+        display: flex;
+        justify-content: space-between;
+        .button {
+          width: 50%;
+        }
+        .button.text-link-dark {
+          display: none;
+        }
+        .button.secondary {
+          display: block;
+        }
+      }
+      &__waterworks__account {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 100%;
+        display: block;
+        a {
+          color: reece.$light-blue-100;
+          font-weight: 400;
+          margin-left: 0.25rem;
+        }
+      }
+    }
+    &__radio-group {
+      &__options-wrapper {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.register-account-info {
+  font-family: Roboto;
+  &__form {
+    &__subtext {
+      &.mobile {
+        display: none;
+      }
+    }
+    display: flex;
+    flex-direction: column;
+    &__input-wrapper {
+      display: flex;
+      gap: 1rem;
+
+      &__zipCode.masked-input {
+        width: 60%;
+      }
+    }
+    &__subtext {
+      display: flex;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      align-items: center;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+      .button.small {
+        padding: 0 0.25rem;
+        color: reece.$light-blue-100;
+        font-weight: 600;
+      }
+    }
+    &__button-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 8rem;
+      .button {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+      }
+      &.loading {
+        .button.secondary {
+          background-color: reece.$medium-gray-100;
+          color: reece.$white-100;
+          box-shadow: 1px;
+          border-color: reece.$medium-gray-100;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+      }
+      &.show {
+        margin-bottom: 1.5rem;
+        &.found {
+          .button.secondary {
+            background-color: reece.$green-100;
+            border-color: reece.$green-100;
+            box-shadow: 1px;
+            color: reece.$white-100;
+            margin-top: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+          }
+        }
+        &.findAccount {
+          .button.secondary {
+            background-color: reece.$white-100;
+            border-color: reece.$dark-blue-100;
+            box-shadow: 1px;
+            color: reece.$dark-blue-100;
+            margin-top: 1rem;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+          }
+        }
+        &.loading {
+          .button.secondary {
+            background-color: reece.$medium-gray-100;
+            color: reece.$white-100;
+            box-shadow: 1px;
+            border-color: reece.$medium-gray-100;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+          }
+        }
+      }
+    }
+
+    &__link {
+      display: flex;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      align-items: center;
+      margin: 0.5rem 0rem 1.5rem;
+      font-weight: 400;
+      .button.small {
+        padding: 0 0.25rem;
+        color: reece.$light-blue-100;
+        font-weight: 600;
+      }
+    }
+
+    &__confirmation {
+      display: flex;
+      border: 1px solid;
+      border-radius: 0.125rem;
+      &.found {
+        border: 1px solid reece.$dark-blue-100;
+        &.tradeNotFound {
+          background-color: reece.$light-blue-5;
+          border: 1px solid reece.$dark-blue-100;
+          margin-bottom: 1.5rem;
+        }
+      }
+      &.notFound {
+        background-color: reece.$orangy-red-10;
+        border: 1px solid reece.$orangy-red-100;
+      }
+      &__icon {
+        display: flex;
+        justify-content: center;
+        &.green-checkmark {
+          margin: 1.5rem 0.2rem 0rem 1rem;
+        }
+        &.warning {
+          color: reece.$orangy-red-100;
+          margin: 2.25rem 0rem 0rem 1rem;
+        }
+        &.info {
+          margin: 2.25rem 0rem 0rem 0.85rem;
+        }
+      }
+      &__subtext {
+        display: flex;
+        flex-direction: column;
+        color: '#525252';
+        font-size: 1rem;
+        text-align: left;
+        margin: 1rem 0.75rem;
+        .button {
+          color: reece.$light-blue-5;
+        }
+        &__title {
+          font-weight: 600;
+          line-height: 1.5rem;
+        }
+        &__message {
+          width: 80%;
+          &.found {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.625rem;
+      .button.secondary {
+        display: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      &.tradeNotFound {
+        margin-top: 1rem;
+      }
+    }
+  }
+  @media (max-width: reece.$breakpoint-md) {
+    &__form {
+      &__subtext {
+        display: none;
+        &.mobile {
+          display: flex;
+          margin-top: 0.5rem;
+          margin-bottom: 1rem;
+        }
+      }
+      &__input-wrapper {
+        display: flex;
+        flex-direction: column;
+        &__zipCode.masked-input {
+          width: 100%;
+        }
+      }
+      &__button-wrapper {
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      &__link {
+        margin-bottom: 2rem;
+      }
+      &__actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        margin-bottom: 6rem;
+        .button {
+          width: 50%;
+        }
+        .button.text-link-dark {
+          display: none;
+        }
+        .button.secondary {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.register-account-info-modal {
+  font-family: Roboto;
+
+  &__overlay {
+    position: fixed;
+    opacity: 0.5;
+    background-color: reece.$black-100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 99;
+  }
+
+  &__panel {
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    position: absolute;
+    background-color: reece.$light-blue-5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem;
+    width: 33rem;
+    gap: 1.25rem;
+    max-height: 100%;
+    overflow-y: scroll;
+    &__header {
+      &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &__text {
+          display: flex;
+          gap: 1rem;
+          font-size: 1.25rem;
+          font-weight: 500;
+          line-height: 1.5rem;
+          text-align: left;
+        }
+      }
+    }
+    &__receipt {
+      width: 100%;
+      &.mobile {
+        display: none;
+      }
+    }
+    &__account-number-wrapper {
+      &.desktop {
+        display: flex;
+        flex-direction: column;
+        &__description {
+          &__account {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: left;
+            &__bold {
+              font-weight: 600;
+              margin: 0rem 0.25rem;
+            }
+          }
+        }
+        &__description {
+          &__zipCode {
+            margin-top: 0.25rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: left;
+            &__bold {
+              font-weight: 600;
+              margin: 0rem 0.25rem;
+            }
+          }
+        }
+      }
+      &.mobile {
+        display: none;
+      }
+    }
+    &__subtext__wrapper {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      &__branch {
+        color: reece.$dark-blue-100;
+        .button.small {
+          font-size: 1rem;
+          padding: 0 0.25rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: reece.$breakpoint-md) {
+    &__panel {
+      width: 100%;
+      height: 100%;
+      &__receipt {
+        &.mobile {
+          display: block;
+        }
+        &.desktop {
+          display: none;
+        }
+      }
+      &__account-number-wrapper {
+        &.desktop {
+          display: none;
+        }
+        &.mobile {
+          display: flex;
+          flex-direction: column;
+          &__description {
+            &__account {
+              font-size: 1rem;
+              line-height: 1.5rem;
+              text-align: left;
+              &__bold {
+                font-weight: 600;
+                margin: 0rem 0.15rem;
+              }
+            }
+          }
+          &__description {
+            &__zipCode {
+              margin-top: 0.25rem;
+              font-size: 1rem;
+              line-height: 1.5rem;
+              text-align: left;
+              &__bold {
+                font-weight: 600;
+                margin: 0rem 0.25rem;
+              }
+            }
+          }
+        }
+      }
+      &__subtext__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1rem;
+        &__branch {
+          color: reece.$dark-blue-100;
+          .button.small {
+            padding: 0rem;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.register-contact-info {
+  font-family: Roboto;
+  &__information {
+    &__info {
+      margin-top: -1rem;
+    }
+  }
+  &__form {
+    margin-bottom: 7rem;
+    &__input-wrapper {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.5rem;
+    }
+    &__error-message {
+      color: reece.$orangy-red-100;
+      padding: 0.25rem 1rem 0;
+      font-size: 0.8rem;
+      line-height: 1rem;
+      margin-top: -1.5rem;
+    }
+  }
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.625rem;
+    margin-top: 1.5rem;
+    .button.secondary {
+      display: none;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  &__information {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+    &__info {
+      font-weight: 600;
+    }
+    &__privacy-policy {
+      display: flex;
+      align-items: center;
+      font-weight: 400;
+      .button.small {
+        padding: 0;
+        margin-left: 0.25rem;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: reece.$breakpoint-md) {
+    &__actions {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5rem;
+      .button {
+        width: 50%;
+      }
+      .button.text-link-dark {
+        display: none;
+      }
+      .button.secondary {
+        display: block;
+      }
+    }
+  }
+}
+
+.register-complete-registration {
+  font-family: Roboto;
+  &__form {
+    color: reece.$text-gray-100;
+    &__password-field {
+      width: 75%;
+    }
+    &__register-error {
+      &.desktop {
+        display: grid;
+        grid-template-columns: 0.75fr 7fr;
+        margin-bottom: 2rem;
+        color: reece.$orangy-red-100;
+        background-color: reece.$orangy-red-10;
+        border: 1px solid reece.$orangy-red-100;
+        border-radius: 0.25rem;
+        padding: 0.5rem 0rem;
+        &__text {
+          font-size: 1rem;
+          text-align: left;
+          padding: 0.25rem 0rem 0.25rem 0rem;
+          margin: 0rem;
+          &__error {
+            margin-right: 0.5rem;
+          }
+        }
+        &__warning-icon {
+          margin: 1.25rem 0rem 0rem 0.75rem;
+        }
+        .button.small {
+          font-size: 1rem;
+          margin: 0rem 0rem 0rem 0.25rem;
+          padding: 0rem;
+          color: reece.$light-blue-100;
+          font-weight: 500;
+          display: inline-block;
+        }
+      }
+      &.mobile {
+        display: none;
+      }
+    }
+    &__password-requirements {
+      display: flex;
+      align-items: center;
+      margin-top: 1.5rem;
+      &__icon {
+        margin-right: 0.5rem;
+      }
+      &__text {
+        font-size: 1rem;
+      }
+    }
+    &__password-validation-list {
+      display: flex;
+      flex-direction: column;
+      font-weight: 400;
+      font-size: 0.8rem;
+      margin-top: 0.8rem;
+      margin-left: 2rem;
+      &__item {
+        display: flex;
+        margin-top: -0.1rem;
+        align-items: center;
+        &__icon {
+          visibility: hidden;
+          &.show {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 0.1rem;
+            visibility: visible;
+          }
+        }
+        &__text {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+    &__checkboxes {
+      &__term-of-sales {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 0rem;
+        .button.default {
+          font-size: 1rem;
+          font-weight: 400;
+          padding: 0rem;
+          margin: 0rem 0.25rem;
+        }
+        &__text {
+          display: flex;
+          align-items: center;
+        }
+      }
+      &__privacy-policy {
+        display: flex;
+        align-items: center;
+        margin-top: -0.5rem;
+        padding: 0rem;
+        .button.default {
+          font-size: 1rem;
+          font-weight: 400;
+          padding: 0rem;
+          margin: 0rem 0.25rem;
+        }
+        &__text {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    &__error-message {
+      color: reece.$orangy-red-100;
+    }
+    &__actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.625rem;
+      margin-top: 1.5rem;
+      .button.secondary {
+        display: none;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  @media (max-width: reece.$breakpoint-md) {
+    &__form {
+      &__password-field {
+        width: auto;
+      }
+      &__register-error {
+        &.desktop {
+          display: none;
+        }
+        &.mobile {
+          display: grid;
+          grid-template-columns: 1fr 5fr;
+          margin-bottom: 2rem;
+          color: reece.$orangy-red-100;
+          background-color: reece.$orangy-red-10;
+          border: 1px solid reece.$orangy-red-100;
+          border-radius: 0.25rem;
+          padding: 0rem;
+          &__text {
+            font-size: 1rem;
+            text-align: left;
+            line-height: 1.5rem;
+            padding: 0.25rem 0rem 0.25rem 0rem;
+            margin: 0rem;
+            width: 90%;
+            &__error {
+              margin-right: 0.25rem;
+            }
+          }
+          &__warning-icon {
+            margin: 2rem 0rem 0rem 0.95rem;
+          }
+          .button.small {
+            font-size: 1rem;
+            padding: 0rem 0rem 0rem 0rem;
+            color: reece.$light-blue-100;
+            font-weight: 500;
+            display: inline-block;
+          }
+        }
+      }
+      &__password-validation-list {
+        margin-left: 0.6rem;
+        margin-top: 0.5rem;
+      }
+      &__actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+        .button {
+          width: 50%;
+        }
+        .button.text-link-dark {
+          display: none;
+        }
+        .button.secondary {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.register-registration-complete {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 24rem;
+  &__title {
+    color: reece.$dark-blue-100;
+  }
+  &__text {
+    color: reece.$text-gray-100;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+  }
+  &__actions {
+    .button {
+      display: block;
+      padding: 0rem 5rem;
+    }
+  }
+  @media (max-width: reece.$breakpoint-md) {
+    &__text {
+      padding: 0rem 2rem;
+    }
+  }
+}

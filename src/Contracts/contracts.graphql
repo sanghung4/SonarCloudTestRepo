@@ -1,0 +1,34 @@
+query Contracts(
+  $erpAccountId: String!
+  $pageNumber: String!
+  $searchFilter: String
+  $fromDate: String
+  $toDate: String
+  $sortOrder: String
+  $sortDirection: String
+) {
+  contracts(
+    erpAccountId: $erpAccountId
+    pageNumber: $pageNumber
+    searchFilter: $searchFilter
+    fromDate: $fromDate
+    toDate: $toDate
+    sortOrder: $sortOrder
+    sortDirection: $sortDirection
+  ) {
+    rowsReturned
+    totalRows
+    startRow
+    results {
+      contractNumber
+      description
+      contractDate
+      promiseDate
+      firstReleaseDate
+      lastReleaseDate
+      jobNumber
+      jobName
+      purchaseOrderNumber
+    }
+  }
+}

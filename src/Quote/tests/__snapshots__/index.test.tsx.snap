@@ -1,0 +1,1214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote test Delivery summary render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1m8x6ed-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-hshm0p"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+          >
+            Delivery Summary
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Shipped To
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+            />
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Ship Date
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+            >
+              01/05/2022
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Delivery Method
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+            >
+              Delivery
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-hshm0p"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+          >
+            Special Pickup or Handling Instructions
+          </h5>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+        >
+          N/A
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Quote test Info render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1m8x6ed-MuiPaper-root-MuiCard-root"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+    >
+      Quote Information
+    </h5>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+        >
+          Job Name
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+      >
+        <p
+          aria-label="-"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+          data-mui-internal-clone-element="true"
+        >
+          -
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+        >
+          Requested Date
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+      >
+        <p
+          aria-label="12/15/2021"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+          data-mui-internal-clone-element="true"
+        >
+          12/15/2021
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+        >
+          PO #
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+      >
+        <p
+          aria-label="99"
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+          data-mui-internal-clone-element="true"
+        >
+          99
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Quote test Products render 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-19dkpa7-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-36s8fn"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle2 css-6hd13y-MuiTypography-root"
+      >
+        (1) items ordered
+      </h6>
+    </div>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+    <div
+      class="MuiBox-root css-t0051x"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1kbsdp9-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-wenq9c"
+          >
+            <img
+              alt="3/4\\" Galvanized Malleable Iron 90 Degree Elbow"
+              class="MuiBox-root css-4w7ia0"
+              src="http://images.tradeservice.com/ProductImages/DIR100090/MATCO_ZMGL9000_SML.jpg"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-true MuiGrid-grid-md-3 css-1bwqgwy-MuiGrid-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-g1pjat-MuiTypography-root"
+          >
+            Generic
+          </h6>
+          <div
+            class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+          >
+            3/4" Galvanized Malleable Iron 90 Degree Elbow
+          </div>
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle2 css-g1pjat-MuiTypography-root"
+          >
+            MFR# IG9F
+          </h6>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-15dcrri-MuiGrid-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+            >
+              Price
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-15dcrri-MuiGrid-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+            >
+              Order Quantity
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-15dcrri-MuiGrid-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+            >
+              Ship Quantity
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-15dcrri-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1g4yje1"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+              >
+                Order Total
+              </h6>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-pvj6rd-MuiGrid-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-utyvr0-MuiTypography-root"
+            >
+              $2.11 ea
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-pvj6rd-MuiGrid-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-utyvr0-MuiTypography-root"
+            >
+              1
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-pvj6rd-MuiGrid-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-utyvr0-MuiTypography-root"
+            >
+              1
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-pvj6rd-MuiGrid-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-utyvr0-MuiTypography-root"
+            >
+              $2.11
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Quote test should match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+    >
+      <nav
+        aria-label="breadcrumb"
+        class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+      >
+        <ol
+          class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+        >
+          <li
+            class="MuiBreadcrumbs-li"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            aria-hidden="true"
+            class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+          >
+            <svg>
+              chevron-right.svg
+            </svg>
+          </li>
+          <li
+            class="MuiBreadcrumbs-li"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+              href="/quotes"
+            >
+              Quotes
+            </a>
+          </li>
+          <li
+            aria-hidden="true"
+            class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+          >
+            <svg>
+              chevron-right.svg
+            </svg>
+          </li>
+          <li
+            class="MuiBreadcrumbs-li"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+              data-testid="undefined-breadcrumb"
+            />
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-em4ypf-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-gic34e-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Quote Number
+          : 
+          <span
+            class="MuiBox-root css-pelz90"
+          />
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-true css-b4v11c-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Status
+          : 
+          <span
+            class="MuiBox-root css-zqfreu"
+          >
+            quotes.
+          </span>
+        </h2>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-1i48nbb-MuiGrid-root"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg
+              color="primary"
+            >
+              print.svg
+            </svg>
+          </span>
+          Print
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1v2s70i-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-gic34e-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+          >
+            Quote Information
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job Name
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+            >
+              <p
+                aria-label="-"
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-mui-internal-clone-element="true"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Requested Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+            >
+              <p
+                aria-label="-"
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-mui-internal-clone-element="true"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                PO #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+            >
+              <p
+                aria-label="-"
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-mui-internal-clone-element="true"
+              >
+                -
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8 css-idtbpa-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Delivery Summary
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+                  >
+                    Shipped To
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  />
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+                  >
+                    Ship Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+                  >
+                    Delivery Method
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    -
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Special Pickup or Handling Instructions
+                </h5>
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                N/A
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1tw2i9j-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8 css-idtbpa-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-19dkpa7-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-1y5sho6"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1l8jtn9"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+                    >
+                      Product
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true MuiGrid-grid-md-3 css-1hxednu-MuiGrid-root"
+                />
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-md-true css-70o5km-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+                    >
+                      Price
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+                    >
+                      Order Quantity
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+                    >
+                      Ship Quantity
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+                    >
+                      Order Total
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+            <div
+              class="MuiBox-root css-gajhq5"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-gic34e-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-26ymy3-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-ju4zfe"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+              >
+                Order Summary
+              </h5>
+            </div>
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-3zd3l8-MuiPaper-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-cqjonc-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Subtotal
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="quote-sub-total"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Tax
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Order Total
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-1v3caum"
+            >
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+                data-testid="approve-quote-button"
+                tabindex="0"
+                type="button"
+              >
+                Accept Quote and Checkout
+              </button>
+            </div>
+            <div
+              class="MuiBox-root css-1v3caum"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-a9c1jc-MuiButtonBase-root-MuiButton-root"
+                data-testid="decline-quote-button"
+                tabindex="0"
+                type="button"
+              >
+                Decline Quote
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Quote test should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+    >
+      <div
+        class="MuiBox-root css-3u2h7w"
+        data-testid="back-button-mobile"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          href="/quotes"
+        >
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+            >
+              <svg>
+                chevron-left.svg
+              </svg>
+            </span>
+            Back to Quotes
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-w0wi66-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-gic34e-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Quote Number
+          : 
+          <span
+            class="MuiBox-root css-pelz90"
+          />
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-true css-b4v11c-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Status
+          : 
+          <span
+            class="MuiBox-root css-zqfreu"
+          >
+            quotes.
+          </span>
+        </h2>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1v2s70i-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-gic34e-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-26ymy3-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiBox-root css-ju4zfe"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            >
+              Order Summary
+            </h5>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-3zd3l8-MuiPaper-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-cqjonc-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                >
+                  Subtotal
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                  data-testid="quote-sub-total"
+                >
+                  $0.00
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                >
+                  Tax
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                >
+                  $0.00
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-1ebprri"
+            >
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+              />
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                >
+                  Order Total
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                >
+                  $0.00
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-1v3caum"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+              data-testid="approve-quote-button"
+              tabindex="0"
+              type="button"
+            >
+              Accept Quote and Checkout
+            </button>
+          </div>
+          <div
+            class="MuiBox-root css-1v3caum"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-a9c1jc-MuiButtonBase-root-MuiButton-root"
+              data-testid="decline-quote-button"
+              tabindex="0"
+              type="button"
+            >
+              Decline Quote
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-gic34e-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1m8x6ed-MuiPaper-root-MuiCard-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+          >
+            Quote Information
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job Name
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+            >
+              <p
+                aria-label="-"
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-mui-internal-clone-element="true"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Requested Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+            >
+              <p
+                aria-label="-"
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-mui-internal-clone-element="true"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                PO #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+            >
+              <p
+                aria-label="-"
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-mui-internal-clone-element="true"
+              >
+                -
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8 css-idtbpa-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1m8x6ed-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Delivery Summary
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+                  >
+                    Shipped To
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  />
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+                  >
+                    Ship Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+                  >
+                    Delivery Method
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    -
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Special Pickup or Handling Instructions
+                </h5>
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                N/A
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1tw2i9j-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8 css-idtbpa-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-19dkpa7-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-36s8fn"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle2 css-6hd13y-MuiTypography-root"
+              >
+                (undefined) items ordered
+              </h6>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+            <div
+              class="MuiBox-root css-t0051x"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,2544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Invoice tests Should show info card for the invoice 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/invoices"
+          >
+            Invoices
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="5460026-breadcrumb"
+          >
+            5460026
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-8dqj1m-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Invoice #
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-number"
+          >
+            5460026
+          </span>
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 css-74667d-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Status
+          :
+           
+          <span
+            class="MuiBox-root css-1rsjph8"
+            data-testid="invoice-status"
+          />
+        </h2>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5.95 css-13ne47u-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Terms
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-terms"
+          />
+        </h2>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1qegr57-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+            data-testid="invoice-info-header"
+          >
+            Invoice Information
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Invoice Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-invoice-date"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Due Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-due-date"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Order #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-order"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                PO #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-po"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job Name
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job-name"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job"
+              >
+                -
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Delivery Summary
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Shipped to
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-shipped-to"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Ship Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-ship-date"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Delivery Method
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-delivery-method"
+                  >
+                    -
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1tw2i9j-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1dd7zhh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-1y5sho6"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1l8jtn9"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Product
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true MuiGrid-grid-md-3 css-1hxednu-MuiGrid-root"
+                />
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-md-true css-70o5km-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Price
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Order Qty
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Ship Qty
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Total
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <div
+                class="MuiBox-root css-14uch6e"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1jd3u1u-MuiTypography-root"
+                >
+                  No items were found
+                </h4>
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-chh3rr-MuiTypography-root"
+                >
+                  If this is an error, please 
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-lm34z4-MuiTypography-root-MuiLink-root"
+                    to="/support"
+                  >
+                    Contact Branch
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-4 css-f1vcn2-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-26ymy3-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-ju4zfe"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                data-testid="invoice-summary-header"
+              >
+                Invoice Summary
+              </h5>
+            </div>
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-3zd3l8-MuiPaper-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-cqjonc-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Invoice Subtotal
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-subtotal"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Tax
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-tax"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Other
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-other"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Total Amount Due
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-totalAmountDue"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Paid to Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-paidToDate"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Remaining Amount
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1eszk6v-MuiTypography-root"
+                    data-testid="invoice-summary-remainingAmount"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Invoice tests Should show loading and display correctly for Mincron accounts 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1tl0rlc"
+    data-testid="loader-component"
+  >
+    <div
+      class="MuiBox-root css-hyxlzm"
+    >
+      <span
+        aria-valuenow="100"
+        class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary css-1wyqyef-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 80px; height: 80px; transform: rotate(-90deg);"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="19.5"
+            stroke-width="5"
+            style="stroke-dasharray: 122.522; stroke-dashoffset: 0.000px;"
+          />
+        </svg>
+      </span>
+      <span
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1gse1c1-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 80px; height: 80px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="19.5"
+            stroke-width="5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/invoices"
+          >
+            Invoices
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="5460026-breadcrumb"
+          >
+            5460026
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-8dqj1m-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Invoice #
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-number"
+          >
+            5460026
+          </span>
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 css-74667d-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Status
+          :
+           
+          <span
+            class="MuiBox-root css-1rsjph8"
+            data-testid="invoice-status"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-4pid65-MuiSkeleton-root"
+              style="width: 120px; height: 24px;"
+            />
+          </span>
+        </h2>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5.95 css-13ne47u-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Terms
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-terms"
+          />
+        </h2>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1qegr57-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+            data-testid="invoice-info-header"
+          >
+            Invoice Information
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Invoice Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-invoice-date"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                />
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Due Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-due-date"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                />
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Order #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-order"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                />
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                PO #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-po"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                />
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job Name
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job-name"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                />
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Delivery Summary
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Shipped to
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                    />
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Ship Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                    />
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Delivery Method
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1tw2i9j-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1dd7zhh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-1y5sho6"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1l8jtn9"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Product
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true MuiGrid-grid-md-3 css-1hxednu-MuiGrid-root"
+                />
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-md-true css-70o5km-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Price
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Order Qty
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Ship Qty
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Total
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1eoohxj-MuiGrid-root"
+                data-testid="row_undefined"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item css-1y0l3kn-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-13eans4"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-3x7rqn-MuiSkeleton-root"
+                      style="width: 80px; height: 80px;"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-155f3yv-MuiGrid-root"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle2 css-g1pjat-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                      style="width: 80px;"
+                    />
+                  </h6>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                    />
+                  </div>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-dq9d7w-MuiTypography-root"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                      style="width: 120px;"
+                    />
+                  </h6>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-md-true css-3cv60e-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-1u1fap8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-ep081p-MuiTypography-root"
+                      data-testid="order-price"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 50px;"
+                      />
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-1u1fap8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-ep081p-MuiTypography-root"
+                      data-testid="order-quantity"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 30px;"
+                      />
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-1u1fap8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-ep081p-MuiTypography-root"
+                      data-testid="order-ship-quantity"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 30px;"
+                      />
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-true css-pvj6rd-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-18hk6mc-MuiTypography-root"
+                      data-testid="order-price-total"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 50px;"
+                      />
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-auvnaa-MuiGrid-root"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-3x7rqn-MuiSkeleton-root"
+                      style="height: 24px;"
+                    />
+                    <div
+                      class="MuiBox-root css-1ypvdwm"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 100px; height: 24px;"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-4 css-f1vcn2-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-26ymy3-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-ju4zfe"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                data-testid="invoice-summary-header"
+              >
+                Invoice Summary
+              </h5>
+            </div>
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-3zd3l8-MuiPaper-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-cqjonc-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Invoice Subtotal
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-subtotal"
+                  >
+                    <span
+                      class="MuiBox-root css-1bvc4cc"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 80px;"
+                      />
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Tax
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-tax"
+                  >
+                    <span
+                      class="MuiBox-root css-1bvc4cc"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 80px;"
+                      />
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Other
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-other"
+                  >
+                    <span
+                      class="MuiBox-root css-1bvc4cc"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 80px;"
+                      />
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Total Amount Due
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-totalAmountDue"
+                  >
+                    <span
+                      class="MuiBox-root css-1bvc4cc"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 80px;"
+                      />
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Paid to Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-paidToDate"
+                  >
+                    <span
+                      class="MuiBox-root css-1bvc4cc"
+                    >
+                      <span
+                        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                        style="width: 80px;"
+                      />
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Remaining Amount
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1eszk6v-MuiTypography-root"
+                    data-testid="invoice-summary-remainingAmount"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                      style="width: 80px;"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Invoice tests Should show loading and display correctly for Mincron accounts 2`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/invoices"
+          >
+            Invoices
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="5460026-breadcrumb"
+          >
+            5460026
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-8dqj1m-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Invoice #
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-number"
+          >
+            5460026
+          </span>
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 css-74667d-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Status
+          :
+           
+          <span
+            class="MuiBox-root css-1rsjph8"
+            data-testid="invoice-status"
+          />
+        </h2>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5.95 css-13ne47u-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Terms
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-terms"
+          />
+        </h2>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1qegr57-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+            data-testid="invoice-info-header"
+          >
+            Invoice Information
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Invoice Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-invoice-date"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Due Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-due-date"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Order #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-order"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                PO #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-po"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job Name
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job-name"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job"
+              >
+                -
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Delivery Summary
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Shipped to
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-shipped-to"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Ship Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-ship-date"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Delivery Method
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-delivery-method"
+                  >
+                    -
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1tw2i9j-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1dd7zhh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-1y5sho6"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1l8jtn9"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Product
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true MuiGrid-grid-md-3 css-1hxednu-MuiGrid-root"
+                />
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-md-true css-70o5km-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Price
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Order Qty
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Ship Qty
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignCenter css-1cg3xkr-MuiTypography-root"
+                    >
+                      Total
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+            <div
+              class="MuiBox-root css-gajhq5"
+            >
+              <div
+                class="MuiBox-root css-14uch6e"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1jd3u1u-MuiTypography-root"
+                >
+                  No items were found
+                </h4>
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-chh3rr-MuiTypography-root"
+                >
+                  If this is an error, please 
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-lm34z4-MuiTypography-root-MuiLink-root"
+                    to="/support"
+                  >
+                    Contact Branch
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-4 css-f1vcn2-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-26ymy3-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-ju4zfe"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                data-testid="invoice-summary-header"
+              >
+                Invoice Summary
+              </h5>
+            </div>
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-3zd3l8-MuiPaper-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-cqjonc-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Invoice Subtotal
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-subtotal"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Tax
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-tax"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Other
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-other"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Total Amount Due
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-totalAmountDue"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Paid to Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-paidToDate"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Remaining Amount
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1eszk6v-MuiTypography-root"
+                    data-testid="invoice-summary-remainingAmount"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Invoice tests Should summary card info for the invoice 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/invoices"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Invoices
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1d4eqro-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Invoice #
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-number"
+          >
+            5460026
+          </span>
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 css-74667d-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Status
+          :
+           
+          <span
+            class="MuiBox-root css-1rsjph8"
+            data-testid="invoice-status"
+          />
+        </h2>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5.95 css-13ne47u-MuiGrid-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+        >
+          Terms
+          :
+           
+          <span
+            class="MuiBox-root css-pelz90"
+            data-testid="invoice-terms"
+          />
+        </h2>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1qegr57-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1m8x6ed-MuiPaper-root-MuiCard-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+            data-testid="invoice-info-header"
+          >
+            Invoice Information
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Invoice Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-invoice-date"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Due Date
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-due-date"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Order #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-order"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                PO #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-po"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job Name
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job-name"
+              >
+                -
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+              >
+                Job #
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                data-testid="invoice-info-job"
+              >
+                -
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 css-1yzd79m-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1m8x6ed-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-hshm0p"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                >
+                  Delivery Summary
+                </h5>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Shipped to
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-shipped-to"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Ship Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-ship-date"
+                  >
+                    -
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-uafqmk-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-my2kce-MuiTypography-root"
+                  >
+                    Delivery Method
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-8eylb7-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                    data-testid="delivery-summary-delivery-method"
+                  >
+                    -
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 MuiGrid-direction-xs-column-reverse css-1fwy4nz-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-1st314e-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1dd7zhh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-36s8fn"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle2 css-10sxa49-MuiTypography-root"
+                data-testid="items-ordered"
+              >
+                (undefined) items ordered
+              </h6>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+            <div
+              class="MuiBox-root css-t0051x"
+            >
+              <div
+                class="MuiBox-root css-14uch6e"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1jd3u1u-MuiTypography-root"
+                >
+                  No items were found
+                </h4>
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-chh3rr-MuiTypography-root"
+                >
+                  If this is an error, please 
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-lm34z4-MuiTypography-root-MuiLink-root"
+                    to="/support"
+                  >
+                    Contact Branch
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-4 css-f1vcn2-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-26ymy3-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-ju4zfe"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+                data-testid="invoice-summary-header"
+              >
+                Invoice Summary
+              </h5>
+            </div>
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-3zd3l8-MuiPaper-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-cqjonc-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Invoice Subtotal
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-subtotal"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Tax
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-tax"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                  >
+                    Other
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-other"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Total Amount Due
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-totalAmountDue"
+                  >
+                    $0.00
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Paid to Date
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1ufy15n-MuiTypography-root"
+                    data-testid="invoice-summary-paidToDate"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1ebprri"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1k5xob2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Remaining Amount
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight css-1eszk6v-MuiTypography-root"
+                    data-testid="invoice-summary-remainingAmount"
+                  >
+                    $0.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

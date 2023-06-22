@@ -1,0 +1,63 @@
+query getOrder(
+  $accountId: ID!
+  $orderId: ID!
+  $userId: ID!
+  $invoiceNumber: ID
+  $orderStatus: String
+) {
+  order(
+    accountId: $accountId
+    orderId: $orderId
+    userId: $userId
+    invoiceNumber: $invoiceNumber
+    orderStatus: $orderStatus
+  ) {
+    amount
+    shipToName
+    customerPO
+    deliveryMethod
+    invoiceNumber
+    lineItems {
+      uom
+      pricingUom
+      imageUrls {
+        thumb
+      }
+      manufacturerName
+      manufacturerNumber
+      erpPartNumber
+      orderQuantity
+      backOrderedQuantity
+      productId
+      productName
+      productOrderTotal
+      shipQuantity
+      status
+      unitPrice
+      lineNumber
+      lineComments
+    }
+    orderDate
+    orderNumber
+    orderStatus
+    orderTotal
+    orderedBy
+    creditCard {
+      ...CreditCard
+    }
+    shipAddress {
+      streetLineOne
+      streetLineTwo
+      streetLineThree
+      city
+      state
+      postalCode
+      country
+    }
+    shipDate
+    specialInstructions
+    subTotal
+    tax
+    webStatus
+  }
+}

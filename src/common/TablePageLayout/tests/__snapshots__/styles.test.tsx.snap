@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - TablePageLayout - util - styles expect \`tableCellSx\` to handle sx when all properties are false/undefined 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1avyp1d"
+  />
+</div>
+`;
+
+exports[`common - TablePageLayout - util - styles expect \`tableCellSx\` to handle sx when all properties are true/etc 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1riz52x"
+  />
+</div>
+`;

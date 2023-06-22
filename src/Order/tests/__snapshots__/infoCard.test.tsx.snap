@@ -1,0 +1,1065 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order - InfoCard Should match snapshot when OrderInfoToolTip is empty 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+        data-testid="order-info"
+      >
+        -
+      </p>
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+      data-testid="order-info"
+    >
+      -
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Order - InfoCard Should match snapshot when OrderInfoToolTip is loading 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+        data-testid="order-info"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+        />
+      </p>
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+      data-testid="order-info"
+    >
+      <span
+        class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+      />
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Order - InfoCard Should match snapshot when loading 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+          data-testid="order-info-header"
+        >
+          Order Information
+        </h5>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Job Name
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Order Date
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Ordered By
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              PO #
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+        data-testid="order-info-header"
+      >
+        Order Information
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Job Name
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Order Date
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Ordered By
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            PO #
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Order - InfoCard Should match snapshot with credit card 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+          data-testid="order-info-header"
+        >
+          Order Information
+        </h5>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Job Name
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-job-name"
+            >
+              HORIZON PLUMBING LTD SHOP
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Order Date
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-order-date"
+            >
+              08/12/2020
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Ordered By
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-ordered-by"
+            >
+              Matt
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              PO #
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-po"
+            >
+              484986
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Payment
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1ph717y-MuiTypography-root"
+            >
+              <span
+                class="MuiBox-root css-pdst3h"
+              >
+                **** 
+                1234 5678 9012 3456
+              </span>
+               
+              10/28
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+        data-testid="order-info-header"
+      >
+        Order Information
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Job Name
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-job-name"
+          >
+            HORIZON PLUMBING LTD SHOP
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Order Date
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-order-date"
+          >
+            08/12/2020
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Ordered By
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-ordered-by"
+          >
+            Matt
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            PO #
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-po"
+          >
+            484986
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Payment
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1ph717y-MuiTypography-root"
+          >
+            <span
+              class="MuiBox-root css-pdst3h"
+            >
+              **** 
+              1234 5678 9012 3456
+            </span>
+             
+            10/28
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Order - InfoCard Should match snapshot with no credit card 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+          data-testid="order-info-header"
+        >
+          Order Information
+        </h5>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Job Name
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-job-name"
+            >
+              HORIZON PLUMBING LTD SHOP
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Order Date
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-order-date"
+            >
+              08/12/2020
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Ordered By
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-ordered-by"
+            >
+              Matt
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              PO #
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+              data-testid="order-info-po"
+            >
+              484986
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+        data-testid="order-info-header"
+      >
+        Order Information
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Job Name
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-job-name"
+          >
+            HORIZON PLUMBING LTD SHOP
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Order Date
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-order-date"
+          >
+            08/12/2020
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Ordered By
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-ordered-by"
+          >
+            Matt
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            PO #
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+            data-testid="order-info-po"
+          >
+            484986
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Order - InfoCard Should match snapshot with undefined Order data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+          data-testid="order-info-header"
+        >
+          Order Information
+        </h5>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Job Name
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Order Date
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              Ordered By
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+            >
+              PO #
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1694iiy-MuiPaper-root-MuiCard-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5 css-chi3mz-MuiTypography-root"
+        data-testid="order-info-header"
+      >
+        Order Information
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Job Name
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Order Date
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            Ordered By
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5ds2jq-MuiTypography-root"
+          >
+            PO #
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

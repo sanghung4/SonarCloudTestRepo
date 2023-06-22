@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - Sidebar expect to match snapshot for Backdrop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1185gzh"
+    data-testid="branch-sidebar-backdrop"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  />
+</div>
+`;
+
+exports[`common - Sidebar expect to match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-rim9vd"
+    data-testid="branch-sidebar-backdrop"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  />
+  <div
+    class="MuiBox-root css-96jqp"
+  />
+  <div
+    class="MuiBox-root css-1o80w2w"
+    style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiBox-root css-j7qwjs"
+      data-testid="branch-list"
+    >
+      <div
+        class="MuiBox-root css-14cad6o"
+        id="sidebar-header"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-tbe422-MuiButtonBase-root-MuiIconButton-root"
+          data-testid="slider-close"
+          tabindex="0"
+          type="button"
+        >
+          <svg>
+            delete.svg
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiBox-root css-9udc97"
+      >
+        <div>
+          test
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Sidebar expect to match snapshot on mobile 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="MuiBox-root css-rim9vd"
+    data-testid="branch-sidebar-backdrop"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  />
+  <div
+    class="MuiBox-root css-96jqp"
+  />
+  <div
+    class="MuiModal-root css-79ws1d-MuiModal-root"
+    role="presentation"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="MuiBox-root css-o5ig29"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+      tabindex="-1"
+    >
+      <div
+        class="MuiBox-root css-j7qwjs"
+        data-testid="branch-list"
+      >
+        <div
+          class="MuiBox-root css-14cad6o"
+          id="sidebar-header"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-tbe422-MuiButtonBase-root-MuiIconButton-root"
+            data-testid="slider-close"
+            tabindex="0"
+            type="button"
+          >
+            <svg>
+              delete.svg
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiBox-root css-vwn1lt"
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`common - Sidebar expect to match snapshot with basic props 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-rim9vd"
+    data-testid="branch-sidebar-backdrop"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  />
+  <div
+    class="MuiBox-root css-96jqp"
+  />
+  <div
+    class="MuiBox-root css-1o80w2w"
+    style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiBox-root css-j7qwjs"
+      data-testid="branch-list"
+    >
+      <div
+        class="MuiBox-root css-14cad6o"
+        id="sidebar-header"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-tbe422-MuiButtonBase-root-MuiIconButton-root"
+          data-testid="slider-close"
+          tabindex="0"
+          type="button"
+        >
+          <svg>
+            delete.svg
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiBox-root css-9udc97"
+      >
+        <div>
+          test
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Sidebar expect to match snapshot with error 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-rim9vd"
+    data-testid="branch-sidebar-backdrop"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  />
+  <div
+    class="MuiBox-root css-96jqp"
+  />
+  <div
+    class="MuiBox-root css-1o80w2w"
+    style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="MuiBox-root css-j7qwjs"
+      data-testid="branch-list"
+    >
+      <div
+        class="MuiBox-root css-14cad6o"
+        id="sidebar-header"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-tbe422-MuiButtonBase-root-MuiIconButton-root"
+          data-testid="slider-close"
+          tabindex="0"
+          type="button"
+        >
+          <svg>
+            delete.svg
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiBox-root css-1307ysn"
+      >
+        <div
+          class="MuiBox-root css-kfl6ja"
+        >
+          <img
+            alt="leaky pipe"
+            class="css-1r9pf21"
+            src="leak_bg.svg"
+          />
+          <img
+            alt="leaky pipe"
+            class="css-1r9pf21"
+            src="leak.svg"
+          />
+        </div>
+        <h1
+          class="MuiTypography-root MuiTypography-h1 css-83vxwx-MuiTypography-root"
+        >
+          Oh no!
+        </h1>
+        <h4
+          class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+        >
+          Looks like we have a leak
+           
+        </h4>
+        <div
+          class="MuiBox-root css-1sf3xto"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1v8ps1j-MuiTypography-root"
+          >
+            Please refresh your browser or check back in a few minutes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

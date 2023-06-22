@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart - Warning expect to match snapshop on desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1v8tbf9"
+  >
+    <svg
+      color="#C82D15"
+      width="32px"
+    >
+      warning.svg
+    </svg>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-18g9md4-MuiTypography-root"
+    >
+      Your order subtotal exceeds the $9,999,999.99 limit. Please remove some items from your order.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Cart - Warning expect to match snapshop on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-n9e8e8"
+  >
+    <svg
+      color="#C82D15"
+      width="64px"
+    >
+      warning.svg
+    </svg>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-18g9md4-MuiTypography-root"
+    >
+      Your order subtotal exceeds the $9,999,999.99 limit. Please remove some items from your order.
+    </p>
+  </div>
+</div>
+`;

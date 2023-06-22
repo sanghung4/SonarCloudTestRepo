@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - ErrorBoundary - ErrorComponent should match snapshot on desktop as BRANCH_ERROR 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-152jcjz"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-a9wr92-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6 css-honmcm-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-mpgh9h-MuiGrid-root"
+        >
+          <img
+            alt="leaky pipe background"
+            class="css-rvrkdc"
+            src="leak_bg.svg"
+          />
+          <img
+            alt="stacked boxes"
+            class="css-rvrkdc"
+            src="stacked_boxes.svg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 css-1sf1x69-MuiTypography-root"
+            data-testid="product-not-found"
+          >
+            Unable to load home branch
+          </h3>
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-1gahoiz-MuiTypography-root"
+          >
+            Please contact support or select a job with a different home branch.
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-1o335il-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 css-15sgum0-MuiGrid-root"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                to="/support"
+              >
+                <button
+                  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+                  data-testid="back-to-home-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  Contact Support
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - ErrorBoundary - ErrorComponent should match snapshot on desktop as NOT_FOUND 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-152jcjz"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-a9wr92-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6 css-honmcm-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-mpgh9h-MuiGrid-root"
+        >
+          <img
+            alt="leaky pipe background"
+            class="css-rvrkdc"
+            src="leak_bg.svg"
+          />
+          <img
+            alt="stacked boxes"
+            class="css-rvrkdc"
+            src="stacked_boxes.svg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 css-1sf1x69-MuiTypography-root"
+            data-testid="product-not-found"
+          >
+            Product not found
+          </h3>
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-1gahoiz-MuiTypography-root"
+          >
+            Please try searching again or return to the home page.
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-1o335il-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-djd5wm-MuiGrid-root"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                to="/"
+              >
+                <button
+                  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+                  data-testid="back-to-home-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  Back to Home
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - ErrorBoundary - ErrorComponent should match snapshot on desktop as OTHER 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-152jcjz"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-a9wr92-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6 css-honmcm-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-mpgh9h-MuiGrid-root"
+        >
+          <img
+            alt="leaky pipe background"
+            class="css-rvrkdc"
+            src="leak_bg.svg"
+          />
+          <img
+            alt="leaky pipe"
+            class="css-rvrkdc"
+            src="leak.svg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <h1
+            class="MuiTypography-root MuiTypography-h1 css-1iv52y0-MuiTypography-root"
+          >
+            Oh no!
+          </h1>
+          <h3
+            class="MuiTypography-root MuiTypography-h3 css-1sf1x69-MuiTypography-root"
+            data-testid="product-not-found"
+          >
+            Looks like we have a leak
+          </h3>
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-1gahoiz-MuiTypography-root"
+          >
+            Try going back to the previous page while we take care of this.
+          </h5>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-d8n3rb-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 css-15sgum0-MuiGrid-root"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                to="/"
+              >
+                <button
+                  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+                  data-testid="back-to-home-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  Back to Home
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - ErrorBoundary - ErrorComponent should match snapshot on mobile as BRANCH_ERROR 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-101xdvu"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-a9wr92-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1vpwcmr-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <img
+            alt="stacked boxes"
+            class="MuiBox-root css-z296mr"
+            src="stacked_boxes.svg"
+          />
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-1tm0viy-MuiTypography-root"
+            data-testid="product-not-found"
+          >
+            Unable to load home branch
+          </h5>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1mbm39a-MuiTypography-root"
+          >
+            Please contact support or select a job with a different home branch.
+          </p>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-roukp-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 css-15sgum0-MuiGrid-root"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                to="/support"
+              >
+                <button
+                  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+                  data-testid="back-to-home-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  Contact Support
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - ErrorBoundary - ErrorComponent should match snapshot on mobile as NOT_FOUND 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-101xdvu"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-a9wr92-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1vpwcmr-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <img
+            alt="stacked boxes"
+            class="MuiBox-root css-z296mr"
+            src="stacked_boxes.svg"
+          />
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-1tm0viy-MuiTypography-root"
+            data-testid="product-not-found"
+          >
+            Product not found
+          </h5>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1mbm39a-MuiTypography-root"
+          >
+            Please try searching again or return to the home page.
+          </p>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-roukp-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-djd5wm-MuiGrid-root"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                to="/"
+              >
+                <button
+                  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+                  data-testid="back-to-home-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  Back to Home
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - ErrorBoundary - ErrorComponent should match snapshot on mobile as OTHER 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-101xdvu"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-a9wr92-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1vpwcmr-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <img
+            alt="leaky pipe"
+            class="MuiBox-root css-10ib5jr"
+            src="leak.svg"
+          />
+          <h2
+            class="MuiTypography-root MuiTypography-h2 css-5ht2wf-MuiTypography-root"
+          >
+            Oh no!
+          </h2>
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-1tm0viy-MuiTypography-root"
+            data-testid="product-not-found"
+          >
+            Looks like we have a leak
+          </h5>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1mbm39a-MuiTypography-root"
+          >
+            Try going back to the previous page while we take care of this.
+          </p>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-roukp-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 css-15sgum0-MuiGrid-root"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                to="/"
+              >
+                <button
+                  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1iivgkm-MuiButtonBase-root-MuiButton-root"
+                  data-testid="back-to-home-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  Back to Home
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

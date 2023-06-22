@@ -1,0 +1,29 @@
+fragment BranchListItem on Branch {
+  branchId
+  name
+  address1
+  city
+  state
+  zip
+  isActive
+  isAvailableInStoreFinder
+  isShoppable
+  isPricingOnly
+  isPlumbing
+  isWaterworks
+  isHvac
+  isBandK
+  id
+}
+
+query GetBranchesList {
+  branches {
+    ...BranchListItem
+  }
+}
+
+mutation UpdateBranch($input: UpdateBranchInput!) {
+  updateBranch(input: $input) {
+    ...BranchListItem
+  }
+}

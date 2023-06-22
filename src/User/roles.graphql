@@ -1,0 +1,16 @@
+query GetRoles {
+  roles {
+    id
+    name
+    description
+  }
+}
+
+query GetApprovers($billToAccountId: ID!) {
+  approvers(billToAccountId: $billToAccountId) {
+    id
+    firstName
+    lastName
+    email
+  }
+}

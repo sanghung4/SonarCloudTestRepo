@@ -1,0 +1,3 @@
+mutation RejectUser($rejectUserInput: RejectUserInput!) {
+  rejectUser(rejectUserInput: $rejectUserInput)
+}

@@ -1,0 +1,2088 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legal Compliance Snapshot match for "Do Not Sell My Info" 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="ccpa-form-breadcrumb"
+          >
+            CCPA Form
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthMd css-p8vfrd-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-jvus1l"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h3 css-1ovtmav-MuiTypography-root"
+      >
+        CCPA Form
+      </h1>
+      <div
+        class="MuiBox-root css-r0z3rf"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-rwfr69-MuiTypography-root"
+        >
+          Under the California Consumer Privacy Act, California residents may have the right to opt-out of data collection, to request a copy of their personal information, or to request deletion of their personal information. To make a request, please fill out the form below or email your request to ecomsupport@morsco.com
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8 css-idtbpa-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-3iifeu"
+          >
+            <div
+              class="MuiBox-root css-10ib5jr"
+            >
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+              />
+            </div>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            >
+              CCPA Request Form
+            </h5>
+            <form
+              class="MuiBox-root css-pxpt32"
+              novalidate=""
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="contact-first-name"
+                      id="contact-first-name-label"
+                    >
+                      First Name
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="contact-first-name-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="firstNameInput"
+                        id="contact-first-name"
+                        name="firstName"
+                        placeholder="First Name"
+                        required=""
+                        type="text"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            First Name
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="firstNameHelper"
+                      id="contact-first-name-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="contact-last-name"
+                      id="contact-last-name-label"
+                    >
+                      Last Name
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="contact-last-name-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="lastNameInput"
+                        id="contact-last-name"
+                        name="lastName"
+                        placeholder="Last Name"
+                        required=""
+                        type="text"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Last Name
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="lastNameHelper"
+                      id="contact-last-name-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="phone-number"
+                      id="phone-number-label"
+                    >
+                      Phone Number
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="phone-number-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="phoneNumberInput"
+                        id="phone-number"
+                        name="phoneNumber"
+                        placeholder="(000) 000-0000"
+                        type="tel"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Phone Number
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="phoneNumberHelper"
+                      id="phone-number-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="zip-code"
+                      id="zip-code-label"
+                    >
+                      Zip Code
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="zip-code-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="zipCodeInput"
+                        id="zip-code"
+                        name="zip"
+                        placeholder="00000"
+                        required=""
+                        type="text"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Zip Code
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="zipCodeHelper"
+                      id="zip-code-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="email"
+                      id="email-label"
+                    >
+                      Email Address
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="email-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="emailInput"
+                        id="email"
+                        name="email"
+                        placeholder="Enter Email Address"
+                        required=""
+                        type="email"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Email Address
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="emailHelper"
+                      id="email-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+                  data-testid="topicContainer"
+                >
+                  <label
+                    class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-wab5yp-MuiFormLabel-root-MuiInputLabel-root"
+                    id="select-label-2"
+                  >
+                    Topic
+                    <span
+                      aria-hidden="true"
+                      class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1pwnjt2-MuiInputBase-root-MuiInput-root"
+                    data-testid="topicSelect"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      aria-labelledby="topic"
+                      class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                      id="topic"
+                      role="button"
+                      tabindex="0"
+                    >
+                      Select
+                    </div>
+                    <input
+                      aria-hidden="true"
+                      class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                      data-testid="topicInput"
+                      name="topic"
+                      tabindex="-1"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                  </div>
+                  <p
+                    class="MuiFormHelperText-root css-f30th0-MuiFormHelperText-root"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="message"
+                      id="message-label"
+                    >
+                      Message
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline css-6b6tax-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <textarea
+                        aria-describedby="message-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-cexzcn-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="messageInput"
+                        id="message"
+                        name="message"
+                        required=""
+                        rows="3"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-cexzcn-MuiInputBase-input-MuiOutlinedInput-input"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+                        tabindex="-1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Message
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="messageHelper"
+                      id="message-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-jivcqj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-18hgb9f"
+                  >
+                    <button
+                      class="MuiLoadingButton-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root css-13eilt-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+                      data-testid="sendButton"
+                      id="mui-1"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Legal Compliance Snapshot match for "Do Not Sell My Info" on mobile display 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Home
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthMd css-p8vfrd-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-i8bb5j"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h4 css-1yn4jl8-MuiTypography-root"
+      >
+        CCPA Form
+      </h1>
+      <div
+        class="MuiBox-root css-vswxzh"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-rwfr69-MuiTypography-root"
+        >
+          Under the California Consumer Privacy Act, California residents may have the right to opt-out of data collection, to request a copy of their personal information, or to request deletion of their personal information. To make a request, please fill out the form below or email your request to ecomsupport@morsco.com
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8 css-idtbpa-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-3iifeu"
+          >
+            <div
+              class="MuiBox-root css-10ib5jr"
+            >
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+              />
+            </div>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            >
+              CCPA Request Form
+            </h5>
+            <form
+              class="MuiBox-root css-xuhmcu"
+              novalidate=""
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="contact-first-name"
+                      id="contact-first-name-label"
+                    >
+                      First Name
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="contact-first-name-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="firstNameInput"
+                        id="contact-first-name"
+                        name="firstName"
+                        placeholder="First Name"
+                        required=""
+                        type="text"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            First Name
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="firstNameHelper"
+                      id="contact-first-name-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="contact-last-name"
+                      id="contact-last-name-label"
+                    >
+                      Last Name
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="contact-last-name-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="lastNameInput"
+                        id="contact-last-name"
+                        name="lastName"
+                        placeholder="Last Name"
+                        required=""
+                        type="text"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Last Name
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="lastNameHelper"
+                      id="contact-last-name-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="phone-number"
+                      id="phone-number-label"
+                    >
+                      Phone Number
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="phone-number-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="phoneNumberInput"
+                        id="phone-number"
+                        name="phoneNumber"
+                        placeholder="(000) 000-0000"
+                        type="tel"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Phone Number
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="phoneNumberHelper"
+                      id="phone-number-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="zip-code"
+                      id="zip-code-label"
+                    >
+                      Zip Code
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="zip-code-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="zipCodeInput"
+                        id="zip-code"
+                        name="zip"
+                        placeholder="00000"
+                        required=""
+                        type="text"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Zip Code
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="zipCodeHelper"
+                      id="zip-code-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="email"
+                      id="email-label"
+                    >
+                      Email Address
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="email-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="emailInput"
+                        id="email"
+                        name="email"
+                        placeholder="Enter Email Address"
+                        required=""
+                        type="email"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Email Address
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="emailHelper"
+                      id="email-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+                  data-testid="topicContainer"
+                >
+                  <label
+                    class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-wab5yp-MuiFormLabel-root-MuiInputLabel-root"
+                    id="select-label-4"
+                  >
+                    Topic
+                    <span
+                      aria-hidden="true"
+                      class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1pwnjt2-MuiInputBase-root-MuiInput-root"
+                    data-testid="topicSelect"
+                  >
+                    <div
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      aria-labelledby="topic"
+                      class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                      id="topic"
+                      role="button"
+                      tabindex="0"
+                    >
+                      Select
+                    </div>
+                    <input
+                      aria-hidden="true"
+                      class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                      data-testid="topicInput"
+                      name="topic"
+                      tabindex="-1"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                  </div>
+                  <p
+                    class="MuiFormHelperText-root css-f30th0-MuiFormHelperText-root"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+                >
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="message"
+                      id="message-label"
+                    >
+                      Message
+                      <span
+                        aria-hidden="true"
+                        class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+                      >
+                         
+                        *
+                      </span>
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline css-6b6tax-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <textarea
+                        aria-describedby="message-helper-text"
+                        aria-invalid="false"
+                        class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-cexzcn-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="messageInput"
+                        id="message"
+                        name="message"
+                        required=""
+                        rows="3"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputMultiline css-cexzcn-MuiInputBase-input-MuiOutlinedInput-input"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+                        tabindex="-1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Message
+                             
+                            *
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-15h6cqt-MuiFormHelperText-root"
+                      data-testid="messageHelper"
+                      id="message-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-jivcqj-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-nn3smo"
+                  >
+                    <button
+                      class="MuiLoadingButton-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root css-13eilt-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+                      data-testid="sendButton"
+                      id="mui-2"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Legal Compliance Snapshot match for "Legal" 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gs6in-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiBox-root css-pxuvb2"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+              href="/terms-of-access"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+              >
+                Terms of Access
+              </p>
+            </a>
+          </div>
+          <div
+            class="MuiBox-root css-gajhq5"
+          >
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+          </div>
+          <div
+            class="MuiBox-root css-thm7"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+              href="/privacy-policy"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+              >
+                Privacy Policy
+              </p>
+            </a>
+          </div>
+          <div
+            class="MuiBox-root css-gajhq5"
+          >
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+          </div>
+          <div
+            class="MuiBox-root css-11dnpbf"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+              href="/terms-of-sale"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+              >
+                Terms of Sale
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-coobyg-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-1yjvs5a"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gs6in-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiBox-root css-1gxm9b1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Legal Compliance Snapshot match for "Privacy Policy" 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+    >
+      Privacy Policy
+    </h4>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      MORSCO, Inc. a Delaware corporation, d/b/a Reece and/or any present or future parent, subsidiary, affiliate or business unit of MORSCO, Inc. (collectively, “Reece”) owns and operates a website with a home page located at
+       
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        localhost
+      </a>
+       
+      (including linked/connected websites, collectively, the "Site"). We value the privacy of individuals who visit the Site (the "User(s)", or "you"). This Website Privacy Policy (this "Privacy Policy") has been created to inform Users of the types of individual and technical information that is or may be collected on the Site and the privacy policies and practices that Reece follows with respect to the use and dissemination of such information.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        1. Effective Date
+      </b>
+      . This Privacy Policy is effective as of September 24, 2021 and may be updated and modified from time to time by us in our sole discretion. If we choose to update or modify this Privacy Policy, such updated or modified policy shall become effective after its posting to the Site. Accordingly, we encourage you to periodically review this Privacy Policy and the Site in order to keep apprised of our current privacy practices. If you do not agree to any provision of this Privacy Policy, or any update or modification of it, please do not use the Site.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        2. What information do we collect?
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      a. Personal Information: Our goal is to help you understand what Personal Information (as defined below) is collected and how such information will be used before you decide whether to disclose it. Personally identifiable information ("Personal Information") means individually identifiable information about a User, including without limitation the User's full name, company name, title, user name and password, e mail address, telephone number and street address. Personal Information does not include information in a form that is aggregated with other information so as not to be reasonably identifiable as the User, and information in a form that otherwise is detached, combined, organized, segmented, modified or processed so as not to be reasonably capable of being associated with the User ("Nonpersonal Information"). As a result, Nonpersonal Information is not restricted by this Privacy Policy as to use, sharing or otherwise.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      b. Information That You Provide. Information collected from you will vary, depending on how you use the Site, how the Site is configured and what information you may choose to provide to us (whether via mail, telephone, e mail or otherwise). It may be possible to browse various sections of the Site without submitting any Personal Information. In addition, for security reasons there may be features on our Site that require you to confirm your Personal Information or provide additional Personal Information. You may choose not to provide us with Personal Information, but as a consequence you may not be able to use the Site, or take advantage of certain features of our Site, and we may not be able to provide you with certain requested information, products and/or services.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      c. Automatic Collection: Like many websites on the Internet, we automatically track certain information (either directly or through third party services, such as Google Analytics) about you as you visit and use the Site in order to help us (1) better understand, improve and modify the Site, (2) better understand how the Site is used and experienced and (3) better understand how we can enhance your experience or others overall experience on one or more of the Site, and (4) ensure that a User is using the Site in accordance with the Terms of Use. This tracked or automatically gathered information may include, among other things, your computer's Internet Protocol (IP) address, the URLs and Site pages that you have visited, sections of or content on Site pages on which you click or in which you are interested, the number of times you visit each Site page, what downloads and/or search queries you have made, how long you spent on particular sections of each Site and on each Site generally, how much content has been accessed and/or copies, and your type of web browser. This automatically gathered data includes information provided through the use of "cookies", which are described in more detail below.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      d. Information from Cookies: We may send small files or other similar strings of information to your Workstation (collectively "Cookies") and store such Cookies on your Workstation so that we can recognize it as a unique machine the next time you visit the Site. Cookies may also be used to perform statistical and administrative tasks including measuring site and page traffic, and positioning images on the web. You acknowledge that certain Cookies may be integral to enabling you to access our Site, or essential to the performance of our Site, and recognize that our Site may have limited functionality, or no functionality at all, if you decline to accept Cookies. Therefore, you agree to accept these Cookies in connection with using our Site. Should you change your mind and decide that you are not comfortable with Cookies being stored on your Workstation, please call 817-870-2227 immediately.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        3. How is information about me used and shared?
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      a. Personal Information. Except as provided in this Policy, we do not willfully disclose Personal Information about our users to anyone outside of our corporate family without first receiving the User's permission. We do not sell, trade, or otherwise transfer your Personal Information to unaffiliated parties, and will not share your Personal Information with affiliates if prohibited by applicable law or regulation.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      b. Support. Notwithstanding the above, we may engage or use other companies and individuals (1) to perform supporting functions for the various tools, functionality, information, products and services offered through our Site, (2) to perform or support various tasks or initiatives instrumental to the business of, or related to operating or improving, the Site, or (3) to assist us in testing, maintaining or improving the features, content or effectiveness of the Site or in performing research or development. These service providers may be permitted to receive from us and use Nonpersonal Information, as well as Personal Information provided by you or collected from you, but such service providers will not be permitted to use Personal Information for any purpose other than in connection with performing the limited support functions for the website.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      c. Administrative Use and Required Disclosure. We reserve the right to use Personal Information to send you emails, letters or other messages relating to the products, services, promotions and discounts offered by Reece and other emails and notifications about major changes to our Site (although we are not obligated to notify you regarding such Site changes). We may also release Personal Information or other information that we collect from you if we believe that such action is reasonably necessary to (1) comply with legal process, (2) enforce the Terms of Use for the Site, (3) identify, contact or bring legal action against persons or entities who are or we believe have caused or might cause injury to us or a third party, (4) defend or respond to claims brought or threatened against Reece, its employees, directors, suppliers, service providers, Site users or others, or (5) otherwise protect or assert the rights, property, interests or personal safety of Reece, its employees, directors, suppliers, service providers, Site users or others. Any such release decisions may be made by us in our sole discretion.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      d. Asset transfers: We continue to develop our business and in doing so might choose to acquire other businesses or sell our business or certain assets of our business. The Personal Information and other information that we collect from you in connection with your use of the Site is considered one component of our business assets and would likely be transferred/included in such transactions. We will, however, not sell your Personal Information to companies whose goal is to market services and products, and in such event we will use commercially reasonable efforts to protect your Personal Information.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      e. Nonpersonal Information. Nonpersonal Information may be shared with third parties, including listing providers, advertisers, service providers and others, so that we may better understand how the Site is used, to enhance the overall experience on the Site and otherwise in connection with our operation of the Site and conducting our business.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      f. Children's Privacy: In compliance with the Children's Online Privacy Protection Act, 15 U.S.C. §§ 6501 – 6506 and 16 C.F.R. §§ 312.1 – 312.12, does not permit children under 13 years of age to become Subscribers of the Site. Reece does not collect information from children. By using the Site, Subscriber represents that Subscriber is not under 13 years of age and will not permit such a person from accessing the Site. You agree to contact Reece immediately that if you have knowledge that a child under the age of 13 has used the Site or submitted Personal Information to us, via our Site or otherwise.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        4. How can I access and change my Personal Information?
+      </b>
+       You may change the Personal Information you have submitted by calling 817-870-2227. By contacting Reece to make such changes, you expressly authorize MORSCO to access your Personal Information and any associated data or accounts for the purpose of completing your requested edits, modifications and/or deletions. If you would like to receive a copy of the Personal Information we have about you as submitted to us via the Site, please send a request via U.S. Mail using the contact information set forth below. You may also ask us to remove your name and other Personal Information from our database, in which case we will make reasonable efforts to do so, subject to legal and other considerations. You understand that any changes you may make, or ask us to make, regarding your Personal Information, may adversely affect or otherwise change the availability, deliverability or quality of the Site for you, and prevent you from accessing the information, features, products or services in which you are interested or your overall experience on or relating to the Site. As set forth in the Terms of Use, Reece reserves the right to terminate any User for any reason, including as a result of User's desire for Reece to alter or remove Personal Information.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        5. How do we protect your information?
+      </b>
+       Whenever Personal Information is stored on our computers, that information is protected from unauthorized access or use by way of passwords or other industry-acknowledged means. We will use commercially reasonable efforts only to electronically transmit or ask for Personal Information over secure Internet connections using SSL (Secure Sockets Layer) encryption, an accepted standard for online security, but cannot guarantee that all such information will be encrypted in such fashion. Since we take our responsibility to secure Personal Information seriously, you agree to assist us in this effort by limiting the disclosure of Personal Information to only what information is asked, watching your web browser to monitor whether the connection is encrypted prior to submitting such information, informing us immediately if you suspect that Personal Information (whether yours or that of another) is accidentally being disclosed, and alerting us if you believe that Personal Information is being used in a manner that is contrary to this Privacy Policy, the Terms of Use or otherwise in any improper manner. You hereby acknowledge that no data transmission over the Internet nor any storage of information on servers or other media is guaranteed or entirely secure, and agree that even though Reece will takes steps to safeguard Personal Information, Reece will not be responsible for the disclosure of Personal Information if Reece has taken reasonable steps to safeguard this information in accordance with this Privacy Policy. We cannot promise, guarantee or warrant the complete security of Personal Information.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        6. Opt-out of Google Analytics.
+      </b>
+       Our Site enables Google Analytics, which collects and analyzes certain information described in Section 2.c. above. In order to provide Users with more choice on how their data is collected by Google Analytics, we want you inform you of the Google Analytics Opt-out Browser Add-on. The add-on communicates with the Google Analytics JavaScript to indicate that information about your visit to the Site should not be sent to Google Analytics. To opt-out, download or install the add-on for your current web browser. The Google Analytics Opt-out Browser Add-on is available for Microsoft Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari and Opera.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        7. Contacting Us.
+      </b>
+       Reece welcomes User's feedback. Users who have any questions or comments concerning the Privacy Policy or their experiences with the Site should contact Morsco Reece at:
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      Privacy Administrator
+      <br />
+      MORSCO, Inc.
+      <br />
+      15850 Dallas Parkway
+      <br />
+      Dallas, TX 75248
+      <br />
+      Email: info@morsco.com
+      <br />
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        8. Terms of Use.
+      </b>
+       Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our Site.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        9. Your Consent.
+      </b>
+       By using the Site, User consents to this Privacy Policy and the Terms of Use. Reece reserves the right to modify, alter or update this Privacy Policy at any time. Reece will post any revised Privacy Policy on the Site to apprise Users of what information Reece collects, how it may be used, and under what circumstances it is disclosed. Any modifications, alterations, or updates of the Privacy Policy will be effective upon posting, and User's continued use of the Site will constitute User's consent to any revised Privacy Policy.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Legal Compliance Snapshot match for "Terms of Access" 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+    >
+      Terms of Access
+    </h4>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        IMPORTANT NOTICE
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        USE OF THIS WEBSITE BY ANY PARTY ("YOU") CONSTITUTES YOUR ACCEPTANCE OF THE FOLLOWING TERMS.
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The terms constitute a binding agreement between you and MORSCO, Inc. d/b/a Reece, its parent, subsidiaries and affiliates, ("Company”). Read the terms carefully. If you do not accept these terms, please refrain from using this or any other Company website. The Company reserves the right to change its website and these terms at any time without prior notice.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Content Use
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The documents, graphics, and other information ("Content") posted on any of the Company websites are owned by MORSCO, Inc., or are provided with permission of the owner.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The information provided on this website is for general informational and educational purposes for members of the general public, investors, customers, partners and potential partners. Certain sections of this website are intended for particular audiences, including Company, vendors, potential acquisitions, the media, customers, as well as members of the general public. Your access to and use of the information contained on the website is subject to this Terms of Use Agreement. By accessing and using this website, you accept, without limitation or qualification, this Terms of Use Agreement.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      You may access the Content solely for your personal, noncommercial use. You may download or print a copy of portions of the Content, provided any copy retains all applicable copyright notices. All other rights, title, and interest to the Content are expressly reserved by the Company.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      You will comply with all applicable laws in connection with the use of this website. You will not engage in conduct on or in connection with this website that is illegal, misleading, infringing, defamatory, obscene, offensive, or otherwise objectionable. You will not cause damage, embarrassment, or adverse publicity to the Company or its affiliates.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      You will cooperate with all reasonable requests of the Company and will notify the Company promptly upon learning of any actual or suspected breach of these terms and conditions by you or unauthorized use or abuse of this website. No other permission is granted to you to print, copy, reproduce, distribute, transmit, upload, download, store, display in public, alter, or modify the Content. You shall indemnify and hold the Company harmless against any liability (including reasonable attorney fees) arising from or related to your failure to comply with these Terms of Use.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Website and Registration Administration
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      Per the "Use of Content" terms above, you may link to any page of this website as long as the link is without framing. However, in the event the Company deems your linking practices in relation to this website to be inappropriate, the Company may provide notice to you concerning removal or modification of the inappropriate link, and you agree to comply with any and all requirements of the Company relating thereto. Upon notification by Company as provided above, you may link to this website unless and until the Company gives notice that you must discontinue linking to this website.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The Company may, in its discretion modify, edit, translate, suspend, restrict access to, or terminate this website, these terms and conditions, the Content, or any link at any time without liability or prior notice. The Company may in its discretion terminate the browsing of, registration with, and use of this website by you at any time without liability or prior notice for any reason, including for any breach of these terms and conditions.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Third-Party Website Links
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      As a convenience to you, this website may contain content, links, and other information submitted by third parties over whom the Company has no control or responsibility. The Company has no obligation to monitor, control, or restrict the use of this website, or third-party websites accessible via links on this website. These other sites are not under the control of the Company, and you acknowledge that (whether or not such sites are affiliated in any way with the Company. The Company is not responsible for and makes no warranties or representations of any kind as to the accuracy, copyright compliance, legality, decency, or any other aspect of the content of such sites. The inclusion of such a link does not imply endorsement of any site by the Company or any association with its operators. Moreover, the Company has no obligation to verify any content submitted by you or to provide any registration or other information to you concerning any content.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Registration and Passwords
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The Company may or may not at times require you to have a password and provide registration details to access this website or portions of this website. If the Company does require a password and registration details, it shall be a condition of use of this website that all the details you provide are correct, current, and complete. If the Company believes that the details are not correct, current, or complete, the Company will have the right to refuse you access to the website, or any of its resources, and to terminate or suspend your account, if any. You are responsible for maintaining the confidentiality of any password(s) you are given to access this website, and you are fully responsible for all activities that occur under your password(s). You agree to notify the Company immediately of any unauthorized use of your password(s). The Company reserves the absolute right not to issue a password to any person or entity.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Disclaimer
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The website and its Content are provided free of charge and on an AS IS basis. The Company does not warrant that your use will be uninterrupted or error-free. This website may contain inaccuracies, out-of-date information, and typographical errors. The Company makes no warranties or representations of any kind as to the accuracy, currency, completeness, or reliability of any advice, opinion, statement, or other information displayed or distributed through this website. By use of this website, you acknowledge that any reliance on any such opinion, advice, statement, report, or information shall be at your sole risk. The Company reserves the right, in its sole discretion, to correct any errors or omissions in any portion of the website, and to make other changes to the website at any time without notice.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        YOU AGREE THAT ACCESS TO AND USE OF THIS WEBSITE AND THE CONTENT THEREOF IS AT YOUR OWN RISK. THE COMPANY PROVIDES NO WARRANTY, WHETHER EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT IN CONNECTION WITH THIS WEBSITE OR ITS CONTENT.
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        NEITHER THE COMPANY, NOR ANY PARTY INVOLVED IN CREATING, PRODUCING, OR DELIVERING THIS WEBSITE SHALL BE LIABLE FOR ANY DAMAGES, INCLUDING, WITHOUT LIMITATION, DIRECT, INCIDENTAL, CONSEQUENTIAL, INDIRECT, OR PUNITIVE DAMAGES ARISING OUT OF ACCESS TO, USE OF, OR INABILITY TO USE THIS WEBSITE, OR ANY ERRORS OR OMISSIONS IN THE CONTENT THEREOF. THIS LIMITATION INCLUDES DAMAGES TO, OR FOR ANY VIRUSES THAT INFECT, YOUR COMPUTER EQUIPMENT.
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Limitation of Liability
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      In no event shall the Company be liable to any party as a result of use of this website for any direct, indirect, special, incidental, or consequential damages (including, without limitation, damages for lost profits, lost data, or business interruption), whether based on warranty, contract, negligence, tort, or any other legal theory, even if the Company has been advised of the possibility of such damages.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Indemnification
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      You agree to indemnify, defend, and hold harmless the Company, its officers, directors, employees, agents, suppliers, and third-party partners from and against all losses, expenses, damages, and costs, including reasonable attorneys’ fees, resulting from any violation by you of these Terms of Use.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Governing Law
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The Company maintains this site in Dallas, Texas (USA). The Company makes no representation that materials on this website are appropriate or available for use at locations outside of the United States, and access to this website from locations where its contents are illegal is prohibited. You may not use this website or export the materials on this website in violation of U.S. export laws and regulations. If you access the website from a location outside of the United States, you are responsible for compliance with all local laws.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      These Terms of Use are governed by and construed in accordance with the laws of the State of Texas, without regards to Texas’ conflict of law principles. Any dispute relating to this Agreement shall be submitted to arbitration conducted in Dallas, Texas.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      You are responsible for complying with the laws of the jurisdiction from which you are accessing this website, and you agree that you will not access or use the information on this site in violation of such laws.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Intellectual Property
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The entire contents of this website are subject to copyright protection. The contents of this website may not be copied other than for noncommercial individual reference with all copyright or other proprietary notices retained, and thereafter may not be recopied, reproduced, or otherwise redistributed. Except as expressly provided above, you may not otherwise copy, display, download, distribute, modify, reproduce, republish, or retransmit any information, text, or documents contained in this website or any portion thereof in any electronic medium or in hard copy, or create any derivative work based on such images, text, or documents, without the express written consent of the Company. Nothing contained herein shall be construed as conferring by implication, estoppel, or otherwise any license or right under any patent or trademark of the Company or any third party.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      The Company, its logo and other logos, taglines, and slogans on this website are service marks, trademarks, or registered trademarks of the Company. Other product or company names may be the trademarks or service marks of their respective owners.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      Elements of this website are protected by trade dress and other laws, and this website and its appearance, including website code and scripts, may not be copied or imitated in any way without the express written consent of the Company.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Forward-Looking Statements
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      Some of the information on this website and the documents within it may contain forward-looking statements regarding future events or the future financial performance of the Company. Any forward-looking statement speaks only as of the date made. We undertake no obligation to update any forward-looking statements to reflect events or circumstances arising after the date on which they are made.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Miscellaneous
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      This Terms of Use Agreement constitutes the entire agreement between you and the Company with respect to the use of this website. If for any reason a court of competent jurisdiction finds any provision of this Terms of Use Agreement or portion thereof to be unenforceable, that provision shall be enforced to the maximum extent permissible so as to effect the intent of this Terms of Use Agreement, and the remainder of this Terms of Use Agreement shall continue in full force and effect.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      MORSCO, Inc., “Reece”. All rights reserved.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      Last updated September 24, 2021.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Legal Compliance Snapshot match for "Terms of Sale" 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+    >
+      Terms of Sale
+    </h4>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Terms of Sale
+      </b>
+       All quotations and sales by MORSCO, Inc. and/or any present or future parent, subsidiary, affiliate or business unit of MORSCO, Inc. (collectively, “Seller”) to the Applicant, Guarantor(s) and/or any parent, subsidiary, affiliate or business unit of the Applicant (collectively, “Buyer”) are expressly conditioned upon Buyer's acceptance of these Terms and Conditions of Sale (the “Terms”). These Terms, along with any terms and conditions identified in Seller's quotation, invoice or delivery ticket for specific goods, which are incorporated by reference herein, reflect the complete agreement of Buyer and Seller with regard to the sale of goods by Seller to Buyer, and all prior proposals, agreements and understandings, oral or written, are superseded by these Terms. Modification or alteration of these Terms must be in writing and signed by an authorized representative of Buyer and Seller. Buyer's acceptance or receipt of the goods shall be deemed acceptance by Buyer of these Terms. Seller objects to additional or different terms and conditions in any Buyer purchase order, documentation or correspondence and those additional or different terms are of no force or effect.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Delivery of Goods
+      </b>
+       The goods shall be delivered to Buyer in the manner specified in the purchase order. Seller shall use reasonable efforts to deliver the goods to Buyer at the location date and time specified mutually agreed upon by Buyer and Seller and specified in writing. Partial deliveries of goods are permitted at Seller's discretion. Seller does not guarantee planned delivery dates, but will use reasonable efforts to meet them. Delivery of materials to the construction site constitutes delivery to Buyer regardless of whether Buyer or its agent is on site at the time of delivery. Seller will not be liable for failure or delay in delivery for any reason, and Buyer hereby waives any claims for damages arising therefrom.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Title and Risk of Loss
+      </b>
+       Seller's responsibility for the goods sold under these Terms ceases upon its issuance of Bill of Lading or upon delivery of goods to Buyer or a common carrier or upon installation, whichever occurs first. Seller shall not be liable to Buyer for goods that are damaged or lost while in the possession of a common carrier, and Buyer is solely responsible for recovering any and all damage directly from the common carrier. Title to the goods passes to Buyer upon Seller's receipt of full payment from Buyer for all amounts owed for the goods. Buyer hereby grants Seller a security interest in the goods sold by Seller to Buyer under these Terms and any proceeds thereof as security for Buyer's obligation to Seller to pay the purchase price. This security interest shall commence upon the first delivery of goods to Buyer or upon installation, whichever occurs first, and shall terminate upon Buyer's full payment of all amounts due Seller. Buyer authorizes Seller to file financing statements or other documents in Seller's sole discretion to perfect this security interest along with other notices, and will assist Seller in taking any other action that Seller deems necessary in its sole discretion to perfect and protect Seller's security interest.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Prices
+      </b>
+       Quoted prices are subject to change without notice, and all quotations expire and become invalid if Buyer does not accept them within 30 days from the date of issue. Price extensions when granted by Seller are for Buyer's convenience only, and they, as well as any mathematical, stenographic or clerical errors, are not binding on Seller. Any claims by Buyer related to billing errors or adjustments shall be made in writing to Seller within ten (10) days from the invoice date or they are waived by Buyer. Any changes by Buyer in quantities, destination, schedule or installation may result in a price adjustment by Seller. Prices shown do not include any sales, excise, or other governmental tax or charge payable by Seller to Federal, State, or local authority. Any taxes now or later imposed upon sales will be added to the purchase price. Buyer will reimburse Seller for any such tax or provide Seller with an acceptable tax exemption certificate. Prices quoted with respect to a particular purchase of goods or installation of the goods, and any applicable transportation charges, shall apply only to that particular order of goods and/or installation and not subsequent orders and purchases.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Payment
+      </b>
+       Buyer shall pay Seller in full for all goods within thirty (30) days of the date Buyer takes receipt of the goods unless stated otherwise on the invoice. Payment shall be in the form of cash, check or wire transfer. Retainage shall not apply, and Buyer shall not hold back any retainage from Seller, even if retainage is part of any contract between Buyer and any other party. Payment is not contingent on Buyer's ability to collect or obtain funds from any other party. Buyer consents to Seller's presentment of and request for payment of any check or other payment order issued to Seller by Buyer by any commercially reasonable electronic means in accordance with applicable provision of the Uniform Commercial Code, and Buyer further authorizes any bank or other financial institution on which any such order is drawn or through which such order is payable to make payment pursuant to such order directly to Seller or for credit to Seller's account by electronic funds transfer. If Buyer fails to make any payment to Seller when due, Buyer's entire account(s) with Seller shall become immediately due and payable and Seller may suspend further performance under any order with Buyer. Seller may repossess and remove any materials sold to Buyer where payment is outstanding, without notice or demand. Notwithstanding anything stated therein to the contrary, any lien waiver or release executed by Seller related to the goods sold under these Terms shall only be effective to the extent payment is received, paid by the drawee bank, and not avoidable as a bankruptcy preference. Seller may apply Buyer's payment against any open charges within Seller's sole discretion. Seller may exercise setoff or recoupment to apply to or satisfy Buyer's outstanding debt. Buyer shall have no right of setoff hereunder, the same being expressly waived hereby. Buyer agrees to pay Seller on past due accounts a monthly interest charge equal to the maximum interest charge permitted to be charged by the law governing the account between Buyer and Seller. Buyer and Seller further agree that, where required by law to specify such rate, a rate of one and one-half percent (1.5%) per month shall apply. The interest shall continue to accrue after Seller receives a judgment against Buyer at the highest rate allowable by law then in effect. At no time will interest be charged at a rate higher than the maximum rate allowable by law in the State where suit is brought. Buyer agrees to pay Seller all costs and expenses of collection, suit, arbitration or other legal action, including all actual attorneys and paralegal fees, incurred pre-suit, through trial, on appeal, or in any administrative proceedings, mediations or arbitrations brought as a result of the commercial relationship between them. In any jurisdiction where a stated rate is required, reasonable attorney's fees shall be 15% of the outstanding balance.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Trust
+      </b>
+       Buyer agrees that all funds owed to or received by Buyer from any source, resulting from the labor or material supplied by Seller shall be held in trust for the benefit of Seller. Buyer agrees to promptly pay to Seller all such funds. Upon request, Buyer shall irrevocably assign to Seller its account receivable from anyone to the extent that such is resulting from the labor or materials supplied by Seller.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Credit Terms
+      </b>
+       Issuance of any credit by Seller to Buyer shall be subject to the approval of Seller's credit department in its sole discretion. If Seller determines in its sole discretion that Buyer's financial responsibility is unsatisfactory, or becomes impaired, or if Buyer fails to make any payment for any goods purchased from seller when due, then Seller may postpone or decline to make any shipments except upon receipt of satisfactory security or payment of cash in advance of shipment, or Seller may cancel any or all contracts with Buyer or any portion thereof. If Buyer fails to comply with these Terms, or Buyer's credit becomes unsatisfactory in Seller's sole discretion, Seller reserves the right to terminate or restrict Seller's credit on any order upon notice to Buyer. Buyer certifies that it is solvent and that it will immediately advise Seller if it becomes insolvent. Buyer agrees to send Seller written notice of any changes in the form of ownership of Buyer's business within five days of such changes.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Unavoidable Forces
+      </b>
+       Seller shall not be liable for delay, damage or default in delivery resulting from any cause beyond Seller's reasonable control ("Unavoidable Forces"), including but not limited to, governmental action, terrorism, strikes, or other labor troubles, fire, damage of destruction of goods, manufacturer's shortages, damage of goods by shipping agents or carriers, inability to obtain materials, fuels, or supplies, weather events, floods or other so-called acts of God, or any other event interfering with the production, supply, transportation, or consumption of the goods being sold, or with the supply or consumption of any raw materials or labor used in connection with the goods. Upon occurrence of an Unavoidable Force, the time for Seller's performance shall be extended reasonably, the purchase price shall be adjusted for any increased costs to Seller resulting therefrom, and Buyer shall not be entitled to any other remedy.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Seller's Interpretation of Buyer's Plans
+      </b>
+       Seller assumes no responsibility whatsoever for Seller's interpretation of plans or specifications provided by Buyer. Any interpretation of plans or specifications provided by Buyer to Seller for the purpose of purchases or bids are for the Buyer's convenience only, and Seller shall have no liability for quantities or materials arising from those interpretations. Buyer shall rely solely on final approval of the plans or specifications by architects, engineers, or other third parties, and not on Seller's interpretation.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Disclaimer of Warranties
+      </b>
+       For any goods that are not manufactured by Seller, Buyer shall be entitled to any manufacturer's warranty that the manufacturer provides to Seller for said goods, but only to the extent and in the same manner as the manufacturer's warranty extends to Seller.
+       
+      <b>
+        SELLER DISCLAIMS ANY AND ALL OTHER WARRANTIES WITH REGARD TO THE GOODS OR WORKMANSHIP, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR ANY PARTICULAR PURPOSE, WORKMANSHIP, DESIGN, HABITABILITY OR NON-INFRINGEMENT OF ANY THIRD PARTY'S PROPRIETARY RIGHTS OR ANY WARANTIES ARISING BY OPERATION OF LAW, STATUTE OR OTHERWISE, OR IMPLIED BY INDUSTRY OR TRADE CUSTOM, COURSE OF DEALINGS BETWEEN THE PARTIES OR OTHERWISE. BUYER'S SOLE AND EXCLUSIVE WARRANTY FOR ANY GOODS OR WORKMANSHIP SOLD UNDER THESE TERMS IS ANY WARRANTY PROVIDED BY THE MANUFACTURER OF THE GOODS. SELLER'S LIABILITY AND BUYER'S SOLE AND EXCLUSIVE REMEDY FOR ANY CAUSE OF ACTION, INCLUDING, WITHOUT LIMITATION, CLAIMS IN WARRANTY, CONTRACT, NEGLIGENCE, INDEMNITY, STRICT LIABILITY OR OTHERWISE, ARISING OUT OF OR CONNECTED WITH THESE TERMS IS EXPRESSLY LIMITED TO REPAIR OR REPLACEMENT OF NON-CONFORMING MATERIALS OR, AT SELLER'S SOLE OPTION, PAYMENT NOT TO EXCEED THE PURCHASE PRICE OF THE MATERIALS OR WORKMANSHIP FOR WHICH DAMAGES ARE CLAIMED. SELLER SHALL NOT BE LIABLE TO BUYER OR ANY OTHER PERSON OR ENTITY FOR ANY INDIRECT, LIQUIDATED, PUNITIVE, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES, WHETHER ARISING OUT OF BREACH OF WARRANTY, BREACH OF CONTRACT, NEGLIGENCE, INDEMNITY, STRICT LIABILITY OR OTHERWISE. SELLER'S LIABILITY, IF ANY, SHALL BE LIMITED TO THE NET SALES PRICE ACTUALLY RECEIVED BY SELLER FOR THE GOODS OF WORKMANSHIP. ALL CLAIMS BY BUYER AGAINST SELLER MUST BE BROUGHT WITHIN ONE YEAR OF DELIVERY OF THE GOODS TO BUYER OR INSTALLATION OF THE GOODS, WHICHEVER OCCURS FIRST, OR THEY SHALL BE DEEMED WAIVED.
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Orders
+      </b>
+       Buyer specifically authorizes any of its employees and agents to purchase materials under these Terms, pick up materials, and sign for, deliver and receive ordered materials and invoices and delivery tickets for said materials and agrees to be bound by these Terms.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Returns
+      </b>
+       Seller shall give no credit for goods returned by Buyer without Seller's prior written authorization. All returns are subject to a restocking charge. Any returns for credit must be clean, unused and undamaged with original packaging and all original parts. No claims for shortage of goods or damage to goods shall be allowed unless Buyer, within five (5) days after receipt of shipment, gives Seller written notice of the claim for shortage or damage with a full description of the alleged shortage or damage.
+       
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Concealed Damage
+      </b>
+       Builder or Homeowner has five (5) business days to notify Seller of the damage. Photos from customer are required for sales team members to compare with photos taken at delivery or installation. Determination of whether service or replacement is required will be dependent on the location of the damage. If replacement is deemed necessary, RGA from the vendor must have prior approval before approving the return with the customer.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Casing or structural damage will have to be replaced.
+      </b>
+       This should be caught immediately during installation or five (5) days after product has been delivered. Product to be returned to Seller and vendor RGA is required to send item(s) back to the manufacturer for credit. Customer has five (5) days to notify of structural damage.
+       
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Tract Builders
+      </b>
+       Builders have ten (10) business days to notify of cosmetic damage, non-functioning (DOA) goods or structural damage after installation. Scheduling service must be done first. Sales team members will review installation or delivery pictures as well as the pictures provided from the builder to assess proper action. If damage was done after installation (trade damage), a PO is required for replacement from builder.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Indemnification
+      </b>
+       Buyer agrees to indemnify, defend and hold harmless Seller and its officers, directors, employees and agents from any claim, demand, loss, costs (including attorneys' fees) or damage incurred or sustained by Seller arising from or related to Buyer's use or resale of the goods sold by Seller to Buyer, any negligent, intentional or tortious act or omission of Buyer or Buyer's failure to comply with these Terms. This indemnification shall not apply to losses, damages or liabilities expressly assumed by Seller under these Terms or to those damages for property damage or personal injury arising from the Seller's sole negligence.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Governing Law and Venue
+      </b>
+       These Terms shall be construed and governed by the laws of the State in which the principal place of business of the MORSCO subsidiary that sold the goods in dispute is located, except that the law applicable to any mechanic's or materialman's lien asserted by Seller shall be construed and governed by the law of the State where the goods or services were delivered, consumed, or used. Any action or claim arising out of or relating to the manufacture, purchase or sale of the goods shall be brought only in a state court located in the State in which the principal place of business of the MORSCO subsidiary that sold the goods in dispute is located, or at Seller's election, in the State to which the goods were delivered, consumed, or used, and Buyer hereby waives any right to object to such venue or to assert the inconvenience of such venue. Buyer consents to jurisdiction in the state courts sitting in the State in which the principal place of business of the MORSCO subsidiary that sold the goods in dispute is located, or at Seller's election, the State to which the goods were delivered, consumed, or used.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        Miscellaneous
+      </b>
+       Buyer agrees that Seller retains all rights to claim a mechanic's and/or materialman's lien as allowed by the law of the State where the goods were delivered, consumed, or used. Buyer may not assign or transfer or delegate its rights or obligation (by law or otherwise) without Seller's prior written consent. A party's waiver of right under one provision of these Terms shall not constitute a waiver of any other provision or a subsequent waiver of the same provision.
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1e1b83g"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      <b>
+        ABOVE PAYMENT TERMS DO NOT APPLY TO CASH SALES
+      </b>
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-1qgzacq"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+    >
+      Last updated September 24, 2021.
+    </p>
+  </div>
+</div>
+`;

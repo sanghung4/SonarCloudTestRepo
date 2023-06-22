@@ -1,0 +1,17 @@
+@use 'src/_reece.scss';
+
+.orders {
+  &__status-cell {
+    color: reece.$yellow-100;
+    &.submitted {
+      color: reece.$purple-100;
+    }
+    &.invoiced {
+      color: reece.$green-100;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: reece.$light-blue-100;
+  }
+}

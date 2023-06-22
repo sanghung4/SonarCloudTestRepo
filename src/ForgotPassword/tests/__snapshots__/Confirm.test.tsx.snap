@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForgetPassword - Confirm Expect to match snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-item css-1upsqny-MuiGrid-root"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-4s7p8a-MuiTypography-root"
+    >
+      A link to reset your password has been sent to:
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1a6xgov-MuiTypography-root"
+    >
+      farmer.macjoy@yahoo.com
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-4s7p8a-MuiTypography-root"
+    >
+      Check your inbox and follow the link to reset your password.
+    </p>
+  </div>
+  <hr
+    class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-1fjdlt3-MuiDivider-root"
+  />
+  <div
+    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-18ky2n6-MuiTypography-root"
+    >
+      Don't see the email?
+    </p>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+  >
+    <button
+      class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-l6ikmy-MuiButtonBase-root-MuiButton-root"
+      data-testid="resend-link-button"
+      tabindex="0"
+      type="button"
+    >
+      Resend Link
+    </button>
+  </div>
+</div>
+`;

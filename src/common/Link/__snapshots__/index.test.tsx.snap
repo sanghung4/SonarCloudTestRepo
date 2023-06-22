@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test link Render link 1`] = `
+<div>
+  <a
+    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+    href="/test"
+  >
+    Test
+  </a>
+</div>
+`;

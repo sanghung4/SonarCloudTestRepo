@@ -1,0 +1,2514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - Header desktop should match snapshot as logged in user 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1cfjp91-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-8 css-idhf8c-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-104w1kr"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-19oka9g"
+                  >
+                    <div
+                      class="MuiBox-root css-1rr4qq7"
+                    >
+                      <div>
+                        <form
+                          class="MuiBox-root css-90mxih"
+                          id="product-search"
+                        >
+                          <div
+                            class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                          >
+                            <div
+                              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                                data-testid="search-bar-input"
+                                id="search-term"
+                                type="text"
+                                value=""
+                              />
+                              <button
+                                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                                data-testid="search-input-submit"
+                                disabled=""
+                                tabindex="-1"
+                                type="submit"
+                              >
+                                <svg>
+                                  search.svg
+                                </svg>
+                              </button>
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                              >
+                                <legend
+                                  class="css-nnbavb"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-1hmnh77-MuiGrid-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1knzk10-MuiButtonBase-root-MuiButton-root"
+                    data-testid="my-lists-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <svg>
+                        star-filled.svg
+                      </svg>
+                    </span>
+                    My Lists
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+                    data-testid="change-branch-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <div
+                        class="MuiBox-root css-79elbk"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          branch.svg
+                        </svg>
+                      </div>
+                    </span>
+                    <div
+                      class="MuiBox-root css-1m2z7wn"
+                    >
+                      <div
+                        class="MuiBox-root css-i6bazn"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                        />
+                      </div>
+                      <div
+                        class="MuiBox-root css-i6bazn"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                        >
+                          
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                   
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1k4g8tg-MuiButtonBase-root-MuiButton-root"
+                    data-testid="go-to-cart-button-desktop"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <span
+                        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          shopping-cart.svg
+                        </svg>
+                        <span
+                          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                        />
+                      </span>
+                    </span>
+                    Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-146vodb-MuiToolbar-root"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-1c3h18e"
+                >
+                  <div
+                    class="MuiBox-root css-ntca38"
+                  />
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-12ryi9q-MuiButtonBase-root-MuiButton-root"
+                    data-testid="browse-products-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiBox-root css-10rvbm3"
+                    >
+                      Browse Products
+                    </span>
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                    >
+                      <svg
+                        class="MuiBox-root css-0"
+                        sx="[object Object]"
+                      >
+                        arrow-drop-down.svg
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                  data-testid="nav-brands"
+                  href="/brands"
+                >
+                  Brands
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg>
+                    max.svg
+                  </svg>
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Resources
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-1yne1tc-MuiGrid-root"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header desktop should match snapshot as logged in user on Fortiline subdomain 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1cfjp91-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-8 css-idhf8c-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-104w1kr"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-1hmnh77-MuiGrid-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+                    data-testid="change-branch-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <div
+                        class="MuiBox-root css-79elbk"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          branch.svg
+                        </svg>
+                      </div>
+                    </span>
+                    <div
+                      class="MuiBox-root css-1m2z7wn"
+                    >
+                      <div
+                        class="MuiBox-root css-i6bazn"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                        />
+                      </div>
+                      <div
+                        class="MuiBox-root css-i6bazn"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                        >
+                          
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                   
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1k4g8tg-MuiButtonBase-root-MuiButton-root"
+                    data-testid="go-to-cart-button-desktop"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <span
+                        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          shopping-cart.svg
+                        </svg>
+                        <span
+                          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                        />
+                      </span>
+                    </span>
+                    Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-146vodb-MuiToolbar-root"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg>
+                    max.svg
+                  </svg>
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Resources
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-1yne1tc-MuiGrid-root"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header desktop should match snapshot as logged out user 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1cfjp91-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-8 css-idhf8c-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-104w1kr"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-19oka9g"
+                  >
+                    <div
+                      class="MuiBox-root css-1rr4qq7"
+                    >
+                      <div>
+                        <form
+                          class="MuiBox-root css-90mxih"
+                          id="product-search"
+                        >
+                          <div
+                            class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                          >
+                            <div
+                              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                                data-testid="search-bar-input"
+                                id="search-term"
+                                type="text"
+                                value=""
+                              />
+                              <button
+                                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                                data-testid="search-input-submit"
+                                disabled=""
+                                tabindex="-1"
+                                type="submit"
+                              >
+                                <svg>
+                                  search.svg
+                                </svg>
+                              </button>
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                              >
+                                <legend
+                                  class="css-nnbavb"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-1hmnh77-MuiGrid-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1knzk10-MuiButtonBase-root-MuiButton-root"
+                    data-testid="my-lists-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <svg>
+                        star-filled.svg
+                      </svg>
+                    </span>
+                    My Lists
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+                    data-testid="change-branch-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <div
+                        class="MuiBox-root css-79elbk"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          branch.svg
+                        </svg>
+                      </div>
+                    </span>
+                    Sign in to Shop
+                  </button>
+                   
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1k4g8tg-MuiButtonBase-root-MuiButton-root"
+                    data-testid="go-to-cart-button-desktop"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <span
+                        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          shopping-cart.svg
+                        </svg>
+                        <span
+                          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                        />
+                      </span>
+                    </span>
+                    Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-146vodb-MuiToolbar-root"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-1c3h18e"
+                >
+                  <div
+                    class="MuiBox-root css-ntca38"
+                  />
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-12ryi9q-MuiButtonBase-root-MuiButton-root"
+                    data-testid="browse-products-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiBox-root css-10rvbm3"
+                    >
+                      Browse Products
+                    </span>
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                    >
+                      <svg
+                        class="MuiBox-root css-0"
+                        sx="[object Object]"
+                      >
+                        arrow-drop-down.svg
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                  data-testid="nav-brands"
+                  href="/brands"
+                >
+                  Brands
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg>
+                    max.svg
+                  </svg>
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Resources
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header desktop should match snapshot with morrisonsupply subdomain 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1cfjp91-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-8 css-idhf8c-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-104w1kr"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                    <div
+                      class="MuiBox-root css-bjyk30"
+                    >
+                      <hr
+                        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical css-174otwr-MuiDivider-root"
+                      />
+                    </div>
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="morrisonsupply"
+                        class="css-1jl3tnt"
+                        src="/logos/morrisonsupply.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-19oka9g"
+                  >
+                    <div
+                      class="MuiBox-root css-1rr4qq7"
+                    >
+                      <div>
+                        <form
+                          class="MuiBox-root css-90mxih"
+                          id="product-search"
+                        >
+                          <div
+                            class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                          >
+                            <div
+                              class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                            >
+                              <input
+                                aria-invalid="false"
+                                autocomplete="off"
+                                class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                                data-testid="search-bar-input"
+                                id="search-term"
+                                type="text"
+                                value=""
+                              />
+                              <button
+                                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                                data-testid="search-input-submit"
+                                disabled=""
+                                tabindex="-1"
+                                type="submit"
+                              >
+                                <svg>
+                                  search.svg
+                                </svg>
+                              </button>
+                              <fieldset
+                                aria-hidden="true"
+                                class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                              >
+                                <legend
+                                  class="css-nnbavb"
+                                >
+                                  <span
+                                    class="notranslate"
+                                  >
+                                    ​
+                                  </span>
+                                </legend>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-1hmnh77-MuiGrid-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1knzk10-MuiButtonBase-root-MuiButton-root"
+                    data-testid="my-lists-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <svg>
+                        star-filled.svg
+                      </svg>
+                    </span>
+                    My Lists
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+                    data-testid="change-branch-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <div
+                        class="MuiBox-root css-79elbk"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          branch.svg
+                        </svg>
+                      </div>
+                    </span>
+                    <div
+                      class="MuiBox-root css-1m2z7wn"
+                    >
+                      <div
+                        class="MuiBox-root css-i6bazn"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                        />
+                      </div>
+                      <div
+                        class="MuiBox-root css-i6bazn"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                        >
+                          
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                   
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1k4g8tg-MuiButtonBase-root-MuiButton-root"
+                    data-testid="go-to-cart-button-desktop"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                    >
+                      <span
+                        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                      >
+                        <svg
+                          height="20"
+                          width="20"
+                        >
+                          shopping-cart.svg
+                        </svg>
+                        <span
+                          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                        />
+                      </span>
+                    </span>
+                    Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-146vodb-MuiToolbar-root"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-1c3h18e"
+                >
+                  <div
+                    class="MuiBox-root css-ntca38"
+                  />
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-12ryi9q-MuiButtonBase-root-MuiButton-root"
+                    data-testid="browse-products-button"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiBox-root css-10rvbm3"
+                    >
+                      Browse Products
+                    </span>
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                    >
+                      <svg
+                        class="MuiBox-root css-0"
+                        sx="[object Object]"
+                      >
+                        arrow-drop-down.svg
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                  data-testid="nav-brands"
+                  href="/brands"
+                >
+                  Brands
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg>
+                    max.svg
+                  </svg>
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-ajt0mp-MuiGrid-root"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-gfygn0-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Resources
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ArrowDropDownIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7 10 5 5 5-5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-1yne1tc-MuiGrid-root"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header mobile expect to open the hamburger menu 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiBox-root css-x97jm9"
+    />
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiBox-root css-18dztsn"
+              style="transform: scale(0); visibility: hidden;"
+            >
+              <form
+                class="MuiBox-root css-90mxih"
+                id="product-search"
+              >
+                <div
+                  class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                >
+                  <div
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                      data-testid="search-bar-input"
+                      id="search-term"
+                      type="text"
+                      value=""
+                    />
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                      data-testid="search-input-submit"
+                      disabled=""
+                      tabindex="-1"
+                      type="submit"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                    </button>
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-nnbavb"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              aria-hidden="true"
+              class="MuiBackdrop-root css-fzwdcc-MuiBackdrop-root"
+              style="opacity: 0; visibility: hidden;"
+            />
+            <div
+              class="MuiBox-root css-vzcdy7"
+            >
+              <div
+                class="MuiBox-root css-ywl1ow"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root css-z0jg63-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                  >
+                    <svg>
+                      chevron-left.svg
+                    </svg>
+                  </span>
+                  Back
+                </button>
+                <div
+                  class="MuiBox-root css-1f9pjem"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-lyamjr-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-2hxwvj"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-17fvcxg-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="mobile-hamburger-menu"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        menu.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1sxzhqf"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1xfrdmu"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-aci6aj-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="header-search-button"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                    <div
+                      class="MuiBox-root css-1tkfj2c"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+                        data-testid="go-to-cart-button-mobile"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                        >
+                          <svg
+                            height="20"
+                            width="20"
+                          >
+                            shopping-cart.svg
+                          </svg>
+                          <span
+                            class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                          >
+                            0
+                          </span>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+          />
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+              data-testid="change-branch-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <div
+                  class="MuiBox-root css-79elbk"
+                >
+                  <svg
+                    height="20"
+                    width="20"
+                  >
+                    branch.svg
+                  </svg>
+                </div>
+              </span>
+              <div
+                class="MuiBox-root css-79p6ya"
+              >
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  />
+                </div>
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  >
+                    
+                  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header mobile expect to open the search button 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiBox-root css-x97jm9"
+    />
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiBox-root css-18dztsn"
+              style="transform: scale(0); visibility: hidden;"
+            >
+              <form
+                class="MuiBox-root css-90mxih"
+                id="product-search"
+              >
+                <div
+                  class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                >
+                  <div
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                      data-testid="search-bar-input"
+                      id="search-term"
+                      type="text"
+                      value=""
+                    />
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                      data-testid="search-input-submit"
+                      disabled=""
+                      tabindex="-1"
+                      type="submit"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                    </button>
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-nnbavb"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              aria-hidden="true"
+              class="MuiBackdrop-root css-fzwdcc-MuiBackdrop-root"
+              style="opacity: 0; visibility: hidden;"
+            />
+            <div
+              class="MuiBox-root css-vzcdy7"
+            >
+              <div
+                class="MuiBox-root css-ywl1ow"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root css-z0jg63-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                  >
+                    <svg>
+                      chevron-left.svg
+                    </svg>
+                  </span>
+                  Back
+                </button>
+                <div
+                  class="MuiBox-root css-1f9pjem"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-lyamjr-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-2hxwvj"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-17fvcxg-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="mobile-hamburger-menu"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        menu.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1sxzhqf"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1xfrdmu"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-aci6aj-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="header-search-button"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                    <div
+                      class="MuiBox-root css-1tkfj2c"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+                        data-testid="go-to-cart-button-mobile"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                        >
+                          <svg
+                            height="20"
+                            width="20"
+                          >
+                            shopping-cart.svg
+                          </svg>
+                          <span
+                            class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                          >
+                            0
+                          </span>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+          />
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+              data-testid="change-branch-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <div
+                  class="MuiBox-root css-79elbk"
+                >
+                  <svg
+                    height="20"
+                    width="20"
+                  >
+                    branch.svg
+                  </svg>
+                </div>
+              </span>
+              <div
+                class="MuiBox-root css-79p6ya"
+              >
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  />
+                </div>
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  >
+                    
+                  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header mobile should match snapshot as logged in user 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiBox-root css-x97jm9"
+    />
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiBox-root css-18dztsn"
+              style="transform: scale(0); visibility: hidden;"
+            >
+              <form
+                class="MuiBox-root css-90mxih"
+                id="product-search"
+              >
+                <div
+                  class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                >
+                  <div
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                      data-testid="search-bar-input"
+                      id="search-term"
+                      type="text"
+                      value=""
+                    />
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                      data-testid="search-input-submit"
+                      disabled=""
+                      tabindex="-1"
+                      type="submit"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                    </button>
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-nnbavb"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              aria-hidden="true"
+              class="MuiBackdrop-root css-fzwdcc-MuiBackdrop-root"
+              style="opacity: 0; visibility: hidden;"
+            />
+            <div
+              class="MuiBox-root css-vzcdy7"
+            >
+              <div
+                class="MuiBox-root css-ywl1ow"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root css-z0jg63-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                  >
+                    <svg>
+                      chevron-left.svg
+                    </svg>
+                  </span>
+                  Back
+                </button>
+                <div
+                  class="MuiBox-root css-1f9pjem"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-lyamjr-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-2hxwvj"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-17fvcxg-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="mobile-hamburger-menu"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        menu.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1sxzhqf"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1xfrdmu"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-aci6aj-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="header-search-button"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                    <div
+                      class="MuiBox-root css-1tkfj2c"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+                        data-testid="go-to-cart-button-mobile"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                        >
+                          <svg
+                            height="20"
+                            width="20"
+                          >
+                            shopping-cart.svg
+                          </svg>
+                          <span
+                            class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                          >
+                            0
+                          </span>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+          />
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+              data-testid="change-branch-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <div
+                  class="MuiBox-root css-79elbk"
+                >
+                  <svg
+                    height="20"
+                    width="20"
+                  >
+                    branch.svg
+                  </svg>
+                </div>
+              </span>
+              <div
+                class="MuiBox-root css-79p6ya"
+              >
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  />
+                </div>
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  >
+                    
+                  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header mobile should match snapshot as logged in user on Fortiline subdomain 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiBox-root css-x97jm9"
+    />
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-lyamjr-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-2hxwvj"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-17fvcxg-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="mobile-hamburger-menu"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        menu.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1sxzhqf"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1xfrdmu"
+                  >
+                    <div
+                      class="MuiBox-root css-1tkfj2c"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+                        data-testid="go-to-cart-button-mobile"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                        >
+                          <svg
+                            height="20"
+                            width="20"
+                          >
+                            shopping-cart.svg
+                          </svg>
+                          <span
+                            class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                          >
+                            0
+                          </span>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+          />
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+              data-testid="change-branch-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <div
+                  class="MuiBox-root css-79elbk"
+                >
+                  <svg
+                    height="20"
+                    width="20"
+                  >
+                    branch.svg
+                  </svg>
+                </div>
+              </span>
+              <div
+                class="MuiBox-root css-79p6ya"
+              >
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  />
+                </div>
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  >
+                    
+                  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header mobile should match snapshot as logged out user 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiBox-root css-x97jm9"
+    />
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiBox-root css-18dztsn"
+              style="transform: scale(0); visibility: hidden;"
+            >
+              <form
+                class="MuiBox-root css-90mxih"
+                id="product-search"
+              >
+                <div
+                  class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                >
+                  <div
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                      data-testid="search-bar-input"
+                      id="search-term"
+                      type="text"
+                      value=""
+                    />
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                      data-testid="search-input-submit"
+                      disabled=""
+                      tabindex="-1"
+                      type="submit"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                    </button>
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-nnbavb"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              aria-hidden="true"
+              class="MuiBackdrop-root css-fzwdcc-MuiBackdrop-root"
+              style="opacity: 0; visibility: hidden;"
+            />
+            <div
+              class="MuiBox-root css-vzcdy7"
+            >
+              <div
+                class="MuiBox-root css-ywl1ow"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root css-z0jg63-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                  >
+                    <svg>
+                      chevron-left.svg
+                    </svg>
+                  </span>
+                  Back
+                </button>
+                <div
+                  class="MuiBox-root css-1f9pjem"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-lyamjr-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-2hxwvj"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-17fvcxg-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="mobile-hamburger-menu"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        menu.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1sxzhqf"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1xfrdmu"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-aci6aj-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="header-search-button"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                    <div
+                      class="MuiBox-root css-1tkfj2c"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+                        data-testid="go-to-cart-button-mobile"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                        >
+                          <svg
+                            height="20"
+                            width="20"
+                          >
+                            shopping-cart.svg
+                          </svg>
+                          <span
+                            class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                          >
+                            0
+                          </span>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header mobile should match snapshot with morrisonsupply subdomain 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-my9yfq"
+  >
+    <div
+      class="MuiBox-root css-x97jm9"
+    />
+    <div
+      class="PrivateSwipeArea-root css-n2n0ek"
+      style="width: 20px;"
+    />
+    <div
+      class="MuiBox-root css-qgmik8"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorInherit MuiAppBar-positionStatic css-kryv7o-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiBox-root css-1k9ek97"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1ksl08k-MuiToolbar-root"
+          >
+            <div
+              class="MuiBox-root css-18dztsn"
+              style="transform: scale(0); visibility: hidden;"
+            >
+              <form
+                class="MuiBox-root css-90mxih"
+                id="product-search"
+              >
+                <div
+                  class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+                >
+                  <div
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+                      data-testid="search-bar-input"
+                      id="search-term"
+                      type="text"
+                      value=""
+                    />
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+                      data-testid="search-input-submit"
+                      disabled=""
+                      tabindex="-1"
+                      type="submit"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                    </button>
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-nnbavb"
+                      >
+                        <span
+                          class="notranslate"
+                        >
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              aria-hidden="true"
+              class="MuiBackdrop-root css-fzwdcc-MuiBackdrop-root"
+              style="opacity: 0; visibility: hidden;"
+            />
+            <div
+              class="MuiBox-root css-vzcdy7"
+            >
+              <div
+                class="MuiBox-root css-ywl1ow"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root css-z0jg63-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                  >
+                    <svg>
+                      chevron-left.svg
+                    </svg>
+                  </span>
+                  Back
+                </button>
+                <div
+                  class="MuiBox-root css-1f9pjem"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-pk4008-MuiContainer-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-md-4 css-lyamjr-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-2hxwvj"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-17fvcxg-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="mobile-hamburger-menu"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        menu.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1sxzhqf"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="Reece"
+                        class="css-1jl3tnt"
+                        src="logo.svg"
+                      />
+                    </a>
+                    <div
+                      class="MuiBox-root css-1gzymmk"
+                    >
+                      <hr
+                        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical css-174otwr-MuiDivider-root"
+                      />
+                    </div>
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-q5uxwt-MuiTypography-root-MuiLink-root"
+                      href="/"
+                    >
+                      <img
+                        alt="morrisonsupply"
+                        class="css-1jl3tnt"
+                        src="/logos/morrisonsupply.svg"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1xfrdmu"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-aci6aj-MuiButtonBase-root-MuiIconButton-root"
+                      data-testid="header-search-button"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <svg>
+                        search.svg
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                    <div
+                      class="MuiBox-root css-1tkfj2c"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+                        data-testid="go-to-cart-button-mobile"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiBadge-root css-cei2pf-MuiBadge-root"
+                        >
+                          <svg
+                            height="20"
+                            width="20"
+                          >
+                            shopping-cart.svg
+                          </svg>
+                          <span
+                            class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+                          >
+                            0
+                          </span>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+          />
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+              data-testid="change-branch-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <div
+                  class="MuiBox-root css-79elbk"
+                >
+                  <svg
+                    height="20"
+                    width="20"
+                  >
+                    branch.svg
+                  </svg>
+                </div>
+              </span>
+              <div
+                class="MuiBox-root css-79p6ya"
+              >
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  />
+                </div>
+                <div
+                  class="MuiBox-root css-i6bazn"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+                  >
+                    
+                  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>
+`;

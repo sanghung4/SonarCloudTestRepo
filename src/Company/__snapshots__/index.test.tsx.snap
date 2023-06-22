@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Company Should match snapshop on desktop 1`] = `
+<div>
+  <div
+    class="MuiGrid-root css-1r9w3g9-MuiGrid-root"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1egnr46-MuiTypography-root"
+    >
+      Our Companies
+    </p>
+    <div
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-morrisonsupply"
+          href="https://morrisonsupply.test.ecomm.reecedev.us"
+        >
+          <svg>
+            morrison.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Kansas, New Mexico, Oklahoma, Texas
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-morscohvacsupply"
+          href="https://morscohvacsupply.test.ecomm.reecedev.us"
+        >
+          <svg>
+            morscoHvac.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Arizona, Oklahoma, South Carolina, Texas
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-expressionshomegallery"
+          href="https://expressionshomegallery.test.ecomm.reecedev.us"
+        >
+          <svg>
+            expressions.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Arizona, California, Oklahoma, Texas
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-murraysupply"
+          href="https://murraysupply.test.ecomm.reecedev.us"
+        >
+          <svg>
+            murray.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            North Carolina, South Carolina
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-fortiline"
+          href="https://fortiline.test.ecomm.reecedev.us"
+        >
+          <svg>
+            fortiline.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Alabama, Arizona, Florida, Georgia, Kansas, Kentucky, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-devoreandjohnson"
+          href="https://devoreandjohnson.test.ecomm.reecedev.us"
+        >
+          <svg>
+            devore.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Georgia
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-wholesalespecialties"
+          href="https://wholesalespecialties.test.ecomm.reecedev.us"
+        >
+          <svg>
+            wholesale.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Colorado
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-fwcaz"
+          href="https://fwcaz.test.ecomm.reecedev.us"
+        >
+          <svg>
+            farnsworth.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Arizona, Nevada
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-landbpipe"
+          href="https://landbpipe.test.ecomm.reecedev.us"
+        >
+          <img
+            alt="Product picture"
+            class="MuiBox-root css-4w7ia0"
+            src="lbpipe.svg"
+          />
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            California
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-4 css-10ed8j-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-irvinepipe"
+          href="https://irvinepipe.test.ecomm.reecedev.us"
+        >
+          <img
+            alt="Product picture"
+            class="MuiBox-root css-4w7ia0"
+            src="irvine-pipe-supply.svg"
+          />
+        </a>
+        <div
+          class="MuiGrid-root css-1vjk6qv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            California
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Company Should match snapshop on mobile 1`] = `
+<div>
+  <div
+    class="MuiGrid-root css-1r9w3g9-MuiGrid-root"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-1egnr46-MuiTypography-root"
+    >
+      Our Companies
+    </p>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-8 css-r1hick-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-morrisonsupply"
+          href="https://morrisonsupply.test.ecomm.reecedev.us"
+        >
+          <svg>
+            morrison.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Kansas, New Mexico, Oklahoma, Texas
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-morscohvacsupply"
+          href="https://morscohvacsupply.test.ecomm.reecedev.us"
+        >
+          <svg>
+            morscoHvac.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Arizona, Oklahoma, South Carolina, Texas
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-expressionshomegallery"
+          href="https://expressionshomegallery.test.ecomm.reecedev.us"
+        >
+          <svg>
+            expressions.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Arizona, California, Oklahoma, Texas
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-murraysupply"
+          href="https://murraysupply.test.ecomm.reecedev.us"
+        >
+          <svg>
+            murray.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            North Carolina, South Carolina
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-fortiline"
+          href="https://fortiline.test.ecomm.reecedev.us"
+        >
+          <svg>
+            fortiline.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Alabama, Arizona, Florida, Georgia, Kansas, Kentucky, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-devoreandjohnson"
+          href="https://devoreandjohnson.test.ecomm.reecedev.us"
+        >
+          <svg>
+            devore.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Georgia
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-wholesalespecialties"
+          href="https://wholesalespecialties.test.ecomm.reecedev.us"
+        >
+          <svg>
+            wholesale.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Colorado
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-fwcaz"
+          href="https://fwcaz.test.ecomm.reecedev.us"
+        >
+          <svg>
+            farnsworth.svg
+          </svg>
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            Arizona, Nevada
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-landbpipe"
+          href="https://landbpipe.test.ecomm.reecedev.us"
+        >
+          <img
+            alt="Product picture"
+            class="MuiBox-root css-4w7ia0"
+            src="lbpipe.svg"
+          />
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            California
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 css-urcfi7-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+          data-testid="brand-logo-irvinepipe"
+          href="https://irvinepipe.test.ecomm.reecedev.us"
+        >
+          <img
+            alt="Product picture"
+            class="MuiBox-root css-4w7ia0"
+            src="irvine-pipe-supply.svg"
+          />
+        </a>
+        <div
+          class="MuiGrid-root css-1befzq8-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-15zbl7w-MuiTypography-root"
+          >
+            California
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

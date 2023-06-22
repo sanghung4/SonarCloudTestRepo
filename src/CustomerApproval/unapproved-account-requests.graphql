@@ -1,0 +1,14 @@
+query getAllUnapprovedAccountRequests {
+  allUnapprovedAccountRequests {
+    id
+    email
+    firstName
+    lastName
+    branchId
+    phoneNumber
+    phoneType
+    createdAt
+    companyName
+    accountNumber
+  }
+}

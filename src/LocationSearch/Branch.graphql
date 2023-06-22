@@ -1,0 +1,43 @@
+fragment Branch on Branch {
+  branchId
+  name
+  entityId
+  address1
+  address2
+  city
+  state
+  zip
+  phone
+  distance
+  erpSystemName
+  website
+  workdayId
+  workdayLocationName
+  actingBranchManager
+  actingBranchManagerPhone
+  actingBranchManagerEmail
+  businessHours
+  latitude
+  longitude
+  isPlumbing
+  isWaterworks
+  isHvac
+  isBandK
+  isPricingOnly
+}
+
+query getBranch($branchId: ID!) {
+  branch(branchId: $branchId) {
+    ...Branch
+  }
+}
+
+query findBranches($branchSearch: BranchSearch!) {
+  branchSearch(branchSearch: $branchSearch) {
+    latitude
+    longitude
+    branches {
+      ...Branch
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@use 'src/_reece.scss';
+
+.alert {
+  color: reece.$text-gray-100 !important;
+  background-color: reece.$orange-10 !important;
+  font-size: 1rem !important;
+  align-items: center !important;
+  border: 1px solid !important;
+  border-color: reece.$orange-100 !important;
+  & .MuiAlert-action {
+    padding: 4px 0 0 6px !important;
+  }
+  &__warning-icon {
+    color: reece.$orange-100 !important;
+  }
+
+  @media (max-width: reece.$breakpoint-md) {
+    &__icon-button {
+      display: none !important;
+    }
+    & .MuiAlert-icon {
+      align-self: start !important;
+    }
+  }
+}

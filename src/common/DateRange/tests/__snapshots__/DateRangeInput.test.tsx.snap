@@ -1,0 +1,3547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateRangeInput tests Should match snapshot and values on desktop 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+        >
+          <label
+            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink="true"
+            for="mui-1"
+            id="mui-1-label"
+          >
+            Date Range
+          </label>
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="range-from"
+              id="mui-1"
+              name="from"
+              placeholder="from"
+              type="text"
+              value="01/01/2020"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-1z7n62"
+              >
+                <span>
+                  Date Range
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="range-to"
+              id="mui-2"
+              name="to"
+              placeholder="to"
+              type="text"
+              value="06/01/2020"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-nnbavb"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+  >
+    <div
+      class="MuiBox-root css-fnp762"
+    >
+      <div
+        class="rdp"
+      >
+        <div
+          class="rdp-months"
+        >
+          <div
+            class="rdp-month rdp-caption_start rdp-caption_end"
+          >
+            <div
+              class="rdp-caption"
+            >
+              <h2
+                aria-atomic="true"
+                aria-live="polite"
+                class="rdp-caption_label"
+                id="1"
+              >
+                January 2020
+              </h2>
+              <div
+                class="rdp-nav"
+              >
+                <button
+                  aria-label="Go to previous month"
+                  class="rdp-button_reset rdp-button rdp-nav_button rdp-nav_button_previous"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronLeftIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-label="Go to next month"
+                  class="rdp-button_reset rdp-button rdp-nav_button rdp-nav_button_next"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <table
+              aria-labelledby="1"
+              class="rdp-table"
+              role="grid"
+            >
+              <thead
+                class="rdp-head"
+              >
+                <tr
+                  class="rdp-head_row"
+                >
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Su
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Sunday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Mo
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Monday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Tu
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Tuesday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      We
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Wednesday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Th
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Thursday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Fr
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Friday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Sa
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Saturday
+                    </span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="rdp-tbody"
+              >
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        29
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        29th December (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        29
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        30
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        30th December (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        30
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        31
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        31st December (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        31
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      aria-pressed="true"
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_selected rdp-day_range_begin"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        1
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        1st January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        1
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        2
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        2nd January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        2
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        3
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        3rd January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        3
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        4
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        4th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        4
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        5
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        5th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        5
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        6
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        6th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        6
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        7
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        7th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        7
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        8
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        8th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        8
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        9
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        9th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        9
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        10
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        10th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        10
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        11
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        11th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        11
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        12
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        12th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        12
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        13
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        13th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        13
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        14
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        14th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        14
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        15
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        15th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        15
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        16
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        16th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        16
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        17
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        17th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        17
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        18
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        18th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        18
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        19
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        19th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        19
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        20
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        20th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        20
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        21
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        21st January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        21
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        22
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        22nd January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        22
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        23
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        23rd January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        23
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        24
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        24th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        24
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        25
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        25th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        25
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        26
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        26th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        26
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        27
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        27th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        27
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        28
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        28th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        28
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        29
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        29th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        29
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        30
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        30th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        30
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        31
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        31st January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        31
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        1
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        1st February (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        1
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateRangeInput tests Should match snapshot and values on mobile 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+        >
+          <label
+            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink="true"
+            for="mui-3"
+            id="mui-3-label"
+          >
+            Date Range
+          </label>
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="range-from"
+              id="mui-3"
+              name="from"
+              placeholder="from"
+              type="text"
+              value="01/01/2020"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-1z7n62"
+              >
+                <span>
+                  Date Range
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="range-to"
+              id="mui-4"
+              name="to"
+              placeholder="to"
+              type="text"
+              value="06/01/2020"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-nnbavb"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+  >
+    <div
+      class="MuiBox-root css-fnp762"
+    >
+      <div
+        class="rdp"
+      >
+        <div
+          class="rdp-months"
+        >
+          <div
+            class="rdp-month rdp-caption_start rdp-caption_end"
+          >
+            <div
+              class="rdp-caption"
+            >
+              <h2
+                aria-atomic="true"
+                aria-live="polite"
+                class="rdp-caption_label"
+                id="3"
+              >
+                January 2020
+              </h2>
+              <div
+                class="rdp-nav"
+              >
+                <button
+                  aria-label="Go to previous month"
+                  class="rdp-button_reset rdp-button rdp-nav_button rdp-nav_button_previous"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronLeftIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-label="Go to next month"
+                  class="rdp-button_reset rdp-button rdp-nav_button rdp-nav_button_next"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <table
+              aria-labelledby="3"
+              class="rdp-table"
+              role="grid"
+            >
+              <thead
+                class="rdp-head"
+              >
+                <tr
+                  class="rdp-head_row"
+                >
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Su
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Sunday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Mo
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Monday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Tu
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Tuesday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      We
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Wednesday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Th
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Thursday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Fr
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Friday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Sa
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Saturday
+                    </span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="rdp-tbody"
+              >
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        29
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        29th December (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        29
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        30
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        30th December (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        30
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        31
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        31st December (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        31
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      aria-pressed="true"
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_selected rdp-day_range_begin"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        1
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        1st January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        1
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        2
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        2nd January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        2
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        3
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        3rd January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        3
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        4
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        4th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        4
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        5
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        5th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        5
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        6
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        6th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        6
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        7
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        7th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        7
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        8
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        8th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        8
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        9
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        9th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        9
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        10
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        10th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        10
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        11
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        11th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        11
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        12
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        12th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        12
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        13
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        13th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        13
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        14
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        14th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        14
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        15
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        15th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        15
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        16
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        16th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        16
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        17
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        17th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        17
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        18
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        18th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        18
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        19
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        19th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        19
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        20
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        20th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        20
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        21
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        21st January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        21
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        22
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        22nd January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        22
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        23
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        23rd January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        23
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        24
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        24th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        24
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        25
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        25th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        25
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        26
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        26th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        26
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        27
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        27th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        27
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        28
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        28th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        28
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        29
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        29th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        29
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        30
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        30th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        30
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        31
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        31st January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        31
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        1
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        1st February (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        1
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateRangeInput tests Should open popper on focus and update based on input 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+        >
+          <label
+            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink="true"
+            for="mui-7"
+            id="mui-7-label"
+          >
+            Date Range
+          </label>
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="range-from"
+              id="mui-7"
+              name="from"
+              placeholder="from"
+              type="text"
+              value="01/01/2020"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-1z7n62"
+              >
+                <span>
+                  Date Range
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+    >
+      <form>
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="range-to"
+              id="mui-8"
+              name="to"
+              placeholder="to"
+              type="text"
+              value="06/01/2020"
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-nnbavb"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+          
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+  >
+    <div
+      class="MuiBox-root css-fnp762"
+    >
+      <div
+        class="rdp"
+      >
+        <div
+          class="rdp-months"
+        >
+          <div
+            class="rdp-month rdp-caption_start rdp-caption_end"
+          >
+            <div
+              class="rdp-caption"
+            >
+              <h2
+                aria-atomic="true"
+                aria-live="polite"
+                class="rdp-caption_label"
+                id="8"
+              >
+                January 2020
+              </h2>
+              <div
+                class="rdp-nav"
+              >
+                <button
+                  aria-label="Go to previous month"
+                  class="rdp-button_reset rdp-button rdp-nav_button rdp-nav_button_previous"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronLeftIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-label="Go to next month"
+                  class="rdp-button_reset rdp-button rdp-nav_button rdp-nav_button_next"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ChevronRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <table
+              aria-labelledby="8"
+              class="rdp-table"
+              role="grid"
+            >
+              <thead
+                class="rdp-head"
+              >
+                <tr
+                  class="rdp-head_row"
+                >
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Su
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Sunday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Mo
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Monday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Tu
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Tuesday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      We
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Wednesday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Th
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Thursday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Fr
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Friday
+                    </span>
+                  </th>
+                  <th
+                    class="rdp-head_cell"
+                    scope="col"
+                  >
+                    <span
+                      aria-hidden="true"
+                    >
+                      Sa
+                    </span>
+                    <span
+                      class="rdp-vhidden"
+                    >
+                      Saturday
+                    </span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="rdp-tbody"
+              >
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        29
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        29th December (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        29
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        30
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        30th December (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        30
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        31
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        31st December (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        31
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      aria-pressed="true"
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_selected rdp-day_range_begin"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        1
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        1st January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        1
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        2
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        2nd January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        2
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        3
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        3rd January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        3
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        4
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        4th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        4
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        5
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        5th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        5
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        6
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        6th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        6
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        7
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        7th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        7
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        8
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        8th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        8
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        9
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        9th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        9
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        10
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        10th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        10
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        11
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        11th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        11
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        12
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        12th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        12
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        13
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        13th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        13
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        14
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        14th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        14
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        15
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        15th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        15
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        16
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        16th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        16
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        17
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        17th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        17
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        18
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        18th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        18
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        19
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        19th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        19
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        20
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        20th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        20
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        21
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        21st January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        21
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        22
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        22nd January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        22
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        23
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        23rd January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        23
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        24
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        24th January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        24
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        25
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        25th January (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        25
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  class="rdp-row"
+                >
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        26
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        26th January (Sunday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        26
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        27
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        27th January (Monday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        27
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        28
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        28th January (Tuesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        28
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        29
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        29th January (Wednesday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        29
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        30
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        30th January (Thursday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        30
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        31
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        31st January (Friday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        31
+                      </div>
+                    </button>
+                  </td>
+                  <td
+                    class="rdp-cell"
+                  >
+                    <button
+                      class="rdp-button_reset rdp-button rdp-day rdp-day_range_middle rdp-day_outside rdp-day_outside"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        aria-hidden="true"
+                      >
+                        1
+                      </span>
+                      <span
+                        class="rdp-vhidden"
+                      >
+                        1st February (Saturday)
+                      </span>
+                      <div
+                        class="backdrop MuiBox-root css-0"
+                      >
+                        1
+                      </div>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

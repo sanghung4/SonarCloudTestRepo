@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - header - CartButton should match snapshot on desktop 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1k4g8tg-MuiButtonBase-root-MuiButton-root"
+    data-testid="go-to-cart-button-desktop"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+    >
+      <span
+        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          shopping-cart.svg
+        </svg>
+        <span
+          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+        />
+      </span>
+    </span>
+    Cart
+  </button>
+</div>
+`;
+
+exports[`common - header - CartButton should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1tkfj2c"
+  >
+    <button
+      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+      data-testid="go-to-cart-button-mobile"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          shopping-cart.svg
+        </svg>
+        <span
+          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+        >
+          0
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`common - header - CartButton should match snapshot while loading on desktop 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1k4g8tg-MuiButtonBase-root-MuiButton-root"
+    data-testid="go-to-cart-button-desktop"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+    >
+      <span
+        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          shopping-cart.svg
+        </svg>
+        <div
+          class="MuiBox-root css-2go2wp"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-p36nji-MuiCircularProgress-root"
+            role="progressbar"
+            style="width: 2rem; height: 2rem;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </span>
+        </div>
+        <span
+          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+        />
+      </span>
+    </span>
+    Cart
+  </button>
+</div>
+`;
+
+exports[`common - header - CartButton should match snapshot while loading on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1tkfj2c"
+  >
+    <div
+      class="MuiBox-root css-2go2wp"
+    >
+      <span
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-p36nji-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 2rem; height: 2rem;"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </span>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+      data-testid="go-to-cart-button-mobile"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBadge-root css-cei2pf-MuiBadge-root"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          shopping-cart.svg
+        </svg>
+        <span
+          class="MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRight MuiBadge-invisible css-13k9y7l-MuiBadge-badge"
+        >
+          0
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`common - header - CartButton should result in null when location is "/select-accounts" 1`] = `<div />`;

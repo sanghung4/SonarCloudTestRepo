@@ -1,8 +1,0 @@
-{
-  "indexName": "post-products-20230615030329",
-  "batch": {
-  "s3": "s3://dev-post-pdw-download/batch-1685539738-123402.csv",
-  "start": 110000,
-  "end": 110500
-  }
-}

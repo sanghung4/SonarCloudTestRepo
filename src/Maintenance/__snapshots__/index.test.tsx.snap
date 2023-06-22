@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Maintenance Page should render TEST when maintenance is set as false 1`] = `
+<div>
+  TEST
+</div>
+`;
+
+exports[`Maintenance Page should render correctly on desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-152jcjz"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-kfxw4t-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6 css-honmcm-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-mpgh9h-MuiGrid-root"
+        >
+          <img
+            alt="toolbox"
+            class="MuiBox-root css-rvrkdc"
+            src="toolbox-graphic.svg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+              <div
+                class="MuiBox-root css-xi606m"
+              >
+                <img
+                  alt="reece-logo"
+                  class="MuiBox-root css-1cv8zoz"
+                  src="logo.svg"
+                />
+              </div>
+            </div>
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-1aofm0f-MuiTypography-root"
+            >
+              Down for Maintenance
+            </h3>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-3kt6pi-MuiTypography-root"
+          >
+            We're currently doing maintenance on the site.  Please check back in a few minutes.
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-meu03q-MuiTypography-root"
+          >
+            Need help? Contact us:
+          </h5>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+              href="mailto:ecommsupport@morsco.com"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-19xfmah-MuiTypography-root"
+              >
+                ecommsupport@morsco.com
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Maintenance Page should render correctly on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-101xdvu"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-kfxw4t-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1vpwcmr-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-ao3jzh-MuiGrid-root"
+        >
+          <img
+            alt="reece-logo"
+            class="MuiBox-root css-1mfpqwr"
+            src="logo.svg"
+          />
+          <img
+            alt="toolbox"
+            class="MuiBox-root css-19ftd8w"
+            src="toolbox-graphic.svg"
+          />
+          <div
+            class="MuiBox-root css-0"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-1qh2smb-MuiTypography-root"
+            >
+              Down for Maintenance
+            </h4>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-ex0lgt-MuiTypography-root"
+          >
+            We're currently doing maintenance on the site.  Please check back in a few minutes.
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-198je3p-MuiTypography-root"
+          >
+            Need help? Contact us:
+          </p>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+              href="mailto:ecommsupport@morsco.com"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-19xfmah-MuiTypography-root"
+              >
+                ecommsupport@morsco.com
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

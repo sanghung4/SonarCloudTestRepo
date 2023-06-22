@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationSearch Popover tests should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="MuiBox-root css-1jbsqn1"
+      data-testid="google-maps-box-1149"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-direction-xs-column css-ffjoah-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            data-testid="google-maps-branch-name-1149"
+          >
+            Morrison Supply
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-rwfr69-MuiTypography-root"
+            data-testid="google-maps-branch-address-1149"
+          >
+            15850 Dallas Parkway Suite 105, Dallas, Texas 75248
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-1 css-v8g4am-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-rwfr69-MuiTypography-root"
+            >
+              Hours
+              :
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            data-testid="google-maps-branch-hours"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-nsm5pd-MuiTypography-root"
+            >
+              M-F 7:00am - 5:00pm
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-j9o9zr-MuiTypography-root-MuiLink-root"
+            data-testid="google-maps-branch-phone-1149"
+            href="tel:(469) 680-3291"
+          >
+            (469) 680-3291
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item css-10k7qhr-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-13if51i-MuiTypography-root-MuiLink-root"
+              data-testid="google-maps-branch-directions-1149"
+              href="https://www.google.com/maps/dir/?api=1&destination=15850%20Dallas%20Parkway%20Suite%20105%20Dallas%20Texas%2075248"
+              rel="noreferer"
+              target="_blank"
+            >
+              Directions
+            </a>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            data-testid="google-maps-branch-distance-1149"
+          >
+            1.8 miles
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+@use 'src/_reece.scss';
+
+.check-nearby-branches {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__icon {
+    display: flex;
+    cursor: pointer;
+  }
+  &__text {
+    color: reece.$dark-blue-100;
+    display: flex;
+    border: 'solid';
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    align-items: center;
+    letter-spacing: 0.005em;
+    margin-left: 0.5rem;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+}

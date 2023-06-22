@@ -1,0 +1,5 @@
+query Quotes($accountId: ID!) {
+  quotes(accountId: $accountId) {
+    ...Quote
+  }
+}

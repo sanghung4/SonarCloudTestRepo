@@ -1,0 +1,124 @@
+@use 'src/_reece.scss';
+
+.login {
+  font-family: Roboto;
+
+  &__card {
+    display: flex;
+    margin: 4rem 0;
+    background-color: reece.$white-100;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(64, 64, 64, 0.15);
+    overflow: hidden;
+
+    &__title {
+      font-weight: 700;
+      color: reece.$dark-blue-100;
+      text-align: center;
+      margin: 0 0 2.5rem;
+      font-size: 2rem;
+    }
+    &__subtitle {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      text-align: center;
+      font-weight: 500;
+      color: reece.$text-gray-100;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    &__sign-in {
+      flex-grow: 1;
+      flex-shrink: 0;
+      padding: 2rem;
+      &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        &__forgot-password {
+          font-size: 1rem;
+          .button.text-link {
+            padding: 0;
+            position: absolute;
+          }
+        }
+        &__checkbox {
+          align-self: center;
+        }
+        &__submit.button {
+          align-self: center;
+          width: 50%;
+        }
+      }
+    }
+    &__sign-up {
+      background-color: #f4f9ff;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      a {
+        text-decoration: none;
+      }
+      &__benefits-title {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        text-align: center;
+        font-weight: 500;
+        color: reece.$dark-blue-100;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+      }
+      &__benefits {
+        display: flex;
+        gap: 1.5rem;
+        &__item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          flex-grow: 1;
+          text-align: center;
+          width: 9.75rem;
+          h3 {
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            font-weight: 500;
+            color: reece.$dark-text-gray-100;
+            margin: 0.5rem 0;
+          }
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    @media (max-width: reece.$breakpoint-md) {
+      background: none;
+      box-shadow: none;
+      flex-direction: column;
+      &__sign-in {
+        padding: 0;
+        margin-bottom: 2.5rem;
+      }
+      &__sign-up {
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(64, 64, 64, 0.15);
+        padding: 2.5rem 1rem;
+        &__benefits-title {
+          margin-left: 2rem;
+          margin-right: 2rem;
+        }
+
+        &__benefits {
+          flex-direction: column;
+          gap: 2.75rem;
+          &__item {
+            width: unset;
+          }
+        }
+      }
+    }
+  }
+}

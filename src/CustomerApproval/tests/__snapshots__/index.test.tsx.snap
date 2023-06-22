@@ -1,0 +1,992 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerApproval Expect to match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="customer-approval-breadcrumb"
+          >
+            Customer Approval
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1obe4va-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-1s6wx5p-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="customer-approval-title"
+          >
+            Customer Approval
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-1wcaknn"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-jhdc2n-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1i3vb4c"
+            >
+              <div
+                aria-expanded="false"
+                class="MuiAutocomplete-root MuiAutocomplete-fullWidth MuiAutocomplete-hasPopupIcon css-eozd4h-MuiAutocomplete-root"
+                data-testid="branch-filter"
+                role="combobox"
+              >
+                <div
+                  class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  data-testid="branch-filter-input"
+                >
+                  <label
+                    class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="true"
+                    for="branch-filter-autocomplete"
+                    id="branch-filter-autocomplete-label"
+                  >
+                    Branch
+                  </label>
+                  <div
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-dndmr2-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-invalid="false"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-fxwsjr-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="branch-filter-autocomplete"
+                      spellcheck="false"
+                      type="text"
+                      value="All"
+                    />
+                    <div
+                      class="MuiAutocomplete-endAdornment css-1q60rmi-MuiAutocomplete-endAdornment"
+                    >
+                      <button
+                        aria-label="Open"
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-qzbt6i-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator"
+                        tabindex="-1"
+                        title="Open"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="ArrowDropDownIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M7 10l5 5 5-5z"
+                          />
+                        </svg>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-1z7n62"
+                      >
+                        <span>
+                          Branch
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-auto css-11vcf2t-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root Mui-disabled  css-190vp1s-MuiButtonBase-root-MuiButton-root"
+              data-testid="branch-filter-set-filter"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              View Results
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiTableContainer-root css-8cb3ox-MuiTableContainer-root"
+      >
+        <table
+          class="MuiTable-root css-qzyhip-MuiTable-root"
+          data-testid="table"
+          role="table"
+          style="min-width: 0px;"
+        >
+          <thead
+            class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+          >
+            <tr
+              class="MuiTableRow-root MuiTableRow-head css-bqkitb-MuiTableRow-root"
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 0px;"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      <div
+                        class="MuiBox-root css-c7pnka"
+                      >
+                        Email Address
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      First Name
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Last Name
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Branch
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Day(s) Pending
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-1c16yah-MuiGrid-root"
+                  >
+                    <svg
+                      class="MuiBox-root css-1isemmb"
+                      data-testid="createdAt-descending"
+                      sx="[object Object]"
+                    >
+                      sorting-desc.svg
+                    </svg>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            role="rowgroup"
+          >
+            <tr
+              class="MuiTableRow-root MuiTableRow-hover css-bqkitb-MuiTableRow-root"
+              data-testid="row_test5@gmail.com"
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 0px;"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="email-0"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1n2fott-MuiTypography-root-MuiLink-root"
+                >
+                  test5@gmail.com
+                </a>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="firstName-0"
+                role="cell"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px;"
+              >
+                Test5
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="lastName-0"
+                role="cell"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px;"
+              >
+                AllThings
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="branchId-0"
+                role="cell"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px;"
+              >
+                777
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="createdAt-0"
+                role="cell"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px;"
+              >
+                10 days
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root MuiTableRow-hover css-bqkitb-MuiTableRow-root"
+              data-testid="row_test6@gmail.com"
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 0px;"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="email-1"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1n2fott-MuiTypography-root-MuiLink-root"
+                >
+                  test6@gmail.com
+                </a>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="firstName-1"
+                role="cell"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px;"
+              >
+                Test6
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="lastName-1"
+                role="cell"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px;"
+              >
+                AllTings
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="branchId-1"
+                role="cell"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px;"
+              >
+                888
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="createdAt-1"
+                role="cell"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px;"
+              >
+                10 days
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root MuiTableRow-hover css-bqkitb-MuiTableRow-root"
+              data-testid="row_test7@gmail.com"
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 0px;"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="email-2"
+                role="cell"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1n2fott-MuiTypography-root-MuiLink-root"
+                >
+                  test7@gmail.com
+                </a>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="firstName-2"
+                role="cell"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px;"
+              >
+                Test7
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="lastName-2"
+                role="cell"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px;"
+              >
+                AllOfTheThings
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="branchId-2"
+                role="cell"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px;"
+              >
+                
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-61fke3-MuiTableCell-root"
+                data-testid="createdAt-2"
+                role="cell"
+                style="box-sizing: border-box; flex: 50 0 auto; min-width: 0px; width: 50px;"
+              >
+                10 days
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root css-11ezxrp"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-1vbz8i-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-kqwn4m-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-19z5v8g"
+              data-testid="total-users-count"
+            >
+              3 Users
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-tuu2wk-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-70qvj9"
+              data-testid="pagination-table-footer"
+            >
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1b2y88m-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="ChevronLeftIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                  />
+                </svg>
+              </button>
+              <div
+                class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-disabled css-1wpj3xg-MuiInputBase-root-MuiInput-root"
+                data-testid="current-page-number"
+              >
+                <input
+                  class="MuiInput-input MuiInputBase-input Mui-disabled css-1h0oku3-MuiInputBase-input-MuiInput-input"
+                  disabled=""
+                  size="1"
+                  type="text"
+                  value="1"
+                />
+              </div>
+              <span
+                class="MuiBox-root css-1ow84o7"
+              >
+                of
+              </span>
+              <span
+                class="MuiBox-root css-yx5h3u"
+                data-testid="total-number-of-pages"
+              >
+                1
+              </span>
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-153wo25-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="ChevronRightIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomerApproval Expect to match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Home
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-15ug3si-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-wd0fv5-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="customer-approval-title"
+          >
+            Customer Approval
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-19kzrtu"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-jhdc2n-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1i3vb4c"
+            >
+              <div
+                aria-expanded="false"
+                class="MuiAutocomplete-root MuiAutocomplete-fullWidth MuiAutocomplete-hasPopupIcon css-eozd4h-MuiAutocomplete-root"
+                data-testid="branch-filter"
+                role="combobox"
+              >
+                <div
+                  class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  data-testid="branch-filter-input"
+                >
+                  <label
+                    class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="true"
+                    for="branch-filter-autocomplete"
+                    id="branch-filter-autocomplete-label"
+                  >
+                    Branch
+                  </label>
+                  <div
+                    class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-dndmr2-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-invalid="false"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-fxwsjr-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="branch-filter-autocomplete"
+                      spellcheck="false"
+                      type="text"
+                      value="All"
+                    />
+                    <div
+                      class="MuiAutocomplete-endAdornment css-1q60rmi-MuiAutocomplete-endAdornment"
+                    >
+                      <button
+                        aria-label="Open"
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-qzbt6i-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator"
+                        tabindex="-1"
+                        title="Open"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="ArrowDropDownIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M7 10l5 5 5-5z"
+                          />
+                        </svg>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-1z7n62"
+                      >
+                        <span>
+                          Branch
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-19rbm6j"
+      >
+        <div
+          class="MuiBox-root css-1ofqig9"
+        >
+          <div
+            class="MuiBox-root css-1ukliak"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-19sicoy-MuiGrid-root"
+              data-testid="row_test5@gmail.com"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-4cxybv"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Email Address
+                  </p>
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1p166me-MuiTypography-root-MuiLink-root"
+                    data-testid="emailAddress-0"
+                    href="mailto:test5@gmail.com"
+                  >
+                    test5@gmail.com
+                  </a>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                >
+                  Name
+                </p>
+                <div
+                  data-testid="firstName-0"
+                  style="display: inline;"
+                >
+                   Test5 
+                </div>
+                <div
+                  data-testid="lastName-0"
+                  style="display: inline;"
+                >
+                  AllThings
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-1yt5lde-MuiGrid-root"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-15iav3i-MuiButtonBase-root-MuiButton-root"
+                  data-testid="viewUser-customer-approval-0"
+                  tabindex="0"
+                  type="button"
+                >
+                  View user
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg>
+                      chevron-right.svg
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-1ukliak"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-19sicoy-MuiGrid-root"
+              data-testid="row_test6@gmail.com"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-4cxybv"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Email Address
+                  </p>
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1p166me-MuiTypography-root-MuiLink-root"
+                    data-testid="emailAddress-1"
+                    href="mailto:test6@gmail.com"
+                  >
+                    test6@gmail.com
+                  </a>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                >
+                  Name
+                </p>
+                <div
+                  data-testid="firstName-1"
+                  style="display: inline;"
+                >
+                   Test6 
+                </div>
+                <div
+                  data-testid="lastName-1"
+                  style="display: inline;"
+                >
+                  AllTings
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-1yt5lde-MuiGrid-root"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-15iav3i-MuiButtonBase-root-MuiButton-root"
+                  data-testid="viewUser-customer-approval-1"
+                  tabindex="0"
+                  type="button"
+                >
+                  View user
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg>
+                      chevron-right.svg
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-1ukliak"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-19sicoy-MuiGrid-root"
+              data-testid="row_test7@gmail.com"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-4cxybv"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                  >
+                    Email Address
+                  </p>
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1p166me-MuiTypography-root-MuiLink-root"
+                    data-testid="emailAddress-2"
+                    href="mailto:test7@gmail.com"
+                  >
+                    test7@gmail.com
+                  </a>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1vcav5x-MuiTypography-root"
+                >
+                  Name
+                </p>
+                <div
+                  data-testid="firstName-2"
+                  style="display: inline;"
+                >
+                   Test7 
+                </div>
+                <div
+                  data-testid="lastName-2"
+                  style="display: inline;"
+                >
+                  AllOfTheThings
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-1yt5lde-MuiGrid-root"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-15iav3i-MuiButtonBase-root-MuiButton-root"
+                  data-testid="viewUser-customer-approval-2"
+                  tabindex="0"
+                  type="button"
+                >
+                  View user
+                  <span
+                    class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+                  >
+                    <svg>
+                      chevron-right.svg
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-dyslrn"
+        >
+          <div
+            class="MuiBox-root css-i9gxme"
+          >
+            3 Users
+          </div>
+          <div
+            class="MuiBox-root css-70qvj9"
+            data-testid="pagination-container"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1b2y88m-MuiButtonBase-root-MuiButton-root"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ChevronLeftIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                />
+              </svg>
+            </button>
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-disabled css-1wpj3xg-MuiInputBase-root-MuiInput-root"
+              data-testid="current-page-number"
+            >
+              <input
+                class="MuiInput-input MuiInputBase-input Mui-disabled css-1h0oku3-MuiInputBase-input-MuiInput-input"
+                disabled=""
+                size="1"
+                type="text"
+                value="1"
+              />
+            </div>
+            <span
+              class="MuiBox-root css-1ow84o7"
+            >
+              of
+            </span>
+            <span
+              class="MuiBox-root css-yx5h3u"
+              data-testid="total-number-of-pages"
+            >
+              1
+            </span>
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-153wo25-MuiButtonBase-root-MuiButton-root"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ChevronRightIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

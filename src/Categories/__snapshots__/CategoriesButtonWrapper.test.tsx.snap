@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesButtonWrapper tests should render correctly 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1c3h18e"
+  >
+    <div
+      class="MuiBox-root css-ntca38"
+    />
+    <button
+      class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-9tnmny-MuiButtonBase-root-MuiButton-root"
+      data-testid="browse-products-button"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBox-root css-10rvbm3"
+      >
+        Browse Products
+      </span>
+      <span
+        class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+      >
+        <svg
+          class="MuiBox-root css-1avs10n"
+          sx="[object Object]"
+        >
+          arrow-drop-down.svg
+        </svg>
+      </span>
+    </button>
+    <div
+      data-popper-escaped=""
+      data-popper-placement="bottom-start"
+      data-popper-reference-hidden=""
+      id="categories-listing"
+      role="tooltip"
+      style="position: absolute; top: 0px; left: 0px; z-index: 1300; margin: 0px; transform: translate(0px, 8px);"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiCard-root css-ept2uu-MuiPaper-root-MuiCard-root"
+        data-testid="categories-listing"
+        style="opacity: 1; transform: scale(1, 1); transform-origin: 0 0 0; transition: opacity 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      >
+        <div
+          class="MuiBox-root css-s88hxx"
+        >
+          <ul
+            class="MuiList-root MuiBox-root css-qshlp8-MuiList-root"
+          >
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters Mui-selected MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-0"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  Faucets, Fixtures & Appliances
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-1"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  Plumbing Installation, Tools, Hardware & Safety
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-2"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  Pipe & Fittings
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-3"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  Heating & Cooling
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-4"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  Hot Water, Valves, Irrigation & Pumps
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-5"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  TBC
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-6"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  Faucets, Fixtures Appliances
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+            <div
+              class="MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiButtonBase-root css-1ej0ht7-MuiButtonBase-root-MuiListItemButton-root"
+              data-testid="category1-7"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense css-1y7mhd5-MuiListItemText-root"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+                >
+                  Faucets, FiXtures & Appliances
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </div>
+          </ul>
+          <div
+            class="MuiBox-root css-t23v9o"
+          >
+            <div
+              class="MuiBox-root css-2ges0f"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+              >
+                Product Categories
+                 
+                <span
+                  class="MuiBox-root css-kaq1dv"
+                >
+                  (
+                  6
+                  )
+                </span>
+              </h5>
+              <a
+                class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineNone css-1yuky57-MuiTypography-root-MuiLink-root"
+                href="/search?categories=Faucets%2C%20Fixtures%20%26%20Appliances"
+              >
+                View All
+              </a>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-1cyz8w0-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-1uf91w7-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineNone css-1dw1a9l-MuiTypography-root-MuiLink-root"
+                  data-testid="category2-0"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=TBC"
+                >
+                  TBC
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-0-0"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=TBC&categories=TBC"
+                >
+                  TBC
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-1uf91w7-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineNone css-1dw1a9l-MuiTypography-root-MuiLink-root"
+                  data-testid="category2-1"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories"
+                >
+                  Faucets, Showers & Bathroom Accessories
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-0"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Showers"
+                >
+                  Showers
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-1"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Bathroom%20Accessories"
+                >
+                  Bathroom Accessories
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-2"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Tub%20%26%20Shower"
+                >
+                  Tub & Shower
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-3"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Bathroom%20Faucets"
+                >
+                  Bathroom Faucets
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-4"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Kitchen%20Faucets"
+                >
+                  Kitchen Faucets
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-5"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Tub%20Filler"
+                >
+                  Tub Filler
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-6"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Spare%20Parts"
+                >
+                  Spare Parts
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-7"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=TBC"
+                >
+                  TBC
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-8"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=Kitchen%20Accessories"
+                >
+                  Kitchen Accessories
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-1-9"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Faucets%2C%20Showers%20%26%20Bathroom%20Accessories&categories=CATCLEAN"
+                >
+                  CATCLEAN
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-1uf91w7-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineNone css-1dw1a9l-MuiTypography-root-MuiLink-root"
+                  data-testid="category2-2"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances"
+                >
+                  Appliances
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-0"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Refrigerators%20And%20Freezers"
+                >
+                  Refrigerators And Freezers
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-1"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Hoods%20and%20Vents"
+                >
+                  Hoods and Vents
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-2"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Outdoor%20Grills%20and%20BBQ"
+                >
+                  Outdoor Grills and BBQ
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-3"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Ranges%20and%20Stoves"
+                >
+                  Ranges and Stoves
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-4"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Microwaves"
+                >
+                  Microwaves
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-5"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Garbage%20Disposals"
+                >
+                  Garbage Disposals
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-6"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Appliance%20Accessories"
+                >
+                  Appliance Accessories
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-7"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Dishwashers"
+                >
+                  Dishwashers
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-8"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Dryers"
+                >
+                  Dryers
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-2-9"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Appliances&categories=Ovens"
+                >
+                  Ovens
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-1uf91w7-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineNone css-1dw1a9l-MuiTypography-root-MuiLink-root"
+                  data-testid="category2-3"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Toilets%2C%20Urinals%2C%20Sinks%20%26%20Flush%20Valves"
+                >
+                  Toilets, Urinals, Sinks & Flush Valves
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-3-0"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Toilets%2C%20Urinals%2C%20Sinks%20%26%20Flush%20Valves&categories=TBC"
+                >
+                  TBC
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-3-1"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Toilets%2C%20Urinals%2C%20Sinks%20%26%20Flush%20Valves&categories=Toilet%20%26%20Flush%20Valve%20Spare%20Parts"
+                >
+                  Toilet & Flush Valve Spare Parts
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-3-2"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Toilets%2C%20Urinals%2C%20Sinks%20%26%20Flush%20Valves&categories=CATCLEAN"
+                >
+                  CATCLEAN
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-3-3"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Toilets%2C%20Urinals%2C%20Sinks%20%26%20Flush%20Valves&categories=Manual%20Flush%20Valves"
+                >
+                  Manual Flush Valves
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-3-4"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Toilets%2C%20Urinals%2C%20Sinks%20%26%20Flush%20Valves&categories=Spare%20Parts"
+                >
+                  Spare Parts
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-1uf91w7-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineNone css-1dw1a9l-MuiTypography-root-MuiLink-root"
+                  data-testid="category2-4"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Fans%20%26%20Ventilation"
+                >
+                  Fans & Ventilation
+                </a>
+                <a
+                  class="MuiTypography-root MuiTypography-caption MuiLink-root MuiLink-underlineNone css-1djh7kt-MuiTypography-root-MuiLink-root"
+                  data-testid="category3-4-0"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Fans%20%26%20Ventilation&categories=TBC"
+                >
+                  TBC
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-1uf91w7-MuiGrid-root"
+              >
+                <a
+                  class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineNone css-1dw1a9l-MuiTypography-root-MuiLink-root"
+                  data-testid="category2-5"
+                  href="/search?&categories=Faucets%2C%20Fixtures%20%26%20Appliances&categories=Tools"
+                >
+                  Tools
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CategoriesButtonWrapper tests should render correctly while loading 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1c3h18e"
+  >
+    <div
+      class="MuiBox-root css-ntca38"
+    />
+    <button
+      class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-12ryi9q-MuiButtonBase-root-MuiButton-root"
+      data-testid="browse-products-button"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBox-root css-10rvbm3"
+      >
+        Browse Products
+      </span>
+      <span
+        class="MuiButton-endIcon MuiButton-iconSizeMedium css-1f03u4k-MuiButton-endIcon"
+      >
+        <svg
+          class="MuiBox-root css-0"
+          sx="[object Object]"
+        >
+          arrow-drop-down.svg
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;

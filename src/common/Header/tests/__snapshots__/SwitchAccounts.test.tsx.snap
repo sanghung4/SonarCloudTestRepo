@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on desktop as logged in user 1`] = `<div />`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on desktop as logged in user with multiple accounts 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-70qvj9"
+  >
+    <span
+      class="MuiTypography-root MuiTypography-caption css-189rpnh-MuiTypography-root"
+      data-mui-internal-clone-element="true"
+      data-testid="header-ship-to"
+    >
+      <span
+        class="MuiBox-root css-1vg6q84"
+      >
+        Job
+        : 
+      </span>
+      ship to
+    </span>
+    <a
+      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-2y5mqq-MuiTypography-root-MuiLink-root"
+      data-testid="change-link"
+      href="/select-accounts"
+    >
+      <button
+        class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButtonBase-root css-mvtbqb-MuiButtonBase-root-MuiButton-root"
+        data-testid="switch-account-button"
+        tabindex="0"
+        type="button"
+      >
+        Switch Account
+      </button>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on desktop as logged in user with multiple shipto accounts 1`] = `<div />`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on desktop as logged in user with shipTo accounts on hold 1`] = `<div />`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on desktop as logged out user 1`] = `<div />`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on mobile as logged in user 1`] = `<div />`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on mobile as logged in user with multiple accounts 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1v3caum"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 css-15h7jd8-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4cxybv"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-3wlfnt-MuiTypography-root"
+          >
+            Account
+            :
+          </span>
+        </div>
+        <div
+          class="MuiBox-root css-4cxybv"
+          data-testid="mobile-menu-bill-to"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+          >
+            bill to
+          </p>
+        </div>
+        <div
+          class="MuiBox-root css-4cxybv"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-3wlfnt-MuiTypography-root"
+          >
+            Job
+            :
+          </span>
+        </div>
+        <div
+          class="MuiBox-root css-hshm0p"
+          data-testid="mobile-menu-ship-to"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+          >
+            ship to
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-12kl8iw"
+        >
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root css-l9fdd-MuiButtonBase-root-MuiButton-root"
+            data-testid="change-button"
+            tabindex="0"
+            type="button"
+          >
+            Change
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr
+    class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+  />
+</div>
+`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on mobile as logged in user with multiple shipto accounts 1`] = `<div />`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot on mobile as logged out user 1`] = `<div />`;
+
+exports[`common - Header - SwitchAccounts expect to match snapshot with cart contract data 1`] = `<div />`;

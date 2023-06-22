@@ -1,0 +1,20 @@
+query Categories($erp: String) {
+  categories(erp: $erp) {
+    mincronCategories
+    eclipseCategories
+  }
+}
+
+query ProductCategories($engine: String!) {
+  productCategories(engine: $engine) {
+    categories {
+      name
+      children {
+        name
+        children {
+          name
+        }
+      }
+    }
+  }
+}

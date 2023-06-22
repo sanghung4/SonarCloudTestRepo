@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - TablePageLayout expect to match snapshot on basic props on desktop 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="breadcrumb"
+          />
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1obe4va-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-1s6wx5p-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="title"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`common - TablePageLayout expect to match snapshot on basic props on mobile 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Home
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-15ug3si-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-wd0fv5-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="title"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`common - TablePageLayout expect to match snapshot on basic props on mobile with flatCard 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Home
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-3ahet8-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1ffg6gc-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-wd0fv5-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="title"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-waew8e-MuiPaper-root-MuiCard-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`common - TablePageLayout expect to match snapshot on filled props on desktop 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-10eimqc-MuiTypography-root-MuiLink-root"
+            data-testid="test-breadcrumb"
+            href=""
+          >
+            test
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="title-breadcrumb"
+          >
+            title
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1obe4va-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-1s6wx5p-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="title-title"
+          >
+            title
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 css-1qspkho-MuiGrid-root"
+        >
+          <div>
+            header
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      content
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-1wcaknn"
+      >
+        <div>
+          filters
+        </div>
+      </div>
+      <div>
+        table
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - TablePageLayout expect to match snapshot on filled props on mobile 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Home
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-15ug3si-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-wd0fv5-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="title-title"
+          >
+            title
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 css-r9xhwu-MuiGrid-root"
+        >
+          <div>
+            header
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      content
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-19kzrtu"
+      >
+        <div>
+          filters
+        </div>
+      </div>
+      <div>
+        table
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - TablePageLayout expect to match snapshot while loading on desktop 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="breadcrumb"
+          />
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1obe4va-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-1s6wx5p-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="title"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-17vd2ov-MuiPaper-root-MuiCard-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`common - TablePageLayout expect to match snapshot while loading on mobile 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Home
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-15ug3si-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-wd0fv5-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="title"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-17vd2ov-MuiPaper-root-MuiCard-root"
+    />
+  </div>
+</div>
+`;

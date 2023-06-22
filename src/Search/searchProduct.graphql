@@ -1,0 +1,114 @@
+query SearchProduct(
+  $productSearch: ProductSearchInput
+  $userId: ID
+  $shipToAccountId: ID
+) {
+  searchProduct(
+    productSearch: $productSearch
+    userId: $userId
+    shipToAccountId: $shipToAccountId
+  ) {
+    pagination {
+      currentPage
+      pageSize
+      totalItemCount
+    }
+    products {
+      ...Product
+    }
+    aggregates {
+      inStockLocation {
+        value
+        count
+      }
+      category {
+        value
+        count
+      }
+      productTypes {
+        value
+        count
+      }
+      brands {
+        value
+        count
+      }
+      lines {
+        value
+        count
+      }
+      flowRate {
+        value
+        count
+      }
+      environmentalOptions {
+        value
+        count
+      }
+      material {
+        value
+        count
+      }
+      colorFinish {
+        value
+        count
+      }
+      size {
+        value
+        count
+      }
+      length {
+        value
+        count
+      }
+      width {
+        value
+        count
+      }
+      height {
+        value
+        count
+      }
+      depth {
+        value
+        count
+      }
+      voltage {
+        value
+        count
+      }
+      tonnage {
+        value
+        count
+      }
+      btu {
+        value
+        count
+      }
+      pressureRating {
+        value
+        count
+      }
+      temperatureRating {
+        value
+        count
+      }
+      inletSize {
+        value
+        count
+      }
+      capacity {
+        value
+        count
+      }
+      wattage {
+        value
+        count
+      }
+    }
+    selectedAttributes {
+      attributeType
+      attributeValue
+    }
+  }
+}

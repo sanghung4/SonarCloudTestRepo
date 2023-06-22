@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - Header - MobileDrawer expect to match snapshot of categories when browse product is clicked 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="PrivateSwipeArea-root css-n2n0ek"
+    style="width: 20px;"
+  />
+</div>
+`;
+
+exports[`common - Header - MobileDrawer expect to match snapshot with my lists 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="PrivateSwipeArea-root css-n2n0ek"
+    style="width: 20px;"
+  />
+</div>
+`;
+
+exports[`common - Header - MobileDrawer should match snapshot for logged in user 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="PrivateSwipeArea-root css-n2n0ek"
+    style="width: 20px;"
+  />
+</div>
+`;
+
+exports[`common - Header - MobileDrawer should match snapshot for logged in user as waterworks 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="PrivateSwipeArea-root css-n2n0ek"
+    style="width: 20px;"
+  />
+</div>
+`;
+
+exports[`common - Header - MobileDrawer should match snapshot for logged in user with hold alert 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="PrivateSwipeArea-root css-n2n0ek"
+    style="width: 20px;"
+  />
+</div>
+`;
+
+exports[`common - Header - MobileDrawer should match snapshot for logged out user 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="PrivateSwipeArea-root css-n2n0ek"
+    style="width: 20px;"
+  />
+</div>
+`;

@@ -1,0 +1,28 @@
+query UserAccounts($userId: String) {
+  userAccounts(userId: $userId) {
+    id
+    name
+    erpAccountId
+    erpSystemName
+    shipTos {
+      id
+      name
+      erpAccountId
+      erpSystemName
+      divisionEnum
+      branchId
+      branchAddress
+    }
+    erpSystemName
+    divisionEnum
+    branchId
+    branchAddress
+  }
+}
+
+query getRefreshShipToAccount($billToAccountId: String!) {
+  refreshShipToAccount(billToAccountId: $billToAccountId) {
+    id
+    name
+  }
+}

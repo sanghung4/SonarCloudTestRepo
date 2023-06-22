@@ -1,0 +1,11 @@
+mutation CreateNewEmployee($employee: CreateEmployeeInput!) {
+  createNewEmployee(employee: $employee) {
+    id
+    firstName
+    lastName
+    email
+    phoneNumber
+    roleId
+    approverId
+  }
+}

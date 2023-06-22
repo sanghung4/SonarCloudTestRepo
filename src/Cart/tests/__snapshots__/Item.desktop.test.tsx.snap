@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart - Item.desktop Should match snapshot as contract with line notes 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1nnyo3f"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap cart-list css-vmtq44-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2.3 cart-list__product--image css-1c3dff9-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fysqgs-MuiTypography-root-MuiLink-root"
+          href="/product/generic-1-2-wrot-copper-cap-ccapd/MSC-33860"
+        >
+          <img
+            alt="1/2\\" Wrot Copper Cap"
+            class="MuiBox-root css-dz4d5"
+            src="http://images.tradeservice.com/ProductImages/DIR100103/MUELER_W-07004_MED.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-md-5.7 css-1sgjvme-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-rk7jif-MuiTypography-root"
+            data-testid="cart-item-manufacturer-name-0"
+          >
+            Generic
+          </span>
+          <div>
+            <p
+              aria-label="1/2\\" Wrot Copper Cap"
+              class="MuiTypography-root MuiTypography-body1 css-4mc1p7-MuiTypography-root"
+              data-mui-internal-clone-element="true"
+              data-testid="cart-item-product-name-0"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                href="/product/generic-1-2-wrot-copper-cap-ccapd/MSC-33860"
+              >
+                1/2" Wrot Copper Cap
+              </a>
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1pws55v-MuiTypography-root"
+              data-testid="cart-item-part-number-0"
+            >
+              Part#
+               
+              33860
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-nzdsf2-MuiTypography-root"
+              data-testid="cart-item-manufacturer-number-0"
+            >
+              MFR#
+               
+              CCAPD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+          data-testid="cart-item-unit-price-0"
+        >
+          $43.00 ea
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-md-3 cart-list__product--quantity css-1psdkkc-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-40mi5u"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-8328zr-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+                data-testid="cart-item-order-qty-0"
+              >
+                1
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-md-3 css-7nz904-MuiGrid-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+          data-testid="cart-item-total-price-0"
+        >
+          $43.00
+        </span>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap cart-list css-x0i1mk-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1.8 css-2lv7e3-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11 MuiGrid-grid-md-10.2 css-18nxhrl-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-48hhhr-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1b6vfnv-MuiTypography-root"
+                  >
+                    Line Notes
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-10 css-e357wg-MuiGrid-root"
+                >
+                  <p
+                    aria-label="test"
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+                    data-mui-internal-clone-element="true"
+                    data-testid="cart-line-note-0"
+                  >
+                    test
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-twe2jw-MuiDivider-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`Cart - Item.desktop Should match snapshot as readOnly 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1nnyo3f"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap cart-list css-vmtq44-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2.3 cart-list__product--image css-1c3dff9-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fysqgs-MuiTypography-root-MuiLink-root"
+          href="/product/generic-1-2-wrot-copper-cap-ccapd/MSC-33860"
+        >
+          <img
+            alt="1/2\\" Wrot Copper Cap"
+            class="MuiBox-root css-dz4d5"
+            src="http://images.tradeservice.com/ProductImages/DIR100103/MUELER_W-07004_MED.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-md-5.7 css-1sgjvme-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-rk7jif-MuiTypography-root"
+            data-testid="cart-item-manufacturer-name-0"
+          >
+            Generic
+          </span>
+          <div>
+            <p
+              aria-label="1/2\\" Wrot Copper Cap"
+              class="MuiTypography-root MuiTypography-body1 css-4mc1p7-MuiTypography-root"
+              data-mui-internal-clone-element="true"
+              data-testid="cart-item-product-name-0"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                href="/product/generic-1-2-wrot-copper-cap-ccapd/MSC-33860"
+              >
+                1/2" Wrot Copper Cap
+              </a>
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1pws55v-MuiTypography-root"
+              data-testid="cart-item-part-number-0"
+            >
+              Part#
+               
+              33860
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-nzdsf2-MuiTypography-root"
+              data-testid="cart-item-manufacturer-number-0"
+            >
+              MFR#
+               
+              CCAPD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+          data-testid="cart-item-unit-price-0"
+        >
+          $0.43 ea
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-dvxtzn"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-rk7jif-MuiTypography-root"
+            data-testid="cart-item-qty-available-0"
+          >
+            215
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-xn7l0x-MuiTypography-root"
+          >
+            in stock
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-md-3 cart-list__product--quantity css-1psdkkc-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-40mi5u"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-8328zr-MuiGrid-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+                data-testid="cart-item-order-qty-0"
+              >
+                1
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-md-3 css-7nz904-MuiGrid-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+          data-testid="cart-item-total-price-0"
+        >
+          $0.43
+        </span>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap cart-list css-x0i1mk-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1.8 css-2lv7e3-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11 MuiGrid-grid-md-10.2 css-18nxhrl-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-0"
+        />
+      </div>
+    </div>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-twe2jw-MuiDivider-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`Cart - Item.desktop Should match snapshot with product 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1nnyo3f"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap cart-list css-vmtq44-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2.3 cart-list__product--image css-1c3dff9-MuiGrid-root"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fysqgs-MuiTypography-root-MuiLink-root"
+          href="/product/generic-1-2-wrot-copper-cap-ccapd/MSC-33860"
+        >
+          <img
+            alt="1/2\\" Wrot Copper Cap"
+            class="MuiBox-root css-dz4d5"
+            src="http://images.tradeservice.com/ProductImages/DIR100103/MUELER_W-07004_MED.jpg"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-md-5.7 css-1sgjvme-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-rk7jif-MuiTypography-root"
+            data-testid="cart-item-manufacturer-name-0"
+          >
+            Generic
+          </span>
+          <div>
+            <p
+              aria-label="1/2\\" Wrot Copper Cap"
+              class="MuiTypography-root MuiTypography-body1 css-4mc1p7-MuiTypography-root"
+              data-mui-internal-clone-element="true"
+              data-testid="cart-item-product-name-0"
+            >
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                href="/product/generic-1-2-wrot-copper-cap-ccapd/MSC-33860"
+              >
+                1/2" Wrot Copper Cap
+              </a>
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1pws55v-MuiTypography-root"
+              data-testid="cart-item-part-number-0"
+            >
+              Part#
+               
+              33860
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-nzdsf2-MuiTypography-root"
+              data-testid="cart-item-manufacturer-number-0"
+            >
+              MFR#
+               
+              CCAPD
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+          data-testid="cart-item-unit-price-0"
+        >
+          $0.43 ea
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-dvxtzn"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-rk7jif-MuiTypography-root"
+            data-testid="cart-item-qty-available-0"
+          >
+            215
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-xn7l0x-MuiTypography-root"
+          >
+            in stock
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-md-3 cart-list__product--quantity css-1psdkkc-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-1o0mfq9"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container css-12motvo-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-7nm36v-MuiGrid-root"
+            >
+              <div
+                class="number-input__container full-width"
+              >
+                <div
+                  class="number-input__button-container small"
+                >
+                  <button
+                    class="number-input__button"
+                    data-testid="quantity-input-down-0"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="RemoveIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13H5v-2h14v2z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <input
+                  class="number-input__input small"
+                  data-testid="quantity-input-0"
+                  index="0"
+                  min="1"
+                  value="1"
+                />
+                <div
+                  class="number-input__button-container small"
+                >
+                  <button
+                    class="number-input__button"
+                    data-testid="quantity-input-up-0"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="AddIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 MuiGrid-grid-md-3 css-7nz904-MuiGrid-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-caption css-12u2emh-MuiTypography-root"
+          data-testid="cart-item-total-price-0"
+        >
+          $0.43
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1 css-1c16yah-MuiGrid-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+          data-testid="remove-item-button-0"
+          tabindex="0"
+          type="button"
+        >
+          <svg>
+            delete-bin.svg
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap cart-list css-x0i1mk-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1.8 css-2lv7e3-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11 MuiGrid-grid-md-10.2 css-18nxhrl-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-0"
+        />
+      </div>
+    </div>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-twe2jw-MuiDivider-root"
+    />
+  </div>
+</div>
+`;

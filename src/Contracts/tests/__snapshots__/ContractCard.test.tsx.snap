@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contracts - ContractCard contract link stores location details 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-fl52ah"
+    data-testid="row_5432705"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-158h885-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-17in3a6-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4cxybv"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1yxmg07-MuiTypography-root"
+          >
+            Contract #
+            :
+             
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1wd4t9g-MuiTypography-root-MuiLink-root"
+              data-testid="contractNumber-0"
+              to="[object Object]"
+            >
+              5432705
+            </a>
+          </p>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1uxw4gc-MuiTypography-root"
+        >
+          Contract Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="description-0"
+          >
+            TESTING EQUIPMENT
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Last Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="lastReleaseDate-0"
+          >
+            09/16/2021
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job #
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobNumber-0"
+          >
+            ORGANIC
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobName-0"
+          >
+            ORGANIC CONST.
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          First Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="firstReleaseDate-0"
+          >
+            09/16/2021
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contracts - ContractCard matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-fl52ah"
+    data-testid="row_5432705"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-158h885-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-17in3a6-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4cxybv"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1yxmg07-MuiTypography-root"
+          >
+            Contract #
+            :
+             
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1wd4t9g-MuiTypography-root-MuiLink-root"
+              data-testid="contractNumber-0"
+              to="[object Object]"
+            >
+              5432705
+            </a>
+          </p>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1uxw4gc-MuiTypography-root"
+        >
+          Contract Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="description-0"
+          >
+            TESTING EQUIPMENT
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Last Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="lastReleaseDate-0"
+          >
+            09/16/2021
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job #
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobNumber-0"
+          >
+            ORGANIC
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobName-0"
+          >
+            ORGANIC CONST.
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          First Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="firstReleaseDate-0"
+          >
+            09/16/2021
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contracts - ContractCard matches the snapshot when contract data is undefined 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-fl52ah"
+    data-testid="row_undefined"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-158h885-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-17in3a6-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4cxybv"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1yxmg07-MuiTypography-root"
+          >
+            Contract #
+            :
+             
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1wd4t9g-MuiTypography-root-MuiLink-root"
+              data-testid="contractNumber-0"
+              to="[object Object]"
+            >
+              undefined
+            </a>
+          </p>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1uxw4gc-MuiTypography-root"
+        >
+          Contract Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="description-0"
+          >
+            undefined
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Last Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="lastReleaseDate-0"
+          >
+            undefined
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job #
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobNumber-0"
+          >
+            undefined
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobName-0"
+          >
+            undefined
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          First Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="firstReleaseDate-0"
+          >
+            undefined
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contracts - ContractCard matches the snapshot when isEven is set 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-fl52ah"
+    data-testid="row_5432705"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-zscj4i-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-17in3a6-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4cxybv"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1yxmg07-MuiTypography-root"
+          >
+            Contract #
+            :
+             
+            <a
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1wd4t9g-MuiTypography-root-MuiLink-root"
+              data-testid="contractNumber-0"
+              to="[object Object]"
+            >
+              5432705
+            </a>
+          </p>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1uxw4gc-MuiTypography-root"
+        >
+          Contract Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="description-0"
+          >
+            TESTING EQUIPMENT
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Last Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="lastReleaseDate-0"
+          >
+            09/16/2021
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job #
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobNumber-0"
+          >
+            ORGANIC
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          Job Name
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="jobName-0"
+          >
+            ORGANIC CONST.
+          </p>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1cnf8k9-MuiTypography-root"
+        >
+          First Release Date
+          :
+           
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-l1a6io-MuiTypography-root"
+            data-testid="firstReleaseDate-0"
+          >
+            09/16/2021
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1657 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contract Details - Product List Snapshot match 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-153b6os-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-pl9hs7"
+      data-testid="branch-sidebar-backdrop"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      class="MuiBox-root css-96jqp"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-container css-12kvfeo-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-1lkr5s-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-body1 css-ik69rm-MuiTypography-root"
+          >
+            Search Products
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-q9fxzi-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1hardch-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                  data-testid="contract-search-input-top"
+                  id="mui-3"
+                  placeholder="Description, Sequence#, Part #"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-nnbavb"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-6efxs7-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-1egkuzh-MuiButtonBase-root-MuiButton-root"
+                data-testid="contract-search-button-top"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Search
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-wyox7y-MuiButtonBase-root-MuiButton-root"
+                data-testid="contract-searchclear-button-top"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-15b5l39-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1at0xdk-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-l8mtqw-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-clearqtys-button-top"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Clear Qtys
+            </button>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-q0ckor-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-releasetocart-button-top"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Release to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1trzy3l"
+    />
+    <div
+      class="MuiBox-root css-15rz36g"
+      data-testid="product-search-list-container"
+      id="product-search-list-container"
+    >
+      <div
+        style="position: relative; height: 768px; width: 100%; overflow: auto; will-change: transform; direction: ltr;"
+      >
+        <div
+          style="height: 977px; width: 100%;"
+        >
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 0px; height: 119px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="contract-line-item-container-1"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-iacao3-MuiGrid-root"
+                data-testid="row_test0"
+                id="row_test0"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1ilpy0i-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-ttbnr1-MuiGrid-root"
+                    >
+                      <img
+                        alt="Product picture"
+                        class="MuiBox-root css-4w7ia0"
+                        data-testid="product-picture"
+                        src="https://images.tradeservice.com/ProductImages/DIR100108/OOATEY_31911_SML.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1q478d5-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    Test Brand 1
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-efujjh-MuiTypography-root"
+                    data-testid="product-name"
+                  >
+                    Test Item 1
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1uyvchb-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-awbw1a-MuiTypography-root"
+                      >
+                        Part#
+                         
+                        <div
+                          class="MuiTypography-root MuiTypography-body1 css-1pki3pl-MuiTypography-root"
+                          data-testid="part-number"
+                        >
+                          TESTPART1
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-sergpw-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="product-price"
+                      >
+                        $1.99
+                         
+                        ea
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="contract-quantity"
+                      >
+                        123
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="released-quantity"
+                      >
+                        52
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-2 css-1rdc4yd-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1oeflo8-MuiGrid-root"
+                      >
+                        <div
+                          class="number-input__container full-width"
+                        >
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-down"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="RemoveIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <input
+                            class="number-input__input small"
+                            data-testid="contract-qty-input1"
+                            min="0"
+                            value="0"
+                          />
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-up"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="AddIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-shz08v-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 119px; height: 119px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="contract-line-item-container-2"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-iacao3-MuiGrid-root"
+                data-testid="row_test1"
+                id="row_test1"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1ilpy0i-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-ttbnr1-MuiGrid-root"
+                    >
+                      <img
+                        alt="Product picture"
+                        class="MuiBox-root css-4w7ia0"
+                        data-testid="product-picture"
+                        src="https://images.tradeservice.com/ProductImages/DIR100093/CHRPIP_CTS-12005_SML.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1q478d5-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    Test Brand 1
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-efujjh-MuiTypography-root"
+                    data-testid="product-name"
+                  >
+                    Test Video Do Not Watch! Anti-carrot, bad for your eyes!
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1uyvchb-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-sergpw-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="product-price"
+                      >
+                        $2.99
+                         
+                        ea
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="contract-quantity"
+                      >
+                        1989
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="released-quantity"
+                      >
+                        6
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-2 css-1rdc4yd-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1oeflo8-MuiGrid-root"
+                      >
+                        <div
+                          class="number-input__container full-width"
+                        >
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-down"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="RemoveIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <input
+                            class="number-input__input small"
+                            data-testid="contract-qty-input2"
+                            min="0"
+                            value="0"
+                          />
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-up"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="AddIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-shz08v-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 238px; height: 119px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="contract-line-item-container-3"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-iacao3-MuiGrid-root"
+                data-testid="row_test2"
+                id="row_test2"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1ilpy0i-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-ttbnr1-MuiGrid-root"
+                    >
+                      <img
+                        alt="Product picture"
+                        class="MuiBox-root css-4w7ia0"
+                        data-testid="product-picture"
+                        src="https://ecomm-prod-product-img-store.s3.amazonaws.com/Moen/S/t933.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1q478d5-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    Brant Carthel
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-efujjh-MuiTypography-root"
+                    data-testid="product-name"
+                  >
+                    Why is he a brand?
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1uyvchb-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-awbw1a-MuiTypography-root"
+                      >
+                        Part#
+                         
+                        <div
+                          class="MuiTypography-root MuiTypography-body1 css-1pki3pl-MuiTypography-root"
+                          data-testid="part-number"
+                        >
+                          IDUNNOLOL
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-sergpw-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="product-price"
+                      >
+                        $8.24
+                         
+                        ea
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="contract-quantity"
+                      >
+                        35648
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="released-quantity"
+                      >
+                        1234
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-2 css-1rdc4yd-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1oeflo8-MuiGrid-root"
+                      >
+                        <div
+                          class="number-input__container full-width"
+                        >
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-down"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="RemoveIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <input
+                            class="number-input__input small"
+                            data-testid="contract-qty-input3"
+                            min="0"
+                            value="0"
+                          />
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-up"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="AddIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-shz08v-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 357px; height: 48px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-quq7kq"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-1tc208w-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19q7r1a-MuiGrid-root"
+                >
+                  <div>
+                    DEFINITELY A RICKSY TEST
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 405px; height: 119px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="contract-line-item-container-4"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-iacao3-MuiGrid-root"
+                data-testid="row_test3"
+                id="row_test3"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1ilpy0i-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-ttbnr1-MuiGrid-root"
+                    >
+                      <img
+                        alt="Product picture"
+                        class="MuiBox-root css-4w7ia0"
+                        data-testid="product-picture"
+                        src="notfound.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1q478d5-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    Mr. Rick J51
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-efujjh-MuiTypography-root"
+                    data-testid="product-name"
+                  >
+                    Plumbus
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1uyvchb-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-awbw1a-MuiTypography-root"
+                      >
+                        Part#
+                         
+                        <div
+                          class="MuiTypography-root MuiTypography-body1 css-1pki3pl-MuiTypography-root"
+                          data-testid="part-number"
+                        >
+                          PLB01
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-sergpw-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="product-price"
+                      >
+                        $99.99
+                         
+                        ea
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="contract-quantity"
+                      >
+                        2489238
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="released-quantity"
+                      >
+                        4763
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-2 css-1rdc4yd-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1oeflo8-MuiGrid-root"
+                      >
+                        <div
+                          class="number-input__container full-width"
+                        >
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-down"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="RemoveIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <input
+                            class="number-input__input small"
+                            data-testid="contract-qty-input4"
+                            min="0"
+                            value="0"
+                          />
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-up"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="AddIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-shz08v-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 524px; height: 119px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="contract-line-item-container-5"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-iacao3-MuiGrid-root"
+                data-testid="row_test4"
+                id="row_test4"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1ilpy0i-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-ttbnr1-MuiGrid-root"
+                    >
+                      <img
+                        alt="Product picture"
+                        class="MuiBox-root css-4w7ia0"
+                        data-testid="product-picture"
+                        src="https://i.ibb.co/K5k6KfN/image.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1q478d5-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    Costco Kirkland B18-Σ
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-efujjh-MuiTypography-root"
+                    data-testid="product-name"
+                  >
+                    Mr. Meeseeks
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1uyvchb-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-awbw1a-MuiTypography-root"
+                      >
+                        Part#
+                         
+                        <div
+                          class="MuiTypography-root MuiTypography-body1 css-1pki3pl-MuiTypography-root"
+                          data-testid="part-number"
+                        >
+                          CAN_SORTA_DO_IT_003
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-sergpw-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="product-price"
+                      >
+                        $59.99
+                         
+                        ea
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="contract-quantity"
+                      >
+                        22346
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="released-quantity"
+                      >
+                        238
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-2 css-1rdc4yd-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1oeflo8-MuiGrid-root"
+                      >
+                        <div
+                          class="number-input__container full-width"
+                        >
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-down"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="RemoveIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <input
+                            class="number-input__input small"
+                            data-testid="contract-qty-input5"
+                            min="0"
+                            value="0"
+                          />
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-up"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="AddIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-shz08v-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 643px; height: 119px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="contract-line-item-container-6"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-iacao3-MuiGrid-root"
+                data-testid="row_comment2"
+                id="row_comment2"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1ilpy0i-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-ttbnr1-MuiGrid-root"
+                    >
+                      <img
+                        alt="Product picture"
+                        class="MuiBox-root css-4w7ia0"
+                        data-testid="product-picture"
+                        src="https://i.ibb.co/H7XFf0P/image.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1q478d5-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    Rickle In Time
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-efujjh-MuiTypography-root"
+                    data-testid="product-name"
+                  >
+                    Genuine Time Crystal (Slightly Used)
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1uyvchb-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-awbw1a-MuiTypography-root"
+                      >
+                        Part#
+                         
+                        <div
+                          class="MuiTypography-root MuiTypography-body1 css-1pki3pl-MuiTypography-root"
+                          data-testid="part-number"
+                        >
+                          C137-TC01
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-sergpw-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="product-price"
+                      >
+                        $12,999.99
+                         
+                        ea
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="contract-quantity"
+                      >
+                        1
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="released-quantity"
+                      >
+                        0
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-2 css-1rdc4yd-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1oeflo8-MuiGrid-root"
+                      >
+                        <div
+                          class="number-input__container full-width"
+                        >
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-down"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="RemoveIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <input
+                            class="number-input__input small"
+                            data-testid="contract-qty-input6"
+                            min="0"
+                            value="0"
+                          />
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-up"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="AddIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-shz08v-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 762px; height: 48px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-quq7kq"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-1tc208w-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19q7r1a-MuiGrid-root"
+                >
+                  <div>
+                    ***** TEST *****
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 810px; height: 48px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-quq7kq"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-1tc208w-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-19q7r1a-MuiGrid-root"
+                >
+                  <div>
+                    ***** SECOND COMMENT *****
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-0"
+            style="position: absolute; left: 0px; top: 858px; height: 119px; width: 100%;"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="contract-line-item-container-10"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container css-iacao3-MuiGrid-root"
+                data-testid="row_test5"
+                id="row_test5"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1ilpy0i-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-ttbnr1-MuiGrid-root"
+                    >
+                      <img
+                        alt="Product picture"
+                        class="MuiBox-root css-4w7ia0"
+                        data-testid="product-picture"
+                        src="notfound.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1q478d5-MuiTypography-root"
+                    data-testid="mfr-name"
+                  >
+                    Subwy
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-efujjh-MuiTypography-root"
+                    data-testid="product-name"
+                  >
+                      12"                       sndwich   
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1uyvchb-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 css-awbw1a-MuiTypography-root"
+                      >
+                        Part#
+                         
+                        <div
+                          class="MuiTypography-root MuiTypography-body1 css-1pki3pl-MuiTypography-root"
+                          data-testid="part-number"
+                        >
+                          sndwich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-sergpw-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="product-price"
+                      >
+                        $8.99
+                         
+                        ea
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="contract-quantity"
+                      >
+                        1
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-rscx8u-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1y3098r-MuiTypography-root"
+                        data-testid="released-quantity"
+                      >
+                        0
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-2 css-1rdc4yd-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1oeflo8-MuiGrid-root"
+                      >
+                        <div
+                          class="number-input__container full-width"
+                        >
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-down"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="RemoveIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13H5v-2h14v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <input
+                            class="number-input__input small"
+                            data-testid="contract-qty-input10"
+                            min="0"
+                            value="0"
+                          />
+                          <div
+                            class="number-input__button-container small"
+                            style="width: 1.25rem;"
+                          >
+                            <button
+                              class="number-input__button"
+                              data-testid="quantity-input-up"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                data-testid="AddIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-shz08v-MuiDivider-root"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container css-12kvfeo-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-15b5l39-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1at0xdk-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-l8mtqw-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-clearqtys-button-bottom"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Clear Qtys
+            </button>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-q0ckor-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-releasetocart-button-bottom"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Release to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contract Details - Product List Snapshot match for empty list 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-153b6os-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-pl9hs7"
+      data-testid="branch-sidebar-backdrop"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      class="MuiBox-root css-96jqp"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-container css-12kvfeo-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-1lkr5s-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-body1 css-ik69rm-MuiTypography-root"
+          >
+            Search Products
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-q9fxzi-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1hardch-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                  data-testid="contract-search-input-top"
+                  id="mui-13"
+                  placeholder="Description, Sequence#, Part #"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-nnbavb"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-6efxs7-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-1egkuzh-MuiButtonBase-root-MuiButton-root"
+                data-testid="contract-search-button-top"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Search
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-wyox7y-MuiButtonBase-root-MuiButton-root"
+                data-testid="contract-searchclear-button-top"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-15b5l39-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1at0xdk-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-l8mtqw-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-clearqtys-button-top"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Clear Qtys
+            </button>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-q0ckor-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-releasetocart-button-top"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Release to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1trzy3l"
+    />
+    <div
+      class="MuiBox-root css-1fhgjcy"
+      data-testid="product-search-list-container"
+      id="product-search-list-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container css-ajrtt9-MuiGrid-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-body1 css-k3rnsl-MuiTypography-root"
+          data-testid="contract-product-list-empty"
+        >
+          No products were found
+        </h5>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container css-12kvfeo-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1z0dvx8-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-15b5l39-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 css-1at0xdk-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-l8mtqw-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-clearqtys-button-bottom"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Clear Qtys
+            </button>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto css-1tsghma-MuiGrid-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-q0ckor-MuiButtonBase-root-MuiButton-root"
+              data-testid="contract-releasetocart-button-bottom"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              Release to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

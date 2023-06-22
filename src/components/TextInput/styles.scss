@@ -1,0 +1,113 @@
+@use 'src/_reece.scss';
+
+.text-input {
+  font-family: Roboto;
+  color: reece.$dark-text-gray-100;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+  &__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: max-content;
+  }
+  &__required-star {
+    color: reece.$orangy-red-100;
+  }
+  &__input {
+    color: reece.$dark-text-gray-100;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    padding: 0.6875rem 1rem 0.6875rem; // accounts for 2px added by the border
+    background-color: reece.$white-100;
+    border: 1px solid reece.$medium-gray-100;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    ::placeholder {
+      color: reece.$medium-gray-100;
+    }
+    &.left-icon {
+      padding-left: 3rem;
+    }
+    &.action {
+      padding-right: 3.5rem;
+    }
+    &:hover,
+    &:focus {
+      &:not(:disabled) {
+        border-color: reece.$light-blue-100;
+      }
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 4px rgba(reece.$light-blue-100, 0.5);
+    }
+    &.password {
+      padding-right: 3rem;
+    }
+  }
+  &__action {
+    background: reece.$light-blue-100;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3.5rem;
+    padding: 0;
+    svg {
+      height: 1.5rem;
+      width: 1.5rem;
+      color: reece.$white-100;
+    }
+  }
+  &__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  &__icon-wrapper {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &__message-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 1rem 0;
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  &__show-password {
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    right: 1.25rem;
+    padding: 0;
+    background: none;
+    border: none;
+  }
+
+  &.error {
+    .text-input__input {
+      border-color: reece.$orangy-red-100;
+      &:focus {
+        box-shadow: 0 0 4px rgba(reece.$orangy-red-100, 0.5);
+      }
+    }
+    .text-input__input-icon {
+      color: reece.$orangy-red-100;
+    }
+    .text-input__message-wrapper {
+      color: reece.$orangy-red-100;
+    }
+  }
+}

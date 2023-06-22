@@ -1,0 +1,34 @@
+query searchSuggestion(
+  $term: String!
+  $engine: String!
+  $size: Int
+  $userId: ID
+  $shipToAccountId: ID
+  $erpSystem: String
+  $state: String
+  ) {
+  searchSuggestion(
+    term: $term
+    engine: $engine
+    size: $size
+    userId: $userId
+    shipToAccountId: $shipToAccountId
+    erpSystem: $erpSystem
+    state: $state
+) {
+    suggestions
+    topCategories {
+      value
+      count
+    }
+    topProducts {
+      id
+      name
+      manufacturerName
+      manufacturerNumber
+      imageUrls {
+        thumb
+      }
+    }
+  }
+}

@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account - View Account should match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="viewaccount-component"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gs6in-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-hpgf8j"
+      >
+        <div
+          class="MuiCardHeader-root css-1bnehoc-MuiCardHeader-root"
+          data-testid="account-information-title"
+        >
+          <div
+            class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-h4 MuiCardHeader-title css-wa9bt7-MuiTypography-root"
+            >
+              Account Information
+            </span>
+          </div>
+          <div
+            class="MuiCardHeader-action css-nrv06q-MuiCardHeader-action"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="editaccount-button"
+              tabindex="0"
+              type="button"
+            >
+              <svg>
+                edit.svg
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-0"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+          >
+             Name: 
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1arfpeq-MuiTypography-root"
+            data-testid="name-field"
+          >
+            John Doe
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1bbcutn"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+          >
+             Phone Number:
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1arfpeq-MuiTypography-root"
+            data-testid="phone-number-field"
+          >
+            (111) 111-1111
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1bbcutn"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+          >
+             Email:
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1arfpeq-MuiTypography-root"
+            data-testid="email-field"
+          >
+            john.doe@morsco.com
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1bbcutn"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+          >
+             Role: 
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1arfpeq-MuiTypography-root"
+            data-testid="role-field"
+          >
+            Morsco Admin
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-z6igcc"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-wyox7y-MuiButtonBase-root-MuiButton-root"
+          data-testid="change-password-button"
+          tabindex="0"
+          type="button"
+        >
+          Change password
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Account - View Account should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="viewaccount-component"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1f2fbl-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-hpgf8j"
+      >
+        <div
+          class="MuiCardHeader-root css-1bnehoc-MuiCardHeader-root"
+          data-testid="account-information-title"
+        >
+          <div
+            class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-123mujq-MuiTypography-root"
+            >
+              Account Information
+            </span>
+          </div>
+          <div
+            class="MuiCardHeader-action css-nrv06q-MuiCardHeader-action"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-1unv2py-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="editaccount-button"
+              tabindex="0"
+              type="button"
+            >
+              <svg>
+                edit.svg
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-0"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+          >
+             Name: 
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-1mia2g5-MuiTypography-root"
+            data-testid="name-field"
+          >
+            John Doe
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1bbcutn"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+          >
+             Phone Number:
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-1mia2g5-MuiTypography-root"
+            data-testid="phone-number-field"
+          >
+            (111) 111-1111
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1bbcutn"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+          >
+             Email:
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-1mia2g5-MuiTypography-root"
+            data-testid="email-field"
+          >
+            john.doe@morsco.com
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1bbcutn"
+      >
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+          >
+             Role: 
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-1mia2g5-MuiTypography-root"
+            data-testid="role-field"
+          >
+            Morsco Admin
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-ff9sbb"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-wyox7y-MuiButtonBase-root-MuiButton-root"
+          data-testid="change-password-button"
+          tabindex="0"
+          type="button"
+        >
+          Change password
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

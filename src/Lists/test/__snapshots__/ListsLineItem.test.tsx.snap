@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListsLineItem Should display find at other branches 1`] = `
+<button
+  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButtonBase-root  css-1p51lwh-MuiButtonBase-root-MuiButton-root"
+  data-testid="find-at-other-branches-button"
+  tabindex="0"
+  type="button"
+>
+  Find at Other Branches
+</button>
+`;
+
+exports[`ListsLineItem Should display the availability of an item in the list 1`] = `
+<div
+  class="MuiBox-root css-kpy16r"
+  data-testid="availability-stock-chip"
+  title="Available for order"
+>
+  <svg>
+    quick-order.svg
+  </svg>
+   Available for order
+</div>
+`;
+
+exports[`ListsLineItem Should match snapshot for mobile view 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container lists-line-item__container css-11lq3yg-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-7 css-9runz6-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto lists-line-item__reoder-handle-container css-1tsghma-MuiGrid-root"
+      >
+        <svg>
+          handle.svg
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto lists-line-item__image-container css-1tsghma-MuiGrid-root"
+      >
+        <div
+          class="lists-line-item__product--image-subcontainer"
+          data-testid="product-picture-33860"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-3x7rqn-MuiSkeleton-root"
+            style="width: 100%; height: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true lists-line-item__product--details-container css-1z0dvx8-MuiGrid-root"
+      >
+        <div
+          class="lists-line-item__hidden-print-block"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-q9xsaf-MuiSkeleton-root"
+            style="width: 100%; height: 24px;"
+          />
+        </div>
+        <div
+          class="lists-line-item__product--details-block"
+        >
+          <span
+            class="lists-line-item__product--mfr-name"
+            data-testid="manufacturer-name-33860"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+              data-testid="loading-manufacturer-name"
+            />
+          </span>
+          <div
+            class="lists-line-item__product--item-name"
+          >
+            <span
+              data-testid="item-name-33860"
+            >
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+              />
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+              />
+            </span>
+          </div>
+          <span
+            class="lists-line-item__product--mfr-msc"
+            data-testid="manufacturer-number-33860"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+            />
+          </span>
+          <span
+            class="lists-line-item__product--mfr-msc"
+            data-testid="product-id-33860"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+            />
+          </span>
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+          />
+        </div>
+        <div>
+          <span
+            class="lists-line-item__product--mobile-price-per-unit"
+            data-testid="price-per-unit-33860"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+              data-testid="price-skeleton-33860"
+              style="width: 60px;"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class="lists-line-item__mobile-delete-box"
+      >
+        <button
+          class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-colorPrimary MuiIconButton-sizeLarge css-19dmyy1-MuiButtonBase-root-MuiIconButton-root"
+          data-testid="delete-button-33860"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          <svg>
+            delete-bin.svg
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-grid-xs-12 css-1634xdp-MuiGrid-root"
+    >
+      <div
+        class="lists-line-item__product--branch-available--container"
+      >
+        <div
+          class="lists-line-item__product--branch-available--available-chip-box"
+          data-testid="stock-chip-box"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-q9xsaf-MuiSkeleton-root"
+            style="width: 100%; height: 24px;"
+          />
+        </div>
+        <div
+          class="lists-line-item__product--branch-available--location-box"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-5vb1iz-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-auto css-1xh0yc4-MuiGrid-root"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-3x7rqn-MuiSkeleton-root"
+          style="width: 125px; height: 37px;"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-auto css-1xh0yc4-MuiGrid-root"
+      >
+        <div
+          aria-label=""
+          class=""
+          data-mui-internal-clone-element="true"
+          data-testid="tipMobile"
+        >
+          <button
+            class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root Mui-disabled  css-dpvwd0-MuiButtonBase-root-MuiButton-root"
+            data-testid="1bd15d80-fb49-4410-965a-0f212374ac3f-add-to-cart-button"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListsLineItem Should match snapshot when loading 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container lists-line-item__container css-11lq3yg-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-7 css-9runz6-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto lists-line-item__reoder-handle-container css-1tsghma-MuiGrid-root"
+      >
+        <svg>
+          handle.svg
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto lists-line-item__image-container css-1tsghma-MuiGrid-root"
+      >
+        <div
+          class="lists-line-item__product--image-subcontainer"
+          data-testid="product-picture-33860"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-3x7rqn-MuiSkeleton-root"
+            style="width: 100%; height: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true lists-line-item__product--details-container css-1z0dvx8-MuiGrid-root"
+      >
+        <div
+          class="lists-line-item__hidden-print-block"
+        >
+          <div
+            class="MuiBox-root css-kpy16r"
+            data-testid="availability-stock-chip"
+            title="Available for order"
+          >
+            <svg>
+              quick-order.svg
+            </svg>
+             Available for order
+          </div>
+        </div>
+        <div
+          class="lists-line-item__product--details-block"
+        >
+          <span
+            class="lists-line-item__product--mfr-name"
+            data-testid="manufacturer-name-33860"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+              data-testid="loading-manufacturer-name"
+            />
+          </span>
+          <div
+            class="lists-line-item__product--item-name"
+          >
+            <span
+              data-testid="item-name-33860"
+            >
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+              />
+            </span>
+          </div>
+          <span
+            class="lists-line-item__product--mfr-msc"
+            data-testid="manufacturer-number-33860"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+            />
+          </span>
+          <span
+            class="lists-line-item__product--mfr-msc"
+            data-testid="product-id-33860"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+            />
+          </span>
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-5vb1iz-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-auto css-1xh0yc4-MuiGrid-root"
+      >
+        <span
+          class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-3x7rqn-MuiSkeleton-root"
+          style="width: 125px; height: 37px;"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-auto css-1xh0yc4-MuiGrid-root"
+      >
+        <div
+          aria-label=""
+          class=""
+          data-mui-internal-clone-element="true"
+          data-testid="tipDesktop"
+        >
+          <button
+            class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root Mui-disabled  css-dpvwd0-MuiButtonBase-root-MuiButton-root"
+            data-testid="1bd15d80-fb49-4410-965a-0f212374ac3f-add-to-cart-button"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

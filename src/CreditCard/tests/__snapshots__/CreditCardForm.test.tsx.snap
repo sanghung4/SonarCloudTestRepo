@@ -1,0 +1,1804 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCard - CreditCardForm expect to match snapshot after clicking submit on a blank data 1`] = `
+<div>
+  <form
+    class="MuiBox-root css-79elbk"
+    novalidate=""
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ymr52d-MuiTypography-root"
+    >
+      Enter billing information associated with your credit card.
+    </p>
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="cardHolder"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Name
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="true"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="card-holder-input"
+            id="cardHolder"
+            name="cardHolder"
+            placeholder="Name"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+          data-testid="card-holder-error"
+        >
+          Name is required
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="streetAddress"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Address
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="true"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="street-address-input"
+            id="streetAddress"
+            name="streetAddress"
+            placeholder="Address"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          Address is required
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="city"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            City
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="true"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="city-input"
+            id="city"
+            name="city"
+            placeholder="City"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          City is required
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="postalCode"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            State / Zip Code
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-5 css-1g4olat-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-fullWidth css-158wf4r-MuiInputBase-root-MuiInput-root"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="state"
+                class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                id="state"
+                role="button"
+                tabindex="0"
+              >
+                State
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                data-testid="state-input"
+                name="state"
+                tabindex="-1"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiFormHelperText-root css-f30th0-MuiFormHelperText-root"
+            >
+              State is required
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-7 css-34dgbo-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+              required=""
+            >
+              <input
+                aria-invalid="true"
+                class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+                data-testid="postal-code-input"
+                id="postalCode"
+                name="postalCode"
+                placeholder="Zip Code"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <p
+              class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+            >
+              Zip Code is required
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-159td0a-MuiGrid-root"
+      >
+        <label
+          class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+        >
+          <span
+            class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root css-1rq1t8t-MuiButtonBase-root-MuiCheckbox-root"
+          >
+            <input
+              class="PrivateSwitchBase-input css-1m9pwf3"
+              data-indeterminate="false"
+              id="saveCard"
+              name="saveCard"
+              type="checkbox"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CheckBoxOutlineBlankIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-1k41qqb-MuiTypography-root"
+          >
+            Save card to Account
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-qsn9z9-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4fwt92"
+        >
+          <div
+            class="MuiBox-root css-xvkg36"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-q7mvqv-MuiButtonBase-root-MuiButton-root"
+              data-testid="add-new-card-button"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  launch.svg
+                </svg>
+              </span>
+              Add new card
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-704axj"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-light css-1acisye-MuiDivider-root"
+      />
+    </div>
+  </form>
+</div>
+`;
+
+exports[`CreditCard - CreditCardForm expect to match snapshot on desktop 1`] = `
+<div>
+  <form
+    class="MuiBox-root css-79elbk"
+    novalidate=""
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ymr52d-MuiTypography-root"
+    >
+      Enter billing information associated with your credit card.
+    </p>
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="cardHolder"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Name
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="card-holder-input"
+            id="cardHolder"
+            name="cardHolder"
+            placeholder="Name"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+          data-testid="card-holder-error"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="streetAddress"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Address
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="street-address-input"
+            id="streetAddress"
+            name="streetAddress"
+            placeholder="Address"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="city"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            City
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="city-input"
+            id="city"
+            name="city"
+            placeholder="City"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="postalCode"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            State / Zip Code
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-5 css-1g4olat-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-158wf4r-MuiInputBase-root-MuiInput-root"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="state"
+                class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                id="state"
+                role="button"
+                tabindex="0"
+              >
+                State
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                data-testid="state-input"
+                name="state"
+                tabindex="-1"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiFormHelperText-root css-f30th0-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-7 css-34dgbo-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+              required=""
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+                data-testid="postal-code-input"
+                id="postalCode"
+                name="postalCode"
+                placeholder="Zip Code"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <p
+              class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-159td0a-MuiGrid-root"
+      >
+        <label
+          class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+        >
+          <span
+            class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root Mui-checked css-1rq1t8t-MuiButtonBase-root-MuiCheckbox-root"
+          >
+            <input
+              checked=""
+              class="PrivateSwitchBase-input css-1m9pwf3"
+              data-indeterminate="false"
+              id="saveCard"
+              name="saveCard"
+              type="checkbox"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CheckBoxIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-1k41qqb-MuiTypography-root"
+          >
+            Save card to Account
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-qsn9z9-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4fwt92"
+        >
+          <div
+            class="MuiBox-root css-xvkg36"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-2 MuiGrid-direction-xs-column css-10h8c1q-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <button
+                  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-q7mvqv-MuiButtonBase-root-MuiButton-root"
+                  data-testid="enter-credit-card-button"
+                  tabindex="0"
+                  type="submit"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+                  >
+                    <svg>
+                      payment.svg
+                    </svg>
+                  </span>
+                  Enter credit card number
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <p
+                  class="MuiFormHelperText-root css-14799pm-MuiFormHelperText-root"
+                >
+                  You will have a chance to review the order before it is submitted.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-704axj"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-light css-1acisye-MuiDivider-root"
+      />
+    </div>
+  </form>
+</div>
+`;
+
+exports[`CreditCard - CreditCardForm expect to match snapshot on mobile 1`] = `
+<div>
+  <form
+    class="MuiBox-root css-79elbk"
+    novalidate=""
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-177u57b-MuiTypography-root"
+    >
+      Enter billing information associated with your credit card.
+    </p>
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="cardHolder"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Name
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="card-holder-input"
+            id="cardHolder"
+            name="cardHolder"
+            placeholder="Name"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+          data-testid="card-holder-error"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="streetAddress"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Address
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="street-address-input"
+            id="streetAddress"
+            name="streetAddress"
+            placeholder="Address"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="city"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            City
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="city-input"
+            id="city"
+            name="city"
+            placeholder="City"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="postalCode"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            State / Zip Code
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-5 css-1g4olat-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-izj3b3-MuiInputBase-root-MuiInput-root"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="state"
+                class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                id="state"
+                role="button"
+                tabindex="0"
+              >
+                State
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                data-testid="state-input"
+                name="state"
+                tabindex="-1"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiFormHelperText-root css-f30th0-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-7 css-34dgbo-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+              required=""
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+                data-testid="postal-code-input"
+                id="postalCode"
+                name="postalCode"
+                placeholder="Zip Code"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <p
+              class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-7cd54j-MuiGrid-root"
+      >
+        <label
+          class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+        >
+          <span
+            class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root css-1rq1t8t-MuiButtonBase-root-MuiCheckbox-root"
+          >
+            <input
+              class="PrivateSwitchBase-input css-1m9pwf3"
+              data-indeterminate="false"
+              id="saveCard"
+              name="saveCard"
+              type="checkbox"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CheckBoxOutlineBlankIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-1k41qqb-MuiTypography-root"
+          >
+            Save card to Account
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-qsn9z9-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-1vsiol0"
+        >
+          <div
+            class="MuiBox-root css-1wu71ck"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1p8jy4a-MuiButtonBase-root-MuiButton-root"
+              data-testid="add-new-card-button"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  launch.svg
+                </svg>
+              </span>
+              Add new card
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-13bia3y"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-light css-1acisye-MuiDivider-root"
+      />
+    </div>
+  </form>
+</div>
+`;
+
+exports[`CreditCard - CreditCardForm expect to match snapshot with hideSaveCard 1`] = `
+<div>
+  <form
+    class="MuiBox-root css-79elbk"
+    novalidate=""
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ymr52d-MuiTypography-root"
+    >
+      Enter billing information associated with your credit card.
+    </p>
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="cardHolder"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Name
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-coobyg-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="card-holder-input"
+            id="cardHolder"
+            name="cardHolder"
+            placeholder="Name"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+          data-testid="card-holder-error"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="streetAddress"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Address
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-coobyg-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="street-address-input"
+            id="streetAddress"
+            name="streetAddress"
+            placeholder="Address"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="city"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            City
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-coobyg-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="city-input"
+            id="city"
+            name="city"
+            placeholder="City"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="postalCode"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            State / Zip Code
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-coobyg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-5 css-1g4olat-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-158wf4r-MuiInputBase-root-MuiInput-root"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="state"
+                class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                id="state"
+                role="button"
+                tabindex="0"
+              >
+                State
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                data-testid="state-input"
+                name="state"
+                tabindex="-1"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiFormHelperText-root css-f30th0-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-7 css-34dgbo-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+              required=""
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+                data-testid="postal-code-input"
+                id="postalCode"
+                name="postalCode"
+                placeholder="Zip Code"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <p
+              class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-wzljmo-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4fwt92"
+        >
+          <div
+            class="MuiBox-root css-xvkg36"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-q7mvqv-MuiButtonBase-root-MuiButton-root"
+              data-testid="add-new-card-button"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  launch.svg
+                </svg>
+              </span>
+              Add new card
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`CreditCard - CreditCardForm expect to match snapshot with valid onCancel 1`] = `
+<div>
+  <form
+    class="MuiBox-root css-79elbk"
+    novalidate=""
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ymr52d-MuiTypography-root"
+    >
+      Enter billing information associated with your credit card.
+    </p>
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="cardHolder"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Name
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="card-holder-input"
+            id="cardHolder"
+            name="cardHolder"
+            placeholder="Name"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+          data-testid="card-holder-error"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="streetAddress"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            Address
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="street-address-input"
+            id="streetAddress"
+            name="streetAddress"
+            placeholder="Address"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="city"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            City
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+          required=""
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+            data-testid="city-input"
+            id="city"
+            name="city"
+            placeholder="City"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+        >
+          <span
+            class="notranslate"
+          >
+            ​
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-im7n4l-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="postalCode"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+          >
+            State / Zip Code
+          </span>
+          <span
+            aria-hidden="true"
+            class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-5 css-1g4olat-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-158wf4r-MuiInputBase-root-MuiInput-root"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="state"
+                class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+                id="state"
+                role="button"
+                tabindex="0"
+              >
+                State
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                data-testid="state-input"
+                name="state"
+                tabindex="-1"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiFormHelperText-root css-f30th0-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-7 css-34dgbo-MuiGrid-root"
+          >
+            <div
+              class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-9dwq1y-MuiInputBase-root-MuiInput-root"
+              required=""
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+                data-testid="postal-code-input"
+                id="postalCode"
+                name="postalCode"
+                placeholder="Zip Code"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <p
+              class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-159td0a-MuiGrid-root"
+      >
+        <label
+          class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+        >
+          <span
+            class="MuiCheckbox-root MuiCheckbox-colorPrimary MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root css-1rq1t8t-MuiButtonBase-root-MuiCheckbox-root"
+          >
+            <input
+              class="PrivateSwitchBase-input css-1m9pwf3"
+              data-indeterminate="false"
+              id="saveCard"
+              name="saveCard"
+              type="checkbox"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CheckBoxOutlineBlankIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-1k41qqb-MuiTypography-root"
+          >
+            Save card to Account
+          </span>
+        </label>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-qsn9z9-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-4fwt92"
+        >
+          <div
+            class="MuiBox-root css-xvkg36"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-q7mvqv-MuiButtonBase-root-MuiButton-root"
+              data-testid="add-new-card-button"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  launch.svg
+                </svg>
+              </span>
+              Add new card
+            </button>
+          </div>
+          <button
+            class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1qs96lt-MuiButtonBase-root-MuiButton-root"
+            data-testid="cancel-add-new-card-button"
+            tabindex="0"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-704axj"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-light css-1acisye-MuiDivider-root"
+      />
+    </div>
+  </form>
+</div>
+`;

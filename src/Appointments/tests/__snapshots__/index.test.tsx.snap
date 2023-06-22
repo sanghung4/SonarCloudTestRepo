@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Appointments Renders Appointments in desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1k9ek97"
+  >
+    <div
+      class="MuiBox-root css-1elh6vn"
+    >
+      <div
+        id="lexcontainer"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Appointments Renders Appointments in mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1k9ek97"
+  >
+    <div
+      class="MuiBox-root css-135h4tr"
+    >
+      <div
+        id="lexcontainer"
+      />
+    </div>
+  </div>
+</div>
+`;

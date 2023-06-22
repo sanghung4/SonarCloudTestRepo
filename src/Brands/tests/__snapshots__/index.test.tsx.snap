@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brands Should match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-iit8e8-MuiContainer-root"
+  >
+    <h3
+      class="MuiTypography-root MuiTypography-h3 css-rlb303-MuiTypography-root"
+      data-testid="brands-title"
+    >
+      Brands
+    </h3>
+    <div
+      class="MuiGrid-root MuiGrid-container css-s3jtbw-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-96hglj-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-kq265v-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item css-8mr3zo-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-1f4cidz"
+                  data-testid="posh-thumbnail"
+                />
+                <div
+                  class="MuiBox-root css-jq0qc5"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1l2tlo0-MuiTypography-root"
+                    data-testid="posh-title"
+                  >
+                    Posh
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-qus622-MuiTypography-root"
+                    data-testid="posh-description"
+                  >
+                    With a range of quality faucets and fixtures, Posh offers complete versatility when it comes to creating bathrooms and kitchens that work for your family.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+                <div
+                  class="MuiBox-root css-19midj6"
+                >
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                    href="brands/posh"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1e2k2a4-MuiTypography-root"
+                      data-testid="posh-learn-more-link"
+                    >
+                      Learn More
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-96hglj-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-kq265v-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item css-8mr3zo-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-zx748v"
+                  data-testid="b-press-thumbnail"
+                />
+                <div
+                  class="MuiBox-root css-jq0qc5"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1l2tlo0-MuiTypography-root"
+                    data-testid="b-press-title"
+                  >
+                    &gt;B&lt; Press
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-qus622-MuiTypography-root"
+                    data-testid="b-press-description"
+                  >
+                    Quick and easy to install copper fittings. This flame-free product range is designed with an innovative 3-point press system which ensures a secure, permanent leak-free joint and is suitable for multiple applications. &gt;B&lt; Press fittings are also compatible with a variety of press tools and jaws.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+                <div
+                  class="MuiBox-root css-19midj6"
+                >
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                    href="https://reece.conexbanninger.com/"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1e2k2a4-MuiTypography-root"
+                      data-testid="b-press-learn-more-link"
+                    >
+                      Learn More
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-96hglj-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-kq265v-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item css-8mr3zo-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-3yv3yl"
+                  data-testid="bigdog-thumbnail"
+                />
+                <div
+                  class="MuiBox-root css-jq0qc5"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1l2tlo0-MuiTypography-root"
+                    data-testid="bigdog-title"
+                  >
+                    BIGDOG
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-qus622-MuiTypography-root"
+                    data-testid="bigdog-description"
+                  >
+                    On the jobsite, you want no nonsense tools that won’t let you down. And BIGDOG delivers. Designed for the exact needs of contractors and technicians, they’ll help you make light work of even the toughest jobs.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+                <div
+                  class="MuiBox-root css-19midj6"
+                >
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                    href="brands/bigdog"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1e2k2a4-MuiTypography-root"
+                      data-testid="bigdog-learn-more-link"
+                    >
+                      Learn More
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Brands Should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-iit8e8-MuiContainer-root"
+  >
+    <h3
+      class="MuiTypography-root MuiTypography-h3 css-6ls4zm-MuiTypography-root"
+      data-testid="brands-title"
+    >
+      Brands
+    </h3>
+    <div
+      class="MuiGrid-root MuiGrid-container css-1mq9r4u-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1pjzlin-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-kq265v-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item css-8mr3zo-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-1f4cidz"
+                  data-testid="posh-thumbnail"
+                />
+                <div
+                  class="MuiBox-root css-jq0qc5"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1l2tlo0-MuiTypography-root"
+                    data-testid="posh-title"
+                  >
+                    Posh
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-qus622-MuiTypography-root"
+                    data-testid="posh-description"
+                  >
+                    With a range of quality faucets and fixtures, Posh offers complete versatility when it comes to creating bathrooms and kitchens that work for your family.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+                <div
+                  class="MuiBox-root css-19midj6"
+                >
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                    href="brands/posh"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1e2k2a4-MuiTypography-root"
+                      data-testid="posh-learn-more-link"
+                    >
+                      Learn More
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1pjzlin-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-kq265v-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item css-8mr3zo-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-zx748v"
+                  data-testid="b-press-thumbnail"
+                />
+                <div
+                  class="MuiBox-root css-jq0qc5"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1l2tlo0-MuiTypography-root"
+                    data-testid="b-press-title"
+                  >
+                    &gt;B&lt; Press
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-qus622-MuiTypography-root"
+                    data-testid="b-press-description"
+                  >
+                    Quick and easy to install copper fittings. This flame-free product range is designed with an innovative 3-point press system which ensures a secure, permanent leak-free joint and is suitable for multiple applications. &gt;B&lt; Press fittings are also compatible with a variety of press tools and jaws.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+                <div
+                  class="MuiBox-root css-19midj6"
+                >
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                    href="https://reece.conexbanninger.com/"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1e2k2a4-MuiTypography-root"
+                      data-testid="b-press-learn-more-link"
+                    >
+                      Learn More
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1pjzlin-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root MuiBox-root css-kq265v-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item css-8mr3zo-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-3yv3yl"
+                  data-testid="bigdog-thumbnail"
+                />
+                <div
+                  class="MuiBox-root css-jq0qc5"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1l2tlo0-MuiTypography-root"
+                    data-testid="bigdog-title"
+                  >
+                    BIGDOG
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-qus622-MuiTypography-root"
+                    data-testid="bigdog-description"
+                  >
+                    On the jobsite, you want no nonsense tools that won’t let you down. And BIGDOG delivers. Designed for the exact needs of contractors and technicians, they’ll help you make light work of even the toughest jobs.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+                />
+                <div
+                  class="MuiBox-root css-19midj6"
+                >
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                    href="brands/bigdog"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1e2k2a4-MuiTypography-root"
+                      data-testid="bigdog-learn-more-link"
+                    >
+                      Learn More
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

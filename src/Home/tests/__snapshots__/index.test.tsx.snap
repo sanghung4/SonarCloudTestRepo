@@ -1,0 +1,2685 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render the Home page 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="main-content"
+  >
+    <div
+      class="MuiBox-root css-17wzssw"
+    >
+      <div
+        class="MuiBox-root css-y6dvw6"
+      >
+        <div
+          class="MuiBox-root css-1nm056i"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-12qzi9c-MuiContainer-root"
+          >
+            <div
+              class="MuiBox-root css-cd3w3f"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-true css-4rlzzx-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-15x5z3w"
+                  >
+                    <div
+                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-5oxh13-MuiPaper-root-MuiCard-root"
+                    >
+                      <div
+                        class="MuiBox-root css-1k9ek97"
+                      >
+                        <div
+                          class="MuiBox-root css-1y5sho6"
+                        >
+                          <h5
+                            class="MuiTypography-root MuiTypography-h5 css-vgc9m1-MuiTypography-root"
+                            data-testid="user-panel-title"
+                          >
+                            Hi, {{name}}!
+                          </h5>
+                          <span
+                            class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                          >
+                            <div
+                              class="MuiBox-root css-13o7eu2"
+                              data-testid="user-panel-subtitle"
+                            >
+                              All your business tools are now in 
+                            </div>
+                            <div
+                              class="MuiBox-root css-3fl70y"
+                            >
+                              <svg
+                                data-testid="user-panel-max-icon"
+                                height="38"
+                                width="108"
+                              >
+                                max.svg
+                              </svg>
+                            </div>
+                          </span>
+                        </div>
+                        <div
+                          class="MuiBox-root css-q8kl7g"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-direction-xs-column css-1rl1og4-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                            >
+                              <a
+                                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                                href="/orders"
+                              >
+                                <button
+                                  class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wl4n8i-MuiButtonBase-root-MuiButton-root"
+                                  data-testid="orders-button"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  Orders
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                            >
+                              <a
+                                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                                href="/quotes"
+                              >
+                                <button
+                                  class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wl4n8i-MuiButtonBase-root-MuiButton-root"
+                                  data-testid="quotes-button"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  Quotes
+                                </button>
+                              </a>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                            >
+                              <a
+                                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                                href="/previously-purchased-products"
+                              >
+                                <button
+                                  class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wl4n8i-MuiButtonBase-root-MuiButton-root"
+                                  data-testid="previously-purchased-button"
+                                  tabindex="0"
+                                  type="button"
+                                >
+                                  Previously Purchased
+                                </button>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-5 css-1jaaktn-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-n2slrx"
+                  >
+                    <span
+                      class="MuiBox-root css-195a6sd"
+                      data-testid="hero-text"
+                    >
+                      Business to the 
+                      <svg
+                        class="css-2l8qr5"
+                        height="63"
+                        viewBox="0 0 207 73"
+                        width="167"
+                      >
+                        max_white.svg
+                      </svg>
+                    </span>
+                    <div
+                      class="MuiBox-root css-1biavw9"
+                      data-testid="hero-sub"
+                    >
+                      Streamline business. Search product. Shop parts. Pay bills. Find nearby branches. Ready 24/7, on any device.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-7ethqi-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-lzhxbh"
+                  >
+                    <div
+                      class="MuiBox-root css-pmp4wv"
+                    >
+                      <svg
+                        height="472"
+                        viewBox="0 0 136 472"
+                        width="136"
+                      >
+                        plus_signs.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1h2o4u7"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter css-8og206-MuiTypography-root"
+        data-testid="home-feature-title"
+      >
+        See how maX works for you.
+      </h1>
+      <div
+        class="MuiBox-root css-pdumpg"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-1dw31qj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-true css-l19mn-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-79elbk"
+              >
+                <div
+                  class="MuiBox-root css-xg9ijb"
+                >
+                  <div
+                    class="MuiBox-root css-bgbug7"
+                    data-testid="home-phone-image-easy-to-use"
+                  />
+                  <div
+                    class="MuiBox-root css-9fi3ie"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-8 css-1kg38sg-MuiGrid-root"
+              data-testid="features-list"
+            >
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="easy-to-use"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-1d0flzm"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-0"
+                      >
+                        easyuse.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-0"
+                        >
+                          Easy to Use
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-0"
+                        >
+                          Shoppable inventory, job management resources, easy navigation. All at your fingertip.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="build-businesses"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-1ovoag8"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-1"
+                      >
+                        business.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-1"
+                        >
+                          Building Business
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-1"
+                        >
+                          Manage one job and plan the next with resources designed to help you grow your business and get the job done right.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="saves-time"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-1d0flzm"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-2"
+                      >
+                        savetime.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-2"
+                        >
+                          Saves Time
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-2"
+                        >
+                          A 360 solution to save you time for more work, planning or just a lot more down time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="faster-future"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-701qex"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-3"
+                      >
+                        fastfuture.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-3"
+                        >
+                          A Faster Future
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-3"
+                        >
+                          All your projects and orders in one place. Plus nearby stores, and logistics information at the ready.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-4tnojn"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-1603gt2"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1tendt9"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 MuiTypography-alignCenter css-16s5wl9-MuiTypography-root"
+              data-testid="support-title"
+            >
+              Have Questions?
+            </h3>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-f5htz7-MuiTypography-root"
+              data-testid="support-subtitle-combined"
+            >
+              We've got answers. 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-1"
+                href="/location-search"
+              >
+                Call a branch
+              </a>
+               to speak with a manager or 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-2"
+                href="/support"
+              >
+                 contact eCommerce support.
+              </a>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render the Home page as guest 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="main-content"
+  >
+    <div
+      class="MuiBox-root css-17wzssw"
+    >
+      <div
+        class="MuiBox-root css-y6dvw6"
+      >
+        <div
+          class="MuiBox-root css-1nm056i"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-12qzi9c-MuiContainer-root"
+          >
+            <div
+              class="MuiBox-root css-cd3w3f"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-pad2pl-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-true css-4rlzzx-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-15x5z3w"
+                  >
+                    <div
+                      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-5oxh13-MuiPaper-root-MuiCard-root"
+                    >
+                      <div
+                        class="MuiBox-root css-1k9ek97"
+                      >
+                        <form
+                          data-testid="sign-in-form-main"
+                          novalidate=""
+                        >
+                          <div
+                            class="MuiBox-root css-1y5sho6"
+                          >
+                            <h5
+                              class="MuiTypography-root MuiTypography-h5 css-vgc9m1-MuiTypography-root"
+                            >
+                              Sign In
+                            </h5>
+                            <div
+                              class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                            >
+                              <label
+                                class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                                data-shrink="true"
+                                for="username"
+                                id="username-label"
+                              >
+                                Email Address
+                              </label>
+                              <div
+                                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                              >
+                                <input
+                                  aria-describedby="username-helper-text"
+                                  aria-invalid="false"
+                                  autocomplete="username"
+                                  class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                                  data-testid="sign-in-form-username"
+                                  id="username"
+                                  name="username"
+                                  placeholder="Enter Email Address"
+                                  type="email"
+                                  value=""
+                                />
+                                <fieldset
+                                  aria-hidden="true"
+                                  class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                                >
+                                  <legend
+                                    class="css-1z7n62"
+                                  >
+                                    <span>
+                                      Email Address
+                                    </span>
+                                  </legend>
+                                </fieldset>
+                              </div>
+                              <p
+                                class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-15h6cqt-MuiFormHelperText-root"
+                                id="username-helper-text"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                            >
+                              <label
+                                class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                                data-shrink="true"
+                                for="password"
+                                id="password-label"
+                              >
+                                Password
+                              </label>
+                              <div
+                                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                              >
+                                <input
+                                  aria-describedby="password-helper-text"
+                                  aria-invalid="false"
+                                  autocomplete="current-password"
+                                  class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                                  data-testid="sign-in-form-password"
+                                  id="password"
+                                  name="password"
+                                  placeholder="Enter Password"
+                                  type="password"
+                                  value=""
+                                />
+                                <fieldset
+                                  aria-hidden="true"
+                                  class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                                >
+                                  <legend
+                                    class="css-1z7n62"
+                                  >
+                                    <span>
+                                      Password
+                                    </span>
+                                  </legend>
+                                </fieldset>
+                              </div>
+                              <p
+                                class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-15h6cqt-MuiFormHelperText-root"
+                                id="password-helper-text"
+                              >
+                                <span
+                                  class="notranslate"
+                                >
+                                  ​
+                                </span>
+                              </p>
+                            </div>
+                            <div
+                              class="MuiBox-root css-1lxfmiw"
+                            >
+                              <a
+                                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                                href="/forgot-password?email="
+                              >
+                                <span
+                                  class="MuiTypography-root MuiTypography-caption css-1mp4c1a-MuiTypography-root"
+                                  data-testid="forgot-password-button"
+                                >
+                                  Forgot Password?
+                                </span>
+                              </a>
+                              <button
+                                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1egkuzh-MuiButtonBase-root-MuiButton-root"
+                                data-testid="sign-in-form-button"
+                                tabindex="0"
+                                type="submit"
+                              >
+                                Sign In
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                        <div
+                          class="MuiBox-root css-1846o0a"
+                        >
+                          <hr
+                            class="MuiDivider-root MuiDivider-fullWidth MuiDivider-light css-1acisye-MuiDivider-root"
+                          />
+                        </div>
+                        <div
+                          class="MuiBox-root css-tarbwi"
+                        >
+                          <h5
+                            class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-18kuvg9-MuiTypography-root"
+                          >
+                            New to Reece online?
+                          </h5>
+                          <p
+                            class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-19m3wr6-MuiTypography-root"
+                          >
+                            Registering for online access is easy.
+                          </p>
+                          <a
+                            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                            href="/register"
+                          >
+                            <span
+                              class="MuiTypography-root MuiTypography-body1 css-kf26p3-MuiTypography-root"
+                              data-testid="sign-up-button"
+                            >
+                              Sign up now
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-5 css-1jaaktn-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-n2slrx"
+                  >
+                    <span
+                      class="MuiBox-root css-195a6sd"
+                      data-testid="hero-text"
+                    >
+                      Business to the 
+                      <svg
+                        class="css-2l8qr5"
+                        height="63"
+                        viewBox="0 0 207 73"
+                        width="167"
+                      >
+                        max_white.svg
+                      </svg>
+                    </span>
+                    <div
+                      class="MuiBox-root css-1biavw9"
+                      data-testid="hero-sub"
+                    >
+                      Streamline business. Search product. Shop parts. Pay bills. Find nearby branches. Ready 24/7, on any device.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-7ethqi-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-lzhxbh"
+                  >
+                    <div
+                      class="MuiBox-root css-pmp4wv"
+                    >
+                      <svg
+                        height="472"
+                        viewBox="0 0 136 472"
+                        width="136"
+                      >
+                        plus_signs.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1h2o4u7"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h1 MuiTypography-alignCenter css-8og206-MuiTypography-root"
+        data-testid="home-feature-title"
+      >
+        See how maX works for you.
+      </h1>
+      <div
+        class="MuiBox-root css-pdumpg"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-1dw31qj-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-true css-l19mn-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-79elbk"
+              >
+                <div
+                  class="MuiBox-root css-xg9ijb"
+                >
+                  <div
+                    class="MuiBox-root css-bgbug7"
+                    data-testid="home-phone-image-easy-to-use"
+                  />
+                  <div
+                    class="MuiBox-root css-9fi3ie"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-8 css-1kg38sg-MuiGrid-root"
+              data-testid="features-list"
+            >
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="easy-to-use"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-1d0flzm"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-0"
+                      >
+                        easyuse.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-0"
+                        >
+                          Easy to Use
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-0"
+                        >
+                          Shoppable inventory, job management resources, easy navigation. All at your fingertip.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="build-businesses"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-1ovoag8"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-1"
+                      >
+                        business.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-1"
+                        >
+                          Building Business
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-1"
+                        >
+                          Manage one job and plan the next with resources designed to help you grow your business and get the job done right.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="saves-time"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-1d0flzm"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-2"
+                      >
+                        savetime.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-2"
+                        >
+                          Saves Time
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-2"
+                        >
+                          A 360 solution to save you time for more work, planning or just a lot more down time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-1vk9u3p"
+                data-testid="faster-future"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1f1kasx"
+                    >
+                      <div
+                        class="MuiBox-root css-701qex"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1vjkviz"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-3"
+                      >
+                        fastfuture.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-i13nb3-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-s7t99i"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-13ihvtz-MuiTypography-root"
+                          data-testid="home-feature-title-3"
+                        >
+                          A Faster Future
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-1p1cd8v-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-seyx2d-MuiTypography-root"
+                          data-testid="home-feature-subtitle-3"
+                        >
+                          All your projects and orders in one place. Plus nearby stores, and logistics information at the ready.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-4tnojn"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-1603gt2"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+      >
+        <div
+          class="MuiBox-root css-8qb8m4"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-5 css-8v2oxb-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-3vwskv"
+              >
+                <h1
+                  class="MuiTypography-root MuiTypography-h1 css-1xqf50b-MuiTypography-root"
+                >
+                  The digital tool box for the real hard work.
+                </h1>
+                <h3
+                  class="MuiTypography-root MuiTypography-h3 css-lxmmrr-MuiTypography-root"
+                >
+                  Explore all the tools that save time and help build business.
+                </h3>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-7 css-q5r1m5-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-15b5l39-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-v7b9tg"
+                >
+                  <div
+                    class="MuiBox-root css-4cxybv"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+                    >
+                      New to Reece online?
+                    </p>
+                  </div>
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                    href="/register"
+                  >
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1ttxwuq-MuiButtonBase-root-MuiButton-root"
+                      data-testid="sign-up-button-bottom-of-page"
+                      tabindex="0"
+                      type="button"
+                    >
+                      Sign Up
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-15b5l39-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-1qujocu"
+                >
+                  <div
+                    class="MuiBox-root css-4cxybv"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+                    >
+                      Already have an account
+                    </p>
+                  </div>
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                    href="/login"
+                  >
+                    <button
+                      class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-rlj3eo-MuiButtonBase-root-MuiButton-root"
+                      data-testid="sign-in-button-bottom-of-page"
+                      tabindex="0"
+                      type="button"
+                    >
+                      Sign In
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1tendt9"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3 MuiTypography-alignCenter css-16s5wl9-MuiTypography-root"
+              data-testid="support-title"
+            >
+              Have Questions?
+            </h3>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-f5htz7-MuiTypography-root"
+              data-testid="support-subtitle-combined"
+            >
+              We've got answers. 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-1"
+                href="/location-search"
+              >
+                Call a branch
+              </a>
+               to speak with a manager or 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-2"
+                href="/support"
+              >
+                 contact eCommerce support.
+              </a>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render the Home page as guest on mobile display 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="main-content"
+  >
+    <div
+      class="MuiBox-root css-17wzssw"
+    >
+      <div
+        class="MuiBox-root css-mqmaus"
+      >
+        <div
+          class="MuiBox-root css-1u8qly9"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthMd MuiContainer-disableGutters css-5s1btq-MuiContainer-root"
+          >
+            <div
+              class="MuiBox-root css-1xop7vn"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-wz11wn-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-7 css-q9jqxt-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-ewspxz"
+                  >
+                    <span
+                      class="MuiBox-root css-14oezjm"
+                      data-testid="hero-text"
+                    >
+                      Business to the 
+                      <svg
+                        class="css-2l8qr5"
+                        height="25"
+                        viewBox="0 0 207 73"
+                        width="71"
+                      >
+                        max_white.svg
+                      </svg>
+                    </span>
+                    <div
+                      class="MuiBox-root css-kf4u5j"
+                      data-testid="hero-sub"
+                    >
+                      Streamline business. Search product. Shop parts. Pay bills. Find nearby branches. Ready 24/7, on any device.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-7ethqi-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-15she31"
+                  >
+                    <div
+                      class="MuiBox-root css-1rlshkk"
+                    >
+                      <svg
+                        height="231"
+                        viewBox="0 0 136 472"
+                        width="67"
+                      >
+                        plus_signs.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-1k9ek97"
+            >
+              <form
+                data-testid="sign-in-form-main"
+                novalidate=""
+              >
+                <div
+                  class="MuiBox-root css-1y5sho6"
+                >
+                  <h5
+                    class="MuiTypography-root MuiTypography-h5 css-vgc9m1-MuiTypography-root"
+                  >
+                    Sign In
+                  </h5>
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="username"
+                      id="username-label"
+                    >
+                      Email Address
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="username-helper-text"
+                        aria-invalid="false"
+                        autocomplete="username"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="sign-in-form-username"
+                        id="username"
+                        name="username"
+                        placeholder="Enter Email Address"
+                        type="email"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Email Address
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-15h6cqt-MuiFormHelperText-root"
+                      id="username-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                  <div
+                    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+                  >
+                    <label
+                      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                      data-shrink="true"
+                      for="password"
+                      id="password-label"
+                    >
+                      Password
+                    </label>
+                    <div
+                      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                    >
+                      <input
+                        aria-describedby="password-helper-text"
+                        aria-invalid="false"
+                        autocomplete="current-password"
+                        class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                        data-testid="sign-in-form-password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter Password"
+                        type="password"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="css-1z7n62"
+                        >
+                          <span>
+                            Password
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                    <p
+                      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-15h6cqt-MuiFormHelperText-root"
+                      id="password-helper-text"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </p>
+                  </div>
+                  <div
+                    class="MuiBox-root css-1lxfmiw"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                      href="/forgot-password?email="
+                    >
+                      <span
+                        class="MuiTypography-root MuiTypography-caption css-1mp4c1a-MuiTypography-root"
+                        data-testid="forgot-password-button"
+                      >
+                        Forgot Password?
+                      </span>
+                    </a>
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1egkuzh-MuiButtonBase-root-MuiButton-root"
+                      data-testid="sign-in-form-button"
+                      tabindex="0"
+                      type="submit"
+                    >
+                      Sign In
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <div
+                class="MuiBox-root css-1846o0a"
+              >
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth MuiDivider-light css-1acisye-MuiDivider-root"
+                />
+              </div>
+              <div
+                class="MuiBox-root css-tarbwi"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-18kuvg9-MuiTypography-root"
+                >
+                  New to Reece online?
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-19m3wr6-MuiTypography-root"
+                >
+                  Registering for online access is easy.
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                  href="/register"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 css-kf26p3-MuiTypography-root"
+                    data-testid="sign-up-button"
+                  >
+                    Sign up now
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-jltqb6"
+            >
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1h2o4u7"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter css-1d2vjtk-MuiTypography-root"
+        data-testid="home-feature-title"
+      >
+        See how maX works for you.
+      </h4>
+      <div
+        class="MuiBox-root css-174osr2"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthMd MuiContainer-disableGutters css-xwfcu4-MuiContainer-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap css-1d4h5h0-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-true css-l19mn-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1uagdib"
+              >
+                <div
+                  class="MuiBox-root css-cz62hg"
+                >
+                  <div
+                    class="MuiBox-root css-1ftxr1b"
+                    data-testid="home-phone-image-easy-to-use"
+                  />
+                  <div
+                    class="MuiBox-root css-reygsu"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-8 css-1kg38sg-MuiGrid-root"
+              data-testid="features-list"
+            >
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="easy-to-use"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-0"
+                      >
+                        easyuse.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-0"
+                        >
+                          Easy to Use
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-0"
+                        >
+                          Shoppable inventory, job management resources, easy navigation. All at your fingertip.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="build-businesses"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-1"
+                      >
+                        business.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-1"
+                        >
+                          Building Business
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-1"
+                        >
+                          Manage one job and plan the next with resources designed to help you grow your business and get the job done right.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="saves-time"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-2"
+                      >
+                        savetime.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-2"
+                        >
+                          Saves Time
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-2"
+                        >
+                          A 360 solution to save you time for more work, planning or just a lot more down time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="faster-future"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-3"
+                      >
+                        fastfuture.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-3"
+                        >
+                          A Faster Future
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-3"
+                        >
+                          All your projects and orders in one place. Plus nearby stores, and logistics information at the ready.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-4tnojn"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-1i67hez"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthMd MuiContainer-disableGutters css-xwfcu4-MuiContainer-root"
+      >
+        <div
+          class="MuiBox-root css-8qb8m4"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-ag3d3r"
+              >
+                <h3
+                  class="MuiTypography-root MuiTypography-h3 css-2rp3hl-MuiTypography-root"
+                >
+                  The digital tool box for the real hard work.
+                </h3>
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-qsyd5u-MuiTypography-root"
+                >
+                  Explore all the tools that save time and help build business.
+                </h5>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-12 css-1vqm3ry-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-cpeni-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-1k131m6"
+                >
+                  <div
+                    class="MuiBox-root css-4cxybv"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+                    >
+                      New to Reece online?
+                    </p>
+                  </div>
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                    href="/register"
+                  >
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1ttxwuq-MuiButtonBase-root-MuiButton-root"
+                      data-testid="sign-up-button-bottom-of-page"
+                      tabindex="0"
+                      type="button"
+                    >
+                      Sign Up
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-cpeni-MuiGrid-root"
+              >
+                <div
+                  class="MuiBox-root css-l0fdz3"
+                >
+                  <div
+                    class="MuiBox-root css-4cxybv"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+                    >
+                      Already have an account
+                    </p>
+                  </div>
+                  <a
+                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                    href="/login"
+                  >
+                    <button
+                      class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-rlj3eo-MuiButtonBase-root-MuiButton-root"
+                      data-testid="sign-in-button-bottom-of-page"
+                      tabindex="0"
+                      type="button"
+                    >
+                      Sign In
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container css-1bzpx2o-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1tendt9"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 MuiTypography-alignLeft css-cvffqg-MuiTypography-root"
+              data-testid="support-title"
+            >
+              Have Questions?
+            </h4>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft css-7qkgot-MuiTypography-root"
+              data-testid="support-subtitle-combined"
+            >
+              We've got answers. 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-1"
+                href="/location-search"
+              >
+                Call a branch
+              </a>
+               to speak with a manager or 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-2"
+                href="/support"
+              >
+                 contact eCommerce support.
+              </a>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render the Home page on mobile display 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="main-content"
+  >
+    <div
+      class="MuiBox-root css-17wzssw"
+    >
+      <div
+        class="MuiBox-root css-mqmaus"
+      >
+        <div
+          class="MuiBox-root css-1u8qly9"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthMd MuiContainer-disableGutters css-5s1btq-MuiContainer-root"
+          >
+            <div
+              class="MuiBox-root css-1xop7vn"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-wz11wn-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-7 css-q9jqxt-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-ewspxz"
+                  >
+                    <span
+                      class="MuiBox-root css-14oezjm"
+                      data-testid="hero-text"
+                    >
+                      Business to the 
+                      <svg
+                        class="css-2l8qr5"
+                        height="25"
+                        viewBox="0 0 207 73"
+                        width="71"
+                      >
+                        max_white.svg
+                      </svg>
+                    </span>
+                    <div
+                      class="MuiBox-root css-kf4u5j"
+                      data-testid="hero-sub"
+                    >
+                      Streamline business. Search product. Shop parts. Pay bills. Find nearby branches. Ready 24/7, on any device.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-7ethqi-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-15she31"
+                  >
+                    <div
+                      class="MuiBox-root css-1rlshkk"
+                    >
+                      <svg
+                        height="231"
+                        viewBox="0 0 136 472"
+                        width="67"
+                      >
+                        plus_signs.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-1k9ek97"
+            >
+              <div
+                class="MuiBox-root css-1y5sho6"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-vgc9m1-MuiTypography-root"
+                  data-testid="user-panel-title"
+                >
+                  Hi, {{name}}!
+                </h5>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 css-1gzv4l7-MuiTypography-root"
+                >
+                  <div
+                    class="MuiBox-root css-13o7eu2"
+                    data-testid="user-panel-subtitle"
+                  >
+                    All your business tools are now in 
+                  </div>
+                  <div
+                    class="MuiBox-root css-3fl70y"
+                  >
+                    <svg
+                      data-testid="user-panel-max-icon"
+                      height="38"
+                      width="108"
+                    >
+                      max.svg
+                    </svg>
+                  </div>
+                </span>
+              </div>
+              <div
+                class="MuiBox-root css-q8kl7g"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-direction-xs-column css-1rl1og4-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                      href="/orders"
+                    >
+                      <button
+                        class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wl4n8i-MuiButtonBase-root-MuiButton-root"
+                        data-testid="orders-button"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Orders
+                      </button>
+                    </a>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                      href="/quotes"
+                    >
+                      <button
+                        class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wl4n8i-MuiButtonBase-root-MuiButton-root"
+                        data-testid="quotes-button"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Quotes
+                      </button>
+                    </a>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+                      href="/previously-purchased-products"
+                    >
+                      <button
+                        class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wl4n8i-MuiButtonBase-root-MuiButton-root"
+                        data-testid="previously-purchased-button"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Previously Purchased
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-jltqb6"
+            >
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1h2o4u7"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter css-1d2vjtk-MuiTypography-root"
+        data-testid="home-feature-title"
+      >
+        See how maX works for you.
+      </h4>
+      <div
+        class="MuiBox-root css-174osr2"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthMd MuiContainer-disableGutters css-xwfcu4-MuiContainer-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-wrap-xs-nowrap css-1d4h5h0-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-true css-l19mn-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1uagdib"
+              >
+                <div
+                  class="MuiBox-root css-cz62hg"
+                >
+                  <div
+                    class="MuiBox-root css-1ftxr1b"
+                    data-testid="home-phone-image-easy-to-use"
+                  />
+                  <div
+                    class="MuiBox-root css-reygsu"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-8 css-1kg38sg-MuiGrid-root"
+              data-testid="features-list"
+            >
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="easy-to-use"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-0"
+                      >
+                        easyuse.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-0"
+                        >
+                          Easy to Use
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-0"
+                        >
+                          Shoppable inventory, job management resources, easy navigation. All at your fingertip.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="build-businesses"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-1"
+                      >
+                        business.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-1"
+                        >
+                          Building Business
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-1"
+                        >
+                          Manage one job and plan the next with resources designed to help you grow your business and get the job done right.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="saves-time"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-2"
+                      >
+                        savetime.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-2"
+                        >
+                          Saves Time
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-2"
+                        >
+                          A 360 solution to save you time for more work, planning or just a lot more down time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiBox-root css-42begw"
+                data-testid="faster-future"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-grid-xs-8 css-85g9ft-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-true css-1bgsa2k-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1d6vukh"
+                    >
+                      <svg
+                        data-testid="home-feature-svg-3"
+                      >
+                        fastfuture.svg
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column css-80wlp8-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-9bjhvc"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                      >
+                        <h3
+                          class="MuiTypography-root MuiTypography-h3 css-152xu8a-MuiTypography-root"
+                          data-testid="home-feature-title-3"
+                        >
+                          A Faster Future
+                        </h3>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item css-dhreoh-MuiGrid-root"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1cp7ftp-MuiTypography-root"
+                          data-testid="home-feature-subtitle-3"
+                        >
+                          All your projects and orders in one place. Plus nearby stores, and logistics information at the ready.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-4tnojn"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-1i67hez"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthMd MuiContainer-disableGutters css-xwfcu4-MuiContainer-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-1bzpx2o-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1tendt9"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 MuiTypography-alignLeft css-cvffqg-MuiTypography-root"
+              data-testid="support-title"
+            >
+              Have Questions?
+            </h4>
+            <h5
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft css-7qkgot-MuiTypography-root"
+              data-testid="support-subtitle-combined"
+            >
+              We've got answers. 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-1"
+                href="/location-search"
+              >
+                Call a branch
+              </a>
+               to speak with a manager or 
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+                data-testid="support-subtitle-2"
+                href="/support"
+              >
+                 contact eCommerce support.
+              </a>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render the Pending User page 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1ocq4y"
+    data-testid="pendinguser-component"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-8 css-r1hick-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1qdazea-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1yupbyh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-fd3f9-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1mfglu8"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-18kuvg9-MuiTypography-root"
+                >
+                  Thank You for Registering
+                </h5>
+                <div
+                  class="MuiBox-root css-15i1vgz"
+                >
+                  <h5
+                    class="MuiTypography-root MuiTypography-h5 css-qsyd5u-MuiTypography-root"
+                  >
+                    Start browsing products and creating lists!
+                  </h5>
+                </div>
+                <div
+                  class="MuiBox-root css-1qm1lh"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    If you need more information please contact:
+                  </p>
+                </div>
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1c28hg8-MuiTypography-root"
+                >
+                  Account Admin
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-19m3wr6-MuiTypography-root"
+                >
+                  Phone Number
+                  :
+                   
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                >
+                  Email Address
+                  :
+                   
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1qdazea-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1yupbyh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-fd3f9-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qt14np"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1vn8opf-MuiTypography-root"
+                >
+                  Account Status
+                  : 
+                  <span
+                    class="MuiBox-root css-pelz90"
+                  >
+                    Pending Review
+                  </span>
+                </h4>
+                <svg
+                  class="MuiBox-root css-1q2yoq2"
+                  sx="[object Object]"
+                >
+                  time.svg
+                </svg>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                >
+                  Full access will be granted once your account is verified by a company admin or Reece employee.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render the Pending User page on mobile display 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1cjlmuc"
+    data-testid="pendinguser-component"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1qdazea-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1yupbyh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-fd3f9-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1mfglu8"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-18kuvg9-MuiTypography-root"
+                >
+                  Thank You for Registering
+                </h5>
+                <div
+                  class="MuiBox-root css-15i1vgz"
+                >
+                  <h5
+                    class="MuiTypography-root MuiTypography-h5 css-qsyd5u-MuiTypography-root"
+                  >
+                    Start browsing products and creating lists!
+                  </h5>
+                </div>
+                <div
+                  class="MuiBox-root css-1qm1lh"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                  >
+                    If you need more information please contact:
+                  </p>
+                </div>
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1c28hg8-MuiTypography-root"
+                >
+                  Account Admin
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-19m3wr6-MuiTypography-root"
+                >
+                  Phone Number
+                  :
+                   
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                >
+                  Email Address
+                  :
+                   
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1qdazea-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1yupbyh-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-fd3f9-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-13a22v6"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-1vn8opf-MuiTypography-root"
+                >
+                  Account Status
+                  : 
+                  <span
+                    class="MuiBox-root css-pelz90"
+                  >
+                    Pending Review
+                  </span>
+                </h4>
+                <svg
+                  class="MuiBox-root css-1q2yoq2"
+                  sx="[object Object]"
+                >
+                  time.svg
+                </svg>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+                >
+                  Full access will be granted once your account is verified by a company admin or Reece employee.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render the Verify Email page 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="verifyemail-component"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1na5963-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h3 MuiTypography-alignCenter css-1ftgk6g-MuiTypography-root"
+        >
+          Verify Your Email
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-1iqt9o9-MuiGrid-root"
+      >
+        <svg>
+          mail-send-line.svg
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-luuad8-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph css-7tzny0-MuiTypography-root"
+        >
+          An email has been sent to you. Please click on the verification link in the email to finish registering.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-19n8dai"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p>
+            Didn't get the email?
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wipr5b-MuiButtonBase-root-MuiButton-root"
+          data-testid="resend-email-verify-button"
+          tabindex="0"
+          type="button"
+        >
+          Resend Email
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home should render the Verify Email page on mobile display 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+    data-testid="verifyemail-component"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1qww996-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter css-1qb7rqi-MuiTypography-root"
+        >
+          Verify Your Email
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-y526ko-MuiGrid-root"
+      >
+        <svg>
+          mail-send-line.svg
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-luuad8-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph css-7tzny0-MuiTypography-root"
+        >
+          An email has been sent to you. Please click on the verification link in the email to finish registering.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-19n8dai"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <p>
+            Didn't get the email?
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-wipr5b-MuiButtonBase-root-MuiButton-root"
+          data-testid="resend-email-verify-button"
+          tabindex="0"
+          type="button"
+        >
+          Resend Email
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

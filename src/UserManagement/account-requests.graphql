@@ -1,0 +1,46 @@
+query unapprovedAccountRequests($accountId: String!) {
+  unapprovedAccountRequests(accountId: $accountId) {
+    id
+    email
+    firstName
+    lastName
+    companyName
+    phoneNumber
+    roleId
+    phoneType 
+    createdAt
+  }
+}
+
+query getApprovedAccountRequests($accountId: String) {
+  accountUsers(accountId: $accountId) {
+    id
+    email
+    firstName
+    lastName
+    phoneNumber
+    contactUpdatedAt
+    contactUpdatedBy
+    role {
+      id
+      name
+    }
+    approverId
+    phoneType 
+  }
+}
+
+query rejectedAccountRequests($accountId: String!) {
+  rejectedAccountRequests(accountId: $accountId) {
+    id
+    email
+    firstName
+    lastName
+    companyName
+    phoneNumber
+    phoneType
+    rejectionReason
+    rejectedAt
+    rejectedBy
+  }
+}

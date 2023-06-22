@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Migration Setup Message should match snapshot in desktop 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1gcmr49-MuiGrid-root"
+  >
+    <div
+      class="MuiBox-root css-1xhj18k"
+    >
+      <h3
+        class="MuiTypography-root MuiTypography-h3 css-xephrw-MuiTypography-root"
+      >
+        Welcome to
+      </h3>
+      <div
+        class="MuiBox-root css-5wm1i5"
+      >
+        <svg
+          height="25"
+          width="75"
+        >
+          max.svg
+        </svg>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-1iq02cq-MuiGrid-root"
+    >
+      <svg>
+        welcome-to-max.svg
+      </svg>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-3qqvh9-MuiGrid-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+      >
+        We are excited to welcome you to our new and improved digital experience. Before we get started, please check your email for a link to reset your password.
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <div
+        class="MuiBox-root css-14kxyr"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+        >
+          Didn't get the email?
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <button
+        class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1bl337n-MuiButtonBase-root-MuiButton-root"
+        data-testid="resend-email-button"
+        tabindex="0"
+        type="button"
+      >
+        Resend Email
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item css-1h16bbz-MuiGrid-root"
+    >
+      <div
+        class="MuiBox-root css-mkbj53"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter css-7lorw0-MuiTypography-root"
+        >
+          Having Trouble?
+        </h4>
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1hqugnb-MuiTypography-root"
+        >
+          We are here to help. 
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+            to="/location-search"
+          >
+            Call a branch
+          </a>
+           to speak with a manager or 
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+            to="/support"
+          >
+             contact eCommerce support.
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Migration Setup Message should match snapshot in desktop when location state is undefined 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1gcmr49-MuiGrid-root"
+  >
+    <div
+      class="MuiBox-root css-1xhj18k"
+    >
+      <h3
+        class="MuiTypography-root MuiTypography-h3 css-xephrw-MuiTypography-root"
+      >
+        Welcome to
+      </h3>
+      <div
+        class="MuiBox-root css-5wm1i5"
+      >
+        <svg
+          height="25"
+          width="75"
+        >
+          max.svg
+        </svg>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-1iq02cq-MuiGrid-root"
+    >
+      <svg>
+        welcome-to-max.svg
+      </svg>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-3qqvh9-MuiGrid-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+      >
+        We are excited to welcome you to our new and improved digital experience. Before we get started, please check your email for a link to reset your password.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Migration Setup Message should match snapshot in mobile 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1m24eu1-MuiGrid-root"
+  >
+    <div
+      class="MuiBox-root css-1xhj18k"
+    >
+      <h3
+        class="MuiTypography-root MuiTypography-h3 css-xephrw-MuiTypography-root"
+      >
+        Welcome to
+      </h3>
+      <div
+        class="MuiBox-root css-5wm1i5"
+      >
+        <svg
+          height="25"
+          width="75"
+        >
+          max.svg
+        </svg>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-yiprib-MuiGrid-root"
+    >
+      <svg>
+        welcome-to-max.svg
+      </svg>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-3kft1w-MuiGrid-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+      >
+        We are excited to welcome you to our new and improved digital experience. Before we get started, please check your email for a link to reset your password.
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <div
+        class="MuiBox-root css-14kxyr"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+        >
+          Didn't get the email?
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <button
+        class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-1bl337n-MuiButtonBase-root-MuiButton-root"
+        data-testid="resend-email-button"
+        tabindex="0"
+        type="button"
+      >
+        Resend Email
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item css-1h16bbz-MuiGrid-root"
+    >
+      <div
+        class="MuiBox-root css-mkbj53"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter css-7lorw0-MuiTypography-root"
+        >
+          Having Trouble?
+        </h4>
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1hqugnb-MuiTypography-root"
+        >
+          We are here to help. 
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+            to="/location-search"
+          >
+            Call a branch
+          </a>
+           to speak with a manager or 
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1quwxlb-MuiTypography-root-MuiLink-root"
+            to="/support"
+          >
+             contact eCommerce support.
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+<svg width="74" height="56" viewBox="0 0 74 56" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="74" height="56" fill="url(#feature_businesses_hover)"/>
+<defs>
+<pattern id="feature_businesses_hover" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_5:1465" transform="scale(0.0103093 0.0133333)"/>
+</pattern>
+<image id="image0_5:1465" width="97" height="75" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAABLCAYAAABgMenzAAADBklEQVR4Ae2d323bMBDGNUJGyAiylPdkhGzQPgYwlXqDZISM0A3aDdqnom/pq0UX9gjZoMUJOoOS2VqqLd4n9wtAUBYUkbzffUfqD6ksM/orqs37svK/EFKxrLf5w/bayBR2xRbOf0UAoHW4efTPdtYwKpkQjAwfFjsFhML5H3Leoams/I5K0D7Bre9DQKm2JQQRQgvBKh6HarSqQyqHi5YTGqB83LxED5p4p4yKqIRWCQJkYntHT68AJKcSnH+NWmnCnfmqzgmhd50wob2jpy7d+h4KgnhF4fxT0hTEYzFG0rKdf1o4/yWEIL9T1qFcbt7lq+1V4yHhMC2sFLcT3FJx/rUBUSw332jwBAbXa6JeXix/rrLC+e+EYAehGZURgh0AcX5C6IUGi4hACIRgGwYsvD5WJpVAJVAJ7JgBVEAIhMBQpJ00O2YANRACITAksWMGUAEhEAJDUWd0dFPxoY4axCLX0RHUi7kWhrAskxAA+gVCIAR2zhIGqQQqgUqgEgBUQAiEwFCk1ybsmAHUQAiEwJDEjhlABYSABEFmTmpPzTxxiHT1m8ySis7nQtuZO383xkGsZoOi2e2s9fkvIMi8qUXlb1FSn6DU7xxKkOV0UNp4EIbGetoYg5x6rKyLJFDCxUCOnVPDUWfVAJCOWOuuddw7HDKE5ooyyzLJtQFH83aZBkI4l+f9Zba/SFocSJPMhFTliIeFa1ccBXeu+g48z6yU0BjP1R/2sh24IUDQDB/WZ34QAu+SmfdhKp3/1J+J35+tHzYeZXvWEFCMeGo9CCFQ1qnG/Nf/JwRCSHx/BsDgMbVQCQBgCAEAgqijM9pGvmKOSflS9hECgBoIgRA4QmKfAKACQiAEhiId3XU65v5CrXoQ82kdpgNh1FMrEClfgoMQAoAzEQIhTBtrZxKqdh0loD+PnYlRR32u7PAu6sP2+hIbCt2m2NdT2mHq/mtL0A0AiOcn2me3X7a/E5PaH/oOz59ygSVD2qFp4eqPIr1LSGW1/jy03XKcvAN1YMfIW9i/AYBYPt6XdVWXAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

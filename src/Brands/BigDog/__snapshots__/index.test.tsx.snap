@@ -1,0 +1,719 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brands - BigDog index should match the snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-okf7m7-MuiContainer-root"
+    style="max-width: 1440px;"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-hxgllp-MuiGrid-root"
+    >
+      <div
+        class="MuiBox-root css-90i9l4"
+      >
+        <div
+          class="MuiGrid-root css-o8xg47-MuiGrid-root"
+        >
+          <svg
+            style="width: 238px; height: 50px;"
+          >
+            BigDogLogo.svg
+          </svg>
+          <div
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1oobtzp-MuiTypography-root"
+            >
+              RULE THE WORKSITE.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-sa15y2-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-i72534-MuiTypography-root"
+      >
+        We've been redesigning and improving the BIGDOG range to meet the exact needs of contractors and technicians.
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-120lkjs-MuiTypography-root"
+      >
+        - so you get even more bang for your bark.
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container css-5hwgfl-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-l22kh7-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-15cryil"
+        >
+          <img
+            class="MuiBox-root css-0"
+            src="image1.jpg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root css-1755usu-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1gxt4hz"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-dfxjru-MuiTypography-root"
+            >
+              Smarter Designs
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-2zvt8e"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1vlrsf3-MuiTypography-root"
+            >
+              We're continuously looking to integrate clever little features into all our tools so you can work faster.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-1p73i44-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-15cryil"
+        >
+          <img
+            class="MuiBox-root css-0"
+            src="image2.jpg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root css-1755usu-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1gxt4hz"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-dfxjru-MuiTypography-root"
+            >
+              Heavy-Duty Quality
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-2zvt8e"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1vlrsf3-MuiTypography-root"
+            >
+              Our latest designs are made to last, using commercial grade materials that make light work of even the toughest plumbing jobs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-1hrtl0j-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-15cryil"
+        >
+          <img
+            class="MuiBox-root css-0"
+            src="image3.jpg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root css-1755usu-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1gxt4hz"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-dfxjru-MuiTypography-root"
+            >
+              Always On-Hand
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-2zvt8e"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1vlrsf3-MuiTypography-root"
+            >
+              BIGDOG is never far away. You’ll find them at the local Reece branch. Plus, you can order through maX and have them delivered to site straight away.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root css-smc5z0-MuiGrid-root"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-4mzf4j-MuiDivider-root"
+      />
+      <div
+        class="MuiGrid-root css-zzurbn-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-xrqeot-MuiTypography-root"
+        >
+          FEATURED ITEMS
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item css-q1swar-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-16g8vvv-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585329"
+          >
+            <div
+              class="MuiBox-root css-or4m32"
+            >
+              <img
+                alt="26 ft Magnetic Tape Measure"
+                src="BigdogMeasuringTape.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585329"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              26 ft Magnetic Tape Measure
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-16g8vvv-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585382"
+          >
+            <div
+              class="MuiBox-root css-or4m32"
+            >
+              <img
+                alt="Round Point Shovel"
+                src="BigdogPointShovel.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585382"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Round Point Shovel
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-16g8vvv-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585442"
+          >
+            <div
+              class="MuiBox-root css-or4m32"
+            >
+              <img
+                alt="Torpedo Level"
+                src="BigdogTorpedoLevel.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585442"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Torpedo Level
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-16g8vvv-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585403"
+          >
+            <div
+              class="MuiBox-root css-or4m32"
+            >
+              <img
+                alt="Multi Purpose Tool Pouch"
+                src="BigdogToolPouch.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585403"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Multi Purpose Tool Pouch
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-16g8vvv-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585395"
+          >
+            <div
+              class="MuiBox-root css-or4m32"
+            >
+              <img
+                alt="Ratchet Tie Down Strap"
+                src="BigdogTieDownStrap.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585395"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Ratchet Tie Down Strap
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root css-da5kf6-MuiGrid-root"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-sa15y2-MuiDivider-root"
+      />
+      <div
+        class="MuiGrid-root css-dttsxh-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-krzudk-MuiTypography-root"
+        >
+          SEE THE FULL RANGE.
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-a3ady9-MuiTypography-root"
+        >
+          With more than 40 products in the BIGDOG range, we’ve got a tool for every application.
+        </p>
+        <div
+          class="MuiGrid-root MuiGrid-container css-5qo8ve-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/search?filters=brand%7CALLPROFESSIONAL+MFG+CO+LTD"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-i32lnv-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-zp579f-MuiTypography-root"
+              >
+                See the Range
+              </p>
+            </button>
+          </a>
+        </div>
+      </div>
+      <img
+        class="MuiBox-root css-it8fua"
+        src="footerImageDesktop.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Brands - BigDog index should match the snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-okf7m7-MuiContainer-root"
+    style="max-width: 1440px;"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-hxgllp-MuiGrid-root"
+    >
+      <div
+        class="MuiBox-root css-90i9l4"
+      >
+        <div
+          class="MuiGrid-root css-o8xg47-MuiGrid-root"
+        >
+          <svg
+            style="width: 160px; height: 34px;"
+          >
+            BigDogLogo.svg
+          </svg>
+          <div
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1oobtzp-MuiTypography-root"
+            >
+              RULE THE WORKSITE.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-sa15y2-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-zcopyv-MuiTypography-root"
+      >
+        We've been redesigning and improving the BIGDOG range to meet the exact needs of contractors and technicians.
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-mwstep-MuiTypography-root"
+      >
+        - so you get even more bang for your bark.
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container css-177e0ig-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-22jcvu-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-15cryil"
+        >
+          <img
+            class="MuiBox-root css-0"
+            src="image1.jpg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root css-1itlxog-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-934uvy"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-dfxjru-MuiTypography-root"
+            >
+              Smarter Designs
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-2zvt8e"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1vlrsf3-MuiTypography-root"
+            >
+              We're continuously looking to integrate clever little features into all our tools so you can work faster.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-180hvbr-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-15cryil"
+        >
+          <img
+            class="MuiBox-root css-0"
+            src="image2.jpg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root css-1itlxog-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-934uvy"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-dfxjru-MuiTypography-root"
+            >
+              Heavy-Duty Quality
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-2zvt8e"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1vlrsf3-MuiTypography-root"
+            >
+              Our latest designs are made to last, using commercial grade materials that make light work of even the toughest plumbing jobs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item css-1rlent-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-15cryil"
+        >
+          <img
+            class="MuiBox-root css-0"
+            src="image3.jpg"
+          />
+        </div>
+        <div
+          class="MuiGrid-root css-1itlxog-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-934uvy"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-dfxjru-MuiTypography-root"
+            >
+              Always On-Hand
+            </p>
+          </div>
+          <div
+            class="MuiBox-root css-2zvt8e"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1vlrsf3-MuiTypography-root"
+            >
+              BIGDOG is never far away. You’ll find them at the local Reece branch. Plus, you can order through maX and have them delivered to site straight away.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root css-a7e5e4-MuiGrid-root"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-4mzf4j-MuiDivider-root"
+      />
+      <div
+        class="MuiGrid-root css-6o7512-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1c6t02i-MuiTypography-root"
+        >
+          FEATURED ITEMS
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item css-7y7a7j-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-jtoaah-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585329"
+          >
+            <div
+              class="MuiBox-root css-tkevr6"
+            >
+              <img
+                alt="26 ft Magnetic Tape Measure"
+                src="BigdogMeasuringTape.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585329"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              26 ft Magnetic Tape Measure
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-jtoaah-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585382"
+          >
+            <div
+              class="MuiBox-root css-tkevr6"
+            >
+              <img
+                alt="Round Point Shovel"
+                src="BigdogPointShovel.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585382"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Round Point Shovel
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-jtoaah-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585442"
+          >
+            <div
+              class="MuiBox-root css-tkevr6"
+            >
+              <img
+                alt="Torpedo Level"
+                src="BigdogTorpedoLevel.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585442"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Torpedo Level
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-jtoaah-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585403"
+          >
+            <div
+              class="MuiBox-root css-tkevr6"
+            >
+              <img
+                alt="Multi Purpose Tool Pouch"
+                src="BigdogToolPouch.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585403"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Multi Purpose Tool Pouch
+            </p>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-jtoaah-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585395"
+          >
+            <div
+              class="MuiBox-root css-tkevr6"
+            >
+              <img
+                alt="Ratchet Tie Down Strap"
+                src="BigdogTieDownStrap.jpg"
+              />
+            </div>
+          </a>
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/product/MSC-1585395"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-yigre9-MuiTypography-root"
+            >
+              Ratchet Tie Down Strap
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root css-268fxx-MuiGrid-root"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-sa15y2-MuiDivider-root"
+      />
+      <div
+        class="MuiGrid-root css-qdn0gb-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1xuh5pi-MuiTypography-root"
+        >
+          SEE THE FULL RANGE.
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1fqoe6d-MuiTypography-root"
+        >
+          With more than 40 products in the BIGDOG range, we’ve got a tool for every application.
+        </p>
+        <div
+          class="MuiGrid-root MuiGrid-container css-35eu0k-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/search?filters=brand%7CALLPROFESSIONAL+MFG+CO+LTD"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-i32lnv-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-zp579f-MuiTypography-root"
+              >
+                See the Range
+              </p>
+            </button>
+          </a>
+        </div>
+      </div>
+      <img
+        class="MuiBox-root css-vy99a4"
+        src="footerImageMobile.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,170 @@
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+@page {
+  size: auto;
+  margin: 0mm;
+}
+@media print {
+  .noprint {
+    display: none !important;
+  }
+}
+/* Global configuration of custom fonts */
+@font-face {
+  font-family: 'TT Commons';
+  src: local('TT Commons'),
+    url('fonts/tt_commons_classic_regular-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT Commons';
+  font-weight: 600;
+  src: local('TT Commons'),
+    url('fonts/tt_commons_classic_medium-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'TT Commons';
+  font-weight: 700;
+  src: local('TT Commons'),
+    url('fonts/tt_commons_classic_bold-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url('fonts/gilroy-light-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 800;
+  src: local('Gilroy'),
+    url('fonts/gilroy-extrabold-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: local('Metropolis'), url('fonts/Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Permanent Marker';
+  font-weight: 400;
+  src: local('Permanent Marker'),
+    url('fonts/PermanentMarker-webfont.woff') format('woff');
+}
+@media (max-width: 959px) {
+  .MuiModal-root {
+    z-index: 1700 !important;
+  }
+
+  .MuiDrawer-root {
+    z-index: 1600 !important;
+  }
+}
+
+.printOnly {
+  display: none;
+}
+
+@media print {
+  .printButton {
+    display: none;
+  }
+
+  .printOnly {
+    display: block !important;
+  }
+
+  .printBreakPage {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  .printGrid {
+    display: flex !important;
+  }
+  .printGridBlock {
+    display: block !important;
+  }
+  .printNoScroll {
+    height: unset !important;
+  }
+  .printPositionRelative {
+    top: 0px !important;
+    position: relative !important;
+  }
+
+  .printGridWidth_100 {
+    width: 100% !important;
+  }
+  .printGridWidth_50 {
+    width: 50% !important;
+  }
+
+  .printGridWidth_33 {
+    width: 33% !important;
+    vertical-align: top !important;
+  }
+
+  .printGridWidth_33_inline {
+    width: 33% !important;
+    vertical-align: top !important;
+    display: inline-block !important;
+  }
+
+  .printGridWidth_66 {
+    width: 66% !important;
+    vertical-align: top !important;
+  }
+
+  .printGridWidth_66_inline {
+    width: 66% !important;
+    vertical-align: top !important;
+    display: inline-block !important;
+  }
+
+  .printGridWidth_15 {
+    width: 15% !important;
+    vertical-align: top !important;
+  }
+
+  .printGridWidth_25 {
+    width: 25% !important;
+    vertical-align: top !important;
+  }
+  .printGridWidth_25_inline {
+    width: 25% !important;
+    vertical-align: top !important;
+    display: inline-block !important;
+  }
+
+  .printGridWidth_60 {
+    width: 60% !important;
+    vertical-align: top !important;
+  }
+
+  .printGridWidth_90 {
+    width: 90% !important;
+  }
+
+  .printGrid p {
+    white-space: initial !important;
+    text-overflow: unset !important;
+    overflow: unset !important;
+  }
+
+  .printGrid button,
+  .printGridBlock button {
+    display: none !important;
+  }
+  html,
+  body {
+    height: auto;
+  }
+}
+
+@page {
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

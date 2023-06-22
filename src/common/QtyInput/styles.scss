@@ -1,0 +1,105 @@
+@use 'src/_reece.scss';
+
+//mobile
+.minimum-quantity-dialog {
+  &__dialog-content {
+    background-color: reece.$dark-blue-100;
+    flex: 1 1 auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    padding: 20px 24px;
+  }
+  &__content-container {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+  &__title {
+    color: reece.$white-100;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0075em;
+  }
+  &__icon-button {
+    display: inline-flex;
+    position: absolute !important;
+    right: 8px;
+    top: 8px;
+    padding-top: 24px;
+    padding-right: 16px;
+  }
+  &__icon-delete {
+    color: reece.$white-100;
+    vertical-align: middle;
+  }
+  &__dialog-actions {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  &__actions-container {
+    padding: 32px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+  }
+  &__body-text {
+    color: reece.$dark-text-gray-100;
+    font-size: 1rem;
+    text-align: left;
+  }
+  &__product-name {
+    color: reece.$dark-blue-100;
+    font-weight: 800;
+  }
+  &__adjusted-qty-container {
+    display: flex;
+    padding-top: 32px;
+  }
+  &__adjusted-qty-text {
+    color: reece.$dark-blue-100;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0075em;
+  }
+  &__button-container {
+    padding-bottom: 48px;
+    padding-right: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    flex-direction: row;
+  }
+  &__button {
+    align-content: center;
+  }
+}
+
+// Desktop
+@media (min-width: reece.$breakpoint-md) {
+  .minimum-quantity-dialog {
+    &__icon-button {
+      padding-right: 32px;
+    }
+    &__actions-container {
+      padding: 48px 120px 24px 40px;
+    }
+    &__adjusted-qty-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-top: 16px;
+    }
+    &__button-container {
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+  }
+}

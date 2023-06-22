@@ -1,0 +1,13 @@
+mutation createJobForm($jobFormInput: JobFormInput!, $file: Upload) {
+  createJobForm(jobFormInput: $jobFormInput, file: $file)
+}
+
+query entitySearch($accountId: String!) {
+  entitySearch(accountId: $accountId) {
+    isBillTo
+    erpName
+    branchId
+    companyName
+    erpAccountId
+  }
+}

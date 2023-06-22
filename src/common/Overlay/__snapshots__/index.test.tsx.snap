@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - Overlay Should match snapshot with the bare minimum props 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-79elbk"
+  >
+    <div
+      class="MuiBox-root css-yedgod"
+    />
+    <div>
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Overlay Should match snapshot with the valid props 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-79elbk"
+  >
+    <div
+      class="MuiBox-root css-1sd540e"
+    />
+    <div
+      class="MuiBox-root css-1lusoco"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container css-go2vvz-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-filledInfo MuiAlert-filled css-mrp2hz-MuiPaper-root-MuiAlert-root"
+            role="alert"
+          >
+            <div
+              class="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="InfoIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiAlert-message css-acap47-MuiAlert-message"
+            >
+              <div
+                class="MuiBox-root css-0"
+              >
+                test1
+                 
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                test2
+                 
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                test3
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      test
+    </div>
+  </div>
+</div>
+`;

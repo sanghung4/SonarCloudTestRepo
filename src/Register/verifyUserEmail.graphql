@@ -1,0 +1,6 @@
+query VerifyUserEmail($email: String!) {
+  verifyUserEmail(email: $email) {
+    isValid
+    isEmployee
+  }
+}

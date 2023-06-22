@@ -1,0 +1,7 @@
+mutation ResendLegacyInviteEmail($legacyUserEmail: String!) {
+  resendLegacyInviteEmail(legacyUserEmail: $legacyUserEmail)
+}
+
+query InvitedUserEmailSent($email: String!) {
+  invitedUserEmailSent(email: $email)
+}

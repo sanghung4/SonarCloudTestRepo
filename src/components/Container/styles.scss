@@ -1,0 +1,26 @@
+@use 'src/_reece.scss';
+
+.container {
+  padding: 0 1.5rem;
+  margin: auto;
+  width: 100%;
+  font-family: Roboto;
+  box-sizing: border-box;
+
+  &.sm {
+    max-width: reece.$breakpoint-sm;
+  }
+  &.md {
+    max-width: reece.$breakpoint-md;
+  }
+  &.lg {
+    max-width: reece.$breakpoint-lg;
+  }
+  &.xl {
+    max-width: reece.$breakpoint-xl;
+  }
+
+  @media (max-width: reece.$breakpoint-md) {
+    padding: 0 1rem;
+  }
+}

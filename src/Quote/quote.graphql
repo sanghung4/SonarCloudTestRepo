@@ -1,0 +1,70 @@
+query Quote($accountId: ID!, $quoteId: ID!, $userId: ID!) {
+  quote(accountId: $accountId, quoteId: $quoteId, userId: $userId) {
+    ...Quote
+    amount
+    branchInfo {
+      ...BranchOrderInfo
+    }
+    deliveryMethod
+    email
+    lineItems {
+      imageUrls {
+        thumb
+      }
+      manufacturerName
+      manufacturerNumber
+      erpPartNumber
+      orderQuantity
+      productId
+      productName
+      productOrderTotal
+      shipQuantity
+      status
+      unitPrice
+    }
+    shipAddress {
+      streetLineOne
+      streetLineTwo
+      streetLineThree
+      city
+      state
+      postalCode
+      country
+    }
+    shipDate
+    specialInstructions
+    subTotal
+    tax
+  }
+}
+
+mutation ApproveQuote($approveQuoteInput: ApproveQuoteInput!) {
+  approveQuote(approveQuoteInput: $approveQuoteInput) {
+    ...SubmitOrderResponse
+  }
+}
+
+mutation RejectQuote($userId: ID!, $shipToAccountId: ID!, $quoteId: ID!) {
+  rejectQuote(
+    userId: $userId
+    shipToAccountId: $shipToAccountId
+    quoteId: $quoteId
+  )
+}
+
+fragment Quote on Quote {
+  bidExpireDate
+  billToName
+  customerPO
+  invoiceDueDate
+  invoiceNumber
+  orderDate
+  orderedBy
+  orderNumber
+  orderStatus
+  orderTotal
+  requiredDate
+  shipToId
+  shipToName
+  webStatus
+}

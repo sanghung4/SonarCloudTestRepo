@@ -1,0 +1,39 @@
+query Orders(
+  $accountId: ID!
+  $startDate: String
+  $endDate: String
+  $erpName: String!
+) {
+  orders(
+    accountId: $accountId
+    startDate: $startDate
+    endDate: $endDate
+    erpName: $erpName
+  ) {
+    orders {
+      orderNumber
+      orderStatus
+      shipDate
+      customerPO
+      orderDate
+      invoiceNumber
+      webStatus
+      shipAddress {
+        streetLineOne
+        streetLineTwo
+        streetLineThree
+        city
+        state
+        postalCode
+        country
+      }
+      amount
+      shipToName
+      jobNumber
+      orderTotal
+    }
+    pagination {
+      totalItemCount
+    }
+  }
+}

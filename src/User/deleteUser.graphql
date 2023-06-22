@@ -1,0 +1,13 @@
+mutation DeleteUser($deleteUserInput: DeleteUserInput!) {
+  deleteUser(deleteUserInput: $deleteUserInput)
+}
+
+mutation checkUsersForApprover($checkUsersForApproverInput: CheckUsersForApproverInput!) {
+  checkUsersForApprover(checkUsersForApproverInput: $checkUsersForApproverInput) {
+    users{
+       firstName
+       lastName
+       email
+    }
+  }
+}

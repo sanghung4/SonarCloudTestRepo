@@ -1,0 +1,15 @@
+query AccountErpId($accountId: String!, $brand: String!) {
+  account(accountId: $accountId, brand: $brand) {
+    erpAccountId
+  }
+}
+
+mutation InviteUser($inviteUserInput: InviteUserInput!) {
+  inviteUser(inviteUserInput: $inviteUserInput) {
+    firstName
+    lastName
+    email
+    userRoleId
+    approverId
+  }
+}

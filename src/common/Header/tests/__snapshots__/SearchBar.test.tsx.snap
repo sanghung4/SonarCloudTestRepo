@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common - Header - SearchBar Should match snapshot - Desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1rr4qq7"
+  >
+    <div>
+      <form
+        class="MuiBox-root css-90mxih"
+        id="product-search"
+      >
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              autocomplete="off"
+              class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="search-bar-input"
+              id="search-term"
+              type="text"
+              value=""
+            />
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+              data-testid="search-input-submit"
+              disabled=""
+              tabindex="-1"
+              type="submit"
+            >
+              <svg>
+                search.svg
+              </svg>
+            </button>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-nnbavb"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header - SearchBar Should match snapshot - Mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-18dztsn"
+    style="transform: scale(0); visibility: hidden;"
+  >
+    <form
+      class="MuiBox-root css-90mxih"
+      id="product-search"
+    >
+      <div
+        class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+        >
+          <input
+            aria-invalid="false"
+            autocomplete="off"
+            class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+            data-testid="search-bar-input"
+            id="search-term"
+            type="text"
+            value=""
+          />
+          <button
+            class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+            data-testid="search-input-submit"
+            disabled=""
+            tabindex="-1"
+            type="submit"
+          >
+            <svg>
+              search.svg
+            </svg>
+          </button>
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-nnbavb"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root css-fzwdcc-MuiBackdrop-root"
+    style="opacity: 0; visibility: hidden;"
+  />
+  <div
+    class="MuiBox-root css-vzcdy7"
+  >
+    <div
+      class="MuiBox-root css-ywl1ow"
+    >
+      <button
+        class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root css-z0jg63-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+        >
+          <svg>
+            chevron-left.svg
+          </svg>
+        </span>
+        Back
+      </button>
+      <div
+        class="MuiBox-root css-1f9pjem"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header - SearchBar expect to match snapshot when submitted search with criteria 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1rr4qq7"
+  >
+    <div>
+      <form
+        class="MuiBox-root css-90mxih"
+        id="product-search"
+      >
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              autocomplete="off"
+              class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="search-bar-input"
+              id="search-term"
+              type="text"
+              value=""
+            />
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+              data-testid="search-input-submit"
+              disabled=""
+              tabindex="-1"
+              type="submit"
+            >
+              <svg>
+                search.svg
+              </svg>
+            </button>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-nnbavb"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`common - Header - SearchBar expect to match snapshot when submitted searched from home page 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1rr4qq7"
+  >
+    <div>
+      <form
+        class="MuiBox-root css-90mxih"
+        id="product-search"
+      >
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-qfy6wh-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1nnq5dj-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              autocomplete="off"
+              class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-1i9cdxz-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="search-bar-input"
+              id="search-term"
+              type="text"
+              value=""
+            />
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled css-1ojygpp-MuiButtonBase-root-MuiButton-root"
+              data-testid="search-input-submit"
+              disabled=""
+              tabindex="-1"
+              type="submit"
+            >
+              <svg>
+                search.svg
+              </svg>
+            </button>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-nnbavb"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

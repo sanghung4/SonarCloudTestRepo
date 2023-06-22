@@ -1,0 +1,97 @@
+query GetProduct($productInput: ProductInput!) {
+  product(productInput: $productInput) {
+    ...Product
+  }
+}
+
+query GetProductPricing($input: ProductPricingInput!) {
+  productPricing(input: $input) {
+    customerId
+    branch
+    products {
+      productId
+      catalogId
+      branchAvailableQty
+      totalAvailableQty
+      listIds
+      sellPrice
+      orderUom
+    }
+  }
+}
+
+query GetProductInventory($productId: String!) {
+  productInventory(productId: $productId) {
+    productId
+    productDescription
+    inventory {
+      branchId
+      availableOnHand
+    }
+  }
+}
+
+fragment BranchInfo on StoreStock {
+  branchName
+  branchId
+  address1
+  address2
+  city
+  state
+  zip
+  phone
+  distanceToBranch
+  availability
+}
+
+fragment Product on Product {
+  id
+  partNumber
+  name
+  manufacturerName
+  manufacturerNumber
+  price
+  cmp
+  stock {
+    homeBranch {
+      ...BranchInfo
+    }
+    otherBranches {
+      ...BranchInfo
+    }
+  }
+  taxonomy
+  categories
+  technicalDocuments {
+    name
+    url
+  }
+  environmentalOptions
+  upc
+  unspsc
+  seriesModelFigureNumber
+  productOverview
+  featuresAndBenefits
+  techSpecifications {
+    name
+    value
+  }
+  imageUrls {
+    thumb
+    small
+    medium
+    large
+  }
+  packageDimensions {
+    height
+    weight
+    length
+    volume
+    width
+    volumeUnitOfMeasure
+    weightUnitOfMeasure
+  }
+  minIncrementQty
+  erp
+  customerPartNumber
+}

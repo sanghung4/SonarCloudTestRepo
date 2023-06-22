@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /cart
+Disallow: /orders
+Disallow: /invoices
+Disallow: /purchase-approvals
+Disallow: /quotes
+Disallow: /lists
+Disallow: /job-form
+Disallow: /unsupported-browser.html

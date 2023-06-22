@@ -1,0 +1,95 @@
+query GetOrdersPendingApproval {
+  ordersPendingApproval {
+    orderId
+    purchaseOrderNumber
+    submissionDate
+    submittedByName
+    orderTotal
+  }
+}
+
+query orderPendingApproval($orderId: String!) {
+  orderPendingApproval(orderId: $orderId) {
+    orderId
+    purchaseOrderNumber
+    submissionDate
+    submittedByName
+    orderTotal
+    cartId
+  }
+}
+
+mutation ApproveOrder(
+  $cartId: ID!
+  $userId: ID!
+  $shipToAccountId: ID!
+  $billToAccountId: ID!
+) {
+  approveOrder(
+    cartId: $cartId
+    userId: $userId
+    shipToAccountId: $shipToAccountId
+    billToAccountId: $billToAccountId
+  ) {
+    orderNumber
+    orderStatus
+    webStatus
+    shipDate
+    customerPO
+    orderDate
+    amount
+    invoiceNumber
+    billToName
+    shipToName
+    orderedBy
+    shipAddress {
+      streetLineOne
+      streetLineTwo
+      streetLineThree
+      city
+      state
+      postalCode
+      country
+    }
+    email
+    branchInfo {
+      ...BranchOrderInfo
+    }
+    deliveryMethod
+    specialInstructions
+    subTotal
+    tax
+    orderTotal
+    lineItems {
+      unitPrice
+      erpPartNumber
+      orderQuantity
+      shipQuantity
+      productOrderTotal
+      imageUrls {
+        thumb
+        small
+        medium
+        large
+      }
+      manufacturerName
+      manufacturerNumber
+      productName
+      productId
+    }
+  }
+}
+
+mutation RejectOrder(
+  $cartId: ID!
+  $userId: ID!
+  $shipToAccountId: ID!
+  $rejectOrderInfo: RejectOrderInput!
+) {
+  rejectOrder(
+    cartId: $cartId
+    userId: $userId
+    shipToAccountId: $shipToAccountId
+    rejectOrderInfo: $rejectOrderInfo
+  )
+}

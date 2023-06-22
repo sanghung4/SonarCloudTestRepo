@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Branches - BranchButton should be matching snapshot on desktop 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+    data-testid="change-branch-button"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+    >
+      <div
+        class="MuiBox-root css-79elbk"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          branch.svg
+        </svg>
+      </div>
+    </span>
+    <div
+      class="MuiBox-root css-1m2z7wn"
+    >
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          Test Branch
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Branches - BranchButton should be matching snapshot on mobile 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+    data-testid="change-branch-button"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+    >
+      <div
+        class="MuiBox-root css-79elbk"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          branch.svg
+        </svg>
+      </div>
+    </span>
+    <div
+      class="MuiBox-root css-79p6ya"
+    >
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          Test Branch
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Branches - BranchButton should be matching snapshot on with shippingBranchState 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+    data-testid="change-branch-button"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+    >
+      <div
+        class="MuiBox-root css-79elbk"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          branch.svg
+        </svg>
+      </div>
+    </span>
+    <div
+      class="MuiBox-root css-1m2z7wn"
+    >
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          Test Branch
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Branches - BranchButton should be matching snapshot when homeBranchError is true 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+    data-testid="change-branch-button"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+    >
+      <div
+        class="MuiBox-root css-79elbk"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          warning.svg
+        </svg>
+      </div>
+    </span>
+    <div
+      class="MuiBox-root css-1m2z7wn"
+    >
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        />
+      </div>
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Branches - BranchButton should be matching snapshot with detailed branch data 1`] = `
+<div>
+  <button
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-a14dhi-MuiButtonBase-root-MuiButton-root"
+    data-testid="change-branch-button"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+    >
+      <div
+        class="MuiBox-root css-79elbk"
+      >
+        <svg
+          height="20"
+          width="20"
+        >
+          branch.svg
+        </svg>
+      </div>
+    </span>
+    <div
+      class="MuiBox-root css-1m2z7wn"
+    >
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          Test Branch WY
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-i6bazn"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1eq34ab-MuiTypography-root"
+        >
+          Greenriver
+          , Wyoming
+        </p>
+      </div>
+    </div>
+  </button>
+</div>
+`;

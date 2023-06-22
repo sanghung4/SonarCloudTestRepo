@@ -1,0 +1,11 @@
+mutation CreateNewUser($user: CreateUserInput!, $inviteId: ID) {
+  createNewUser(user: $user, inviteId: $inviteId) {
+    id
+    firstName
+    lastName
+    email
+    phoneNumber
+    roleId
+    approverId
+  }
+}

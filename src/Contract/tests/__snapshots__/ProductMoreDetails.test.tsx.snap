@@ -1,0 +1,1175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contract Details - Line Item Details Desktop snapshot match 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-j6excx-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Documents
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container css-13m3rjs-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="test-doc"
+            href="https://google.com"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Test Doc
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="testing-procedures"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Testing Procedures
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="dos-and-donts"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Do's and don'ts
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="warranty"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Warranty
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="terms-of-service"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Terms of Service
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="additional-details"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Additional Details
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="null"
+            href=""
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="null"
+            href="#"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3 css-1x1u5qn-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="no-url"
+            href=""
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              No URL
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Specifications
+      </h5>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-10e7mrv-MuiDivider-root"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+        >
+          <div
+            class="MuiTableContainer-root css-x7f8rh-MuiTableContainer-root"
+          >
+            <table
+              class="MuiTable-root css-14mhd3s-MuiTable-root"
+            >
+              <tbody
+                class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+              >
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    length: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="length"
+                  >
+                    10'
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    material: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="material"
+                  >
+                    CPVC
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    pressure_rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="pressure-rating"
+                  >
+                    400 PSI at 73 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    temperature_rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="temperature-rating"
+                  >
+                    180 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Applicable Standard: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="applicable-standard"
+                  >
+                    NSF 14/61
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Application: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="application"
+                  >
+                    Drinking Water System, Hot and Cold Water Distribution
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Cpvc Pipe: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="cpvc-pipe"
+                  >
+                    1
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    End Connection: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="end-connection"
+                  >
+                    Plain x Plain
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Length: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="length"
+                  >
+                    10'
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1hhgieh-MuiGrid-root"
+        >
+          <div
+            class="MuiTableContainer-root css-x7f8rh-MuiTableContainer-root"
+          >
+            <table
+              class="MuiTable-root css-14mhd3s-MuiTable-root"
+            >
+              <tbody
+                class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+              >
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Material: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="material"
+                  >
+                    CPVC
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Material Specification: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="material-specification"
+                  >
+                    ASTM D1784/D2846
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Nominal Pipe Size: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="nominal-pipe-size"
+                  >
+                    3/4"
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Pipe: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="pipe"
+                  >
+                    2
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Pressure Rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="pressure-rating"
+                  >
+                    400 PSI at 73 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Schedule: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="schedule"
+                  >
+                    SDR 11
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Temperature Rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="temperature-rating"
+                  >
+                    180 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Thickness: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="thickness"
+                  >
+                    0.08"
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contract Details - Line Item Details Desktop snapshot match for empty data 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-j6excx-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Documents
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container css-13m3rjs-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-body1 css-1f5vvtg-MuiTypography-root"
+          >
+            No Technical Documents Found
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Specifications
+      </h5>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-10e7mrv-MuiDivider-root"
+      />
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-1f5vvtg-MuiTypography-root"
+      >
+        No Technical Specifications Found
+      </h5>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contract Details - Line Item Details Mobile snapshot match 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-t4zm44-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Documents
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container css-17jym42-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="test-doc"
+            href="https://google.com"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Test Doc
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="testing-procedures"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Testing Procedures
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="dos-and-donts"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Do's and don'ts
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="warranty"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Warranty
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="terms-of-service"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Terms of Service
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="additional-details"
+            href="*"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              Additional Details
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="null"
+            href=""
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="null"
+            href="#"
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              
+            </button>
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-nv4bdy-MuiGrid-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            data-testid="no-url"
+            href=""
+            target="_blank"
+          >
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1e09mci-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+              >
+                <svg>
+                  technical-specs.svg
+                </svg>
+              </span>
+              No URL
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Specifications
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+        >
+          <div
+            class="MuiTableContainer-root css-x7f8rh-MuiTableContainer-root"
+          >
+            <table
+              class="MuiTable-root css-14mhd3s-MuiTable-root"
+            >
+              <tbody
+                class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+              >
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    length: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="length"
+                  >
+                    10'
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    material: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="material"
+                  >
+                    CPVC
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    pressure_rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="pressure-rating"
+                  >
+                    400 PSI at 73 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    temperature_rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="temperature-rating"
+                  >
+                    180 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Applicable Standard: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="applicable-standard"
+                  >
+                    NSF 14/61
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Application: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="application"
+                  >
+                    Drinking Water System, Hot and Cold Water Distribution
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Cpvc Pipe: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="cpvc-pipe"
+                  >
+                    1
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    End Connection: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="end-connection"
+                  >
+                    Plain x Plain
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Length: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="length"
+                  >
+                    10'
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Material: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="material"
+                  >
+                    CPVC
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Material Specification: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="material-specification"
+                  >
+                    ASTM D1784/D2846
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Nominal Pipe Size: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="nominal-pipe-size"
+                  >
+                    3/4"
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Pipe: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="pipe"
+                  >
+                    2
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Pressure Rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="pressure-rating"
+                  >
+                    400 PSI at 73 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Schedule: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="schedule"
+                  >
+                    SDR 11
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Temperature Rating: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="temperature-rating"
+                  >
+                    180 Deg F
+                  </td>
+                </tr>
+                <tr
+                  class="MuiTableRow-root css-bqkitb-MuiTableRow-root"
+                >
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-zo3ar0-MuiTableCell-root"
+                  >
+                    Thickness: 
+                  </td>
+                  <td
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-mfg996-MuiTableCell-root"
+                    data-testid="thickness"
+                  >
+                    0.08"
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Contract Details - Line Item Details Mobile snapshot match for empty data 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-t4zm44-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Documents
+      </h5>
+      <div
+        class="MuiGrid-root MuiGrid-container css-17jym42-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-body1 css-1f5vvtg-MuiTypography-root"
+          >
+            No Technical Documents Found
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-2xxltb-MuiTypography-root"
+      >
+        Technical Specifications
+      </h5>
+      <h5
+        class="MuiTypography-root MuiTypography-body1 css-1f5vvtg-MuiTypography-root"
+      >
+        No Technical Specifications Found
+      </h5>
+    </div>
+  </div>
+</div>
+`;

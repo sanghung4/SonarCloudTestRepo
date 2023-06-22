@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account - View Company Info should match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gs6in-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-fn7wg1"
+    >
+      <div
+        class="MuiCardHeader-root css-1bnehoc-MuiCardHeader-root"
+        data-testid="company-information-title"
+      >
+        <div
+          class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-h4 MuiCardHeader-title css-wa9bt7-MuiTypography-root"
+          >
+            Company Information
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-0"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+        >
+          Company Name:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1d48ipw-MuiTypography-root"
+          data-testid="company-name-field"
+        >
+          Big Sky Waterworks
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1bbcutn"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+        >
+          Street Address:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1d48ipw-MuiTypography-root"
+          data-testid="street-address-field"
+        >
+          123 S 24th St Suite 43 Billings, MT 59102
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Account - View Company Info should match snapshot on desktop with no company 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gs6in-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-fn7wg1"
+    >
+      <div
+        class="MuiCardHeader-root css-1bnehoc-MuiCardHeader-root"
+        data-testid="company-information-title"
+      >
+        <div
+          class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-h4 MuiCardHeader-title css-wa9bt7-MuiTypography-root"
+          >
+            Company Information
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-0"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+        >
+          Company Name:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1d48ipw-MuiTypography-root"
+          data-testid="company-name-field"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1bbcutn"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-t1bbgg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap css-1hdqiad-MuiTypography-root"
+        >
+          Street Address:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight MuiTypography-noWrap css-1d48ipw-MuiTypography-root"
+          data-testid="street-address-field"
+        >
+          undefined undefinedundefined, undefined undefined
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Account - View Company Info should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1f2fbl-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-fn7wg1"
+    >
+      <div
+        class="MuiCardHeader-root css-1bnehoc-MuiCardHeader-root"
+        data-testid="company-information-title"
+      >
+        <div
+          class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-123mujq-MuiTypography-root"
+          >
+            Company Information
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-0"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+        >
+          Company Name:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-2g732t-MuiTypography-root"
+          data-testid="company-name-field"
+        >
+          Big Sky Waterworks
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1bbcutn"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+        >
+          Street Address:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-2g732t-MuiTypography-root"
+          data-testid="street-address-field"
+        >
+          123 S 24th St Suite 43 Billings, MT 59102
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Account - View Company Info should match snapshot on mobile with no company 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiCard-root css-1f2fbl-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-fn7wg1"
+    >
+      <div
+        class="MuiCardHeader-root css-1bnehoc-MuiCardHeader-root"
+        data-testid="company-information-title"
+      >
+        <div
+          class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-123mujq-MuiTypography-root"
+          >
+            Company Information
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-0"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+        >
+          Company Name:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-2g732t-MuiTypography-root"
+          data-testid="company-name-field"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-1bbcutn"
+    >
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-wrap-xs-nowrap css-1mkyrz5-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-15g5syf-MuiTypography-root"
+        >
+          Street Address:
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth css-175wz9v-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight MuiTypography-noWrap css-2g732t-MuiTypography-root"
+          data-testid="street-address-field"
+        >
+          undefined undefinedundefined, undefined undefined
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

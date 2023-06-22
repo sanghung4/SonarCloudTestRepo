@@ -1,0 +1,760 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes test should match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1kbjjd5-MuiContainer-root"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1yp6lty-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-n1sla7-MuiBreadcrumbs-separator"
+        >
+          <svg>
+            chevron-right.svg
+          </svg>
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-caption css-ohe2uh-MuiTypography-root"
+            data-testid="quotes-breadcrumb"
+          >
+            Quotes
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-1obe4va-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-1s6wx5p-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="quotes-title"
+          >
+            Quotes
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-1wcaknn"
+      >
+        <form>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-jhdc2n-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1rqx6ho-MuiGrid-root"
+            >
+              <div
+                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+              >
+                <label
+                  class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="true"
+                  for="mui-1"
+                  id="mui-1-label"
+                >
+                  Search by
+                </label>
+                <div
+                  class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="mui-1"
+                    placeholder="Quote #, PO #, Requested By"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-1z7n62"
+                    >
+                      <span>
+                        Search by
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-auto css-11vcf2t-MuiGrid-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root Mui-disabled  css-190vp1s-MuiButtonBase-root-MuiButton-root"
+                data-testid="branch-filter-set-filter"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                View Results
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-auto css-xmhp4d-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-md-true css-1xqcy2u-MuiGrid-root"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle2 css-g1pjat-MuiTypography-root"
+                  data-testid="results"
+                >
+                  0 results
+                </h6>
+              </div>
+            </div>
+          </div>
+          <button
+            class="MuiBox-root css-1hyfx7x"
+            type="submit"
+          />
+        </form>
+      </div>
+      <div
+        class="MuiTableContainer-root css-8cb3ox-MuiTableContainer-root"
+      >
+        <table
+          class="MuiTable-root css-qzyhip-MuiTable-root"
+          data-testid="quotes-table"
+          role="table"
+          style="min-width: 0px;"
+        >
+          <thead
+            class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+          >
+            <tr
+              class="MuiTableRow-root MuiTableRow-head css-bqkitb-MuiTableRow-root"
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 0px;"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 125 0 auto; min-width: 0px; width: 125px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Quote #
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Status
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Acct #
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Job Name
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      PO #
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Requested Date
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Expiration Date
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap css-11d6wci-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Quote Total
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                colspan="6"
+              >
+                <div
+                  class="MuiBox-root css-18glhic"
+                >
+                  <h4
+                    class="MuiTypography-root MuiTypography-h4 css-nri8m1-MuiTypography-root"
+                  >
+                    No results were found.
+                  </h4>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root css-11ezxrp"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-1vbz8i-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-kqwn4m-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-19z5v8g"
+              data-testid="total-quotes-count"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Quotes test should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters css-b628xg-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-3u2h7w"
+      data-testid="back-button-mobile"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-fe2j4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-lw1dhn-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1sx3uk1-MuiButton-startIcon"
+          >
+            <svg>
+              chevron-left.svg
+            </svg>
+          </span>
+          Back to Home
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-cnms5y-MuiContainer-root"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-15ug3si-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10 css-wd0fv5-MuiGrid-root"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-16xaac9-MuiTypography-root"
+            data-testid="quotes-title"
+          >
+            Quotes
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiCard-root css-13gj3ka-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiBox-root css-19kzrtu"
+      >
+        <form>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-jhdc2n-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-49904w-MuiGrid-root"
+            >
+              <div
+                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vhyr2u-MuiFormControl-root-MuiTextField-root"
+              >
+                <label
+                  class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-1411gyj-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="true"
+                  for="mui-2"
+                  id="mui-2-label"
+                >
+                  Search by
+                </label>
+                <div
+                  class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tg1mzk-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiOutlinedInput-input MuiInputBase-input css-1mjnin0-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="mui-2"
+                    placeholder="Quote #, PO #, Requested By"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-m1dym3-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-1z7n62"
+                    >
+                      <span>
+                        Search by
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-auto css-11vcf2t-MuiGrid-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root Mui-disabled  css-190vp1s-MuiButtonBase-root-MuiButton-root"
+                data-testid="branch-filter-set-filter"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                View Results
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-auto css-xmhp4d-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-md-true css-wcbppb-MuiGrid-root"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle2 css-g1pjat-MuiTypography-root"
+                  data-testid="results"
+                >
+                  0 results
+                </h6>
+              </div>
+            </div>
+          </div>
+          <button
+            class="MuiBox-root css-1hyfx7x"
+            type="submit"
+          />
+        </form>
+      </div>
+      <div
+        class="MuiTableContainer-root css-8cb3ox-MuiTableContainer-root"
+      >
+        <table
+          class="MuiTable-root css-qzyhip-MuiTable-root"
+          data-testid="quotes-table"
+          role="table"
+          style="min-width: 0px;"
+        >
+          <thead
+            class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+          >
+            <tr
+              class="MuiTableRow-root MuiTableRow-head css-bqkitb-MuiTableRow-root"
+              role="row"
+              style="display: flex; flex: 1 0 auto; min-width: 0px;"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 125 0 auto; min-width: 0px; width: 125px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Quote #
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Status
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 75 0 auto; min-width: 0px; width: 75px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Acct #
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Job Name
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      PO #
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Requested Date
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Expiration Date
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-l2k3ri-MuiTableCell-root"
+                colspan="1"
+                role="columnheader"
+                scope="col"
+                style="box-sizing: border-box; flex: 100 0 auto; min-width: 0px; width: 100px; cursor: pointer;"
+                title="Toggle SortBy"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-wrap-xs-nowrap css-129ezgh-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-auto css-289t-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiBox-root css-13o7eu2"
+                    >
+                      Quote Total
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                colspan="6"
+              >
+                <div
+                  class="MuiBox-root css-18glhic"
+                >
+                  <h4
+                    class="MuiTypography-root MuiTypography-h4 css-nri8m1-MuiTypography-root"
+                  >
+                    No results were found.
+                  </h4>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root css-11ezxrp"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column-reverse MuiGrid-grid-xs-12 css-ykx38k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-auto css-kqwn4m-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-19z5v8g"
+              data-testid="total-quotes-count"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

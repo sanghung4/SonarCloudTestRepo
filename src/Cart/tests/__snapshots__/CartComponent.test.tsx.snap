@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart - CartComponent Should match snapshot when there's contract and tempcartitem on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-ida0zm"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+    >
+      No items are in the cart.
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`Cart - CartComponent Should match snapshot when there's nothing in the cart on desktop 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-k6wrnl-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap css-or41m5-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1.7 css-koznyn-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Add to List
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-5 css-163cipg-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Product
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-5isa7p-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-6cma4a-MuiTypography-root"
+        >
+          Price
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Available Qty
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-1po43hr-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Qty
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Order Total
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1 css-1c16yah-MuiGrid-root"
+      />
+    </div>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-twe2jw-MuiDivider-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item printGridBlock css-1f064cs-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item css-oob2kr-MuiGrid-root"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+        >
+          No items are in the cart.
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cart - CartComponent Should match snapshot when there's nothing in the cart on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1brqcib"
+  >
+    <span
+      class="MuiTypography-root MuiTypography-caption css-1xrvs54-MuiTypography-root"
+    >
+      (
+      0
+      ) 
+      items in cart
+    </span>
+  </div>
+  <hr
+    class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+  />
+  <div
+    class="MuiBox-root css-ida0zm"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+    >
+      No items are in the cart.
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`Cart - CartComponent Should match snapshot when there's nothing in the cart while loading 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-k6wrnl-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap css-or41m5-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1.7 css-koznyn-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Add to List
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-md-5 css-163cipg-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Product
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-5isa7p-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-6cma4a-MuiTypography-root"
+        >
+          Price
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Available Qty
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-1po43hr-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Qty
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-2 css-rlxou3-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1mcg7za-MuiTypography-root"
+        >
+          Order Total
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-md-1 css-1c16yah-MuiGrid-root"
+      />
+    </div>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth MuiBox-root css-twe2jw-MuiDivider-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item printGridBlock css-1f064cs-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item css-oob2kr-MuiGrid-root"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 css-rbn354-MuiTypography-root"
+        >
+          <div
+            class="MuiBox-root css-1y42d7e"
+            data-testid="loader-component"
+          >
+            <div
+              class="MuiBox-root css-hyxlzm"
+            >
+              <span
+                aria-valuenow="100"
+                class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary css-1wyqyef-MuiCircularProgress-root"
+                role="progressbar"
+                style="width: 80px; height: 80px; transform: rotate(-90deg);"
+              >
+                <svg
+                  class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                  viewBox="22 22 44 44"
+                >
+                  <circle
+                    class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                    cx="44"
+                    cy="44"
+                    fill="none"
+                    r="19.5"
+                    stroke-width="5"
+                    style="stroke-dasharray: 122.522; stroke-dashoffset: 0.000px;"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1gse1c1-MuiCircularProgress-root"
+                role="progressbar"
+                style="width: 80px; height: 80px;"
+              >
+                <svg
+                  class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                  viewBox="22 22 44 44"
+                >
+                  <circle
+                    class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                    cx="44"
+                    cy="44"
+                    fill="none"
+                    r="19.5"
+                    stroke-width="5"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;

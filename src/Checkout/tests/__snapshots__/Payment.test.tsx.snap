@@ -1,0 +1,1059 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout - Payment should match snapshot on desktop 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-19wuj10"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+    >
+      Payment Information
+    </h5>
+  </div>
+  <div
+    class="MuiBox-root css-w6wjax"
+  >
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="payment-method-type"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          Payment Method
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1pwnjt2-MuiInputBase-root-MuiInput-root"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="payment-method-type"
+          class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+          id="payment-method-type"
+          role="button"
+          tabindex="0"
+        >
+          Bill To My Account
+        </div>
+        <input
+          aria-hidden="true"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          data-testid="payment-method-input"
+          name="paymentMethodType"
+          tabindex="-1"
+          value="BILLTOACCOUNT"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-syo9nu-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="po-number"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          PO Number
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-j28cm1-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+          data-testid="po-number-input"
+          id="po-number"
+          name="poNumber"
+          placeholder="Enter PO Number"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <p
+        class="MuiFormHelperText-root css-14799pm-MuiFormHelperText-root"
+      >
+        If you don't have a PO number, please enter any value
+      </p>
+    </div>
+  </div>
+  <div
+    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+    style="min-height: 0px;"
+  >
+    <div
+      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+    >
+      <div
+        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+      >
+        <div
+          class="MuiBox-root css-ib9iq6"
+        >
+          <div
+            class="MuiBox-root css-19wuj10"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            >
+              Billing Information
+            </h5>
+          </div>
+          <div
+            class="MuiBox-root css-tutquh"
+          >
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+            >
+              Bill to
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="checkout-pickup-location-address-loading"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 150px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 200px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 100px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 200px;"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Checkout - Payment should match snapshot on error 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-19wuj10"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+    >
+      Payment Information
+    </h5>
+  </div>
+  <div
+    class="MuiBox-root css-w6wjax"
+  >
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="payment-method-type"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          Payment Method
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1pwnjt2-MuiInputBase-root-MuiInput-root"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="payment-method-type"
+          class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+          id="payment-method-type"
+          role="button"
+          tabindex="0"
+        >
+          Bill To My Account
+        </div>
+        <input
+          aria-hidden="true"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          data-testid="payment-method-input"
+          name="paymentMethodType"
+          tabindex="-1"
+          value="BILLTOACCOUNT"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-syo9nu-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="po-number"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          PO Number
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-error MuiInputBase-fullWidth css-j28cm1-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          aria-invalid="true"
+          class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+          data-testid="po-number-input"
+          id="po-number"
+          name="poNumber"
+          placeholder="Enter PO Number"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <p
+        class="MuiFormHelperText-root Mui-error css-14799pm-MuiFormHelperText-root"
+      >
+        PO Number is required
+      </p>
+      <p
+        class="MuiFormHelperText-root css-14799pm-MuiFormHelperText-root"
+      >
+        If you don't have a PO number, please enter any value
+      </p>
+    </div>
+  </div>
+  <div
+    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+    style="min-height: 0px;"
+  >
+    <div
+      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+    >
+      <div
+        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+      >
+        <div
+          class="MuiBox-root css-ib9iq6"
+        >
+          <div
+            class="MuiBox-root css-19wuj10"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            >
+              Billing Information
+            </h5>
+          </div>
+          <div
+            class="MuiBox-root css-tutquh"
+          >
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+            >
+              Bill to
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="checkout-pickup-location-address-loading"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 150px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 200px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 100px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 200px;"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Checkout - Payment should match snapshot on mobile 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-kjvg9x"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+    >
+      Payment Information
+    </h5>
+  </div>
+  <div
+    class="MuiBox-root css-1d9fmsb"
+  >
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="payment-method-type"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          Payment Method
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1pwnjt2-MuiInputBase-root-MuiInput-root"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="payment-method-type"
+          class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+          id="payment-method-type"
+          role="button"
+          tabindex="0"
+        >
+          Bill To My Account
+        </div>
+        <input
+          aria-hidden="true"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          data-testid="payment-method-input"
+          name="paymentMethodType"
+          tabindex="-1"
+          value="BILLTOACCOUNT"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-syo9nu-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="po-number"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          PO Number
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-j28cm1-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+          data-testid="po-number-input"
+          id="po-number"
+          name="poNumber"
+          placeholder="Enter PO Number"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <p
+        class="MuiFormHelperText-root css-14799pm-MuiFormHelperText-root"
+      >
+        If you don't have a PO number, please enter any value
+      </p>
+    </div>
+  </div>
+  <div
+    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+    style="min-height: 0px;"
+  >
+    <div
+      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+    >
+      <div
+        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+      >
+        <div
+          class="MuiBox-root css-1yuhvjn"
+        >
+          <div
+            class="MuiBox-root css-kjvg9x"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            >
+              Billing Information
+            </h5>
+          </div>
+          <div
+            class="MuiBox-root css-htmrld"
+          >
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-0"
+              data-testid="checkout-pickup-location-address-loading"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 150px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 200px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 100px;"
+                />
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1k41qqb-MuiTypography-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-18tyrrx-MuiSkeleton-root"
+                  style="width: 200px;"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Checkout - Payment should match snapshot when paymentMethodType has an invalid option 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-19wuj10"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+    >
+      Payment Information
+    </h5>
+  </div>
+  <div
+    class="MuiBox-root css-w6wjax"
+  >
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="payment-method-type"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          Payment Method
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1pwnjt2-MuiInputBase-root-MuiInput-root"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="payment-method-type"
+          class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+          id="payment-method-type"
+          role="button"
+          tabindex="0"
+        >
+          Select
+        </div>
+        <input
+          aria-hidden="true"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          data-testid="payment-method-input"
+          name="paymentMethodType"
+          tabindex="-1"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-syo9nu-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="po-number"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          PO Number
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-j28cm1-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+          data-testid="po-number-input"
+          id="po-number"
+          name="poNumber"
+          placeholder="Enter PO Number"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <p
+        class="MuiFormHelperText-root css-14799pm-MuiFormHelperText-root"
+      >
+        If you don't have a PO number, please enter any value
+      </p>
+    </div>
+  </div>
+  <div
+    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+    style="min-height: 0px;"
+  >
+    <div
+      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+    >
+      <div
+        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+      >
+        <div
+          class="MuiBox-root css-ib9iq6"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Checkout - Payment should match snapshot with Credit Card as payment method 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-19wuj10"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+    >
+      Payment Information
+    </h5>
+  </div>
+  <div
+    class="MuiBox-root css-w6wjax"
+  >
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+    />
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="payment-method-type"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          Payment Method
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1pwnjt2-MuiInputBase-root-MuiInput-root"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="payment-method-type"
+          class="MuiSelect-select MuiSelect-outlined MuiInput-input MuiInputBase-input css-hb27wf-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+          id="payment-method-type"
+          role="button"
+          tabindex="0"
+        >
+          Credit Card
+        </div>
+        <input
+          aria-hidden="true"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          data-testid="payment-method-input"
+          name="paymentMethodType"
+          tabindex="-1"
+          value="CREDITCARD"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-syo9nu-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    >
+      <label
+        class="MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-1adon7z-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink="false"
+        for="po-number"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 css-1nelj9t-MuiTypography-root"
+        >
+          PO Number
+        </span>
+        <span
+          aria-hidden="true"
+          class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-kclkbf-MuiFormLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <div
+        class="MuiInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-j28cm1-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInput-input MuiInputBase-input css-1h0oku3-MuiInputBase-input-MuiInput-input"
+          data-testid="po-number-input"
+          id="po-number"
+          name="poNumber"
+          placeholder="Enter PO Number"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-1rjcsn7-MuiGrid-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1m6pi2w-MuiGrid-root"
+    >
+      <p
+        class="MuiFormHelperText-root css-14799pm-MuiFormHelperText-root"
+      >
+        If you don't have a PO number, please enter any value
+      </p>
+    </div>
+  </div>
+  <div
+    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root"
+    style="min-height: 0px;"
+  >
+    <div
+      class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+    >
+      <div
+        class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+      >
+        <div
+          class="MuiBox-root css-ib9iq6"
+        >
+          <div
+            class="MuiBox-root css-19wuj10"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-1bvxf5q-MuiTypography-root"
+            >
+              Credit Card Information
+            </h5>
+          </div>
+          <div
+            class="MuiBox-root css-tutquh"
+          >
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-di86mu-MuiDivider-root"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-iqsdt1"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-1r7mx2p-MuiGrid-root"
+            />
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-coobyg-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-rcvewn"
+              >
+                <button
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-wyox7y-MuiButtonBase-root-MuiButton-root"
+                  data-testid="add-card-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  Add new card
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

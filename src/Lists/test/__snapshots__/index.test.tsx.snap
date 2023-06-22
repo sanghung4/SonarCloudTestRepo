@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lists tests Should call the addItemToCart when add to cart is clicked 1`] = `
+<button
+  class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-fullWidth MuiButtonBase-root  css-ypanuf-MuiButtonBase-root-MuiButton-root"
+  data-testid="l1_item1-add-to-cart-button"
+  tabindex="0"
+  type="button"
+>
+  Added to Cart
+</button>
+`;

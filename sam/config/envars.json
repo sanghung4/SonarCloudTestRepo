@@ -1,7 +1,0 @@
-{
-  "ConsumerFunction": {
-    "ELASTIC_USE_CLOUD": 1,
-    "SECRETS_MANAGER_KEY": "post-api",
-    "POST_ENV": "CONSUMER"
-  }
-}

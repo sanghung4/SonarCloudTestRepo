@@ -1,0 +1,52 @@
+@use 'src/_reece.scss';
+
+$ctrl-dimension: 12px;
+
+.slider {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.slider-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.slider-controls {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.slider-button {
+  height: $ctrl-dimension;
+  width: $ctrl-dimension;
+  border: none;
+  z-index: 2;
+  border-radius: 50%;
+  background-color: reece.$medium-gray-40;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 2px 12px rgba(41, 43, 50, 0.12);
+  }
+
+  &:not(:last-of-type) {
+    margin-right: 15px;
+  }
+}
+
+.slider-button--active {
+  background-color: reece.$dark-blue-80;
+}

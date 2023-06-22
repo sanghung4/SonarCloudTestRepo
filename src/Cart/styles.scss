@@ -1,0 +1,41 @@
+@use 'src/_reece.scss';
+
+
+
+@media (min-width: 960px) and (max-width: 1099px) {
+    .cart-list {
+        &__product {
+            &--image {
+                height: 25px !important;
+                width: 25px !important;
+                padding-left: 0!important;
+                padding-right: 0!important;
+            }
+            &--quantity {
+                width: 60px!important;
+            }
+            &--quantity-input {
+                width: 60px!important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1100px) {
+    .cart-list {
+        &__product {
+            &--image {
+                height: 72px !important;
+                width: 104px !important;
+                padding-left: 16px!important;
+                padding-right: 16px!important;
+            }
+            &--quantity {
+                width: 120px!important;
+            }
+            &--quantity-input {
+                width: 88px!important;
+            }
+        }
+    }
+}

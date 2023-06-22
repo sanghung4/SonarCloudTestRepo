@@ -1,48 +1,210 @@
 version: 2.1
-
-orbs:
-  python: circleci/python@2.1.1
-  # python-services: morsco-reece/python-services@1.1.0
-
 workflows:
-  single-job-lifecycle:
+  test-and-deploy:
     jobs:
-      # - python-services/validate_helm_chart:
-      #       helm-chart-path: ./charts/post-api-service
-      #       filters:
-      #         branches:
-      #           ignore:
-      #             - main
-      #             - /^release-v.*/
-      # - python-services/publish_release:
-      #     python-version: "3.8"
-      #     ecr-repo: reece/post-api-service
-      #     helm-chart-name: post-api-service
-      #     helm-chart-path: ./charts/post-api-service
-      #     dockerfile: ./aws/api/Dockerfile
-      #     filters:
-      #       branches:
-      #         only: main
-      # - python-services/publish_hotfix:
-      #     python-version: "3.8"
-      #     ecr-repo: reece/post-api-service
-      #     helm-chart-name: post-api-service
-      #     helm-chart-path: ./charts/post-api-service
-      #     dockerfile: ./aws/api/Dockerfile
-      #     filters:
-      #       branches:
-      #         only: /^release-v.*/
-      # - python-services/deploy_release_dev:
-      #     environments-repo-chart-name: post-api-service
-      #     requires:
-      #       - python-services/publish_release
-      #     filters:
-      #       branches:
-      #         only: main
+      - test
+      - java-services/validate_helm_chart:
+          helm-chart-path: ./charts/max-portal
+          requires:
+            - test
+          filters:
+            branches:
+              ignore:
+                - develop
+                - test
+                - uat
+                - master
+                - /^release-v.*/
+      - publish_release:
+          requires:
+            - test
+          filters:
+            branches:
+              only: develop
+      - publish_hotfix:
+          requires:
+            - test
+          filters:
+            branches:
+              only: /^release-v.*/
+      - java-services/deploy_release_dev:
+          environments-repo-chart-name: max-portal
+          requires:
+            - publish_release
+          filters:
+            branches:
+              only: develop
       - sonar-cloud:
           context: SonarCloud
+          requires:
+            - test
 
 jobs:
+  test:
+    resource_class: large
+    executor:
+      name: node/default
+      tag: '16.14'
+    steps:
+      - checkout
+      - aws-cli/setup:
+          profile-name: shared
+      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+      - run: echo "always-auth=true" >> $HOME/.npmrc
+      - node/install-packages:
+          pkg-manager: yarn    
+      - run: yarn test --reporters=jest-junit --coverage --maxWorkers=4 --watchAll=false
+      - store_test_results:
+          path: junit.xml
+      - coveralls/upload
+  
+  publish_release:
+    docker:
+      - image: cimg/node:16.14
+    steps:
+      - setup_remote_docker
+      - checkout
+
+      # Publish new release version to GitHub
+      - run:
+          command: |
+            current_version() {
+              git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+            }
+            
+            release_version() {
+              PREVIOUS_VERSION="$(current_version)"
+            
+              [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+            
+              MINOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f2 | rev)"
+              MAJOR_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f3 | rev)"
+            
+              NEW_MINOR_VERSION="$((MINOR_VERSION + 1))"
+            
+              echo "$MAJOR_VERSION.$NEW_MINOR_VERSION.0"
+            }
+            
+            echo "export RELEASE_VERSION=$(release_version)" >> "$BASH_ENV"
+          name: Increment version
+      - github-cli/setup:
+          version: 2.7.0
+      - run:
+          command: >-
+            gh release create v${RELEASE_VERSION} --generate-notes --target
+            $CIRCLE_SHA1
+          name: Create Github Release
+
+      # Publish build image to ECR
+      - aws-cli/setup:
+          profile-name: shared
+      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+      - run:
+          command: |
+            cat $HOME/.npmrc > .npmrc
+            echo "always-auth=true" >> .npmrc
+          name: Copy CodeArtifact Token to Workdir
+      - aws-ecr/ecr-login:
+          profile-name: shared
+          region: $AWS_DEFAULT_REGION
+      - aws-ecr/build-image:
+          repo: reece/max-portal
+          tag: $RELEASE_VERSION
+
+      # Publish Helm charts to s3
+      - helm/install-helm-client:
+          version: v3.3.4
+      - java-services/helm_add_s3_repo:
+          chart-repo-name: reece-ecomm
+          chart-repo-url: s3://reece-ecomm-chart-repo/charts
+      - java-services/helm_publish:
+          helm-chart-name: max-portal
+          helm-chart-org: reece
+          helm-chart-path: ./charts/max-portal
+          helm-chart-repo-name: reece-ecomm
+          version: RELEASE_VERSION
+  
+  publish_hotfix:
+    docker:
+      - image: cimg/node:16.14
+    steps:
+      - setup_remote_docker
+      - checkout
+
+      # Publish new release version to GitHub
+      - run:
+          command: |
+            current_version() {
+              git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+            }
+            
+            hotfix_version() {
+              PREVIOUS_VERSION="$(current_version)"
+            
+              [ -z "$PREVIOUS_VERSION" ] && PREVIOUS_VERSION="0.0.0"
+            
+              PATCH_VERSION="$(echo "$PREVIOUS_VERSION" | rev | cut -d'.' -f1 | rev)"
+            
+              NEW_PATCH_VERSION="$((PATCH_VERSION + 1))"
+            
+              echo "$(echo $PREVIOUS_VERSION | rev | cut -f 2- -d . | rev).$NEW_PATCH_VERSION"
+            }
+            
+            echo "export RELEASE_VERSION=$(hotfix_version)" >> "$BASH_ENV"
+          name: Increment version
+      - github-cli/setup:
+          version: 2.7.0
+      - run:
+          command: >-
+            gh release create v${RELEASE_VERSION} --generate-notes --target
+            $CIRCLE_SHA1
+          name: Create Github Release
+
+      # Publish build image to ECR
+      - aws-cli/setup:
+          profile-name: shared
+      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+      - run:
+          command: |
+            cat $HOME/.npmrc > .npmrc
+            echo "always-auth=true" >> .npmrc
+          name: Copy CodeArtifact Token to Workdir
+      - aws-ecr/ecr-login:
+          profile-name: shared
+          region: $AWS_DEFAULT_REGION
+      - aws-ecr/build-image:
+          repo: reece/max-portal
+          tag: $RELEASE_VERSION
+
+      # Publish Helm charts to s3
+      - helm/install-helm-client:
+          version: v3.3.4
+      - java-services/helm_add_s3_repo:
+          chart-repo-name: reece-ecomm
+          chart-repo-url: s3://reece-ecomm-chart-repo/charts
+      - java-services/helm_publish:
+          helm-chart-name: max-portal
+          helm-chart-org: reece
+          helm-chart-path: ./charts/max-portal
+          helm-chart-repo-name: reece-ecomm
+          version: RELEASE_VERSION
+
+  invalidate-cloudfront-cache:
+    parameters:
+      environment_uppercase:
+        description: 'Deployed environment name - uppercase'
+        type: string
+    executor: aws-cli/default
+    steps:
+      - checkout
+      - run: mkdir $HOME/.aws
+      - run: touch $HOME/.aws/credentials
+      - run: echo '[default]' >> $HOME/.aws/credentials
+      - run: echo 'aws_access_key_id='$AWS_ACCESS_KEY_ID_<< parameters.environment_uppercase >> >> $HOME/.aws/credentials
+      - run: echo 'aws_secret_access_key='$AWS_SECRET_ACCESS_KEY_<< parameters.environment_uppercase >> >> $HOME/.aws/credentials
+      - aws-cli/install
+      - run: aws --profile default cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID_<< parameters.environment_uppercase >> --paths "/*"
+
   sonar-cloud:
     docker:
       - image: 'cimg/node:20.3.0'
@@ -101,3 +263,14 @@ commands:
           paths:
             - "/tmp/cache/scanner"
           key: v<<parameters.cache_version>>-sonarcloud-scanner-4.7.0.2747
+
+orbs:
+  aws-cli: circleci/aws-cli@2.1.0
+  aws-ecr: circleci/aws-ecr@8.0.0
+  coveralls: coveralls/coveralls@1.0.6
+  github-cli: circleci/github-cli@2.0.0
+  helm: circleci/helm@1.1.2
+  java-services: morsco-reece/java-services@1.2.0
+  node: circleci/node@5.0.2
+
+# VS Code Extension Version: 1.5.1
