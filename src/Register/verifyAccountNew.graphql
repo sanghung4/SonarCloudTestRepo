@@ -1,6 +1,0 @@
-query VerifyAccountNew($input: VerifyAccountInput!) {
-  verifyAccountNew(input: $input) {
-    accountName
-    isTradeAccount
-  }
-}

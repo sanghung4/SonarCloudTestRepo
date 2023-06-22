@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    container_name: punchout-db-bff
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=reece-punchout
+      - POSTGRES_PASSWORD=reece-punchout
+      - POSTGRES_DB=reece-punchout
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./docker-data/postgres:/var/lib/postgresql/data

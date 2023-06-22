@@ -1,3 +1,0 @@
-mutation ApproveUser($user: ApproveUserInput!) {
-  approveUser(user: $user)
-}

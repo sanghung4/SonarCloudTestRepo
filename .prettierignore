@@ -1,9 +1,1 @@
-# Only format files in `/src`
-/*
-!/src
-!/e2e
-
-# Excluding these folders / files
-/src/icons
-/src/images
-/src/generated
+charts/**/templates

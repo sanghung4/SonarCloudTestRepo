@@ -1,0 +1,1 @@
+INSERT INTO public.customer(id_customer, name) VALUES ('1234', 'Tester McTesty');

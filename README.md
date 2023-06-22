@@ -1,16 +1,93 @@
-# Reece Portal
+# Punchout Customer BFF
 
-[![Coverage Status](https://coveralls.io/repos/github/morsco-reece/portal/badge.svg?t=taMkap)](https://coveralls.io/github/morsco-reece/portal)
+CircleCi Pipeline -> https://app.circleci.com/pipelines/github/morsco-reece/punchout-customer-bff
 
-This project contains the frontend code for the Reece Portal. For more documentation please read the following:
+# Setup
 
-- [Available Scripts](./docs/scripts.md)
-- [Best Practices](./docs/best-practices.md)
-- [Hooks Guide](./docs/hooks.md)  
-- [Hotfix Guide](./docs/hotfixing.md)
+See https://github.com/morsco-reece/punchout-wiki#setup for setup automation.
 
-### QuickStart
+Import into IntelliJ using:
 
-1. Install dependencies with `yarn`.
-2. Initialize your `.env` file with `yarn init:project`
-3. Start with `yarn start`. This will spin up a server on [http://localhost:3000](http://localhost:3000)
+- File
+- New
+- Module From Existing Sources
+- Select the project
+- Select the type as "Maven"
+
+# Runtime
+
+## (1) Docker
+
+You must first be running a local docker container of Postgres, which can be done using:
+
+```
+docker compose up -d
+```
+
+
+
+## (2) Run Main
+
+![run-as](wiki/run-as.png)
+
+...then end the runtime configuration to be the following and save it:
+
+![run-as](wiki/edit-run.png)
+
+
+
+## (3) Endpoints
+
+### /actuator/health
+
+http://localhost:8080/actuator/health
+
+```
+{
+  "status": "UP",
+  "components": {
+    "db": {
+      "status": "UP",
+      "details": {
+        "database": "PostgreSQL",
+        "validationQuery": "isValid()"
+      }
+    },
+    "diskSpace": {
+      "status": "UP",
+      "details": {
+        "total": 494384795648,
+        "free": 333121630208,
+        "threshold": 10485760,
+        "exists": true
+      }
+    },
+    "livenessState": {
+      "status": "UP"
+    },
+    "ping": {
+      "status": "UP"
+    },
+    "readinessState": {
+      "status": "UP"
+    }
+  },
+  "groups": [
+    "liveness",
+    "readiness"
+  ]
+}
+```
+
+### /swagger-ui/index.html
+
+http://localhost:8080/swagger-ui/index.html
+
+## (4) Refresh Test Data
+
+The following script is used to refresh test customer data and related products:
+
+```bash
+./refresh-test-data.sh
+```
+

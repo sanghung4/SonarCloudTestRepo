@@ -1,0 +1,363 @@
+databaseChangeLog:
+  - changeSet:
+      id: createTable
+      author: Soumitra Roy
+      changes:
+        - sqlFile:
+            dbms: mysql
+            encoding: utf8
+            endDelimiter: \n/\s*\n|\n/\s*$
+            path: ../../preliquibase/default.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+  - changeSet:
+      id: createTestData
+      author: Luis Bolivar
+      changes:
+        - sqlFile:
+            dbms: postgresql
+            encoding: utf8
+            endDelimiter: \n/\s*\n|\n/\s*$
+            path: ../../preliquibase/test-data.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+  - changeSet:
+      id: insert-catalog-status
+      author: Luis Bolivar
+      changes:
+        - insert:
+            catalogName: catalog_status
+            columns:
+              - column:
+                  name: id
+                  value: DRAFT
+            dbms: postgresql
+            schemaName: public
+            tableName: catalog_status
+        - insert:
+            catalogName: catalog_status
+            columns:
+              - column:
+                  name: id
+                  value: ACTIVE
+            dbms: postgresql
+            schemaName: public
+            tableName: catalog_status
+        - insert:
+            catalogName: catalog_status
+            columns:
+              - column:
+                  name: id
+                  value: SUBMITTED
+            dbms: postgresql
+            schemaName: public
+            tableName: catalog_status
+        - insert:
+            catalogName: catalog_status
+            columns:
+              - column:
+                  name: id
+                  value: ARCHIVED
+            dbms: postgresql
+            schemaName: public
+            tableName: catalog_status
+  - changeSet:
+      id: add-credential-columns
+      author: John Valentino
+      changes:
+        - addColumn:
+            tableName: authorized_user
+            schemaName: public
+            columns:
+              - column:
+                  name: password
+                  type: varchar(200)
+              - column:
+                  name: salt
+                  type: varchar(200)
+  - changeSet:
+      id: add-default-admin-user
+      author: John Valentino
+      changes:
+        - insert:
+            catalogName: authorized_user
+            tableName: authorized_user
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: 7bfd7be8-4429-474a-b9b0-32789b4aeb1f
+              - column:
+                  name: email
+                  value: admin@reece.com
+              - column:
+                  name: admin
+                  value: "true"
+              - column:
+                  name: salt
+                  value: $1$v1M27yYJ
+              - column:
+                  name: password
+                  value: $1$v1M27yYJ$qABhiGj2/LrilkDzwmjIr1
+  - changeSet:
+      id: schema-corrections
+      author: John Valentino
+      changes:
+        - sqlFile:
+            encoding: utf8
+            endDelimiter: ;
+            path: ../../preliquibase/corrections.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+  - changeSet:
+      id: default-customers
+      author: John Valentino
+      changes:
+        # NCSU MARKETPLACE (364258)
+        - insert:
+            catalogName: customer
+            tableName: customer
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: 83ab9141-6bac-4cd7-bb7f-cb63c54a61d3
+              - column:
+                  name: id_customer
+                  value: 364258
+              - column:
+                  name: id_branch
+                  value: 1303
+              - column:
+                  name: branch_name
+                  value: 1303
+              - column:
+                  name: id_erp
+                  value: 364258
+              - column:
+                  name: name
+                  value: NCSU MARKETPLACE
+              - column:
+                  name: is_bill_to
+                  value: false
+              - column:
+                  name: last_update
+                  value: 2023-05-17T00:00:00.000+0000
+              - column:
+                  name: contact_name
+                  value: JILL DILLION  A/P
+              - column:
+                  name: contact_phone
+                  value: 919-515-6133
+        - insert:
+            catalogName: customer_region
+            tableName: customer_region
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: c636b005-0055-4b33-8f87-5a3d84de63ff
+              - column:
+                  name: id_customer
+                  value: 83ab9141-6bac-4cd7-bb7f-cb63c54a61d3
+              - column:
+                  name: name
+                  value: MRYALL
+        # CHAS ROBERTS AIR CONDITIONING INC (270375)
+        - insert:
+            catalogName: customer
+            tableName: customer
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: 4631ea93-e922-410a-ba3c-5286b8f3009c
+              - column:
+                  name: id_customer
+                  value: 270375
+              - column:
+                  name: id_branch
+                  value: 3004
+              - column:
+                  name: branch_name
+                  value: 3004
+              - column:
+                  name: id_erp
+                  value: 270375
+              - column:
+                  name: name
+                  value: CHAS ROBERTS AIR CONDITIONING INC
+              - column:
+                  name: is_bill_to
+                  value: true
+              - column:
+                  name: last_update
+                  value: 2023-05-17T00:00:00.000+0000
+              - column:
+                  name: contact_name
+                  value: lisa a/p
+              - column:
+                  name: contact_phone
+                  value: 602-943-7291
+        - insert:
+            catalogName: customer_region
+            tableName: customer_region
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: 9125ce95-e562-4cb2-9920-a2b91555267c
+              - column:
+                  name: id_customer
+                  value: 4631ea93-e922-410a-ba3c-5286b8f3009c
+              - column:
+                  name: name
+                  value: FWCALL
+        # MUSTANG PLUMBING (2163)
+        - insert:
+            catalogName: customer
+            tableName: customer
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: 10e3f5fb-425e-46ad-8829-2782e1a7cd5d
+              - column:
+                  name: id_customer
+                  value: 2163
+              - column:
+                  name: id_branch
+                  value: 1012
+              - column:
+                  name: branch_name
+                  value: 1012
+              - column:
+                  name: id_erp
+                  value: 2163
+              - column:
+                  name: name
+                  value: MUSTANG PLUMBING
+              - column:
+                  name: is_bill_to
+                  value: true
+              - column:
+                  name: last_update
+                  value: 2023-05-17T00:00:00.000+0000
+              - column:
+                  name: contact_name
+                  value: TODD COX
+              - column:
+                  name: contact_phone
+                  value: 512-733-1110
+        - insert:
+            catalogName: customer_region
+            tableName: customer_region
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: 7f794568-2830-497a-aee8-29a62109022c
+              - column:
+                  name: id_customer
+                  value: 10e3f5fb-425e-46ad-8829-2782e1a7cd5d
+              - column:
+                  name: name
+                  value: MSCCENT
+        # WALLCON PLUMBING (269296)
+        - insert:
+            catalogName: customer
+            tableName: customer
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: d2c7764b-e54a-456f-8d97-7164b8355838
+              - column:
+                  name: id_customer
+                  value: 269296
+              - column:
+                  name: id_branch
+                  value: 3008
+              - column:
+                  name: branch_name
+                  value: 3008
+              - column:
+                  name: id_erp
+                  value: 269296
+              - column:
+                  name: name
+                  value: WALLCON PLUMBING
+              - column:
+                  name: is_bill_to
+                  value: true
+              - column:
+                  name: last_update
+                  value: 2023-05-17T00:00:00.000+0000
+              - column:
+                  name: contact_name
+                  value: RON WHITTON-OWNER
+              - column:
+                  name: contact_phone
+                  value: 480-892-6159
+        - insert:
+            catalogName: customer_region
+            tableName: customer_region
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  value: a1ad588e-1031-4dea-b30e-ab867335ab10
+              - column:
+                  name: id_customer
+                  value: d2c7764b-e54a-456f-8d97-7164b8355838
+              - column:
+                  name: name
+                  value: FWCALL
+  - changeSet:
+      id: default-procurement-systems
+      author: John Valentino
+      changes:
+        - insert:
+            catalogName: procurement_system
+            tableName: procurement_system
+            schemaName: public
+            columns:
+              - column:
+                  name: name
+                  value: Greenwing
+  - changeSet:
+      id: add-part-number-to-mapping
+      author: John Valentino
+      changes:
+        - addColumn:
+            tableName: catalog_product
+            schemaName: public
+            columns:
+              - column:
+                  name: part_number
+                  type: varchar(200)
+  - changeSet:
+      id: audit-corrections
+      author: John Valentino
+      changes:
+        - sqlFile:
+            encoding: utf8
+            endDelimiter: ;
+            path: ../../preliquibase/audit-corrections.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+  - changeSet:
+      id: upload-corrections
+      author: John Valentino
+      changes:
+        - sqlFile:
+            encoding: utf8
+            endDelimiter: ;
+            path: ../../preliquibase/upload-corrections.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
