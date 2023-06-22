@@ -265,11 +265,11 @@ commands:
           key: v<<parameters.cache_version>>-sonarcloud-scanner-4.7.0.2747
 
 orbs:
-  aws-cli: circleci/aws-cli@2.1.0
-  aws-ecr: circleci/aws-ecr@8.0.0
-  coveralls: coveralls/coveralls@1.0.6
-  github-cli: circleci/github-cli@2.0.0
-  helm: circleci/helm@1.1.2
+  # aws-cli: circleci/aws-cli@2.1.0
+  # aws-ecr: circleci/aws-ecr@8.0.0
+  # coveralls: coveralls/coveralls@1.0.6
+  # github-cli: circleci/github-cli@2.0.0
+  # helm: circleci/helm@1.1.2
   # java-services: morsco-reece/java-services@1.2.0
   node: circleci/node@5.0.2
 
