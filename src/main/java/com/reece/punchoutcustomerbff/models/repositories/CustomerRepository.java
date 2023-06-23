@@ -1,8 +1,11 @@
 package com.reece.punchoutcustomerbff.models.repositories;
 
 import com.reece.punchoutcustomerbff.models.daos.CustomerDao;
+
+import java.sql.Timestamp;
 import java.util.List;
 import java.util.UUID;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -12,16 +15,17 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface CustomerRepository extends JpaRepository<CustomerDao, UUID> {
+  @Query("select distinct c from CustomerDao c"
+      + " left join fetch c.regions"
+      + " left join fetch c.catalogs cat"
+      + " where cat.status != 'ARCHIVED'"
+      + " order by c.name"
+  )
+  List<CustomerDao> retrieveAllCustomersWithCatalogs();
 
-  @Query("select distinct c from CustomerDao c left join fetch c.regions order by c.name")
-  List<CustomerDao> retrieveAllCustomers();
-
-  /**
-   * This is used to lookup a customer by their ID, and include their regions in the result.
-   * @param customerId The ID of the customer
-   * @return List<CustomerDao> Either one or zero results.
-   */
-  @Query("select distinct c from CustomerDao c left join fetch c.regions where c.id = ?1 order by c.name")
-  List<CustomerDao> findCustomerByIdWithRegions(UUID customerId);
-
+  @Query("select distinct c from CustomerDao c"
+          + " where c.lastUpdate > ?1"
+          + " order by c.name"
+  )
+  List<CustomerDao> retrieveAllCustomersUpdatedSince(Timestamp updatedSince);
 }

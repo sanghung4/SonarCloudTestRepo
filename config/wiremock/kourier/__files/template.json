@@ -1,0 +1,45 @@
+{
+  "CustomersPrice": {
+    "CustomerID": "{{request.requestLine.query.CustomerID}}",
+    "Branch": "{{request.requestLine.query.Branch}}",
+    "Products": [
+      {{regexExtract request.requestLine.query.ProductID '([0-9]+)' 'productIds'}}
+      {{#each productIds}}
+        {
+          "ProductID": "{{this}}",
+          "CatalogID": "{{randomValue length=8 type='ALPHANUMERIC' uppercase=true}}",
+          "CustomerProductID": "",
+          "CommissionCostPer": "{{randomDecimal lower=0 upper=1000}}",
+          "CommissionOverrideType": "",
+          "OrderQty": "{{randomValue length=4 type='NUMERIC'}}",
+          "ListPrice": "{{randomDecimal lower=0 upper=1000}}",
+          "PricePer": "{{randomDecimal lower=0 upper=1000}}",
+          "UOM": "ea",
+          "PerQty": "{{randomValue length=5 type='NUMERIC'}}",
+          "OrderUOMPrice": "{{randomDecimal lower=0 upper=1000}}",
+          "OrderUOM": "ea",
+          "OrderUOMMinQty": "{{randomValue length=4 type='NUMERIC'}}",
+          "OrderPerQty": "{{randomValue length=3 type='NUMERIC'}}",
+          "LowestUOM": "ea",
+          "SellPrice": "{{randomDecimal lower=0 upper=1000}}",
+          "PriceOverrideType": "",
+          "PriceMatrixID": "MRYALL~CTRADE~GPVCDWVF~20035",
+          "COGSPer": "{{randomDecimal lower=0 upper=1000}}",
+          "TotalAvailableQty": "{{randomValue length=6 type='NUMERIC'}}",
+          "BranchAvailableQty": "{{randomValue length=6 type='NUMERIC'}}",
+          "ErrorFlag": 0,
+          "ErrorText": "",
+          "QtyBreaks": [
+            {
+              "QtyBreakSellPrice": "",
+              "QtyBreakOrderQty": "",
+              "QtyBreakOrderUOM": "",
+              "QtyBreakUOMPerQty": ""
+            }
+          ]
+        }
+      {{#unless @last}},{{/unless}}
+      {{/each}}
+      ]
+    }
+  }

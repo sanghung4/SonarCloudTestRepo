@@ -54,7 +54,7 @@ public class ProductDao {
 	@Column(name = "manufacturer_part_number")
 	private String manufacturerPartNumber;
 	@Column(name = "delivery_in_days")
-	private int deliveryInDays;
+	private Integer deliveryInDays;
 	@Column(name = "max_sync_datetime")
 	private Timestamp maxSyncDatetime;
 	@OneToMany(mappedBy="product", fetch = FetchType.LAZY)

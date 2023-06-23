@@ -1,0 +1,26 @@
+{
+  "request": {
+    "urlPathPattern": "/KAPI/PRODUCTS/PRICE",
+    "method": "GET",
+    "basicAuth": {
+      "username": "KOURIER_API_USERNAME",
+      "password": "KOURIER_API_PASSWORD"
+    },
+    "queryParameters": {
+      "CustomerID": {
+        "matches": ".*"
+      },
+      "Branch": {
+        "matches": ".*"
+      },
+      "ProductID": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["response-template"],
+    "bodyFileName": "template.json"
+  }
+}

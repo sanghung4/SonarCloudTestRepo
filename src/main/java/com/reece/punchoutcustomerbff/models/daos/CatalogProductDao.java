@@ -7,6 +7,8 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -28,33 +30,25 @@ import lombok.ToString;
 @Entity
 @Table(name = "catalog_product", schema = "public")
 public class CatalogProductDao {
+	@Id
+	private UUID id;
+	@ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
+	@JoinColumn(name = "id_catalog", referencedColumnName = "id")
+	private CatalogDao catalog;
+	@ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
+	@JoinColumn(name = "id_product", referencedColumnName = "id")
+	private ProductDao product;
+	@Column(name = "sell_price")
+	private BigDecimal sellPrice;
+	@Column(name = "list_price")
+	private BigDecimal listPrice;
+	@Column(name = "uom")
+	private String uom;
+	@Column(name = "last_pull_datetime")
+	private Timestamp lastPullDatetime;
+	@Column(name = "sku_quantity")
+	private Integer skuQuantity;
+	@Column(name = "part_number")
+	private String partNumber;
 
-    @Id
-    private UUID id;
-
-    @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
-    @JoinColumn(name = "id_catalog", referencedColumnName = "id")
-    private CatalogDao catalog;
-
-    @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
-    @JoinColumn(name = "id_product", referencedColumnName = "id")
-    private ProductDao product;
-
-    @Column(name = "sell_price")
-    private BigDecimal sellPrice;
-
-    @Column(name = "list_price")
-    private BigDecimal listPrice;
-
-    @Column(name = "uom")
-    private String uom;
-
-    @Column(name = "last_pull_datetime")
-    private Timestamp lastPullDatetime;
-
-    @Column(name = "sku_quantity")
-    private Integer skuQuantity;
-
-    @Column(name = "part_number")
-    private String partNumber;
 }

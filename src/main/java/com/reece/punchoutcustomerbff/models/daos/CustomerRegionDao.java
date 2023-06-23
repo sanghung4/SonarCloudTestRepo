@@ -28,15 +28,14 @@ import lombok.ToString;
 @Entity
 @Table(name = "customer_region", schema = "public")
 public class CustomerRegionDao {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private UUID id;
+  @Column(name = "name")
+  private String name;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
+  @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
+  @JoinColumn(name = "id_customer", referencedColumnName = "id")
+  private CustomerDao customer;
 
-    @Column(name = "name")
-    private String name;
-
-    @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
-    @JoinColumn(name = "id_customer", referencedColumnName = "id")
-    private CustomerDao customer;
 }

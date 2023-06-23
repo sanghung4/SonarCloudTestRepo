@@ -1,18 +1,12 @@
 {
   "tasks": [
     {
-      "name": "dotnet-format-example",
-      "command": "dotnet",
-      "args": ["dotnet-format", "--include", "${staged}"],
-      "include": ["**/*.cs", "**/*.vb"]
-    },
-    {
-      "name": "welcome-message-example",
+      "name": "run-spring-tests",
       "command": "bash",
-      "args": ["-c", "echo Husky.Net is awesome!"],
+      "args": ["-c", "echo Execute tests"],
       "windows": {
-        "command": "cmd",
-        "args": ["/c", "echo Husky.Net is awesome!"]
+        "command": "mvn test",
+        "args": ["/c", "echo Execute tests"]
       }
     }
   ]

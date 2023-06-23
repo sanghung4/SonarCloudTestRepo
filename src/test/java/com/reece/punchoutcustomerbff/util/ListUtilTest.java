@@ -1,10 +1,10 @@
 package com.reece.punchoutcustomerbff.util;
 
-import java.util.List;
-import org.junit.jupiter.api.Test;
-import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
+
+import java.util.List;
+import org.junit.jupiter.api.Test;
 
 public class ListUtilTest {
 

@@ -1,0 +1,45 @@
+[
+  {{parseJson request.body 'bodyJson'}}
+  {{#each bodyJson}}
+  {
+    "id": "{{this}}",
+    "cmp": "10.42",
+    "erp_product_id": "{{this}}",
+    "full_image_url_name": "https://ecomm-prod-product-img-store.s3.amazonaws.com/L_Image/3577256.jpg",
+    "internal_item_nbr": "{{randomValue length=10 type='NUMERIC'}}",
+    "last_update_date": "2023-04-26 03:04:57.353",
+    "medium_image_url_name": "http://images.tradeservice.com/ProductImages/DIR100109/ICPCOR_1184421_MED.jpg",
+    "mfr_catalog_doc_file_name": "COMMKRE00383_6_9.pdf",
+    "mfr_full_name": "International Comfort Products",
+    "product_overview_description": "{{randomValue length=55 type='ALPHABETIC'}}",
+    "product_sold_count": "{{randomValue length=3 type='NUMERIC'}}",
+    "search_keyword_text": "{{randomValue length=55 type='ALPHABETIC'}}",
+    "thumbnail_image_url_name": "http://images.tradeservice.com/ProductImages/DIR100110/ICPCOR_1184421_SML.jpg",
+    "unspc_id": "{{randomValue length=10 type='NUMERIC'}}",
+    "upc_id": "{{randomValue length=10 type='NUMERIC'}}",
+    "vendor_part_nbr": "{{randomValue length=10 type='NUMERIC'}}",
+    "clean_vendor_part_nbr": "{{randomValue length=10 type='NUMERIC'}}",
+    "web_description": "{{randomValue length=33 type='ALPHABETIC'}}",
+    "clean_web_description": "{{randomValue length=55 type='ALPHABETIC'}}",
+    "clean_product_brand": "{{randomValue length=55 type='ALPHABETIC'}}",
+    "technical_specifications": [
+      "{\"type\":\"{{randomValue length=10 type='ALPHABETIC'}}\",\"used_on\":\"{{randomValue length=10 type='ALPHABETIC'}}\"}"
+    ],
+    "customer_number": [
+      "{{randomValue length=10 type='NUMERIC'}}"
+    ],
+    "customer_part_numbers": [
+      "{\"{{randomValue length=8 type='NUMERIC'}}\":[\"{{randomValue length=8 type='ALPHANUMERIC' uppercase=true}}\"]}"
+    ],
+    "in_stock_location": [
+      "{{randomValue length=4 type='NUMERIC'}}",
+      "{{randomValue length=4 type='NUMERIC'}}",
+      "{{randomValue length=4 type='NUMERIC'}}"
+    ],
+    "territory_exclusion_list": [],
+    "category_1_name": "Heating & Cooling",
+    "category_2_name": "Repair & Replacement Parts",
+    "category_3_name": "Blower & Blower Parts"
+  }{{#unless @last}},{{/unless}}
+  {{/each}}
+]

@@ -1,7 +1,7 @@
-version: '3.8'
+version: "3.8"
 services:
   db:
-    container_name: punchout-db-bff
+    container_name: punchout-db
     image: postgres:14.1-alpine
     restart: always
     environment:
@@ -9,6 +9,57 @@ services:
       - POSTGRES_PASSWORD=reece-punchout
       - POSTGRES_DB=reece-punchout
     ports:
-      - '5432:5432'
+      - "5432:5432"
     volumes:
       - ./docker-data/postgres:/var/lib/postgresql/data
+
+  wiremock-kourier:
+    container_name: juliet-wiremock-kourier
+    image: wiremock/wiremock:2.32.0
+    command:
+      - -verbose
+      - -global-response-templating
+      - -enable-stub-cors
+    volumes:
+      - ./config/wiremock/kourier:/home/wiremock
+    ports:
+      - 7777:8080
+
+  wiremock-max-es:
+    container_name: juliet-wiremock-max-es
+    image: wiremock/wiremock:2.32.0
+    command:
+      - -verbose
+      - -local-response-templating
+      - -enable-stub-cors
+    volumes:
+      - ./config/wiremock/max-es:/home/wiremock
+    ports:
+      - 9999:8080
+
+  mock-greenwing-sftp:
+    container_name: mock-greenwing-sftp
+    image: atmoz/sftp
+    volumes:
+      - ./docker-sftp:/home/foo/intest
+    ports:
+      - "9922:22"
+    command:
+      - foo:pass:1001:::intest
+
+  mock-s3-bucket:
+    image: localstack/localstack:latest
+    container_name: mock-s3-bucket
+    ports:
+      - "4566-4583:4566-4583"
+    environment:
+      - DEBUG=1
+      - USE_SSL=0
+      - AWS_CBOR_DISABLE=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - HOSTNAME=localstack
+      - SERVICES=s3
+      - AWS_DEFAULT_REGION=us-east-1
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./scripts/localstack/s3:/etc/localstack/init/ready.d

@@ -33,6 +33,7 @@ import lombok.ToString;
 @Table(name = "catalog", schema = "public")
 public class CatalogDao {
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private UUID id;
 	@ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_customer", referencedColumnName = "id")

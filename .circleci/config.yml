@@ -10,10 +10,10 @@ parameters:
     default: 1.1.<< pipeline.number >>
   repo-name:
     type: string
-    default: punchout-customer-bff
+    default: punchout-customer-catalog
   ecr-image-name:
     type: string
-    default: reece/punchout-customer-bff
+    default: reece/punchout-customer-catalog
   env-repo-url:
     type: string
     default: https://github.com/morsco-reece/external-environments.git
@@ -32,7 +32,7 @@ orbs:
   aws-cli: circleci/aws-cli@2.1.0
   aws-ecr: circleci/aws-ecr@6.13.0
   github-cli: circleci/github-cli@2.0.0
-  # java-services: morsco-reece/java-services@1.2.0
+  java-services: morsco-reece/java-services@1.2.0
   helm: circleci/helm@1.1.2
   maven: circleci/maven@1.2.0
   node: circleci/node@5.0.2
@@ -101,7 +101,7 @@ jobs:
 
   #     # Publish new release version to github
   #     - run:
-  #         command: |
+  #         command: |  
   #           echo "export RELEASE_VERSION=<< pipeline.parameters.release-version >>" >> "$BASH_ENV"
   #         name: Determine Image Version
   #     - github-cli/setup:

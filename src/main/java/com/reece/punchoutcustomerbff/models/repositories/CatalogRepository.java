@@ -19,8 +19,17 @@ public interface CatalogRepository extends JpaRepository<CatalogDao, UUID> {
    * @param customerId The ID of the customer.
    * @return List<CatalogDao> A list of catalog entities.
    */
-  @Query("select distinct c from CatalogDao c where c.customer.id = ?1" +
-      " and c.status != 'ARCHIVED' order by c.lastUpdate ASC")
+  @Query("select distinct c from CatalogDao c where c.customer.id = ?1"
+      + " and c.status != 'ARCHIVED' order by c.lastUpdate ASC")
   List<CatalogDao> retrieveSyncEligibleCatalogs(UUID customerId);
+
+  /**
+   * Returns the catalog of the given ID along with all of its product mappings.
+   * @param catalogId The ID of the catalog
+   * @return List<CatalogDao> A list of catalog entities.
+   */
+  @Query("select distinct c from CatalogDao c"
+    + " left join fetch c.mappings m where c.id = ?1 order by m.partNumber")
+  List<CatalogDao> retrieveWithMappings(UUID catalogId);
 
 }

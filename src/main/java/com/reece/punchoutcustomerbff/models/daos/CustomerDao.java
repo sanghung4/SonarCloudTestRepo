@@ -66,6 +66,6 @@ public class CustomerDao {
 	@OneToMany(mappedBy="customer", fetch = FetchType.LAZY)
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
-	private Set<UploadDao> uploads;
+	private Set<AuditDao> audits;
 
 }

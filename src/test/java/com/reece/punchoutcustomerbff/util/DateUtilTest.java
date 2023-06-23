@@ -32,6 +32,11 @@ public class DateUtilTest {
     assertThat(DateUtil.fromDate(nullDate), equalTo(null));
 
     assertThat(DateUtil.toDate(null), equalTo(null));
+
+    assertThat(DateUtil.formatDate(nullDate, ""), equalTo(null));
+
+    assertThat(DateUtil.formatDate(output, "YYYY"), equalTo("2023"));
+
   }
 
 

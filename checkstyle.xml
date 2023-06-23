@@ -16,6 +16,7 @@
     Authors: Max Vetrenko, Ruslan Diachenko, Roman Ivanov.
  -->
 
+<!--suppress ALL -->
 <module name="Checker">
     <module name="SuppressWarningsFilter"/>
 

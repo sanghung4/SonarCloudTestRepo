@@ -31,11 +31,11 @@ public class CatalogProductMapper {
         .lastPullDatetime(DateUtil.fromDate(input.getLastPullDatetime()))
         .uom(input.getUom())
         .id(input.getId())
+        .product(ProductMapper.toDTO(input.getProduct()))
         .sellPrice(input.getSellPrice())
         .skuQuantity(input.getSkuQuantity())
         .listPrice(input.getListPrice())
         .partNumber(input.getPartNumber())
-        .product(ProductMapper.toDTO(input.getProduct()))
         .build();
     return output;
   }

@@ -1,21 +1,16 @@
 package com.reece.punchoutcustomerbff.models.daos;
 
-import java.util.Set;
 import java.util.UUID;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 /**
  * AuthorizedUser representation in db.
@@ -40,10 +35,5 @@ public class AuthorizedUserDao {
 
 	@Column(name = "password")
 	private String password;
-
-	@OneToMany(mappedBy="user", fetch = FetchType.LAZY)
-	@EqualsAndHashCode.Exclude
-	@ToString.Exclude
-	private Set<UploadDao> uploads;
 
 }

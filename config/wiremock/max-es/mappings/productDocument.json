@@ -1,0 +1,19 @@
+{
+    "request": {
+      "urlPathPattern": "/api/as/v1/engines/ecomm-products-1682503463396/documents",
+      "method": "GET",
+      "headers": {
+        "Authorization": {
+          "equalTo": "Bearer MAX_API_KEY"
+        }
+      },
+      "bodyPatterns" : [ {
+        "matchesJsonPath" : "$[?(@ =~ /MSC-.*/i)]"
+      } ]
+    },
+    "response": {
+      "status": 200,
+      "transformers": ["response-template"],
+      "bodyFileName": "template.json"
+    }
+  }

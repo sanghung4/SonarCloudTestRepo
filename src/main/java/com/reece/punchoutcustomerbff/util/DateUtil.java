@@ -69,4 +69,12 @@ public class DateUtil {
     return dateFormat.format(date);
   }
 
+  public static String formatDate(Date date, String format) {
+    if (date == null) {
+      return null;
+    }
+    DateFormat dateFormat = new SimpleDateFormat(format, Locale.ENGLISH);
+    return dateFormat.format(date);
+  }
+
 }

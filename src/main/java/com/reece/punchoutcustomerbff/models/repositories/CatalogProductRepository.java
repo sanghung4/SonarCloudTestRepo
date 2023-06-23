@@ -1,12 +1,16 @@
 package com.reece.punchoutcustomerbff.models.repositories;
 
 import com.reece.punchoutcustomerbff.models.daos.CatalogProductDao;
+
+import java.sql.Timestamp;
 import java.util.List;
 import java.util.UUID;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+
+import com.reece.punchoutcustomersync.dto.kourier.CustomersPriceProductDto;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -14,9 +18,18 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface CatalogProductRepository extends JpaRepository<CatalogProductDao, UUID> {
-    @Query("select distinct c from CatalogProductDao c" + " where c.catalog.id = ?1")
-    Page<CatalogProductDao> findWithProducts(UUID catalogId, Pageable pageable);
 
-    @Query("select distinct c from CatalogProductDao c" + " where c.catalog.id = ?1")
-    List<CatalogProductDao> findWithProducts(UUID catalogId);
+  @Query("select distinct m from CatalogProductDao m where m.catalog.id = ?1")
+  List<CatalogProductDao> findAllByCatalogId(UUID catalogId);
+
+
+  @Query("select distinct m from CatalogProductDao m " +
+          "left join fetch m.product p " +
+          "where m.catalog.id = ?1 and " +
+            "(m.lastPullDatetime is null " +
+            "or m.lastPullDatetime < ?2 " +
+            "or p.maxSyncDatetime is null " +
+            "or p.maxSyncDatetime < ?2)"
+  )
+  List<CatalogProductDao> findAllByCatalogIdWithLastPullDateBefore(UUID catalogId, Timestamp yesterday);
 }

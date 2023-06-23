@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<ruleset name="All Java Rules"
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         name="All Java Rules"
          xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
     <description>Every Java Rule in PMD</description>
 
@@ -53,7 +53,7 @@
     <rule ref="category/java/performance.xml"/>
     <rule ref="category/java/security.xml"/>
 
-    <rule ref="category/java/errorprone.xml/NonSerializableClass">
+    <rule ref="category/java/errorprone.xml/BeanMembersShouldSerialize">
         <properties>
             <property name="prefix" value=""/>
         </properties>
@@ -61,8 +61,8 @@
 
     <rule ref="category/java/documentation.xml/CommentSize">
         <properties>
-            <property name="maxLines" value="15" />
-            <property name="maxLineLength" value="80" />
+            <property name="maxLines" value="15"/>
+            <property name="maxLineLength" value="80"/>
         </properties>
     </rule>
 

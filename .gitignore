@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
 docker-data
+docker-sftp
+docker-s3
 # Log file
 *.log
 
@@ -301,9 +303,3 @@ buildNumber.properties
 # End of https://www.toptal.com/developers/gitignore/api/java,maven,intellij,intellij+all,intellij+iml
 
 **/.DS_Store
-/punchout-customer-bff.iml
-/target/
-/docker-data/
-/.vscode
-/node_modules
-package-lock.json

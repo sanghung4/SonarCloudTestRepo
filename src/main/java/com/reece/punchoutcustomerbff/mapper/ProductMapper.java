@@ -3,7 +3,6 @@ package com.reece.punchoutcustomerbff.mapper;
 import com.reece.punchoutcustomerbff.dto.ProductDto;
 import com.reece.punchoutcustomerbff.models.daos.ProductDao;
 import com.reece.punchoutcustomerbff.util.DateUtil;
-import java.util.ArrayList;
 import javax.persistence.Persistence;
 
 /**
