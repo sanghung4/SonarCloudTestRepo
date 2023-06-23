@@ -1,2 +1,11 @@
-charts/**/templates
-config/wiremock/**
+# Only format files in `/src`
+/*
+!/src
+
+
+# Excluding these folders / files
+*.svg
+/src/index.css
+/dev-redis
+/nginx
+/scripts

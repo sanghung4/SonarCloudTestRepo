@@ -1,0 +1,40 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "url": "/customer/list",
+        "method": "GET",
+        "headers": {
+          "X-Auth-Token": {
+            "equalTo": "SESSION_ID_GOES_HERE"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"customers\":[{\"id\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"customerId\":\"43123481002\",\"branchId\":\"1303\",\"branchName\":\"Raleigh,NC\",\"name\":\"N.C.SU—Marketplace\",\"billTo\":true,\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"contactName\":\"JohnValentino\",\"contactPhone\":\"817-555-5555\",\"regions\":[{\"id\":\"dded065e-d29d-4689-856f-1b1f4ad9eac0\",\"name\":\"EHGDFWTX\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\"}]}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "/customer/list",
+        "method": "GET",
+        "headers": {
+          "Authorization": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"customers\":[{\"id\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"customerId\":\"43123481002\",\"branchId\":\"1303\",\"branchName\":\"Raleigh,NC\",\"name\":\"N.C.SU—Marketplace\",\"billTo\":true,\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"contactName\":\"JohnValentino\",\"contactPhone\":\"817-555-5555\",\"regions\":[{\"id\":\"dded065e-d29d-4689-856f-1b1f4ad9eac0\",\"name\":\"EHGDFWTX\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\"}]}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

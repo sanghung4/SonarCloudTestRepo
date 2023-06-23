@@ -1,5 +1,5 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-npx pretty-quick --staged
-mvn verify
+yarn run check
+yarn test --watchAll=false --coverage --collectCoverage=true

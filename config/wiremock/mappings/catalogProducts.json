@@ -1,0 +1,56 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "urlPathPattern": "/catalog/view(.*)",
+        "method": "POST",
+        "headers": {
+          "X-Auth-Token": {
+            "equalTo": "SESSION_ID_GOES_HERE"
+          }
+        },
+        "queryParameters": {
+          "perPage": {
+            "matches": "[0-9]+"
+          },
+          "page": {
+            "matches": "[0-9]+"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"page\":1,\"totalItems\":10,\"totalPages\":10,\"resultsPerPage\":10,\"catalog\":{\"id\":\"3c9d14d8-d07b-4b62-baa2-23e30b8dcdca\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"status\":\"Active\",\"fileName\":\"12-25-22_some-file\",\"name\":\"N.C.CatalogPrimary1\",\"lastUpdated\":\"2023-02-03T00:00:00.000+0000\",\"dateArchived\":null,\"procSystem\":\"Greenwing\"},\"customer\":{\"id\":\"46021ee0-86f1-43e3-ad2d-f55e10b24c50\",\"customerId\":\"TEST-01\",\"branchId\":\"TEST-BRANCH-01\",\"branchName\":\"TEST-BRANCH-01\",\"erpId\":\"TEST-01\",\"name\":\"TESTCUSTOMER01\",\"erpName\":null,\"isBillTo\":true,\"lastUpdate\":\"2023-05-17T05:00:00.000+0000\",\"contactName\":\"TesterMcTesty\",\"contactPhone\":\"555-555-5555\",\"regions\":[],\"catalogs\":null},\"results\":[{\"id\":\"a7c67192-1bc1-4bcd-8a71-3147cd5099f5\",\"name\":\"3/4\\\"x10'HardTypeLCopperTube\",\"description\":\"NULL\",\"image_full_size\":\"https://media.istockphoto.com/id/122300041/photo/plumber-tubes.jpg?s=612x612&w=is&k=20&c=yHp6sL2yIxD4bstsd8p1joaqIYlYFdvS_EqFAD5kVPw=\",\"part_number\":151043,\"manufacturer\":\"GENERIC\",\"category_1_name\":\"Pipes&Fittings\",\"category_2_name\":\"Copper\",\"category_3_name\":\"NULL\",\"unspsc\":\"Feet\",\"image_thumb\":\"NULL\",\"manufacturer_part_number\":\"LHARDF20\",\"delivery_in_days\":7,\"max_sync_datetime\":\"NULL\"},{\"id\":\"5d66ab2c-0e27-46a3-9f22-c57b60d0fd05\",\"name\":\"2'PVCDWVCoupling\",\"description\":\"NULL\",\"image_full_size\":\"https://media.istockphoto.com/id/122300041/photo/plumber-tubes.jpg?s=612x612&w=is&k=20&c=yHp6sL2yIxD4bstsd8p1joaqIYlYFdvS_EqFAD5kVPw=\",\"part_number\":\"MSC-29500\",\"manufacturer\":\"GENERIC\",\"category_1_name\":\"Pipes&Fittings\",\"category_2_name\":\"Plastics\",\"category_3_name\":\"Plastics\",\"unspsc\":\"EA\",\"image_thumb\":\"NULL\",\"manufacturer_part_number\":\"PDWVCK\",\"delivery_in_days\":7,\"max_sync_datetime\":\"NULL\"}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "urlPathPattern": "/catalog/view(.*)",
+        "method": "POST",
+        "headers": {
+          "Authorization": {
+            "matches": ".*"
+          }
+        },
+        "queryParameters": {
+          "perPage": {
+            "matches": "[0-9]+"
+          },
+          "page": {
+            "matches": "[0-9]+"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"page\":1,\"totalItems\":10,\"totalPages\":10,\"resultsPerPage\":10,\"catalog\":{\"id\":\"3c9d14d8-d07b-4b62-baa2-23e30b8dcdca\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"status\":\"Active\",\"fileName\":\"12-25-22_some-file\",\"name\":\"N.C.CatalogPrimary1\",\"lastUpdated\":\"2023-02-03T00:00:00.000+0000\",\"dateArchived\":null,\"procSystem\":\"Greenwing\"},\"customer\":{\"id\":\"46021ee0-86f1-43e3-ad2d-f55e10b24c50\",\"customerId\":\"TEST-01\",\"branchId\":\"TEST-BRANCH-01\",\"branchName\":\"TEST-BRANCH-01\",\"erpId\":\"TEST-01\",\"name\":\"TESTCUSTOMER01\",\"erpName\":null,\"isBillTo\":true,\"lastUpdate\":\"2023-05-17T05:00:00.000+0000\",\"contactName\":\"TesterMcTesty\",\"contactPhone\":\"555-555-5555\",\"regions\":[],\"catalogs\":null},\"results\":[{\"id\":\"a7c67192-1bc1-4bcd-8a71-3147cd5099f5\",\"name\":\"3/4\\\"x10'HardTypeLCopperTube\",\"description\":\"NULL\",\"image_full_size\":\"https://media.istockphoto.com/id/122300041/photo/plumber-tubes.jpg?s=612x612&w=is&k=20&c=yHp6sL2yIxD4bstsd8p1joaqIYlYFdvS_EqFAD5kVPw=\",\"part_number\":151043,\"manufacturer\":\"GENERIC\",\"category_1_name\":\"Pipes&Fittings\",\"category_2_name\":\"Copper\",\"category_3_name\":\"NULL\",\"unspsc\":\"Feet\",\"image_thumb\":\"NULL\",\"manufacturer_part_number\":\"LHARDF20\",\"delivery_in_days\":7,\"max_sync_datetime\":\"NULL\"},{\"id\":\"5d66ab2c-0e27-46a3-9f22-c57b60d0fd05\",\"name\":\"2'PVCDWVCoupling\",\"description\":\"NULL\",\"image_full_size\":\"https://media.istockphoto.com/id/122300041/photo/plumber-tubes.jpg?s=612x612&w=is&k=20&c=yHp6sL2yIxD4bstsd8p1joaqIYlYFdvS_EqFAD5kVPw=\",\"part_number\":\"MSC-29500\",\"manufacturer\":\"GENERIC\",\"category_1_name\":\"Pipes&Fittings\",\"category_2_name\":\"Plastics\",\"category_3_name\":\"Plastics\",\"unspsc\":\"EA\",\"image_thumb\":\"NULL\",\"manufacturer_part_number\":\"PDWVCK\",\"delivery_in_days\":7,\"max_sync_datetime\":\"NULL\"}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

@@ -10,19 +10,16 @@ parameters:
     default: 1.1.<< pipeline.number >>
   repo-name:
     type: string
-    default: punchout-customer-catalog
+    default: punchout-customer-ui
   ecr-image-name:
     type: string
-    default: reece/punchout-customer-catalog
+    default: reece/punchout-customer-ui
   env-repo-url:
     type: string
     default: https://github.com/morsco-reece/external-environments.git
   env-dir:
     type: string
     default: external-environments/external-dev
-  java-version:
-    type: string
-    default: "11.0"
 
 #############################################################
 # Special CircleCI plugins needed for common operations.
@@ -34,7 +31,6 @@ orbs:
   github-cli: circleci/github-cli@2.0.0
   # java-services: morsco-reece/java-services@1.2.0
   helm: circleci/helm@1.1.2
-  maven: circleci/maven@1.2.0
   node: circleci/node@5.0.2
 
 #############################################################
@@ -43,7 +39,7 @@ orbs:
 workflows:
   single-job-lifecycle:
     jobs:
-      # # Every branch/PR executes build, test and test coverage
+      # # Every branch/PR gets an automated build
       # - build
       # # We only publish the build to ECR off of main/master
       # - publish_release:
@@ -51,13 +47,14 @@ workflows:
       #       - build
       #     filters:
       #       branches:
-      #         only: master
+      #         only: main
+      # # We automatic deploy to dev after publishing to ECR off of main/master
       # - deploy_to_dev:
       #     requires:
       #       - publish_release
       #     filters:
       #       branches:
-      #         only: master
+      #         only: main
       - sonar-cloud:
           context: SonarCloud
           # requires:
@@ -75,29 +72,35 @@ jobs:
   # build:
   #   resource_class: large
   #   executor:
-  #     name: maven/default
-  #     tag: '11.0'
+  #     name: node/default
+  #     tag: '16.14'
   #   steps:
   #     - checkout
-  #     - run:
-  #         command: mvn verify
-
+  #     - aws-cli/setup:
+  #         profile-name: shared
+  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+  #     - run: echo "always-auth=true" >> $HOME/.npmrc
+  #     - node/install-packages:
+  #         pkg-manager: yarn
+  #     - run: yarn run check
+  #     - run: yarn test:coverage --reporters=default --ci
+  #     - store_test_results:
+  #         path: junit.xml
+  
   # #############################################################
   # # (2) publish_release
   # # publishes an image to ECR, in which the only unique aspsect 
   # # of this code block is involing Copy CodeArtifact Token to Workdir
   # #############################################################
   # publish_release:
-  #   resource_class: large
-  #   executor:
-  #     name: maven/default
-  #     tag: << pipeline.parameters.java-version >>
+  #   docker:
+  #     - image: cimg/node:16.13.2
   #   environment:
   #     IMAGE_TAG: << pipeline.parameters.release-version >>
   #   steps:
-  #     - checkout
   #     - setup_remote_docker:
   #         version: 19.03.13
+  #     - checkout
 
   #     # Publish new release version to github
   #     - run:
@@ -112,13 +115,20 @@ jobs:
   #           gh release create << pipeline.parameters.release-version >> --generate-notes --target
   #           $CIRCLE_SHA1
   #         name: Create Github Release
-  #     - maven/with_cache:
-  #         steps:
-  #           - run:
-  #               command: |
-  #                 ./mvnw -DskipTests spring-boot:build-image -Dspring-boot.build-image.imageName=${AWS_ECR_ACCOUNT_URL}/<< pipeline.parameters.ecr-image-name >>:${RELEASE_VERSION} "$@"
-  #               name: Build Image
-  #               working_directory: ""
+
+  #     # Publish build image to ecr
+  #     - aws-cli/setup:
+  #         profile-name: shared
+  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+  #     - run:
+  #         command: |
+  #           cat $HOME/.npmrc > .npmrc
+  #           echo "always-auth=true" >> .npmrc
+  #         name: Copy CodeArtifact Token to Workdir
+  #     - run:
+  #         command: |
+  #           docker build -t ${AWS_ECR_ACCOUNT_URL}/<< pipeline.parameters.ecr-image-name >>:${RELEASE_VERSION} .
+  #         name: Build Image
   #     - aws-ecr/ecr-login:
   #         account-url: AWS_ECR_ACCOUNT_URL
   #         aws-access-key-id: AWS_ACCESS_KEY_ID
@@ -169,7 +179,6 @@ jobs:
   #         name: Update Environments Repo
   #         command: |
   #           cd ../
-  #           git config --list
   #           git clone << pipeline.parameters.env-repo-url >>
   #           cd << pipeline.parameters.env-dir >>
   #           set +H
@@ -180,9 +189,62 @@ jobs:
 
   sonar-cloud:
     docker:
-      - image: 'circleci/openjdk:11-jdk'
+      - image: 'cimg/node:16.14.0'
     steps:
       - checkout
+      - aws-cli/setup:
+          profile-name: shared
+      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
+      - run: echo "always-auth=true" >> $HOME/.npmrc
+      - node/install-packages:
+          pkg-manager: yarn
+      - scan:
+          sonar_token_variable_name: SONAR_TOKEN
+
+commands:
+  scan:
+    description: Detect bugs and vulnerabilities
+    parameters:
+        cache_version:
+            default: 1
+            type: integer
+        project_root:
+            default: .
+            type: string
+        sonar_token_variable_name:
+            default: SONAR_TOKEN
+            type: env_var_name
+    steps:
       - run:
-          name: Analyze on SonarCloud
-          command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
+          command: mkdir -p /tmp/cache/scanner
+          name: Create cache directory if it doesn't exist
+      - restore_cache:
+          keys:
+              - v<<parameters.cache_version>>-sonarcloud-scanner-4.7.0.2747
+      - run:
+          command: |
+              set -e
+              VERSION=4.7.0.2747
+              SONAR_TOKEN=$<<parameters.sonar_token_variable_name>>
+              SCANNER_DIRECTORY=/tmp/cache/scanner
+              export SONAR_USER_HOME=$SCANNER_DIRECTORY/.sonar
+              OS="linux"
+              echo $SONAR_USER_HOME
+
+              if [[ ! -x "$SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/bin/sonar-scanner" ]]; then
+                curl -Ol https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$VERSION-$OS.zip
+                unzip -qq -o sonar-scanner-cli-$VERSION-$OS.zip -d $SCANNER_DIRECTORY
+              fi
+
+              chmod +x $SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/bin/sonar-scanner
+              chmod +x $SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/jre/bin/java
+
+              cd <<parameters.project_root>>
+              $SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/bin/sonar-scanner
+          environment:
+              SONARQUBE_SCANNER_PARAMS: '{"sonar.host.url":"https://sonarcloud.io"}'
+          name: SonarCloud
+      - save_cache:
+          paths:
+            - "/tmp/cache/scanner"
+          key: v<<parameters.cache_version>>-sonarcloud-scanner-4.7.0.2747

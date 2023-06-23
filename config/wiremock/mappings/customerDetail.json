@@ -1,0 +1,109 @@
+{
+  "mappings": [
+    {
+      "scenarioName": "customerDetail",
+      "requiredScenarioState": "Started",
+      "newScenarioState": "draft",
+      "request": {
+        "urlPathPattern": "/customer/detail/.*",
+        "method": "GET",
+        "headers": {
+          "X-Auth-Token": {
+            "equalTo": "SESSION_ID_GOES_HERE"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"id\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"customerId\":\"43123481002\",\"branchId\":\"1303\",\"branchName\":\"Raleigh,NC\",\"name\":\"N.C.SU—Marketplace\",\"billTo\":true,\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"contactName\":\"JohnValentino\",\"contactPhone\":\"817-555-5555\",\"regions\":[{\"id\":\"dded065e-d29d-4689-856f-1b1f4ad9eac0\",\"name\":\"EHGDFWTX\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\"}],\"catalogs\":[{\"id\":\"3c9d14d8-d07b-4b62-baa2-23e30b8dcdca\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"status\":\"Draft\",\"fileName\":\"12-25-22_some-file\",\"name\":\"N.C.CatalogPrimary1\",\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"dateArchived\":null,\"procSystem\":\"Greenwing\",\"skuQuantity\":12345}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "scenarioName": "customerDetail",
+      "requiredScenarioState": "draft",
+      "newScenarioState": "submitted",
+      "request": {
+        "urlPathPattern": "/customer/detail/.*",
+        "method": "GET",
+        "headers": {
+          "X-Auth-Token": {
+            "equalTo": "SESSION_ID_GOES_HERE"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"id\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"customerId\":\"43123481002\",\"branchId\":\"1303\",\"branchName\":\"Raleigh,NC\",\"name\":\"N.C.SU—Marketplace\",\"billTo\":true,\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"contactName\":\"JohnValentino\",\"contactPhone\":\"817-555-5555\",\"regions\":[{\"id\":\"dded065e-d29d-4689-856f-1b1f4ad9eac0\",\"name\":\"EHGDFWTX\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\"}],\"catalogs\":[{\"id\":\"3c9d14d8-d07b-4b62-baa2-23e30b8dcdca\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"status\":\"Submitted\",\"fileName\":\"12-25-22_some-file\",\"name\":\"N.C.CatalogPrimary1\",\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"dateArchived\":null,\"procSystem\":\"Greenwing\",\"skuQuantity\":12345}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "scenarioName": "customerDetail",
+      "requiredScenarioState": "submitted",
+      "newScenarioState": "active",
+      "request": {
+        "urlPathPattern": "/customer/detail/.*",
+        "method": "GET",
+        "headers": {
+          "X-Auth-Token": {
+            "equalTo": "SESSION_ID_GOES_HERE"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"id\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"customerId\":\"43123481002\",\"branchId\":\"1303\",\"branchName\":\"Raleigh,NC\",\"name\":\"N.C.SU—Marketplace\",\"billTo\":true,\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"contactName\":\"JohnValentino\",\"contactPhone\":\"817-555-5555\",\"regions\":[{\"id\":\"dded065e-d29d-4689-856f-1b1f4ad9eac0\",\"name\":\"EHGDFWTX\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\"}],\"catalogs\":[{\"id\":\"3c9d14d8-d07b-4b62-baa2-23e30b8dcdca\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"status\":\"Active\",\"fileName\":\"12-25-22_some-file\",\"name\":\"N.C.CatalogPrimary1\",\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"dateArchived\":null,\"procSystem\":\"Greenwing\",\"skuQuantity\":12345}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "scenarioName": "customerDetail",
+      "requiredScenarioState": "active",
+      "newScenarioState": "archived",
+      "request": {
+        "urlPathPattern": "/customer/detail/.*",
+        "method": "GET",
+        "headers": {
+          "X-Auth-Token": {
+            "equalTo": "SESSION_ID_GOES_HERE"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"id\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"customerId\":\"43123481002\",\"branchId\":\"1303\",\"branchName\":\"Raleigh,NC\",\"name\":\"N.C.SU—Marketplace\",\"billTo\":true,\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"contactName\":\"JohnValentino\",\"contactPhone\":\"817-555-5555\",\"regions\":[{\"id\":\"dded065e-d29d-4689-856f-1b1f4ad9eac0\",\"name\":\"EHGDFWTX\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\"}],\"catalogs\":[{\"id\":\"3c9d14d8-d07b-4b62-baa2-23e30b8dcdca\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"status\":\"Archived\",\"fileName\":\"12-25-22_some-file\",\"name\":\"N.C.CatalogPrimary1\",\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"dateArchived\":null,\"procSystem\":\"Greenwing\",\"skuQuantity\":12345}]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "scenarioName": "customerDetail",
+      "requiredScenarioState": "archived",
+      "newScenarioState": "Started",
+      "request": {
+        "urlPathPattern": "/customer/detail/.*",
+        "method": "GET",
+        "headers": {
+          "X-Auth-Token": {
+            "equalTo": "SESSION_ID_GOES_HERE"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"id\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\",\"customerId\":\"43123481002\",\"branchId\":\"1303\",\"branchName\":\"Raleigh,NC\",\"name\":\"N.C.SU—Marketplace\",\"billTo\":true,\"lastUpdate\":\"2023-02-03T00:00:00.000+0000\",\"contactName\":\"JohnValentino\",\"contactPhone\":\"817-555-5555\",\"regions\":[{\"id\":\"dded065e-d29d-4689-856f-1b1f4ad9eac0\",\"name\":\"EHGDFWTX\",\"customerId\":\"4be5bf60-e34f-451b-9c13-cd741ef09af2\"}],\"catalogs\":null}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

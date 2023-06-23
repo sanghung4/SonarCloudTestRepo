@@ -1,0 +1,38 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "url": "/security/login",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"email\":\"john.valentino@dialexa.com\",\"password\":\"PASSWORD_GOES_HERE\"}",
+            "ignoreArrayOrder": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"success\":true,\"sessionId\":\"SESSION_ID_GOES_HERE\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "priority": 1
+    },
+    {
+      "request": {
+        "url": "/security/login",
+        "method": "POST"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"success\":false,\"sessionId\":null}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "priority": 2
+    }
+  ]
+}
