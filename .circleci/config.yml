@@ -1,19 +1,14 @@
 version: 2.1
 
-parameters:
-  environments-repo-chart-name:
-    type: string
-    default: "special-pricing-service"
-
 workflows:
   single-job-lifecycle:
     jobs:
       # - maven/test:
       #     executor:
       #       name: maven/default
-      #       tag: '11.0'
+      #       tag: "17.0"
       # - java-services/validate_helm_chart:
-      #     helm-chart-path: ./charts/special-pricing-service
+      #     helm-chart-path: ./charts/products-core-service
       #     requires:
       #       - maven/test
       #     filters:
@@ -22,84 +17,49 @@ workflows:
       #           - master
       #           - /^release-v.*/
       # - java-services/publish_release:
-      #     ecr-repo: reece/special-pricing-service
-      #     helm-chart-name: special-pricing-service
-      #     helm-chart-path: ./charts/special-pricing-service
+      #     java-version: "17.0"
+      #     ecr-repo: reece/products-core-service
+      #     helm-chart-name: products-core-service
+      #     helm-chart-path: ./charts/products-core-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: master
       # - java-services/publish_hotfix:
-      #     ecr-repo: reece/special-pricing-service
-      #     helm-chart-name: special-pricing-service
-      #     helm-chart-path: ./charts/special-pricing-service
+      #     java-version: "17.0"
+      #     ecr-repo: reece/products-core-service
+      #     helm-chart-name: products-core-service
+      #     helm-chart-path: ./charts/products-core-service
       #     requires:
       #       - maven/test
       #     filters:
       #       branches:
       #         only: /^release-v.*/
-      # - deploy_to_dev:
-      #     environments-repo-chart-name: special-pricing-service
+      # - java-services/deploy_release_dev:
+      #     environments-repo-chart-name: products-core-service
       #     requires:
       #       - java-services/publish_release
       #     filters:
       #       branches:
       #         only: master
-#      - maven/test:
-#          name: test_coverage
-#          executor:
-#            name: maven/default
-#            tag: '11.0'
-#          command: clean test jacoco:report coveralls:report
-#          requires:
-#            - maven/test
+      # - maven/test:
+      #     name: test_coverage
+      #     executor:
+      #       name: maven/default
+      #       tag: "17.0"
+      #     command: clean test jacoco:report coveralls:report
+      #     requires:
+      #       - maven/test
       - sonar-cloud:
           context: SonarCloud
           # requires:
           #   - maven/test
 
-jobs: 
-  # deploy_to_dev:
-  #   description: >
-  #     Deploys the current version into the Dev environment.
-  #   docker:
-  #     - image: cimg/base:stable
-  #   parameters:
-  #     environments-repo-chart-name:
-  #       type: string
-  #   environment:
-  #     EMAIL: morsco-support-alerts@dialexa.com
-  #     GIT_AUTHOR_NAME: reece-bot
-  #     GIT_COMMITTER_NAME: reece-bot
-  #   steps:
-  #     - checkout
-  #     - github-cli/setup:
-  #         token: GITHUB_TOKEN
-  #         version: 2.3.0
-  #     - run:
-  #         name: Define release version
-  #         command: |
-  #           current_version() {
-  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
-  #           }
-
-  #           echo "export RELEASE_VERSION=$(current_version)" >> "$BASH_ENV"
-  #     - run:
-  #         name: Update Environments Repo
-  #         command: |
-  #           cd ../
-  #           git clone https://github.com/morsco-reece/internal-environments.git
-  #           cd internal-environments/internal-dev
-  #           set +H
-  #           sed -i "/<< parameters.environments-repo-chart-name >>/!b;n;c\ \ \ \ version: \"$RELEASE_VERSION\"" Chart.yaml
-  #           git add .
-  #           git commit -m "<< parameters.environments-repo-chart-name >> - $RELEASE_VERSION"
-  #           git push
-
+jobs:
   sonar-cloud:
     docker:
-      - image: 'cimg/openjdk:11.0.17'
+      - image: 'cimg/openjdk:16.0.2'
     steps:
       - checkout
       - run:
@@ -107,6 +67,5 @@ jobs:
           command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
 
 orbs:
-  github-cli: circleci/github-cli@2.2.0
   # java-services: morsco-reece/java-services@1.2.0
   maven: circleci/maven@1.2.0
