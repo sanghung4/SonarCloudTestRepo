@@ -1,167 +1,73 @@
 version: 2.1
 
-#############################################################
-# The global variables for this pipeline, which will be 
-# mostly different on every application.
-#############################################################
 parameters:
-  release-version:
+  environments-repo-chart-name:
     type: string
-    default: 1.1.<< pipeline.number >>
-  repo-name:
-    type: string
-    default: punchout-customer-ui
-  ecr-image-name:
-    type: string
-    default: reece/punchout-customer-ui
-  env-repo-url:
-    type: string
-    default: https://github.com/morsco-reece/external-environments.git
-  env-dir:
-    type: string
-    default: external-environments/external-dev
+    default: "special-pricing-service"
 
-#############################################################
-# Special CircleCI plugins needed for common operations.
-# The same across all applications.
-#############################################################
-orbs:
-  aws-cli: circleci/aws-cli@2.1.0
-  aws-ecr: circleci/aws-ecr@6.13.0
-  github-cli: circleci/github-cli@2.0.0
-  # java-services: morsco-reece/java-services@1.2.0
-  helm: circleci/helm@1.1.2
-  node: circleci/node@5.0.2
-
-#############################################################
-# Defines what jobs are tiggered based on branch
-#############################################################
 workflows:
   single-job-lifecycle:
     jobs:
-      # # Every branch/PR gets an automated build
-      # - build
-      # # We only publish the build to ECR off of main/master
-      # - publish_release:
+      # - maven/test:
+      #     executor:
+      #       name: maven/default
+      #       tag: '11.0'
+      # - java-services/validate_helm_chart:
+      #     helm-chart-path: ./charts/special-pricing-service
       #     requires:
-      #       - build
+      #       - maven/test
       #     filters:
       #       branches:
-      #         only: main
-      # # We automatic deploy to dev after publishing to ECR off of main/master
+      #         ignore:
+      #           - master
+      #           - /^release-v.*/
+      # - java-services/publish_release:
+      #     ecr-repo: reece/special-pricing-service
+      #     helm-chart-name: special-pricing-service
+      #     helm-chart-path: ./charts/special-pricing-service
+      #     requires:
+      #       - maven/test
+      #     filters:
+      #       branches:
+      #         only: master
+      # - java-services/publish_hotfix:
+      #     ecr-repo: reece/special-pricing-service
+      #     helm-chart-name: special-pricing-service
+      #     helm-chart-path: ./charts/special-pricing-service
+      #     requires:
+      #       - maven/test
+      #     filters:
+      #       branches:
+      #         only: /^release-v.*/
       # - deploy_to_dev:
+      #     environments-repo-chart-name: special-pricing-service
       #     requires:
-      #       - publish_release
+      #       - java-services/publish_release
       #     filters:
       #       branches:
-      #         only: main
+      #         only: master
+#      - maven/test:
+#          name: test_coverage
+#          executor:
+#            name: maven/default
+#            tag: '11.0'
+#          command: clean test jacoco:report coveralls:report
+#          requires:
+#            - maven/test
       - sonar-cloud:
           context: SonarCloud
           # requires:
-          #   - build
+          #   - maven/test
 
-#############################################################
-# Defines the steps of each job defined in workflows
-#############################################################
-jobs:
-
-  # #############################################################
-  # # (1) build
-  # # a single step for running install, lint, SCA, test, build
-  # #############################################################
-  # build:
-  #   resource_class: large
-  #   executor:
-  #     name: node/default
-  #     tag: '16.14'
-  #   steps:
-  #     - checkout
-  #     - aws-cli/setup:
-  #         profile-name: shared
-  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
-  #     - run: echo "always-auth=true" >> $HOME/.npmrc
-  #     - node/install-packages:
-  #         pkg-manager: yarn
-  #     - run: yarn run check
-  #     - run: yarn test:coverage --reporters=default --ci
-  #     - store_test_results:
-  #         path: junit.xml
-  
-  # #############################################################
-  # # (2) publish_release
-  # # publishes an image to ECR, in which the only unique aspsect 
-  # # of this code block is involing Copy CodeArtifact Token to Workdir
-  # #############################################################
-  # publish_release:
-  #   docker:
-  #     - image: cimg/node:16.13.2
-  #   environment:
-  #     IMAGE_TAG: << pipeline.parameters.release-version >>
-  #   steps:
-  #     - setup_remote_docker:
-  #         version: 19.03.13
-  #     - checkout
-
-  #     # Publish new release version to github
-  #     - run:
-  #         command: |  
-  #           echo "export RELEASE_VERSION=<< pipeline.parameters.release-version >>" >> "$BASH_ENV"
-  #         name: Determine Image Version
-  #     - github-cli/setup:
-  #         token: GITHUB_TOKEN
-  #         version: 2.4.0
-  #     - run:
-  #         command: >-
-  #           gh release create << pipeline.parameters.release-version >> --generate-notes --target
-  #           $CIRCLE_SHA1
-  #         name: Create Github Release
-
-  #     # Publish build image to ecr
-  #     - aws-cli/setup:
-  #         profile-name: shared
-  #     - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
-  #     - run:
-  #         command: |
-  #           cat $HOME/.npmrc > .npmrc
-  #           echo "always-auth=true" >> .npmrc
-  #         name: Copy CodeArtifact Token to Workdir
-  #     - run:
-  #         command: |
-  #           docker build -t ${AWS_ECR_ACCOUNT_URL}/<< pipeline.parameters.ecr-image-name >>:${RELEASE_VERSION} .
-  #         name: Build Image
-  #     - aws-ecr/ecr-login:
-  #         account-url: AWS_ECR_ACCOUNT_URL
-  #         aws-access-key-id: AWS_ACCESS_KEY_ID
-  #         aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-  #         region: AWS_REGION
-  #     - aws-ecr/push-image:
-  #         account-url: AWS_ECR_ACCOUNT_URL
-  #         repo: << pipeline.parameters.ecr-image-name >>
-  #         tag: $RELEASE_VERSION
-
-  #     # Publish Helm charts to s3
-  #     - helm/install-helm-client:
-  #         version: v3.3.4
-  #     - java-services/helm_add_s3_repo:
-  #         chart-repo-name: reece-ecomm
-  #         chart-repo-url: s3://reece-ecomm-chart-repo/charts
-  #     - java-services/helm_publish:
-  #         helm-chart-name: << pipeline.parameters.repo-name >>
-  #         helm-chart-org: reece
-  #         helm-chart-path: ./charts/<< pipeline.parameters.repo-name >>
-  #         helm-chart-repo-name: reece-ecomm
-  #         version: RELEASE_VERSION
-
-  # #############################################################
-  # # (3) deploy_to_dev
-  # # Edits the Chart.yaml in the shared environments repo for this
-  # # application, which is going to be the same everywhere.
-  # #############################################################
+jobs: 
   # deploy_to_dev:
   #   description: >
   #     Deploys the current version into the Dev environment.
   #   docker:
   #     - image: cimg/base:stable
+  #   parameters:
+  #     environments-repo-chart-name:
+  #       type: string
   #   environment:
   #     EMAIL: morsco-support-alerts@dialexa.com
   #     GIT_AUTHOR_NAME: reece-bot
@@ -174,77 +80,33 @@ jobs:
   #     - run:
   #         name: Define release version
   #         command: |
-  #           echo "export RELEASE_VERSION=<< pipeline.parameters.release-version >>" >> "$BASH_ENV"
+  #           current_version() {
+  #             git describe --tags | awk -F '-' '{print $1}' | cut -c2-
+  #           }
+
+  #           echo "export RELEASE_VERSION=$(current_version)" >> "$BASH_ENV"
   #     - run:
   #         name: Update Environments Repo
   #         command: |
   #           cd ../
-  #           git clone << pipeline.parameters.env-repo-url >>
-  #           cd << pipeline.parameters.env-dir >>
+  #           git clone https://github.com/morsco-reece/internal-environments.git
+  #           cd internal-environments/internal-dev
   #           set +H
-  #           sed -i "/<< pipeline.parameters.repo-name >>/!b;n;c\ \ \ \ version: \"$RELEASE_VERSION\"" Chart.yaml
+  #           sed -i "/<< parameters.environments-repo-chart-name >>/!b;n;c\ \ \ \ version: \"$RELEASE_VERSION\"" Chart.yaml
   #           git add .
-  #           git commit -m "<< pipeline.parameters.repo-name >> - $RELEASE_VERSION"
+  #           git commit -m "<< parameters.environments-repo-chart-name >> - $RELEASE_VERSION"
   #           git push
 
   sonar-cloud:
     docker:
-      - image: 'cimg/node:16.14.0'
+      - image: 'cimg/openjdk:11'
     steps:
       - checkout
-      - aws-cli/setup:
-          profile-name: shared
-      - run: aws --profile shared codeartifact login --tool npm --repository reece-ecomm --domain reece
-      - run: echo "always-auth=true" >> $HOME/.npmrc
-      - node/install-packages:
-          pkg-manager: yarn
-      - scan:
-          sonar_token_variable_name: SONAR_TOKEN
-
-commands:
-  scan:
-    description: Detect bugs and vulnerabilities
-    parameters:
-        cache_version:
-            default: 1
-            type: integer
-        project_root:
-            default: .
-            type: string
-        sonar_token_variable_name:
-            default: SONAR_TOKEN
-            type: env_var_name
-    steps:
       - run:
-          command: mkdir -p /tmp/cache/scanner
-          name: Create cache directory if it doesn't exist
-      - restore_cache:
-          keys:
-              - v<<parameters.cache_version>>-sonarcloud-scanner-4.7.0.2747
-      - run:
-          command: |
-              set -e
-              VERSION=4.7.0.2747
-              SONAR_TOKEN=$<<parameters.sonar_token_variable_name>>
-              SCANNER_DIRECTORY=/tmp/cache/scanner
-              export SONAR_USER_HOME=$SCANNER_DIRECTORY/.sonar
-              OS="linux"
-              echo $SONAR_USER_HOME
+          name: Analyze on SonarCloud
+          command: mvn verify sonar:sonar -Dsonar.projectKey=sanghung4_SonarCloudTestRepo
 
-              if [[ ! -x "$SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/bin/sonar-scanner" ]]; then
-                curl -Ol https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$VERSION-$OS.zip
-                unzip -qq -o sonar-scanner-cli-$VERSION-$OS.zip -d $SCANNER_DIRECTORY
-              fi
-
-              chmod +x $SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/bin/sonar-scanner
-              chmod +x $SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/jre/bin/java
-
-              cd <<parameters.project_root>>
-              $SCANNER_DIRECTORY/sonar-scanner-$VERSION-$OS/bin/sonar-scanner
-          environment:
-              SONARQUBE_SCANNER_PARAMS: '{"sonar.host.url":"https://sonarcloud.io"}'
-          name: SonarCloud
-      - save_cache:
-          paths:
-            - "/tmp/cache/scanner"
-          key: v<<parameters.cache_version>>-sonarcloud-scanner-4.7.0.2747
+orbs:
+  github-cli: circleci/github-cli@2.2.0
+  # java-services: morsco-reece/java-services@1.2.0
+  maven: circleci/maven@1.2.0

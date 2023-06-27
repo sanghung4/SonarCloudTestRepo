@@ -1,0 +1,324 @@
+databaseChangeLog:
+  - changeSet:
+      author: ShailendraGupta
+      id: 1649365853637-16
+      changes:
+        update:
+          schemaName: special_pricing
+          tableName: databasechangelog
+          columns:
+            column:
+              name: filename
+              valueComputed: replace(filename,'xml','yaml')
+
+  - changeSet:
+      id: 1649365853637-1
+      author: nickantonelli (generated)
+      changes:
+        - createTable:
+            tableName: product
+            schemaName: special_pricing
+            columns:
+              - column:
+                - constraints:
+                    nullable: 'false'
+                    primaryKey: 'true'
+                    primaryKeyName: product_pkey
+                  name: id
+                  type: TEXT
+              - column:
+                - constraints:
+                    nullable: 'false'
+                  name: display_name
+                  type: TEXT
+
+  - changeSet:
+      id: 1649365853637-2
+      author: nickantonelli (generated)
+      changes:
+        - createTable:
+            schemaName: special_pricing
+            tableName: customer
+            columns:
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                      primaryKey: 'true'
+                      primaryKeyName: customer_pkey
+                    name: id
+                    type: TEXT
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                    name: display_name
+                    type: TEXT
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-3
+      changes:
+        createTable:
+          schemaName: special_pricing
+          tableName: special_price
+          columns:
+            - column:
+                - constraints:
+                    nullable: 'false'
+                    primaryKey: 'true'
+                    primaryKeyName: special_price_pkey
+                  name: product_id
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                    primaryKey: 'true'
+                    primaryKeyName: special_price_pkey
+                  name: customer_id
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                    primaryKey: 'true'
+                    primaryKeyName: special_price_pkey
+                  name: branch
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: customer_display_name
+                  type: TEXT
+            - column:
+                name: image_url
+                type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: manufacturer
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: display_name
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: manufacturer_reference_number
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: salesperson
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: price_line
+                  type: TEXT
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: customer_sales_quantity
+                  type: numeric
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: current_price
+                  type: numeric
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: typical_price
+                  type: numeric
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: rate_card_price
+                  type: numeric
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: recommended_price
+                  type: numeric
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: competitive_market_price
+                  type: numeric
+            - column:
+                - constraints:
+                    nullable: 'false'
+                  name: customer_sales_price
+                  type: numeric
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-4
+      changes:
+        createIndex:
+          indexName: product_display_name_search_index
+          schemaName: special_pricing
+          tableName: product
+          columns:
+            column:
+              computed: 'true'
+              name: to_tsvector('english'::regconfig, (display_name)::text)
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-5
+      changes:
+        createIndex:
+          indexName: product_id_search_index
+          schemaName: special_pricing
+          tableName: product
+          columns:
+            column:
+              computed: 'true'
+              name: to_tsvector('english'::regconfig, (id)::text)
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-6
+      changes:
+        createIndex:
+          indexName: customer_display_name_search_index
+          schemaName: special_pricing
+          tableName: customer
+          columns:
+            column:
+              computed: 'true'
+              name: to_tsvector('english'::regconfig, (display_name)::text)
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-7
+      changes:
+        createIndex:
+          indexName: customer_id_search_index
+          schemaName: special_pricing
+          tableName: customer
+          columns:
+            column:
+              computed: 'true'
+              name: to_tsvector('english'::regconfig, (id)::text)
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-8
+      changes:
+        createIndex:
+          indexName: special_price_customer_product_search_index
+          schemaName: special_pricing
+          tableName: special_price
+          columns:
+            - column:
+                name: customer_id
+            - column:
+                name: product_id
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-9
+      changes:
+        createIndex:
+          indexName: special_price_product_search_index
+          schemaName: special_pricing
+          tableName: special_price
+          columns:
+            column:
+              name: product_id
+
+  - changeSet:
+      author: nickantonelli (generated)
+      id: 1649365853637-10
+      changes:
+        createIndex:
+          indexName: special_price_customer_search_index
+          schemaName: special_pricing
+          tableName: special_price
+          columns:
+            column:
+              name: customer_id
+
+  - changeSet:
+      id: 1649365853637-19
+      author: DurgaAgrawal
+      changes:
+        - addColumn:
+            tableName: product
+            schemaName: special_pricing
+            columns:
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                    name: status
+                    type: TEXT
+                    defaultValue: 'COMPLETE'
+              - column:
+                  name: error_details
+                  type: TEXT
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                    name: created_at
+                    type: timestamp with timezone
+                    defaultValue: '1920-01-01 00:00:00'
+              - column:
+                  name: updated_at
+                  type: timestamp with timezone
+
+  - changeSet:
+      id: 1649365853637-20
+      author: DurgaAgrawal
+      changes:
+        - addColumn:
+            tableName: customer
+            schemaName: special_pricing
+            columns:
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                    name: status
+                    type: TEXT
+                    defaultValue: 'COMPLETE'
+              - column:
+                  name: error_details
+                  type: TEXT
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                    name: created_at
+                    type: timestamp with timezone
+                    defaultValue: '1920-01-01 00:00:00'
+              - column:
+                  name: updated_at
+                  type: timestamp with timezone
+
+  - changeSet:
+      id: 1649365853637-21
+      author: DurgaAgrawal
+      changes:
+        - addColumn:
+            tableName: special_price
+            schemaName: special_pricing
+            columns:
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                    name: status
+                    type: TEXT
+                    defaultValue: 'COMPLETE'
+              - column:
+                  name: error_details
+                  type: TEXT
+              - column:
+                  - constraints:
+                      nullable: 'false'
+                    name: created_at
+                    type: timestamp with timezone
+                    defaultValue: '1920-01-01 00:00:00'
+              - column:
+                  name: updated_at
+                  type: timestamp with timezone
+
