@@ -25,6 +25,8 @@
 		<jsch.version>0.1.55</jsch.version>
 		<javacsv.version>2.0</javacsv.version>
 		<javatuples.version>1.2</javatuples.version>
+		<sonar.organization>sanghung4</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
