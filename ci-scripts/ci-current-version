@@ -1,7 +1,0 @@
-#!/bin/sh
-
-get_current_version () {
-    gh release list -L 1 | awk '{print $1}' | cut -c2-
-}
-
-get_current_version
